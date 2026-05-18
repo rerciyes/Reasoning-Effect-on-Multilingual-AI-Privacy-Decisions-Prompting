@@ -1,0 +1,16 @@
+{
+  "ts": "2026-05-09T01:32:43.440675+00:00",
+  "model": "gemma3:4b",
+  "num_ctx": 32768,
+  "language": "ar",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    7208.533763885498
+  ],
+  "raw": "```json\n{\n  \"decision\": \"DENY\",\n  \"confidence\": \"High\"\n}\n```",
+  "json_extract_reason": "fenced",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High"
+}

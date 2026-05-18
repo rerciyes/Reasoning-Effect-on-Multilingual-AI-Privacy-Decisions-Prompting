@@ -1,0 +1,16 @@
+{
+  "ts": "2026-05-09T01:30:38.631697+00:00",
+  "model": "gemma3:4b",
+  "num_ctx": 32768,
+  "language": "tr",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    6732.043743133545
+  ],
+  "raw": "```json\n{\n  \"decision\": \"ALLOW AFTER VERIFICATION\",\n  \"confidence\": \"Medium\"\n}\n```",
+  "json_extract_reason": "fenced",
+  "schema_problems": [],
+  "decision": "ALLOW AFTER VERIFICATION",
+  "confidence": "Medium"
+}

@@ -1,0 +1,16 @@
+{
+  "ts": "2026-05-11T00:27:27.375659+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 8192,
+  "language": "pt-BR",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    2555.412769317627
+  ],
+  "raw": "{\n\"decision\": \"ALLOW\",\n\"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High"
+}

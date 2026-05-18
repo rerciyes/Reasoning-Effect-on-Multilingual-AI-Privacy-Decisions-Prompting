@@ -1,0 +1,16 @@
+{
+  "ts": "2026-05-09T01:31:43.972573+00:00",
+  "model": "gemma3:4b",
+  "num_ctx": 32768,
+  "language": "hi",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    9210.146188735962
+  ],
+  "raw": "```json\n{\n  \"decision\": \"ALLOW\",\n  \"confidence\": \"High\"\n}\n```",
+  "json_extract_reason": "fenced",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High"
+}
