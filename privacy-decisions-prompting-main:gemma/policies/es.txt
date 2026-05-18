@@ -1,0 +1,438 @@
+[L0001] Centro de Privacidad de las Aplicaciones de Gemini
+[L0002] Última actualización: 8 de abril del 2026
+[L0003] Source: es — Gemini Apps Privacy.pdf (user-provided)
+[L0004] Aviso de Privacidad de las Aplicaciones de Gemini
+[L0005] Última actualización: 27 de marzo del 2026
+[L0006] Este aviso complementa la Política de Privacidad     de Google y explica cómo trata Google tus datos cuando interactúas con Gemini, tu asistente de IA personal de Google, a través de los servicios que se indican aquí ("Aplicaciones de Gemini" o "Gemini" como término abreviado) mientras tienes una sesión iniciada.
+[L0007] La Política de Privacidad de Google explica cómo procesa Google tus datos cuando usas Gemini sin haber iniciado sesión.
+[L0008] Las Aplicaciones de Gemini en el Espacio Económico Europeo y Suiza las proporciona Google Ireland Limited.
+[L0009] En los demás lugares es Google LLC quien las proporciona.
+[L0010] En adelante nos referimos a ambas empresas como "Google".
+[L0011] Qué datos se recogen
+[L0012] Información que proporcionas a las Aplicaciones de Gemini
+[L0013] Lo que dices a las Aplicaciones de Gemini (como las peticiones que envías o dices)
+[L0014] Lo que compartes con las aplicaciones de Gemini, como archivos, vídeos, pantallas sobre las que preguntes, fotos, conversaciones importadas y contenido de páginas que compartas desde tu navegador
+[L0015] Transcripciones y grabaciones de tus interacciones con Gemini Live (incluidos el audio, el vídeo y las pantallas que compartas con Live)
+[L0016] Tu feedback
+[L0017] Los nombres y las instrucciones personalizadas de tus Gems
+[L0018] Instrucciones para Gemini (o "Información guardada" en algunas configuraciones regionales)
+[L0019] Información que recopilamos cuando usas las Aplicaciones de Gemini
+[L0020] Contenido que generan las Aplicaciones de Gemini (como texto, código, audio, imágenes, vídeo, música, enlaces públicos, citas, resúmenes de conversaciones y estadísticas personalizadas)
+[L0021] Información de tus aplicaciones, navegadores y dispositivos
+[L0022] La información de tus aplicaciones conectadas y otros servicios de Google que usas con las Aplicaciones de Gemini (como tu historial de la Búsqueda o de YouTube, o el contexto y la URL de la página de Chrome)
+[L0023] Información sobre las aplicaciones de tu dispositivo (por ejemplo, para ayudarte a hacer cosas con la ayuda de tus aplicaciones)
+[L0024] La información sobre las aplicaciones, navegadores y dispositivos que usas para acceder a las Aplicaciones de Gemini, como los identificadores, tipo de navegador y sus ajustes, tipo de dispositivo y sus ajustes o el sistema operativo
+[L0025] La interacción de tus aplicaciones, navegadores y dispositivos con las Aplicaciones de Gemini, como los registros de interacciones, las métricas de rendimiento o la información sobre errores y depuración
+[L0026] Permisos del sistema y datos del dispositivo cuando usas las aplicaciones móviles Gemini, como los registros de llamadas y mensajes, los contactos (para ayudarte a comunicar con ellos cuando quieras), las aplicaciones instaladas (como Reloj), las preferencias de idioma (para ayudarte a hablar con Gemini), el contenido en pantalla (para ayudarte a realizar acciones sobre él) y otra información de la aplicación, como el contexto y la URL de la página (cuando usas la ventana de Gemini para hacer preguntas)
+[L0027] Datos del navegador remoto, como cookies que contienen información de autenticación en sitios web y capturas de pantalla u otro contenido de las páginas
+[L0028] Información contextual de los dispositivos y servicios que usas con Gemini (como los nombres de tus dispositivos domésticos inteligentes o las listas de reproducción)
+[L0029] Los datos sobre tus interacciones con contenido público de las Aplicaciones de Gemini
+[L0030] Información complementaria: información recopilada a través de funciones complementarias de las Aplicaciones de Gemini que aceptas activar.
+[L0031] Información de la ubicación: la zona general de tu dispositivo, la dirección IP, o las direcciones de casa o del trabajo de tu cuenta de Google. Consulta más información en g.co/privacypolicy/location .
+[L0032] Información de la suscripción: si tienes una suscripción de pago a Gemini, se trata de información relacionada con la suscripción.
+[L0033] Cómo se usan tus datos
+[L0034] Google usa estos datos, tal y como se describe en la Política de Privacidad   de Google, para:
+[L0035] Prestar sus servicios
+[L0036] Mantener y mejorar sus servicios
+[L0037] Desarrollar nuevos servicios
+[L0038] Personalizar sus servicios
+[L0039] Adaptar sus servicios
+[L0040] Comunicarse contigo
+[L0041] Medir el rendimiento
+[L0042] Proteger a Google, sus usuarios y al público en general
+[L0043] Estos usos se extienden a los modelos de IA generativa y a otras tecnologías de aprendizaje automático que se utilizan en los servicios de Google.
+[L0044] Algunos de los datos que recogemos los examinan revisores humanos (incluidos revisores especializados de nuestros proveedores de servicios) para esos fines.
+[L0045] No incluyas información confidencial que no quieras que vea un revisor o que Google utilice para mejorar sus servicios, incluidas las tecnologías de aprendizaje automático.
+[L0046] Cómo las Aplicaciones de Gemini obtienen ayuda de los servicios de Google
+[L0047] Para ofrecer las Aplicaciones de Gemini, dependemos de otros servicios e infraestructuras de Google. Por ejemplo, algunas respuestas de Gemini se basan en resultados de la Búsqueda.
+[L0048] Gemini también recibe ayuda de otros servicios de Google, como el Asistente de Google. Cuando Gemini recibe ayuda del Asistente de Google para realizar determinadas acciones, se aplican los ajustes correspondientes del Asistente de Google.
+[L0049] Si eres mayor de 18 años y actualizas a las Aplicaciones de Gemini, se importará tu historial de llamadas y mensajes de tu Actividad en la Web y en Aplicaciones a la Actividad en las Aplicaciones de Gemini en algunos territorios. Esto ayuda a mejorar tu experiencia con las Aplicaciones de Gemini, como las sugerencias de contactos. Más información
+[L0050] Cómo funcionan las aplicaciones de Gemini con Apps conectadas
+[L0051] Las Aplicaciones de Gemini funcionan con Apps conectadas, entre las que se incluyen aplicaciones de Google y servicios de terceros.
+[L0052] Gemini guarda y usa la información de las aplicaciones conectadas de acuerdo con este aviso, lo que incluye proporcionar y mejorar las Aplicaciones de Gemini.
+[L0053] Las aplicaciones conectadas de Google guardan y usan tus datos, según sus políticas y la Política de Privacidad de Google , lo que incluye ofrecer y mejorar sus servicios.
+[L0054] Si usas las Aplicaciones de Gemini para interactuar con servicios de terceros, estos últimos tratarán tus datos de acuerdo con sus propias políticas de privacidad.
+[L0055] Funciones de audio
+[L0056] Puede que las Aplicaciones de Gemini se activen aunque no sea tu intención; por ejemplo, si hay un sonido parecido a "Hey Google" o si las activas por error de forma táctil.
+[L0057] Si las Aplicaciones de Gemini responden, considerarán lo que les digas como una activación normal.
+[L0058] Estos datos se usan (siempre según tu configuración elegida) para mejorar los servicios de Google.
+[L0059] Esto incluye los modelos de Gemini , otros modelos de IA generativa en los que se basan las Aplicaciones de Gemini y tecnologías que ayudan a reducir las activaciones no deseadas.
+[L0060] Canvas
+[L0061] Cuando interactúas con una aplicación de Canvas generada por un usuario, el creador de la aplicación puede ver los datos que compartes y guardarlos donde quiera.
+[L0062] Google proporciona almacenamiento para los datos de las aplicaciones de Canvas en Firebase, pero el creador de la aplicación también puede guardar tus datos en otros lugares.
+[L0063] Cualquier persona que tenga el enlace público también puede ver y editar los datos guardados con la aplicación.
+[L0064] Ten cuidado y comparte datos solo con las aplicaciones de Canvas en las que confíes.
+[L0065] Configurar los ajustes
+[L0066] Puedes ir a tu cuenta de Google     para gestionar tus datos y privacidad.
+[L0067] Las Aplicaciones de Gemini también ofrecen ajustes para ayudarte a gestionar tus datos y tu experiencia, como los siguientes:
+[L0068] Visita Actividad en las Aplicaciones de Gemini  para revisar y eliminar tu actividad (lo que incluye las conversaciones importadas), cambiar el periodo de eliminación automática de datos y controlar si dichos datos se usan para mejorar la IA de Google. Entre estos servicios se incluyen, por ejemplo, los modelos de IA generativa que usan las aplicaciones de Gemini. Los ajustes de Actividad en las Aplicaciones de Gemini no controlan el tratamiento de tus conversaciones destinado a crear datos anonimizados para mejorar los servicios de Google. Cuando el ajuste Guardar actividad está desactivado, Google sigue usando tus conversaciones para responderte y para protegerse a sí mismo, a nuestros usuarios y al público en general (también con la cooperación de revisores humanos).
+[L0069] Gestiona los Gems en el gestor de Gems      .
+[L0070] Gestiona los enlaces públicos en Tus enlaces públicos    .
+[L0071] Gestiona el acceso de las Aplicaciones de Gemini a otras aplicaciones y datos en los ajustes de Aplicaciones.
+[L0072] Gestiona la información que has pedido a Gemini que guarde      .
+[L0073] Gestiona los datos de tu perfil del navegador remoto en el ajuste Datos del navegador remoto       .
+[L0074] Consulta más información sobre cómo gestionar las funciones de personalización (por ejemplo, la personalización con conversaciones anteriores e Inteligencia personal).
+[L0075] Puedes usar Gemini (desde la aplicación de Google) como asistente de tu dispositivo en Android. Consulta más información sobre cómo gestionar los permisos de la aplicación de Google (por ejemplo, los de acceso a la ubicación del dispositivo, micrófono y cámara).
+[L0076] Consulta más información sobre cómo gestionar los ajustes de tus Aplicaciones de Gemini para dispositivos móviles.
+[L0077] Consulta más información sobre los pasos para establecer la aplicación de Google como aplicación de asistente digital predeterminada.
+[L0078] Si cambias los ajustes de tus Aplicaciones de Gemini, no cambiarán, otros ajustes de Google como Actividad en la Web y en Aplicaciones o Historial de ubicaciones, que podrían seguir guardando la ubicación y otros datos que uses con otros servicios de Google.
+[L0079] Cuánto tiempo conserva Google tus datos
+[L0080] Google conserva tus datos durante periodos diferentes en función de los datos que sean y de la forma de usarlos, tal y como se explica en la Política de Privacidad de Google y en el artículo Cómo conserva Google los datos que recoge .
+[L0081] Puedes cambiar el ajuste de eliminación automática de datos en la Actividad en las Aplicaciones de Gemini. El periodo predeterminado es 18 meses, pero lo puedes cambiar a 3 meses, 36 meses o a un periodo indefinido. También puedes eliminar de forma manual tus conversaciones de las Aplicaciones de Gemini en cualquier momento.
+[L0082] Las conversaciones revisadas por revisores humanos (y datos relacionados con datos como tu idioma, el tipo de dispositivo, información de tu ubicación o comentarios) no se eliminan cuando eliminas tu actividad, sino que se conservan durante hasta tres años.
+[L0083] Hay datos que Google conserva hasta que elimines tu cuenta de Google, como información sobre la frecuencia con la que usas las Aplicaciones de Gemini.
+[L0084] Google conserva algunos datos durante periodos más largos en caso de ser necesario por motivos legales o empresariales legítimos, como motivos de seguridad, para prevenir el fraude y el abuso, o para mantener registros financieros.
+[L0085] Consulta más información sobre los periodos de conservación de datos de Google        , así como cuánto tiempo nos lleva eliminar tu información.
+[L0086] Cómo solicitar la eliminación de contenido y exportar tu información
+[L0087] Puedes solicitar la retirada de contenido de acuerdo con las políticas de Google o las leyes aplicables.
+[L0088] También puedes exportar       tu información.
+[L0089] Más información
+[L0090] Las Aplicaciones de Gemini están en continua evolución y pueden generar información incorrecta u ofensiva (incluida información sobre personas) que no representa las opiniones de Google.
+[L0091] No utilices las respuestas de las Aplicaciones de Gemini para obtener diagnósticos, tratamientos o asesoramiento médico, legal, financiero ni profesional de ningún tipo. Sus respuestas tienen únicamente fines informativos.
+[L0092] Monitoriza la navegación de Gemini de cerca e interrúmpela si es necesario.
+[L0093] Consulta más información en el Centro de Privacidad de las Aplicaciones de Gemini y en la Política de Privacidad de Google .
+[L0094] Respeta los derechos de los demás
+[L0095] Respeta los derechos de los demás    cuando uses las Aplicaciones de Gemini y pídeles permiso antes de grabarlos en una conversación Live.
+[L0096] Sube, genera y edita contenido solo si tienes los derechos correspondientes.
+[L0097] Preguntas sobre privacidad
+[L0098] Última actualización: 8 de abril del 2026
+[L0099] General
+[L0100] ¿Qué son las aplicaciones de Gemini?
+[L0101] Las aplicaciones de Gemini a las que se hace referencia en el Aviso de Privacidad de las Aplicaciones de Gemini y en el Centro de Privacidad de las Aplicaciones de Gemini son:
+[L0102] La aplicación web Gemini, que se encuentra en gemini.google.com          y en las barras laterales de los navegadores
+[L0103] Las aplicaciones móviles de Gemini, entre las que se incluyen:
+[L0104] La aplicación Gemini , también cuando sea tu asistente digital predeterminado, en Android; ten en cuenta que Gemini se aloja en la aplicación de Google, incluso si descargas la aplicación Gemini
+[L0105] La aplicación Gemini     en iOS
+[L0106] Gemini en la aplicación Mensajes de Google en determinadas ubicaciones
+[L0107] Gemini en Android Auto
+[L0108] Gemini en Maps
+[L0109] La función Gemini en Chrome          (más información sobre su disponibilidad)
+[L0110] Gemini en Android XR
+[L0111] En ocasiones, también se hace referencia a las aplicaciones de Gemini como la "aplicación Gemini" o "Gemini".
+[L0112] Si tienes una cuenta de Google de trabajo o de centro educativo, el uso que hagas de las aplicaciones de Gemini puede estar sujeto a distintas condiciones de tratamiento de datos.
+[L0113] Consulta más información en IA generativa en el Centro de Privacidad de Google Workspace     .
+[L0114] ¿Cómo puedo oponerme al tratamiento de mis datos o pedir que se corrijan los datos incorrectos de las respuestas de las aplicaciones de Gemini?
+[L0115] Las experiencias de LLMs, como las aplicaciones de Gemini, pueden tener lo que se conoce como "alucinaciones" y presentar información inexacta como si fuera real.
+[L0116] De acuerdo con determinadas leyes de privacidad, como el Reglamento General de Protección de Datos de la UE, puede que tengas derecho a:
+[L0117] Oponerte al tratamiento de tus datos personales
+[L0118] Pedir que se corrijan tus datos personales incorrectos de las respuestas de las aplicaciones de Gemini
+[L0119] Para ejercer estos derechos, puedes crear una solicitud en nuestro Centro de Ayuda.
+[L0120] También puedes crear una solicitud directamente en las aplicaciones de Gemini.
+[L0121] Debajo de la respuesta de una aplicación de Gemini, selecciona Más        Denunciar problema legal.
+[L0122] Crear una solicitud
+[L0123] Recursos adicionales Para obtener más información sobre cómo ejercer tus derechos en relación con los datos que hemos recogido, consulta la Política de Privacidad de Google y el Aviso de Privacidad de las Aplicaciones de Gemini.
+[L0124] ¿Cuáles son las bases legales de Google sobre el tratamiento de los datos de las aplicaciones de Gemini en virtud de la normativa de protección de datos de la Unión Europea o del Reino Unido?
+[L0125] Si las leyes de protección de datos de la Unión Europea o del Reino Unido se aplican al tratamiento de tu información, lee atentamente lo que se indica a continuación.
+[L0126] Cuando tienes la sesión iniciada y usas las aplicaciones de Gemini, Google trata tu información para los fines, y con los fundamentos jurídicos, descritos a continuación.
+[L0127] Cuando decimos "tu información de las aplicaciones de Gemini" más abajo, nos referimos a las categorías de datos que se indican en el Aviso de Privacidad de las Aplicaciones de Gemini, que son las siguientes: (i) la información que proporcionas a las aplicaciones de Gemini (como tus peticiones y el contenido que subes, las grabaciones y las transcripciones de tus interacciones con Gemini Live, tu feedback y las instrucciones para Gemini); (ii) la información que recogemos cuando usas las aplicaciones de Gemini (como el contenido que generan las aplicaciones de Gemini y la información de tus aplicaciones, navegadores, dispositivos y aplicaciones conectadas, así como los datos del dispositivo que se recogen cuando usas la aplicación móvil Gemini); (iii) la información recogida a través de las funciones complementarias de las aplicaciones de Gemini que habilites; (iv) la información de ubicación; y (v) la información de tu suscripción.
+[L0128] Los fundamentos jurídicos de Google son los siguientes:
+[L0129] Cumplimiento de un contrato. Tratamos tu información de las aplicaciones de Gemini y cualquier otra información que autorices a las aplicaciones de Gemini a tratar, incluso cuando conectas las aplicaciones de Gemini con otro servicio, para ofrecer y mantener el servicio de las aplicaciones de Gemini que has solicitado de conformidad con los Términos del Servicio de Google     . Por ejemplo, tratamos tu información de las aplicaciones de Gemini para responder a tus consultas y para ofrecer varias funciones y características de las aplicaciones de Gemini, como la generación de vídeo, la edición de imágenes y el uso de las acciones de la pantalla para hablar con Gemini.
+[L0130] Intereses legítimos de Google y de terceros con las garantías adecuadas para proteger tu privacidad.
+[L0131] Tratamos la información de fuentes de acceso público y tu información de las aplicaciones de Gemini para ofrecer, mantener, mejorar y desarrollar los productos, los servicios y las tecnologías de aprendizaje automático de Google.
+[L0132] El tratamiento de esta información con este fin es necesario para los intereses legítimos de Google y de nuestros usuarios para lo siguiente:
+[L0133] Ofrecer, mantener y mejorar nuestros servicios para satisfacer las necesidades de nuestros usuarios (por ejemplo, usar las conversaciones para mejorar los modelos y las respuestas de las aplicaciones de Gemini para que sean seguras y correctas).
+[L0134] Desarrollar nuevos productos y funciones que sean útiles para nuestros usuarios (por ejemplo, aprender a dirigir las peticiones a nuevos modelos mejor preparados para responder a una pregunta concreta o entrenar nuevos modelos para gestionar estas peticiones).
+[L0135] Comprender cómo utilizan los usuarios nuestros servicios para garantizar y mejorar su rendimiento (por ejemplo, generar métricas para saber cómo utilizan las aplicaciones de Gemini los usuarios y así personalizar mejor su experiencia).
+[L0136] Personalizar nuestros servicios para ofrecer una mejor experiencia a los usuarios (por ejemplo, usando la información de tu ubicación y tus conversaciones anteriores para que las aplicaciones de Gemini puedan ofrecer una respuesta más relevante).
+[L0137] También tratamos tu información de las aplicaciones de Gemini para poder mantener la funcionalidad, la seguridad y la fiabilidad de las aplicaciones de Gemini, lo que incluye detectar, prevenir y responder a fraudes, abusos, riesgos de seguridad y problemas técnicos que podrían afectar a Google, a nuestros usuarios o al público en general.
+[L0138] El tratamiento de esta información con este fin es necesario para los intereses legítimos de Google, de nuestros usuarios y del público para lo siguiente:
+[L0139] Detectar, prevenir o actuar frente a fraudes, abusos y problemas de seguridad o técnicos relacionados con nuestros servicios (por ejemplo, corregir errores o solucionar problemas).
+[L0140] Proteger a Google, a nuestros usuarios o al público en general de daños a sus derechos, a los bienes o a su seguridad, según lo exija o permita la ley (por ejemplo, actualizando los clasificadores de seguridad y filtros de modelos).
+[L0141] Llevar a cabo investigaciones que mejoren nuestros servicios para los usuarios y beneficien al público en general.
+[L0142] Responder a demandas judiciales, lo cual incluye la investigación de posibles infracciones de los Términos del Servicio aplicables (por ejemplo, revisando actividad sospechosa y las interacciones marcadas como problemáticas).
+[L0143] El tratamiento de esta información con este fin también es necesario para los intereses legítimos de Google y de nuestros partners comerciales para cumplir las obligaciones con nuestros partners, como desarrolladores y titulares de derechos (por ejemplo, atendiendo las solicitudes de retirada de contenido que puedan hacer los titulares de derechos de propiedad intelectual).
+[L0144] Para responder a tus peticiones, como resumir un correo de un contacto identificado, tratamos los datos personales de otras personas que les has dado a las aplicaciones de Gemini (por ejemplo, al pedirles que recuperen información de Google Workspace o Google Fotos).
+[L0145] Obligaciones legales. También trataremos tu información de las aplicaciones de Gemini para cumplir cualquier requisito previsto en la ley o la normativa aplicables o para atender un proceso legal o un requerimiento de una autoridad competente (por ejemplo, si recibimos una solicitud legal de información de una autoridad gubernamental).
+[L0146] Tu consentimiento. Necesitamos tu consentimiento para que puedas utilizar determinadas funciones como Voice Match y para que Google pueda usar tus grabaciones de audio y de Live para mejorar sus servicios para todos los usuarios. Si nos das tu consentimiento para tratar la información, tendrás derecho de desistimiento en cualquier momento.
+[L0147] ¿Usáis mis conversaciones con las aplicaciones de Gemini para mostrarme anuncios?
+[L0148] No se están usando tus conversaciones con las aplicaciones de Gemini para mostrarte anuncios.
+[L0149] Si esto cambia, te informaremos claramente.
+[L0150] Para obtener más información sobre cómo protegemos la privacidad y la seguridad de los datos de nuestros usuarios, consulta nuestros Principios de Privacidad y Seguridad .
+[L0151] ¿Quién tiene acceso a mis conversaciones y cómo puede la revisión humana mejorar Gemini para todos?
+[L0152] Cómo contribuye la revisión humana a mejorar los servicios de Google y a proteger a Google, a nuestros usuarios y al público en general Contamos con revisores humanos (incluidos proveedores de servicios de Google entrenados para este fin) que verifican algunas de las conversaciones para mejorar los servicios de Google, como los modelos de Gemini    , otros modelos de IA generativa en los que se basan las aplicaciones de Gemini y las tecnologías que ayudan a reducir las activaciones no deseadas.
+[L0153] Los revisores deciden si las respuestas de Gemini han sido de baja calidad, erróneas o dañinas.
+[L0154] También sugieren mejores respuestas.
+[L0155] Nosotros usamos sus sugerencias para ayudar a nuestros modelos a ofrecer una mejor respuesta en el futuro.
+[L0156] Además, las conversaciones se revisan para que todo el mundo pueda usar Gemini de forma segura y para abordar las infracciones de los Términos del Servicio de Google , incluida la Política de Usos Prohibidos de la IA Generativa     .
+[L0157] Las conversaciones revisadas se conservan durante un máximo de tres años.
+[L0158] Cómo protegemos tu privacidad en este proceso Nos tomamos tu privacidad muy en serio, y no vendemos tu información personal a nadie.
+[L0159] Tus conversaciones se desvinculan de tu cuenta antes de enviarlas a los proveedores de servicios.
+[L0160] Cómo puedes controlar lo que se comparte con los revisores Si no quieres que tus futuras conversaciones se revisen para mejorar los servicios de Google, desactiva la opción Guardar actividad .
+[L0161] Si dejas el ajuste activado, no facilites información confidencial ni tampoco datos que no quieras que un revisor humano pueda ver o que Google pueda utilizar para mejorar sus servicios.
+[L0162] Aunque el ajuste Guardar actividad esté desactivado, se siguen usando tus conversaciones para responderte y para ayudar a proteger a Google, a nuestros usuarios y al público en general (también con ayuda de revisores humanos).
+[L0163] ¿Cuánto tiempo conserva Google mis conversaciones temporales y las conversaciones que mantengo cuando el ajuste Conservar la actividad está desactivado? ¿Qué hace Google con estos datos?
+[L0164] Es necesario conservar estas conversaciones para responderte, tratar el feedback que decidas proporcionar y proteger a Google, a nuestros usuarios y al público en general.
+[L0165] Aquí tienes información más detallada:
+[L0166] Las conversaciones temporales y las conversaciones que mantengas cuando el ajuste Guardar actividad   esté desactivado se conservan en tu cuenta durante 72 horas y se usan para:
+[L0167] Responderte usando las últimas 24 horas de tus conversaciones como contexto.
+[L0168] Proteger a Google, a nuestros usuarios y al público en general Por ejemplo, Google almacena las conversaciones en tu cuenta durante 72 horas para que estén disponibles en caso de que se produzca un fallo en el sistema.
+[L0169] Las conversaciones temporales no se usan para entrenar los modelos de IA de Google.
+[L0170] Si el ajuste Guardar actividad está desactivado y no envías feedback, Google tampoco usará tus conversaciones futuras para mejorar sus modelos de IA.
+[L0171] Si el ajuste Guardar actividad está desactivado y decides enviar feedback, Google recogerá y usará los siguientes datos para mantener y mejorar las aplicaciones de Gemini:
+[L0172] Tu feedback.
+[L0173] Contexto que nos pueda ayudar a entender mejor tu feedback, incluidas las conversaciones de las últimas 24 horas.
+[L0174] Cualquier contenido incluido en esas conversaciones (como los archivos subidos y los datos de las aplicaciones conectadas).
+[L0175] Consulta más información sobre cómo usa Google tu feedback.
+[L0176] ¿Qué hace Google con mis comentarios?
+[L0177] Tu feedback, todo el contenido (como los archivos o tu contenido personal de las aplicaciones conectadas), las conversaciones asociadas (como tus peticiones y las respuestas de las aplicaciones de Gemini) y los datos relacionados:
+[L0178] Se revisan con equipos especializados. La revisión humana es necesaria para poder identificar, abordar y registrar los posibles problemas a partir del feedback. En algunos casos, lo exige la ley.
+[L0179] Se utilizan de acuerdo con la Política de Privacidad de Google         . Google utiliza estos datos para proporcionar, mejorar y desarrollar sus productos, servicios y tecnologías de aprendizaje automático. Esto se explica con más detalle en nuestra Política de Privacidad.
+[L0180] Por ejemplo, usamos estos datos para hacer que las aplicaciones de Gemini sean más seguras. Nos ayuda a detectar y evitar peticiones o respuestas inapropiadas en el futuro.
+[L0181] Se conservan durante 3 años. El feedback revisado, las conversaciones asociadas y los datos relacionados se conservan hasta 3 años sin quedar asociados a tu cuenta de Google.
+[L0182] Consulta cómo enviar feedback o denunciar un problema con las aplicaciones de Gemini.
+[L0183] ¿Qué controla el ajuste Conservar la actividad?
+[L0184] Si el ajuste Guardar actividad           está habilitado: Tus conversaciones y los contenidos que compartas con Gemini (como archivos, vídeos, pantallas y fotos) se guardarán en tu actividad.
+[L0185] Tu actividad guardada también incluye audio, grabaciones y transcripciones de tus interacciones con Gemini Live, tus comentarios y sugerencias, información de los sitios web que visitas con Gemini, uso del producto e información de ubicación (incluida la ubicación general de tu dispositivo, la dirección IP o las direcciones de casa o del trabajo de tu cuenta de Google).
+[L0186] Cómo se usa tu actividad Google usa tu actividad para ofrecer, desarrollar y mejorar sus servicios (lo cual incluye entrenar los modelos de IA generativa), así como para proteger a Google, a sus usuarios y al público en general con la ayuda de revisores humanos.
+[L0187] Los datos revisados por los proveedores de servicios se desvinculan de tu cuenta y se guardan durante 3 años.
+[L0188] De forma predeterminada, tus grabaciones de audio y de Gemini Live no se usan para mejorar los servicios de Google.
+[L0189] En función de tus ajustes y de tu territorio, Google podría usar tu actividad para personalizar tu experiencia.
+[L0190] Tú tienes el control Tu actividad se elimina automáticamente al cabo de 18 meses.
+[L0191] Puedes cambiar el periodo a 3 o 36 meses, o elegir que no se elimine automáticamente.
+[L0192] Puedes desactivar este ajuste o revisar y eliminar tu actividad en cualquier momento en Actividad en las Aplicaciones de Gemini .
+[L0193] Importante
+[L0194] Las aplicaciones de Gemini están diseñadas para permanecer en modo Preparado hasta que se activen (por ejemplo, si dices "Hey Google"). Las grabaciones pueden empezar unos segundos antes de la activación.
+[L0195] Gemini puede activarse por error (por ejemplo, si detecta un sonido parecido a "Hey Google"). Las transcripciones de estas grabaciones también se usan para limitar las activaciones no deseadas de todos los usuarios.
+[L0196] Si activas este ajuste, Gemini volverá a tener acceso a las aplicaciones que estaban conectadas anteriormente.
+[L0197] Si el ajuste Guardar actividad           está desactivado: Tus futuras conversaciones no aparecerán en tu actividad y no se usarán para entrenar nuestros modelos de IA, a menos que decidas enviar sugerencias o comentarios a Google.
+[L0198] Las conversaciones futuras se seguirán guardando durante 72 horas para que Gemini pueda responderte, procesar tu feedback y proteger a Google, a sus usuarios y al público en general.
+[L0199] Importante
+[L0200] Si eliminas tu actividad, las conversaciones anteriores que ya hayan revisado los proveedores de servicios no se eliminarán porque no están asociadas a tu cuenta de Google, sino que se conservarán hasta 3 años.
+[L0201] Algunas aplicaciones conectadas no estarán disponibles si se desactiva este ajuste.
+[L0202] Otros ajustes (como Actividad en la Web y en Aplicaciones o Historial de ubicaciones) pueden seguir guardando datos de ubicación y de otro tipo como parte del uso que haces de otros servicios de Google.
+[L0203] Desactivar el ajuste Guardar actividad o eliminar tu Actividad en las Aplicaciones de Gemini no elimina los datos de otros servicios de Google. Consulta más información sobre cómo conservan los datos los servicios de Google    .
+[L0204] Los archivos de origen que añades a tus cuadernos se guardan en Cuadernos. Consulta la Política de Privacidad y los Términos de Uso de NotebookLM.
+[L0205] Puedes gestionar este ajuste en cualquier momento.
+[L0206] ¿Cómo puedo controlar si Google usa mis grabaciones de audio y de Live para mejorar sus servicios?
+[L0207] En el ajuste Actividad en las aplicaciones de Gemini , puedes permitir que Google use tus grabaciones de audio y de Live para mejorar sus servicios para todos los usuarios.
+[L0208] Cuando este ajuste está activado: Google usa las grabaciones de audio y de Gemini Live (incluidos el audio, el vídeo y las pantallas compartidas) de tu actividad en las aplicaciones de Gemini para mejorar y desarrollar sus servicios (lo que incluye entrenar modelos de IA generativa).
+[L0209] Esto incluye las grabaciones que ya están almacenadas en tu actividad en las aplicaciones de Gemini     , así como las que se almacenen más adelante.
+[L0210] Algunas grabaciones las examinan revisores humanos.
+[L0211] Para proteger tu privacidad, las grabaciones que se envían a los proveedores de servicios no se asocian con tu cuenta de Google.
+[L0212] Importante
+[L0213] Las aplicaciones de Gemini están diseñadas para permanecer en modo Inactivo hasta que se activen (por ejemplo, si dices "Hey Google"). Las grabaciones pueden empezar unos segundos antes de la activación.
+[L0214] Gemini puede activarse por error; por ejemplo, si detecta un sonido parecido a "Hey Google". Estas grabaciones también se usan para reducir las activaciones no deseadas de todos los usuarios.
+[L0215] Si usas Gemini con Voice Match, se utiliza temporalmente un modelo de tu voz para mejorar Voice Match.
+[L0216] Tú tienes el control Puedes desactivar este ajuste o gestionar y eliminar tus grabaciones de audio y de Live en cualquier momento.
+[L0217] Si desactivas este ajuste: Tus grabaciones de audio y de Gemini Live no se usarán para mejorar nuestros servicios (incluidos los modelos de IA), a menos que envíes comentarios a Google.
+[L0218] Importante
+[L0219] Tus futuras grabaciones de audio y de Gemini Live se seguirán usando para responderte y mejorar la seguridad de Gemini.
+[L0220] Las transcripciones de tus conversaciones Live y cualquier otro archivo, imagen o vídeo de YouTube que compartas con Live están cubiertos por el ajuste Conservar la actividad     , que puedes desactivar en cualquier momento.
+[L0221] ¿Qué pasa cuando les pido a las aplicaciones de Gemini que guarden información?
+[L0222] Las aplicaciones de Gemini usan tu información e instrucciones para ofrecerte respuestas más personalizadas.
+[L0223] Estos datos se guardan hasta que decides eliminarlos.
+[L0224] Puedes dejar de guardar información e instrucciones en cualquier momento.
+[L0225] Más información
+[L0226] ¿Cómo puedo controlar si las aplicaciones de Gemini usan mis conversaciones anteriores para personalizar mi experiencia?
+[L0227] Fuera del Espacio Económico Europeo, Suiza y el Reino Unido, Gemini personaliza tu experiencia consultando tus conversaciones en Actividad en las Aplicaciones de Gemini   y usándolas para generar información personalizada.
+[L0228] Puedes desactivar Memoria en cualquier momento para detener la personalización a partir de tus conversaciones anteriores con Gemini.
+[L0229] El ajuste Guardar actividad debe estar activado para usar esta función.
+[L0230] Si la función Memoria está activada:
+[L0231] Gemini puede usar la información sensible que hayas proporcionado en tus conversaciones para personalizar tu experiencia.
+[L0232] Puedes iniciar una conversación temporal para hablar sobre información que no quieras que Gemini recuerde o use para personalizar tu experiencia.
+[L0233] Para evitar que Gemini personalice tu experiencia usando información de una conversación anterior, elimina esa conversación.
+[L0234] ¿Cómo gestiona Google mis datos cuando uso las aplicaciones de Gemini sin iniciar sesión?
+[L0235] Cuando usas las aplicaciones de Gemini sin iniciar sesión, Google trata tus datos (como tu dirección IP y el tipo de navegador) de acuerdo con la Política de Privacidad de Google .
+[L0236] Tus datos no se asocian a tu cuenta de Google.
+[L0237] No se aplica el Aviso de Privacidad de las Aplicaciones de Gemini.
+[L0238] Información de ubicación y otros permisos
+[L0239] ¿Qué información sobre la ubicación recogen las aplicaciones de Gemini, por qué lo hace y cómo se utiliza?
+[L0240] Si utilizas las aplicaciones de Gemini, se recogerán siempre los datos de ubicación para poder dar una respuesta relevante a tu consulta.
+[L0241] Por ejemplo, para responder a preguntas como "¿Qué tiempo hace?", las aplicaciones de Gemini necesitan conocer tu ubicación.
+[L0242] De dónde obtienen las aplicaciones de Gemini los datos de ubicación y cómo se utilizan La fuente de los datos de ubicación recogidos por las aplicaciones de Gemini varía.
+[L0243] De forma predeterminada, las aplicaciones de Gemini utilizan la zona general de tu dirección IP o las direcciones de casa o del trabajo de tu cuenta de Google para darte respuestas relevantes a preguntas como "¿Qué tiempo hace?".
+[L0244] Con tu permiso, las aplicaciones de Gemini también tratan los datos de ubicación precisa de tu dispositivo.
+[L0245] Por ejemplo, pueden usar tu ubicación precisa para responder de forma más acertada a preguntas como "¿Dónde está la cafetería más cercana?".
+[L0246] Gemini también puede recibir datos de ubicación precisos de otro servicio de Google, como Google Maps, incluso si la ubicación precisa en la aplicación de Google está desactivada.
+[L0247] Google utiliza tus datos de ubicación (incluidos tus datos de ubicación precisa) para los fines descritos en el Aviso de Privacidad de las Aplicaciones de Gemini y de acuerdo con los fundamentos jurídicos que se describen en dicho documento.
+[L0248] Consulta más información sobre los datos de ubicación en g.co/privacypolicy/location .
+[L0249] Las aplicaciones de Gemini pueden compartir tus datos de ubicación precisa con otro servicio de Google, como Google Maps, para responder a tu petición.
+[L0250] El servicio de Google que reciba tus datos de ubicación los utilizará de acuerdo con la Política de Privacidad de Google .
+[L0251] Gemini puede recibir tu ubicación precisa de otro servicio de Google, como Google Maps, para responder a tu petición aunque el ajuste de ubicación precisa de la aplicación de Google esté desactivado.
+[L0252] Cómo se almacenan los datos de ubicación
+[L0253] La ubicación precisa que se trata con tu permiso desde tu dispositivo o navegador no se almacena en Actividad en las Aplicaciones de Gemini.
+[L0254] Los datos de ubicación que tratan las aplicaciones de Gemini se asocian a una zona general antes de almacenarse en Actividad en las Aplicaciones de Gemini. La zona general es superior a 3 kilómetros cuadrados y abarca 1000 usuarios o más, por lo que la zona general correspondiente a tu petición no te identifica. De este modo, se protege tu privacidad. Fuera de las ciudades, la zona general suele ser bastante superior a 3 kilómetros cuadrados.
+[L0255] Cómo controlar y gestionar tus datos Puedes hacer lo siguiente en cualquier momento:
+[L0256] Gestionar los permisos de ubicación de tus aplicaciones móviles, como la aplicación móvil Gemini y Google Maps. Consulta cómo gestionar los ajustes de ubicación del dispositivo y cómo gestionar los permisos de la aplicación móvil cuando Gemini sea el asistente de tu dispositivo.
+[L0257] Consultar y eliminar tu actividad en las aplicaciones de Gemini. Consulta cómo gestionar tu actividad en las aplicaciones de Gemini.
+[L0258] Información importante Los datos de ubicación se almacenan en tus conversaciones si forman parte de tus peticiones o respuestas.
+[L0259] Por ejemplo, si preguntas a las aplicaciones de Gemini sobre restaurantes "cerca de
+[L0260] mí" y la respuesta hace referencia a tu ciudad.
+[L0261] Puedes gestionar y eliminar tu actividad en las aplicaciones de Gemini cuando quieras.
+[L0262] ¿Cómo puedo saber si las aplicaciones de Gemini tienen acceso a mi ubicación precisa y si la están usando?
+[L0263] Comprueba si las aplicaciones de Gemini tienen acceso a tu ubicación precisa y si la están usando.
+[L0264] Cómo comprobarlo:
+[L0265] Aplicación web Gemini
+[L0266] Aplicación móvil Gemini en un dispositivo Android
+[L0267] Aplicación móvil Gemini en un iPhone o iPad
+[L0268] Gemini en el reloj en un dispositivo Wear OS
+[L0269] Gemini en Chrome
+[L0270] Gemini puede recibir tus datos de ubicación precisa de otro servicio de Google, como Android Auto, para responder a tu petición aunque los ajustes de ubicación precisa estén desactivados.
+[L0271] Consulta cómo desactivar la ubicación precisa en Android Auto.
+[L0272] Gemini en Mensajes de Google Gemini en Mensajes de Google no tiene acceso a tu ubicación precisa.
+[L0273] Consulta dónde está disponible Gemini en Mensajes de Google.
+[L0274] Obtén más información sobre tu ubicación y cómo gestionarla.
+[L0275] ¿Dónde se guardan mis datos cuando Gemini y el Asistente de Google funcionan conjuntamente?
+[L0276] Cuando Gemini y el Asistente de Google funcionen conjuntamente en la aplicación móvil Gemini, tu actividad se guardará en Actividad en las Aplicaciones de Gemini (si la opción Guardar actividad está activada) y se usará tal y como se describe en el Aviso de Privacidad de las Aplicaciones de Gemini.
+[L0277] Cuando el Asistente de Google active funciones o dispositivos fuera de la aplicación móvil Gemini, tu actividad se guardará en el ajuste Actividad en la Web y en Aplicaciones (si está activado).
+[L0278] Obtén más información sobre cómo utiliza el Asistente de Google tus datos.
+[L0279] ¿Cómo gestiono los permisos de la aplicación móvil cuando Gemini es el asistente de mi dispositivo?
+[L0280] Aplicación móvil de Gemini (para Android) Gemini se aloja en la aplicación de Google, incluso si descargas la aplicación de Gemini      .
+[L0281] Gemini y la aplicación de Google pueden usar varias funciones y servicios de tu dispositivo (como la cámara, el micrófono, los contactos o la ubicación) según los permisos que hayas dado a la aplicación de Google.
+[L0282] Para revisar y gestionar estos permisos:
+[L0283] Mantén pulsada la aplicación de Google      .
+[L0284] Toca Info. de aplicación    Permisos.
+[L0285] Para cambiar el ajuste de un permiso, tócalo y selecciona Permitir o No permitir.
+[L0286] Subidas
+[L0287] ¿Qué hace Google con las imágenes que subo?
+[L0288] Cómo funcionan las imágenes en las peticiones Puedes incluir una imagen con tu petición para hacerle preguntas a Gemini sobre ella, editarla o usarla para generar otro contenido (como un vídeo).
+[L0289] Cuando añades una imagen a tu petición o una captura de pantalla mediante acciones en pantalla, como "Hacer preguntas sobre esta pantalla", las aplicaciones de Gemini también usan la tecnología de Google Lens para comprender qué hay en la imagen y para leer el texto.
+[L0290] Google utiliza esa información como cualquier otra petición, tal y como se explica en el Aviso de Privacidad de las Aplicaciones de Gemini.
+[L0291] ¿Qué ocurre cuando comparto una foto o un vídeo de una aplicación conectada de galería multimedia con las aplicaciones de Gemini?
+[L0292] Si compartes una foto o un vídeo de una aplicación conectada de galería multimedia (como Google Fotos) con las aplicaciones de Gemini, tu foto o vídeo se tratará de acuerdo con el Aviso de Privacidad de las Aplicaciones de Gemini.
+[L0293] Eso significa, por ejemplo, que si usas las acciones en pantalla o la función de subida de Gemini para compartir una foto o un vídeo de una aplicación de galería multimedia con las aplicaciones de Gemini, y si la opción Guardar actividad    está activada, tu foto o vídeo se usará para mejorar los servicios de Google con la ayuda de revisores humanos.
+[L0294] Más información sobre el ajuste Guardar actividad
+[L0295] Aplicaciones conectadas en Gemini
+[L0296] ¿Qué ocurre con mis datos que comparten Gemini, las aplicaciones conectadas y otros servicios?
+[L0297] Gemini puede usar las aplicaciones conectadas y otros servicios para ofrecerte ayuda personalizada, buscar información y ayudarte a hacer más cosas.
+[L0298] Por ejemplo, si te conectas a Google Workspace o Google Fotos, puedes usar Gemini para buscar información en tus correos o fotos.
+[L0299] Si pides recomendaciones sobre vuelos y hoteles, Gemini puede usar información disponible públicamente de Google Vuelos y Google Hoteles para ofrecerte ayuda personalizada.
+[L0300] Qué datos se comparten Los datos que se comparten entre Gemini y las aplicaciones conectadas, así como otros servicios de Google, incluyen:
+[L0301] Información de tus conversaciones con Gemini
+[L0302] Información sobre tu dispositivo y tus preferencias (como el idioma)
+[L0303] Información sobre tu ubicación
+[L0304] Información y contenido de tus aplicaciones conectadas (como correos, archivos, eventos, fotos y vídeos)
+[L0305] Cómo se usan tus datos
+[L0306] Gemini usa los datos de las aplicaciones conectadas de acuerdo con el Aviso de Privacidad de las Aplicaciones de Gemini, lo que incluye ofrecerte ayuda personalizada, buscar información y ayudarte a hacer más cosas.
+[L0307] Si cumples ciertos requisitos y habilitas la personalización con determinadas aplicaciones conectadas, Google también usará los datos de esas aplicaciones conectadas para personalizar tu experiencia con Gemini .
+[L0308] Los datos que Gemini comparte con otros servicios de Google se usan de acuerdo con la Política de Privacidad de Google , también para mejorar los productos.
+[L0309] Las aplicaciones de terceros usan los datos de Gemini de acuerdo con sus propias políticas de privacidad y términos.
+[L0310] Cómo gestionar tus aplicaciones conectadas Puedes conectar y desconectar aplicaciones desde el ajuste Aplicaciones conectadas.
+[L0311] Consulta cómo controlar con qué aplicaciones funciona Gemini.
+[L0312] Algunas aplicaciones conectadas, como Teléfono, Mensajes, WhatsApp y Utilidades, están disponibles en tu dispositivo móvil Android tanto si el ajuste Guardar actividad está activado como si está desactivado.
+[L0313] Por el momento, otras aplicaciones conectadas, como Google Workspace, no están disponibles si desactivas Guardar actividad .
+[L0314] Si vuelves a activar el ajuste Guardar actividad, Gemini recuperará el acceso a las aplicaciones que estaban conectadas anteriormente.
+[L0315] Desconectar aplicaciones y eliminar datos
+[L0316] Consulta cómo desconectar aplicaciones desde el ajuste Aplicaciones conectadas.
+[L0317] Si desconectas una aplicación o eliminas datos de una aplicación conectada, no se eliminarán los datos de tu Actividad en las Aplicaciones de Gemini    .
+[L0318] Puedes gestionar y eliminar tu Actividad en las Aplicaciones de Gemini cuando quieras.
+[L0319] Las aplicaciones conservan los datos que Gemini comparte con ellas de acuerdo con sus propias políticas. Eliminar datos de tu Actividad en las Aplicaciones de Gemini no elimina los datos que otras aplicaciones hayan recibido de Gemini. Obtén más información sobre cómo conservan los servicios de Google los datos que recogen .
+[L0320] Consulta cómo eliminar de una aplicación conectada algo que Gemini recuerda sobre ti. Si eliminas o modificas datos en una aplicación conectada, como un correo de Gmail o una foto de Google Fotos, es posible que tu experiencia en Gemini no se vea afectada hasta varios días después.
+[L0321] Importante Si pides a las aplicaciones de Gemini que cambien el contenido compartido o que controlen dispositivos compartidos en otros servicios, cualquiera que tenga acceso al contenido o al dispositivo compartidos podrá ver esas acciones.
+[L0322] ¿Cómo puedo permitir que Gemini personalice mi experiencia con mis datos de las aplicaciones conectadas?
+[L0323] Los usuarios que cumplan los requisitos y tengan habilitada la función Inteligencia personalizada pueden conectar algunas aplicaciones de Google a Gemini para disfrutar de nuevas experiencias más personalizadas que antes no estaban disponibles en Gemini a través de las aplicaciones conectadas.
+[L0324] Consulta más información sobre la personalización con tus datos de las aplicaciones conectadas.
+[L0325] ¿Cómo se usan mis datos para hacer llamadas y enviar mensajes con las aplicaciones conectadas en Gemini?
+[L0326] Qué datos se recogen y se tratan Cuando usas aplicaciones conectadas en Gemini para que te ayuden a hacer llamadas o enviar mensajes, las aplicaciones móviles Gemini recogen y tratan la siguiente información tuya:
+[L0327] La actividad en las aplicaciones de Gemini (si está disponible)
+[L0328] Los registros de llamadas y mensajes del dispositivo
+[L0329] La información de contacto
+[L0330] La información y los ajustes del dispositivo
+[L0331] Si has usado el Asistente de Google para hacer llamadas o enviar mensajes, el historial de las peticiones que has hecho al Asistente de Google en los últimos 90 días (por ejemplo, "Envía un mensaje a Sandra") podría importarse de Actividad en la Web y en Aplicaciones    a Actividad en las Aplicaciones de Gemini .
+[L0332] Consulta más información sobre cómo las aplicaciones de Gemini se ayudan de los servicios de Google.
+[L0333] Cómo se usan los datos A la hora de hacer llamadas o enviar mensajes con las aplicaciones conectadas, las aplicaciones móviles Gemini usan tus datos para:
+[L0334] Escoger la aplicación de llamadas o mensajería más útil
+[L0335] Ayudarte a comunicarte con la persona correcta
+[L0336] Los mensajes que crees y envíes con la aplicación Gemini no tendrán el cifrado de extremo a extremo de Google.
+[L0337] Cómo controlar y gestionar tus datos
+[L0338] Si no quieres que las aplicaciones móviles Gemini usen tu actividad para hacer llamadas o enviar mensajes, puedes eliminar tu actividad de Actividad en las Aplicaciones de Gemini cuando quieras.
+[L0339] Puedes desconectar aplicaciones de llamadas y de mensajería compatibles en cualquier momento desde el ajuste Aplicaciones conectadas. Consulta cómo gestionar aplicaciones conectadas en Gemini.
+[L0340] Puedes usar aplicaciones de llamadas y de mensajería en tu dispositivo móvil aunque el ajuste Guardar actividad     esté desactivado.
+[L0341] Las aplicaciones de llamadas y de mensajería no están disponibles en el smartwatch cuando el ajuste Guardar actividad   está desactivado.
+[L0342] Importante: Los ajustes del Asistente de Google, como la opción Asistente en la pantalla de bloqueo, no se aplican a las aplicaciones conectadas con Gemini.
+[L0343] Agente de Gemini
+[L0344] ¿Cómo usa el Agente de Gemini mis datos con el navegador remoto?
+[L0345] Cuando usas la función experimental de Agente de Gemini, Gemini puede usar un navegador remoto para ayudarte a completar tus tareas.
+[L0346] Esta función solo está disponible cuando el ajuste Guardar actividad     está activado.
+[L0347] Consulta más información sobre los requisitos.
+[L0348] Qué datos se recogen y se tratan Cuando usas el navegador remoto, el Agente de Gemini recoge y trata información de tu sesión del navegador, como las cookies que contienen tus datos de autenticación del sitio web y las capturas de pantalla u otro contenido de la página.
+[L0349] El Agente de Gemini usa estos datos para que te resulte más fácil usar el navegador remoto en conversaciones futuras, de conformidad con el Aviso de Privacidad de las Aplicaciones de Gemini.
+[L0350] Puedes eliminar estos datos en cualquier momento desde el ajuste Datos del navegador remoto .
+[L0351] Qué datos se comparten al usar el navegador remoto Para procesar tus solicitudes, el Agente de Gemini puede compartir información de tu conversación con el navegador remoto y los sitios web con los que interactúas.
+[L0352] Si has usado una aplicación conectada en la conversación, la información compartida de la conversación puede incluir datos y contenido de esa aplicación conectada.
+[L0353] Cómo controlar y gestionar tus datos Monitoriza de cerca el Agente de Gemini e interrúmpelo seleccionando Detener    en el cuadro de texto de la petición o Tomar el control   en el navegador remoto.
+[L0354] Consulta cómo tomar el control del navegador de Gemini.
+[L0355] Puedes eliminar los datos del navegador remoto en el ajuste Datos del navegador remoto       .
+[L0356] Se cerrará la sesión en todos los sitios que hayas visitado con el navegador remoto.
+[L0357] Gemini Live
+[L0358] ¿Qué hace Google con los datos de Gemini Live?
+[L0359] Las grabaciones y transcripciones de tus interacciones con Gemini Live, así como otros contenidos que compartas con Gemini Live, se tratan según lo indicado en el Aviso de Privacidad de las Aplicaciones de Gemini y se almacenan en Actividad en las apps de Gemini      si el ajuste Conservar la actividad   está activado.
+[L0360] Puedes gestionar y eliminar tu actividad en las aplicaciones de Gemini cuando quieras.
+[L0361] Si el ajuste Actividad en las apps de Gemini está desactivado, tus conversaciones con Gemini Live se almacenan en tu cuenta de Google durante un máximo de 72 horas para que Google pueda ofrecer el servicio y procesar cualquier comentario.
+[L0362] Más información
+[L0363] Transcripciones de Gemini Live Si el ajuste Conservar la actividad   está activado, las transcripciones de tus conversaciones Live se utilizarán para mejorar los servicios de Google, incluidos los modelos de IA.
+[L0364] Consulta más información sobre el ajuste Conservar la actividad.
+[L0365] Grabaciones de Gemini Live De forma predeterminada, las grabaciones de Gemini Live (incluidos el audio, el vídeo y las pantallas compartidas) no se usan para mejorar los servicios de Google.
+[L0366] Consulta cómo cambiar este comportamiento en cualquier momento.
+[L0367] Respeta la privacidad de los demás     y pídeles permiso antes de grabarlos o de incluirlos en una conversación Live.
+[L0368] Consulta cómo usar Gemini Live.
+[L0369] Gemini en Chrome
+[L0370] ¿Qué ocurre con mis datos cuando uso Gemini en Chrome?
+[L0371] Cuando utilizas la función Gemini en Chrome , Gemini recoge y procesa el contenido de la página y la URL de la pestaña actual y de cualquier otra pestaña que hayas compartido con él.
+[L0372] Si usas Gemini en Chrome para buscar páginas que has visitado en Chrome, Gemini también recogerá las URLs que correspondan de tu historial.
+[L0373] Es posible que no puedas ver parte del contexto de la página que utiliza Gemini.
+[L0374] Cómo se almacenan los datos La información de los sitios web que visitas con la función Gemini en Chrome, además de los audios y archivos que compartes, se guardan en Actividad en las Aplicaciones de Gemini si el ajuste Guardar actividad   está activado.
+[L0375] El contenido de la página se registra temporalmente en tu cuenta de Google y no aparece en Actividad en las Aplicaciones de Gemini.
+[L0376] Cómo controlar y gestionar tus datos Puedes dejar de compartir la pestaña actual y cualquier otra pestaña abierta que hayas compartido con Gemini.
+[L0377] Más información
+[L0378] Automatización de pantalla en aplicaciones Android
+[L0379] ¿Qué ocurre con mis datos cuando Gemini usa la automatización de pantalla para ayudarme a completar tareas en aplicaciones Android?
+[L0380] Gemini puede ayudarte con tareas, como hacer pedidos o reservar viajes concertados, usando la automatización de pantalla en determinadas aplicaciones de tu dispositivo.
+[L0381] Tú tienes el control Gemini puede cometer errores.
+[L0382] Tú eres responsable de lo que haga en tu nombre, así que supervisa de cerca sus acciones.
+[L0383] Puedes detenerlo, ver su progreso y tomar el control manualmente.
+[L0384] Importante Durante la automatización, Gemini hace capturas de pantalla, que pueden incluir cualquier información visible en la aplicación.
+[L0385] Si activas el ajuste Guardar actividad , revisores especializados revisarán las capturas de pantalla y las usarán para mejorar los servicios de Google.
+[L0386] No introduzcas información de inicio de sesión ni datos para pagos en las conversaciones con Gemini.
+[L0387] Evita usar la automatización de pantalla para emergencias o tareas que requieran información sensible.
+[L0388] Si la automatización de pantalla está desactivada, puedes seguir usando Gemini con aplicaciones conectadas.
+[L0389] Más información sobre las aplicaciones conectadas
+[L0390] Más información sobre cómo puedes usar Gemini para completar tareas con la ayuda de la automatización de pantalla
+[L0391] Compras
+[L0392] ¿Qué ocurre con mis datos cuando uso Google Pay en Gemini?
+[L0393] Cuando usas Google Pay para hacer una compra en Gemini, el historial de transacciones se guarda en tu actividad de Google Pay y se usa de acuerdo con el Aviso de Privacidad de Pagos con Google y tus ajustes de actividad de Google Pay.
+[L0394] Cómo controlar y gestionar tus datos
+[L0395] Puedes consultar tu historial de pedidos en Gemini en cualquier momento en la sección Compras de Mis cosas.
+[L0396] Puedes consultar tu historial de transacciones y gestionar tus pedidos en cualquier momento en la aplicación o el sitio web de Google Pay.
+[L0397] Obtén más información sobre cómo puede ayudarte Gemini a hacer compras.
+[L0398] Gems de Google Labs
+[L0399] ¿Qué ocurre con mis datos cuando interactúo con Gems de Google Labs?
+[L0400] Ahora puedes acceder a los Gems de Google Labs        en las aplicaciones de Gemini o en opal.google   .
+[L0401] Los Gems de Google Labs       son flujos de trabajo personalizados agrupados en miniaplicaciones de IA que puedes crear, editar y compartir.
+[L0402] Cuando interactúas con Gems de Google Labs, estás usando Opal, un experimento de Google Labs.
+[L0403] Importante: Opal, un experimento de Google Labs, no forma parte de las aplicaciones de Gemini.
+[L0404] Esto significa que los datos de esta experiencia no aparecen en tu Actividad en las Aplicaciones de Gemini y no están controlados por el ajuste de aplicaciones conectadas de Workspace de
+[L0405] Gemini.
+[L0406] El Aviso de Privacidad de las Aplicaciones de Gemini no se aplica y tus datos de Opal, incluidos los comentarios que proporciones, se tratan de acuerdo con la Política de Privacidad de Google .
+[L0407] Cómo se almacenan los datos Los Gems de Google Labs    que crees, tus interacciones con ellos y el contenido multimedia (audio, imágenes y documentos) que subas se almacenan en la carpeta "Opal" de tu Google Drive .
+[L0408] Cómo puedes controlar y gestionar tus datos, incluido cómo eliminar tus Gems de Google Labs Puedes eliminar Gems de Google Labs en el gestor de Gems      de la aplicación web Gemini o en la carpeta "Opal" de Google Drive .
+[L0409] También se eliminará el historial de interacciones asociado al Gem de Google Labs.
+[L0410] Consulta más información sobre los Gems de Google Labs.
+[L0411] Datos importados de otras plataformas de IA
+[L0412] ¿Qué ocurre con mis datos cuando importo datos memorizados o conversaciones de otras plataformas de IA?
+[L0413] Los datos (datos memorizados y conversaciones) que importes de otras plataformas de IA se guardarán en tu actividad.
+[L0414] Estos datos se usan con la misma finalidad que los datos de tu Actividad en las Aplicaciones de Gemini, lo que incluye mejorar nuestros servicios (por ejemplo, entrenar los modelos de IA generativa) y proteger a Google, a nuestros usuarios y al público en general.
+[L0415] Puedes gestionar o eliminar tu actividad en cualquier momento.
+[L0416] Consulta cómo gestionar y eliminar tu actividad en las aplicaciones de Gemini.
+[L0417] También puedes eliminar en cualquier momento conversaciones importadas concretas o eliminar en bloque todas las conversaciones importadas asociadas al archivo .zip que se usó para importarlas a las aplicaciones de Gemini.
+[L0418] Canvas
+[L0419] ¿Qué ocurre con mis datos cuando interactúo con las aplicaciones web de Canvas?
+[L0420] Cuando interactúas con las aplicaciones de Canvas generadas por usuarios, los creadores de esas aplicaciones pueden ver la información que introduces.
+[L0421] Cómo se almacenan los datos Google ofrece la opción de que las aplicaciones de Canvas almacenen los datos de los usuarios de manera permanente en Firebase.
+[L0422] Los creadores de aplicaciones podrían utilizar esta opción, pero también podrían guardar los datos de cualquier interacción en otras ubicaciones (o no almacenarlos en absoluto).
+[L0423] Cómo controlar y gestionar tus datos Ten cuidado y usa solo aplicaciones en las que confíes.
+[L0424] No puedes eliminar la información que compartas con la aplicación de Canvas, solo puede hacerlo el creador de la aplicación.
+[L0425] Términos del Servicio
+[L0426] ¿Qué términos se aplican al uso de las aplicaciones de Gemini?
+[L0427] Los Términos del Servicio de Google     y la Política de Usos Prohibidos de la IA Generativa   se aplican a las aplicaciones de Gemini.
+[L0428] Si eres un consumidor que vive en Corea, también aceptas que el uso que hagas de las aplicaciones de Gemini está sujeto a los Términos del Servicio de Ubicación de Corea     .
+[L0429] Recursos relacionados
+[L0430] Gestionar y eliminar tu actividad en las aplicaciones de Gemini
+[L0431] Gestionar el historial de ubicaciones
+[L0432] Enviar comentarios o informar de un problema con las aplicaciones de Gemini
+[L0433] Usar aplicaciones de Gemini
+[L0434] Política de Usos Prohibidos de la IA Generativa
+[L0435] Más recursos para las aplicaciones móviles de Gemini
+[L0436] Qué puedes hacer con la aplicación móvil de Gemini
+[L0437] Empezar a usar la aplicación móvil de Gemini
+[L0438] Gestionar la aplicación Gemini en un dispositivo Android o eliminarla del dispositivo

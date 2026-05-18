@@ -1,0 +1,475 @@
+[L0001] Gemini Uygulamaları Gizlilik Merkezi
+[L0002] Son güncelleme: 8 Nisan 2026
+[L0003] Source: tr — Gemini Apps Privacy.pdf (user-provided)
+[L0004] Gemini Uygulamaları Gizlilik Uyarısı
+[L0005] Son güncelleme: 27 Mart 2025
+[L0006] Bu bildirim, Google Gizlilik Politikası   'nı tamamlar ve oturum açıkken burada listelenen hizmetler ("Gemini Uygulamaları" veya kısaca "Gemini") aracılığıyla Google'dan kişisel yapay zeka asistanınız Gemini ile olan etkileşimlerinizdeki verileri nasıl işlediğimizi açıklar.
+[L0007] Google Gizlilik Politikası'nda, oturumunuz kapalıyken Gemini'ı kullandığınızda Google'ın verilerinizi nasıl işlediği açıklanmaktadır.
+[L0008] Gemini Uygulamaları, Avrupa Ekonomik Alanı ve İsviçre'de Google Ireland Limited, diğer tüm bölgelerde ise Google LLC tarafından sağlanmaktadır.
+[L0009] Aşağıda her iki şirkete de "Google" diyoruz.
+[L0010] Hangi veriler toplanır?
+[L0011] Gemini Uygulamaları'na verdiğiniz bilgiler
+[L0012] Gemini Uygulamaları'na söyledikleriniz (ör. yazılı veya sözlü olarak ilettiğiniz istemler)
+[L0013] Gemini Uygulamaları ile paylaştıklarınız (dosyalar, videolar, hakkında soru sorduğunuz ekranlar, fotoğraflar, içeri aktarılan sohbetler ve tarayıcınızdan paylaştığınız sayfa içeriği gibi)
+[L0014] Gemini Live ile etkileşimlerinizin transkriptleri ve kayıtları (Live ile paylaştığınız ses, video ve ekranlar dahil)
+[L0015] Geri bildirimleriniz
+[L0016] Gem'lerinizin adları ve özel talimatları
+[L0017] Gemini için talimatlar (veya bazı yerlerde "Kayıtlı Bilgiler")
+[L0018] Gemini Uygulamaları'nı kullanırken topladığımız bilgiler
+[L0019] Gemini Uygulamaları'nın ürettiği içerikler (metin, kod, ses, resim, video, müzik, herkese açık bağlantılar, alıntılar, sohbet özetleri ve kişiye özel analizler gibi)
+[L0020] Uygulamalarınız, tarayıcılarınız ve cihazlarınızdaki bilgiler
+[L0021] Bağlı Uygulamalarınızdan ve Gemini Uygulamaları ile kullandığınız diğer Google hizmetlerinden (ör. Arama veya YouTube geçmişiniz ya da Chrome'daki sayfa bağlamı ve URL) alınan bilgiler
+[L0022] Cihazınızdaki uygulamalarla ilgili bilgiler (ör. uygulamalarınızı kullanarak işlerinizi halletmenize yardımcı olmak için)
+[L0023] Gemini Uygulamaları'na erişmek için kullandığınız uygulamalar, tarayıcılar ve cihazlar hakkında bilgiler (tanımlayıcılar, tarayıcı türü ve ayarları, cihaz türü ve ayarları, işletim sistemi gibi)
+[L0024] Uygulamalarınızın, tarayıcılarınızın ve cihazlarınızın Gemini Uygulamaları ile etkileşimi (etkileşim günlükleri, performans metrikleri, çökme ve hata ayıklama bilgileri gibi)
+[L0025] Gemini mobil uygulamalarını kullandığınızda geçerli sistem izinleri ve cihaz verileri: arama ve mesaj kayıtları; kişiler (iletişiminizi sürdürmeniz için); yüklü uygulamalar (ör. Saat); dil tercihleri (Gemini ile konuşmanıza yardımcı olmak için); ekrandaki içerikler (bunlarla ilgili işlem yapmanız için); ve sayfa bağlamı ile URL gibi diğer uygulama bilgileri (soru sormak için Gemini penceresini kullandığınızda) gibi
+[L0026] Web sitenizin kimlik doğrulama bilgilerini içeren çerezler ve ekran görüntüleri ya da diğer sayfa içerikleri gibi uzak tarayıcı verileri
+[L0027] Gemini ile kullandığınız cihaz ve hizmetlerden gelen bağlam bilgileri (akıllı ev cihazı adları ve oynatma listeleri gibi)
+[L0028] Herkese açık Gemini Uygulamaları içeriğiyle etkileşimleriniz hakkındaki veriler
+[L0029] Ek bilgiler: İsteğe bağlı olarak etkinleştirdiğiniz ek Gemini Uygulamaları özellikleri aracılığıyla toplanan bilgiler.
+[L0030] Konum bilgileri:Cihazınızdan, IP adresinizden veya Google Hesabınızdaki ev veya iş adreslerinizden elde edilen genel alan bilgileri. g.co/privacypolicy/location       adresinde daha fazla bilgi edinebilirsiniz.
+[L0031] Abonelik bilgileri: Gemini'ın ücretli aboneliğine sahipseniz abonelikle ilgili bilgiler.
+[L0032] Verilerinizin kullanılma şekli
+[L0033] Google, bu verileri Gizlilik Politikamızda    açıklanan şu amaçlarla kullanır:
+[L0034] Hizmetlerimizi sağlamak
+[L0035] Hizmetlerimizi sürdürmek ve iyileştirmek
+[L0036] Yeni hizmetler geliştirmek
+[L0037] Hizmetlerimizi kişiselleştirmek
+[L0038] Hizmetlerimizi özelleştirmek
+[L0039] Sizinle iletişim kurmak
+[L0040] Performansı ölçmek
+[L0041] Google'ı, kullanıcılarımızı ve toplumu korumak
+[L0042] Bu kullanımlar, hizmetlerimizi destekleyen üretken yapay zeka modellerini ve diğer makine öğrenimi teknolojilerini de kapsar.
+[L0043] İnceleme uzmanları (servis sağlayıcılarımızın eğitimli inceleme uzmanları dahil), bu amaçlar doğrultusunda topladığımız verilerin bir kısmını inceler.
+[L0044] İnceleme uzmanlarının görmesini ya da Google'ın makine öğrenimi teknolojileri de dahil olmak üzere hizmetlerimizi geliştirmek için kullanmasını istemediğiniz gizli bilgileri lütfen girmeyin.
+[L0045] Gemini Uygulamaları'nın Google hizmetlerinden nasıl yardım alır?
+[L0046] Gemini Uygulamaları'nı sunmak için diğer Google hizmetlerinden ve altyapısından yararlanırız. Örneğin, bazı Gemini yanıtları Arama sonuçlarına dayanır.
+[L0047] Gemini, Google Asistan gibi diğer Google hizmetlerinden de yardım alır. Gemini, belirli işlemler için Google Asistan'dan yardım aldığında ilgili Google Asistan ayarları geçerli olur.
+[L0048] 18 yaşında veya daha büyükseniz Gemini Uygulamaları'na geçtiğinizde, bazı bölgelerde arama veya mesajlaşma geçmişiniz Web ve Uygulama Etkinliğinizden Gemini Uygulama Etkinliği'ne aktarılabilir. Böylece kişi önerileri gibi Gemini Uygulamaları deneyiminiz daha iyi hale gelir. Daha fazla bilgi edinin.
+[L0049] Gemini Uygulamaları, Bağlı Uygulamalar'la nasıl çalışır?
+[L0050] Gemini Uygulamaları, Google uygulamaları ve üçüncü taraf hizmetleri de dahil olmak üzere Bağlı Uygulamalar'la çalışır.
+[L0051] Gemini, Bağlı Uygulamalar'dan gelen bilgileri bu bildirime uygun olarak kaydeder ve kullanır.
+[L0052] Bu bilgiler, Gemini Uygulamaları'nı sunmak ve geliştirmek için de kullanılır.
+[L0053] Bağlı Google uygulamaları, hizmetleri sunmak ve iyileştirmek de dahil olmak üzere, geçerli politikalarına ve Google Gizlilik Politikası 'na uygun olarak verilerinizi kaydeder ve kullanır.
+[L0054] Gemini Uygulamaları'nı üçüncü taraf hizmetlerle etkileşimli olarak kullanırsanız bu üçüncü taraf hizmetler verilerinizi kendi gizlilik politikalarına göre işler.
+[L0055] Ses özellikleri
+[L0056] Gemini Uygulamaları, örneğin "Ok Google" gibi bir ses duyduğunda ya da dokunarak yanlışlıkla etkinleştirdiğinizde istemeden açılabilir.
+[L0057] Gemini Uygulamaları yanıt verirse girişinizi normal etkinleştirme işlemindeki gibi ele alır.
+[L0058] Ayarlarınıza bağlı olarak bu veriler, Google hizmetlerini iyileştirmek için kullanılır.
+[L0059] Bu hizmetlere Gemini modelleri , Gemini Uygulamaları'nı destekleyen diğer üretken yapay zeka modelleri ve istenmeyen aktivasyonları azaltmaya yardımcı olan teknolojiler dahildir.
+[L0060] Canvas
+[L0061] Kullanıcı tarafından üretilen bir Canvas uygulamasıyla etkileşim kurarsanız uygulamanın geliştiricisi, paylaştığınız tüm verileri görebilir ve istediği yerde kaydedebilir.
+[L0062] Google, Canvas uygulama verileri için Firebase'de depolama alanı sağlar ancak uygulama oluşturucu, verilerinizi başka bir yere de kaydedebilir.
+[L0063] Herkese açık bağlantıya sahip olan herkes, uygulamayla kaydedilen verileri de görüntüleyip düzenleyebilir.
+[L0064] Dikkatli olun ve verileri yalnızca güvendiğiniz Canvas uygulamalarıyla paylaşın.
+[L0065] Ayarlarınızı yapılandırma
+[L0066] Verilerinizi ve gizliliğinizi yönetmek için Google Hesabınızı ziyaret edebilirsiniz.
+[L0067] Verilerinizi ve deneyiminizi yönetmenize yardımcı olacak Gemini Uygulamaları ayarları:
+[L0068] Etkinliğinizi (içe aktarılan sohbetler dahil) incelemek ve silmek, otomatik silme sürenizi değiştirmek ve verilerinizin Google AI'ı daha iyi hale getirmek için kullanılıp kullanılmayacağını kontrol etmek için Gemini Uygulamaları Etkinliği 'ne gidin. Bu hizmetler arasında, Gemini Uygulamaları'nı destekleyen üretken yapay zeka modelleri gibi hizmetler yer alır. Gemini Uygulamaları Etkinliği'ndeki ayarlar, Google hizmetlerini geliştirmek için anonimleştirilmiş veriler oluşturmak üzere sohbetlerinizin işlenmesini kontrol etmez. Etkinliği Sakla ayarı kapalıyken de Google, inceleme uzmanlarının yardımıyla size yanıt vermenin yanı sıra Google'ı, kullanıcılarımızı ve kamuoyunu korumak için sohbetlerinizi kullanır.
+[L0069] Gem yöneticisinde          Gem'leri yönetin.
+[L0070] Herkese Açık Bağlantılarınız        bölümündeki bağlantıları yönetin.
+[L0071] Uygulamalar kısmında Gemini Uygulamaları'nın diğer uygulamalara ve verilere erişimini yönetin.
+[L0072] Gemini'dan kaydetmesini istediğiniz bilgileri       belirleyebilirsiniz.
+[L0073] Uzak tarayıcı profil verilerinizi Uzak Tarayıcı Verileri    ayarından yönetebilirsiniz.
+[L0074] Geçmiş sohbetler ve Kişisel Zeka ile kişiselleştirme dahil olmak üzere kişiselleştirme özelliklerini nasıl yöneteceğiniz hakkında daha fazla bilgi edinin.
+[L0075] Google uygulamasında barındırılan Gemini'ı Android'de cihaz asistanınız olarak kullanabilirsiniz Google uygulaması izinlerinizi (cihaz konumu, mikrofon ve kamera izinleri gibi) nasıl yöneteceğiniz hakkında daha fazla bilgi edinin.
+[L0076] Gemini mobil uygulama ayarlarınızı nasıl yöneteceğiniz hakkında daha fazla bilgi edinin.
+[L0077] Google uygulamasını varsayılan dijital asistan uygulaması olarak ayarlama hakkında daha fazla bilgi edinin.
+[L0078] Gemini Uygulamaları ayarlarınızı değiştirirseniz diğer Google ayarları değişmez.
+[L0079] Web ve Uygulama Etkinliği ya da Konum Geçmişi gibi diğer ayarlar, diğer Google hizmetleri kullanılırken konumunuzu ve diğer verilerinizi kaydetmeye devam edebilir.
+[L0080] Verilerinizi ne kadar süreyle saklarız?
+[L0081] Google'ın Gizlilik Politikası   ve Google, Topladığımız Verileri Nasıl Elde Tutar?
+[L0082] başlıklı makalede açıklandığı gibi, verilerinizi ne olduğuna ve nasıl kullandığımıza bağlı olarak farklı sürelerde saklarız.
+[L0083] Gemini Uygulamaları Etkinliği'nde otomatik silme sürenizi varsayılan 18 aydan 3 aya, 36 aya veya süresiz olarak değiştirebilirsiniz. Gemini Uygulamaları sohbetlerinizi istediğiniz zaman manuel olarak da silebilirsiniz.
+[L0084] Etkinliğinizi sildiğinizde inceleme uzmanları tarafından incelenen sohbetler (ayrıca diliniz, cihaz türünüz, konum bilgileriniz veya geri bildirimler gibi ilgili veriler) silinmez. Bu veriler üç yıla kadar saklanır.
+[L0085] Gemini Uygulamaları'nı ne sıklıkta kullandığınızla ilgili bilgiler gibi bazı verileri, siz Google Hesabınızı silene kadar saklarız.
+[L0086] Gerekli olduğunda bazı verileri güvenlik, sahtekarlık ve kötüye kullanımın önlenmesi veya finansal kayıt tutma gibi meşru ticari veya hukuki amaçlarla daha uzun süre saklarız.
+[L0087] Bilgilerinizi silmemizin ne kadar sürdüğü de dahil      , Google'ın veri saklama süreleri hakkında daha fazla bilgi edinin.
+[L0088] İçerik kaldırma talebi ve bilgilerinizi dışa aktarma
+[L0089] Politikalarımız veya geçerli yasalar uyarınca içeriğin kaldırılmasını talep edebilirsiniz.
+[L0090] Bilgilerinizi dışa da aktarabilirsiniz   .
+[L0091] Bilmeniz gereken diğer noktalar
+[L0092] Sürekli gelişen bir teknoloji olduğundan Gemini Uygulamaları Google'ın görüşlerini yansıtmayan, yanlış veya rahatsız edici bilgiler (kişilerle ilgili bilgiler de dahil) verebilir.
+[L0093] Gemini Uygulamaları'nın yanıtları teşhis, tedavi veya tıp, hukuk, finans ya da başka alanlarda profesyonel tavsiye olarak kabul edilmemelidir. Verilen yanıtlar yalnızca bilgilendirme amaçlıdır.
+[L0094] Gemini'ın tarama işlemini yakından izleyin ve gerekirse müdahale edin.
+[L0095] Daha fazla bilgiyi Gemini Uygulamaları Gizlilik Merkezi ve Google Gizlilik Politikası      'nda bulabilirsiniz.
+[L0096] Başkalarının haklarına saygı gösterme
+[L0097] Lütfen Gemini Uygulamaları'nı kullanırken başkalarının haklarına saygı gösterin          ve kendilerini Live sohbetinde kaydetmeden önce izinlerini isteyin.
+[L0098] Yalnızca gerekli haklara sahip olduğunuz içerikleri yükleyin, üretin ve düzenleyin.
+[L0099] Gizlilik soruları
+[L0100] Son güncelleme: 8 Nisan 2026
+[L0101] Genel
+[L0102] Gemini Uygulamaları nedir?
+[L0103] Gemini Uygulamaları Gizlilik Uyarısı ve Gemini Uygulamaları Gizlilik Merkezi'nde belirtilen Gemini Uygulamaları yalnızca aşağıdakileri içerir:
+[L0104] Gemini web uygulamasına, gemini.google.com             adresinden ve tarayıcı kenar çubukları üzerinden erişebilirsiniz.
+[L0105] Gemini mobil uygulamaları şunları içerir:
+[L0106] Android'de varsayılan dijital asistanınız olarak da kullanabileceğiniz Gemini uygulaması           . Gemini uygulamasını         indirseniz bile Gemini'ın Google uygulaması tarafından barındırıldığını unutmayın.
+[L0107] iOS'te Gemini uygulaması
+[L0108] Belirli bölgelerde Google Mesajlar uygulamasındaki Gemini
+[L0109] Android Auto'da Gemini
+[L0110] Haritalar'da Gemini
+[L0111] Chrome'da Gemini        özelliği. Kullanılabilirlik durumu hakkında daha fazla bilgi edinin.
+[L0112] Android XR'da Gemini
+[L0113] "Gemini Uygulamaları" bazen "Gemini uygulaması" veya "Gemini" olarak da adlandırılır.
+[L0114] İş veya okul Google Hesabınız varsa Gemini Uygulamaları kullanımınız farklı veri işleme şartlarına tabi olabilir.
+[L0115] Üretken yapay zeka ile ilgili daha fazla bilgiyi Google Workspace Gizlilik Merkezi'nde bulabilirsiniz.
+[L0116] Verilerimin işlenmesine nasıl itiraz edebilirim veya Gemini Uygulamaları'nın yanıtlarındaki yanlış verilerin düzeltilmesini nasıl isteyebilirim?
+[L0117] LLM deneyimleri (Gemini Uygulamaları dahil), halüsinasyon sorunu nedeniyle yanlış bilgileri gerçekmiş gibi sunabilir.
+[L0118] AB'deki Genel Veri Koruma Yönetmeliği de dahil olmak üzere belirli gizlilik yasaları kapsamında şunları yapma hakkınız olabilir:
+[L0119] Kişisel verilerinizin işlenmesine itiraz etme veya
+[L0120] Gemini Uygulamaları'nın yanıtlarındaki hatalı kişisel verilerin düzeltilmesini isteme
+[L0121] Bu hakları kullanmak için Yardım Merkezimizde bir talep oluşturabilirsiniz.
+[L0122] Dilerseniz talebi doğrudan Gemini Uygulamaları'ndan da oluşturabilirsiniz.
+[L0123] Gemini Uygulamaları'nın yanıtının altında Diğer         Yasal sorun bildir'i seçin.
+[L0124] Talep oluştur
+[L0125] Ek kaynaklar Topladığımız verilerle ilgili haklarınızı nasıl kullanacağınız hakkında daha fazla bilgiyi Google Gizlilik Politikası   'nda ve Gemini Uygulamaları Gizlilik Uyarısı'nda bulabilirsiniz.
+[L0126] Google'ın, Avrupa Birliği (AB) veya Birleşik Krallık (BK) veri koruma yasası kapsamında Gemini Uygulamaları verilerini işlemek için yasal dayanakları nelerdir?
+[L0127] Bilgilerinizin işlenmesi konusunda Avrupa Birliği (AB) veya Birleşik Krallık (BK) veri koruma yasaları geçerliyse lütfen aşağıdakileri dikkatlice okuyun.
+[L0128] Google, oturumunuz açıkken Gemini Uygulamaları'nı kullandığınızda bilgilerinizi aşağıda belirtilen amaçlar ve yasal gerekçeler doğrultusunda işler.
+[L0129] Aşağıda "Gemini Uygulamaları bilgileriniz" ifadesiyle, Gemini Uygulamaları Gizlilik Uyarısı'nda listelenen veri kategorileri kastedilmektedir.
+[L0130] Bu kategoriler şunlardır: (i) Gemini Uygulamaları'na verdiğiniz bilgiler (ör.
+[L0131] istemleriniz ve yüklediğiniz içerikler, Gemini Live ile etkileşimlerinizin kayıtları ve transkriptleri, geri bildirimleriniz ve Gemini için talimatlar); (ii) Gemini Uygulamaları kullanılırken topladığımız bilgiler (ör.
+[L0132] Gemini Uygulamaları'nın ürettiği içerikler, uygulamalarınızdan, tarayıcılarınızdan, cihazlarınızdan ve bağlı uygulamalarınızdan alınan bilgiler ve Gemini mobil
+[L0133] uygulamalarını kullandığınızda toplanan cihaz verileri); (iii) etkinleştirdiğiniz ek Gemini Uygulamaları
+[L0134] özellikleri aracılığıyla toplanan bilgiler; (iv) konum bilgileri ve (v) abonelik bilgileri.
+[L0135] Google'ın yasal gerekçeleri şunlardır:
+[L0136] Sözleşme kapsamındaki yükümlülüklerin yerine getirilmesi. Gemini Uygulamaları bilgilerinizi ve Gemini Uygulamaları'nı başka bir hizmetle bağladığınızda Gemini Uygulamaları'nın işlemesine izin verdiğiniz diğer tüm bilgilerinizi Google Hizmet Şartları 'na uygun olarak, talep ettiğiniz Gemini Uygulamaları hizmetini sağlayıp sürdürebilmek için işleriz. Örneğin, Gemini Uygulamaları bilgilerinizi sorgularınıza yanıt vermenin yanı sıra video üretimi, görüntü düzenleme ve ekrana göre işlemleri kullanarak Gemini ile sohbet etme gibi çeşitli Gemini Uygulamaları özelliklerini ve işlevlerini sunmak için işleriz.
+[L0137] Google'ın ve üçüncü tarafların meşru menfaatleri gereğince veriler, gizliliğinizi korumak için gerekli önlemlerle işlenir.
+[L0138] Google ürünlerini, hizmetlerini ve makine öğrenimi teknolojilerini sağlamak, sürdürmek, iyileştirmek ve geliştirmek için herkese açık kaynaklardan gelen bilgileri ve Gemini Uygulamaları bilgilerinizi işleriz.
+[L0139] Bu bilgileri bu amaçla işlemek, Google'ın ve kullanıcılarımızın meşru menfaatleri için şu amaçlarla gereklidir:
+[L0140] Kullanıcılarımızın ihtiyaçlarını karşılamak için hizmetlerimizi sunma, sürdürme ve iyileştirme (ör. güvenlik ve doğruluk için modelleri ve Gemini Uygulamaları'nın yanıtlarını iyileştirmek amacıyla sohbetleri kullanma)
+[L0141] Kullanıcılarımız için faydalı yeni ürünler ve özellikler geliştirme (ör. belirli bir sorunun yanıtını en iyi şekilde verecek yeni modellere yönlendirmeyi öğrenme veya bu istekleri karşılamak için yeni modelleri eğitme)
+[L0142] Hizmetlerimizi geliştirmek için kullanıcıların onları nasıl kullandığını anlama (ör. kullanıcıların Gemini Uygulamaları'nı kullanıcı deneyimini daha iyi özelleştirmek için nasıl kullandığını anlamak amacıyla metrikler oluşturma)
+[L0143] Hizmetlerimizi daha iyi bir kullanıcı deneyimi sunmak için özelleştirme (ör. konum bilgilerinizi ve geçmiş sohbetlerinizi kullanarak Gemini Uygulamaları'nın daha alakalı yanıtlar vermesini sağlama)
+[L0144] Ayrıca Gemini Uygulamaları'nın işlevselliğini, güvenliğini ve güvenilirliğini korumak amacıyla, Google'ı, kullanıcılarımızı veya kamuyu etkileyebilecek sahtekarlığı, kötüye kullanımı, güvenlik risklerini ve teknik sorunları tespit etmek, önlemek ve bunlara yanıt vermek de dahil olmak üzere Gemini Uygulamaları bilgilerinizi işleriz.
+[L0145] Bu bilgilerin bu amaçla işlenmesi Google'ın, kullanıcılarımızın ve kamunun meşru menfaatleri açısından şu nedenlerle zorunludur:
+[L0146] Sahtekarlığı, kötüye kullanımı, güvenliği veya hizmetlerimizle ilgili teknik sorunları tespit etme, önleme ya da giderme (ör. hataları düzeltme ve sorunları giderme)
+[L0147] Google'ın, kullanıcılarımızın veya kamunun haklarını, mülkiyetini veya güvenliğini, yasaların gerektirdiği veya izin verdiği şekilde koruma (ör. güvenlik sınıflandırıcıları ve model filtreleri)
+[L0148] Kullanıcılarımız için hizmetlerimizi geliştirecek ve kamuya yararlı olacak araştırmalar yapma
+[L0149] Geçerli Hizmet Şartları'nın olası ihlallerinin araştırılması da dahil olmak üzere hak taleplerinin gerekliliklerini yerine getirme (ör. şüpheli etkinlikleri ve sorunlu olarak işaretlenen etkileşimleri inceleme)
+[L0150] Bu bilgilerin bu amaç doğrultusunda işlenmesi, geliştiriciler ve hak sahipleri gibi iş ortaklarımıza karşı yükümlülükleri yerine getirirken (ör. fikri mülkiyet hak sahiplerinden gelen kaldırma taleplerinin dikkate alınması gibi) Google ve ticari iş ortaklarımızın meşru menfaatleri için de gereklidir.
+[L0151] İsteğinize yanıt vermek (ör. adı belirtilen bir kişiden gelen e-postayı özetlemek) için başkaları hakkında Gemini Uygulamaları'na verdiğiniz kişisel verileri işleriz (ör. Gemini Uygulamaları'ndan Google Workspace veya Google Fotoğraflar'dan bilgi almasını istediğinizde).
+[L0152] Yasal yükümlülükler. Ayrıca Gemini Uygulamaları bilgilerinizi geçerli herhangi bir yasa, düzenleme, yasal işlem veya yaptırım içerebilen resmi makam talebini (örneğin, bir resmi kurum yetkilisinden bilgi için yasal bir talep almamız durumunda) karşılamak için işleriz.
+[L0153] İzniniz. Voice Match gibi belirli özellikleri kullandığınızda sizden izin alırız. Ayrıca Google hizmetlerini herkes için daha iyi hale getirmek üzere ses ve Live kayıtlarınızın Google tarafından kullanılması da izninize tabidir. Bilgileri işlemek için izninizi kullandığımız durumlarda, izninizi istediğiniz zaman geri çekebilirsiniz.
+[L0154] Gemini Uygulamaları ile olan sohbetlerimi reklam göstermek için kullanıyor musunuz?
+[L0155] Gemini Uygulamaları sohbetleriniz size reklam göstermek için kullanılmaz.
+[L0156] Bu durumda değişiklik olursa size açıkça bildiririz.
+[L0157] Kullanıcılarımızın verilerini nasıl gizli ve güvende tuttuğumuz hakkında bilgi edinmek için Gizlilik ve Güvenlik İlkelerimizi    okuyun.
+[L0158] Sohbetlerime kimler erişebilir ve gerçek kişiler tarafından yapılan incelemeler Gemini'ı herkes için nasıl geliştirir?
+[L0159] Uzman incelemesi, Google hizmetlerinin geliştirilmesine, Google'ın, kullanıcılarımızın ve kamuoyunun korunmasına nasıl yardımcı olur?
+[L0160] Sohbetlerin belirli kısımları, Google hizmetlerinin daha iyi hale getirilmesi amacına yönelik olarak uzmanlar (Google’ın eğitimli servis sağlayıcıları dahil) tarafından incelenmektedir.
+[L0161] Bu hizmetlere Gemini modelleri      , Gemini Uygulamaları'nı destekleyen diğer üretken yapay zeka modelleri ve istenmeyen aktivasyonları azaltmaya yardımcı olan teknolojiler dahildir.
+[L0162] İnceleme uzmanları, Gemini Uygulamaları tarafından verilen yanıtların kalitesini, doğru veya herhangi bir zarara yol açabilecek nitelikte olup olmadığını değerlendirir.
+[L0163] Ayrıca daha iyi yanıtlar önerirler.
+[L0164] İnceleme uzmanlarının önerilerini modellerimizi daha iyi hale getirmek için kullanırız.
+[L0165] Sohbetler, Gemini'ın herkes için güvenli ve emniyetli olmasını sağlamak ve Üretken Yapay Zeka Yasaklanan Kullanım Politikası    da dahil olmak üzere Google Hizmet Şartları          'nın ihlallerini ele almak için de incelenir.
+[L0166] İncelenen sohbetler üç yıla kadar saklanır.
+[L0167] Bu süreçte gizliliğinizi nasıl koruruz?
+[L0168] Gizliliğiniz, ciddiyetle ele aldığımız bir konu olduğundan kişisel bilgilerinizi kimseye satmayız.
+[L0169] Servis sağlayıcılara gönderilmeden önce sohbetlerin hesabınızla ilişkisi kesilir.
+[L0170] İnceleme uzmanlarıyla nelerin paylaşılacağını nasıl kontrol edebilirsiniz?
+[L0171] Gelecekte yapacağınız sohbetlerin Google hizmetlerinin geliştirilmesi amacıyla incelenmesini engellemek için Etkinliği Sakla ayarını devre dışı bırakın.
+[L0172] Bu ayar etkinse (açıksa) gizli olan ya da bir inceleme uzmanının görmesini veya Google'ın kendi hizmetlerini geliştirmek amacıyla kullanmasını istemeyeceğiniz bilgileri girmeyin.
+[L0173] Etkinliği Sakla ayarı kapalıyken de Google, inceleme uzmanlarının yardımıyla size yanıt vermek ve Google'ı, kullanıcılarımızı ve kamuoyunu korumak için sohbetlerinizi kullanır.
+[L0174] Google, Etkinliği Sakla ayarı kapalıyken yaptığım geçici sohbetleri ve diğer sohbetleri ne kadar süreyle saklar? Saklanan bu veriler ne şekilde kullanılır?
+[L0175] Google'ın size yanıt vermek, Google'ı, kullanıcılarımızı ve kamuoyunu korumak ve geri bildirimlerinizi işlemek için bu sohbetleri saklaması gerekir.
+[L0176] Aşağıda daha ayrıntılı bilgi verilmiştir:
+[L0177] Geçici sohbetler ve Etkinliği Sakla      ayarı kapalıyken yaptığınız sohbetler 72 saat boyunca hesabınızda saklanır ve şu amaçlarla kullanılır:
+[L0178] Son 24 saatlik sohbetinizdeki bilgilere dayanarak size yanıt vermek ve
+[L0179] Google'ı, kullanıcılarımızı ve kamuoyunu korumak. Örneğin Google, olası bir sistem hatası durumunda kullanılabilmesi için hesabınızla ilişkili sohbetleri 72 saat boyunca saklar.
+[L0180] Geçici sohbetler, Google'ın yapay zeka modellerini eğitmek için kullanılmaz.
+[L0181] Etkinliği Sakla ayarı kapalıysa ve geri bildirim göndermezseniz Google, gelecekteki sohbetlerinizi de yapay zeka modellerini daha iyi hale getirmek için kullanmaz.
+[L0182] Etkinliği Sakla ayarı kapalıyken geri bildirim göndermeyi seçerseniz Google, Gemini Uygulamaları'nı sunmaya devam edip daha iyi hale getirmek için aşağıdaki verileri toplar ve kullanır:
+[L0183] Geri bildiriminiz
+[L0184] Geri bildiriminizi daha iyi anlamamıza yardımcı olabilecek bağlamsal veriler, örneğin son 24 saatteki sohbetleriniz
+[L0185] Yüklemeler ve bağlı uygulamalardaki veriler gibi bu sohbetlerdeki tüm içerikler
+[L0186] Google'ın geri bildirimleri nasıl kullandığı hakkında daha fazla bilgi edinin.
+[L0187] Google, geri bildirimimi nasıl kullanır?
+[L0188] Geri bildiriminiz, dahil edilen içerikler (dosyalar veya Bağlı Uygulamalar'daki kişisel içerikleriniz gibi), ilişkili sohbetler (istemleriniz ve Gemini Uygulamaları'nın yanıtları gibi) ve ilgili veriler:
+[L0189] Özel olarak eğitilmiş ekipler tarafından incelenir. Geri bildirimlerle bize iletilen sorunları belirlemek, ele almak ve olası sorunları raporlamak için uzman incelemesi gerekir. Bu bazı durumlarda yasal bir zorunluluktur.
+[L0190] Google Gizlilik Politikası     'na uygun şekilde kullanılır. Google bu verileri, Google ürünlerini, hizmetlerini ve makine öğrenimi teknolojilerini sunmak, iyileştirmek ve geliştirmek için kullanır. Bu konu Gizlilik Politikamızda daha ayrıntılı olarak açıklanmaktadır.
+[L0191] Örneğin, bu verileri Gemini Uygulamaları'nı daha güvenli hale getirmek için kullanırız. Gelecekte güvenli olmayan istekleri veya yanıtları tespit edip önlememize yardımcı olurlar.
+[L0192] 3 yıla kadar saklanır. İncelenen geri bildirimler, ilişkili sohbetler ve ilgili veriler, Google Hesabınıza bağlı olmadan 3 yıla kadar saklanır.
+[L0193] Gemini Uygulamaları'nda nasıl geri bildirim göndereceğinizi veya sorun bildireceğinizi öğrenin.
+[L0194] Etkinliği sakla ayarı neyi kontrol eder?
+[L0195] Etkinliği Sakla        ayarı açıksa: Sohbetleriniz ve Gemini ile paylaştığınız içerikler (dosyalar, videolar, ekran görüntüleri ve fotoğraflar gibi) etkinliğinize kaydedilir.
+[L0196] Kayıtlı etkinliğiniz şunları da içerir: Gemini Live etkileşimlerinizin sesleri, kayıtları ve transkriptleri; geri bildirimleriniz; Gemini ile ziyaret ettiğiniz web sitelerinden alınan bilgiler; ürün kullanımı ve konum bilgileri (cihazınızın genel konumu, IP adresi veya Google Hesabınızdaki ev ya da iş adresleri dahil).
+[L0197] Etkinlik verileriniz nasıl kullanılır?
+[L0198] Google; hizmetlerini (eğitim amaçlı modelleri dahil) sunmak, geliştirmek ve iyileştirmek için etkinliğinizi kullanır.
+[L0199] Ayrıca Google’ı, kullanıcılarını ve kamuoyunu korumak amacıyla da etkinliğinizden (inceleme uzmanlarının yardımıyla) yararlanır.
+[L0200] Servis sağlayıcılar tarafından incelenen veriler, hesabınızla bağlantıları kaldırılarak 3 yıl boyunca saklanır.
+[L0201] Sesiniz ve Gemini Live
+[L0202] kayıtlarınız varsayılan olarak Google hizmetlerini daha iyi hale getirmek için kullanılmaz.
+[L0203] Ayarlarınıza ve bölgenize bağlı olarak Google, deneyiminizi kişiselleştirmek için de etkinliğinizi kullanır.
+[L0204] Kontrol sizde Etkinliğiniz 18 ay sonra otomatik olarak silinir.
+[L0205] Bu süreyi 3 veya 36 ay olarak değiştirebilir ya da otomatik silmeyi devre dışı bırakmayı seçebilirsiniz.
+[L0206] İstediğiniz zaman bu ayarı devre dışı bırakabilir veya etkinliğinizi Gemini Uygulamaları Etkinliği    bölümünde inceleyip silebilirsiniz.
+[L0207] Unutmayın
+[L0208] Gemini Uygulamaları, etkinleştirilene kadar (ör. "Ok Google" komutu algılandığında) bekleme modunda kalacak şekilde tasarlanmıştır. Kayıtlar, etkinleştirmeden birkaç saniye önce başlayabilir.
+[L0209] Gemini, örneğin "Ok Google" ifadesine benzeyen bir ses algılarsa yanlışlıkla etkinleşebilir. Bu kayıtların transkriptleri, istenmeyen etkinleştirme sorununu tüm kullanıcılar için azaltmaya yardımcı olmak amacıyla da kullanılır.
+[L0210] Bu ayarı etkinleştirdiğinizde Gemini, daha önce bağlanmış olan uygulamalara yeniden erişmeye başlar.
+[L0211] Etkinliği Sakla       ayarı kapalıysa: Google'a geri bildirim göndermeyi seçmediğiniz sürece gelecekteki sohbetleriniz, Etkinliğinizde görünmez ve yapay zeka modellerimizi eğitmek için kullanılmaz.
+[L0212] Gelecekteki sohbetler, Gemini'ın size yanıt verebilmesi, geri bildirimlerinizi işleyebilmesi ve Google'ı, kullanıcılarını ve halkı koruyabilmesi için 72 saat boyunca saklanır.
+[L0213] Unutmayın
+[L0214] Etkinliğinizi silerseniz servis sağlayıcılar tarafından daha önce incelenmiş olan geçmiş sohbetler Google Hesabınıza bağlı olmadıkları için silinmez. Bu veriler 3 yıla kadar saklanır.
+[L0215] Bu ayar kapalıyken bazı Bağlı Uygulamalar kullanılamaz.
+[L0216] Web ve Uygulama Etkinliği ya da Konum Geçmişi gibi diğer ayarlar, diğer Google hizmetlerini kullandığınızda konumunuzu ve diğer verilerinizi kaydetmeye devam edebilir.
+[L0217] Etkinliği Sakla ayarı devre dışı bırakıldığında veya Gemini Uygulamaları Etkinliği silindiğinde diğer Google hizmetlerindeki veriler silinmez. Google hizmetlerinin verileri nasıl sakladığı     hakkında daha fazla bilgi edinin.
+[L0218] Not defterlerinize eklediğiniz kaynak dosyalar, Not Defterleri'ne kaydedilir. NotebookLM'deki Gizlilik ve Kullanım Şartları'nı inceleyin.
+[L0219] Bu ayarı dilediğiniz zaman yönetebilirsiniz.
+[L0220] Google'ın hizmetlerini iyileştirmek için ses ve Live kayıtlarımı kullanıp kullanamayacağını nasıl kontrol edebilirim?
+[L0221] Gemini Uygulamaları Etkinliği 'nden Google'ın ses ve Live kayıtlarınızı kullanmasına izin vererek hizmetlerini herkes için daha iyi hale getirmesine yardımcı olabilirsiniz.
+[L0222] Bu ayarı etkinleştirirseniz: Google, üretken yapay zeka modellerinin eğitimi de dahil olmak üzere hizmetlerini daha iyi hale getirmek ve geliştirmek için Gemini Uygulamaları Etkinliği'ndeki ses kayıtlarınızı ve Gemini Live kayıtlarınızı (ses, video ve ekran paylaşımları dahil) kullanır.
+[L0223] Gemini Uygulamaları Etkinliği    'nde depolanmış olan kayıtların yanı sıra gelecekteki kayıtlar da bu kapsamda yer alır.
+[L0224] Bazı kayıtlar, inceleme uzmanları tarafından incelenir.
+[L0225] Servis sağlayıcılara gönderilen kayıtlar Google Hesabınızla ilişkilendirilmez.
+[L0226] Böylece gizliliğiniz korunur.
+[L0227] Hatırlatma
+[L0228] Gemini Uygulamaları, etkinleştirilene kadar (ör. "Ok Google" komutu algılandığında) bekleme modunda kalacak şekilde tasarlanmıştır. Kayıtlar, etkinleştirmeden birkaç saniye önce başlayabilir.
+[L0229] Gemini, örneğin "Ok Google" ifadesine benzeyen bir ses algılarsa yanlışlıkla etkinleşebilir. Bu kayıtlar, istenmeyen etkinleştirme sorununu tüm kullanıcılar için azaltmaya yardımcı olmak amacıyla da kullanılır.
+[L0230] Gemini'ı Voice Match ile kullanıyorsanız Voice Match'i daha iyi hale getirmek için sesinizin bir modeli geçici olarak kullanılır.
+[L0231] Kontrol sizde İstediğiniz zaman bu ayarı devre dışı bırakabilir veya ses ve Live kayıtlarınızı yönetip silebilirsiniz.
+[L0232] Bu ayarı devre dışı bırakırsanız: Google'a geri bildirim göndermeyi seçmediğiniz sürece gelecekteki ses ve Gemini Live kayıtlarınız, yapay zeka modelleri de dahil olmak üzere hizmetlerimizi daha iyi hale getirmek için kullanılmaz.
+[L0233] Hatırlatma
+[L0234] Gelecekteki ses ve Gemini Live kayıtlarınız, size yanıt vermek ve Gemini'ın güvenli hale getirilmesine yardımcı olmak için kullanılmaya devam eder.
+[L0235] Live sohbetlerinizin transkriptleri ve Live ile paylaştığınız diğer dosyalar, resimler ve YouTube videoları, istediğiniz zaman devre dışı bırakabileceğiniz Etkinliği Sakla      ayarı kapsamında yer alır.
+[L0236] Gemini Uygulamaları'ndan bilgi kaydetmesini istediğimde ne olur?
+[L0237] Gemini Uygulamaları, daha özelleştirilmiş yanıtlar vermek için bilgilerinizi ve talimatlarınızı kullanır.
+[L0238] Bu veriler, siz silmeyi seçene kadar kaydedilmiş olarak kalır.
+[L0239] Bilgi ve talimatların kaydedilmesini istediğiniz zaman durdurabilirsiniz.
+[L0240] Daha fazla bilgi.
+[L0241] Gemini Uygulamaları'nın deneyimimi kişiselleştirmek için geçmiş sohbetlerimi kullanıp kullanamayacağını nasıl kontrol edebilirim?
+[L0242] Avrupa Ekonomik Alanı, İsviçre ve Birleşik Krallık dışında Gemini, Gemini Uygulamaları Etkinliği 'ndeki sohbetlerinize başvurarak ve bunları kişiselleştirilmiş analizler üretmek için kullanarak deneyiminizi kişiselleştirir.
+[L0243] Gemini ile geçmiş etkileşimlerinize dayalı kişiselleştirmeyi durdurmak için istediğiniz zaman Hafıza'yı devre dışı bırakabilirsiniz.
+[L0244] Bu özelliği kullanmak için Etkinliği Sakla ayarı açık olmalıdır.
+[L0245] Hafıza etkinse:
+[L0246] Gemini, deneyiminizi kişiselleştirmek için sohbetlerinizde sağladığınız hassas bilgileri kullanabilir.
+[L0247] Gemini'ın hatırlamasını veya deneyiminizi kişiselleştirme amacıyla kullanmasını istemediğiniz bilgiler hakkında görüşmek için geçici sohbet başlatabilirsiniz.
+[L0248] Gemini'ın geçmiş bir sohbetten alınan bilgileri kullanarak deneyiminizi kişiselleştirmesini istemiyorsanız ilgili sohbeti silin.
+[L0249] Oturumum kapalıyken Gemini Uygulamaları'nı kullandığımda Google verilerimi nasıl işler?
+[L0250] Oturumunuz kapalıyken Gemini Uygulamaları'nı kullandığınızda Google, IP adresiniz ve tarayıcı türünüz gibi verilerinizi Google Gizlilik Politikası 'na uygun şekilde işler.
+[L0251] Verileriniz Google Hesabınızla ilişkilendirilmez.
+[L0252] Gemini Uygulamaları Gizlilik Uyarısı geçerli değildir.
+[L0253] Konum ve diğer izin bilgileri
+[L0254] Gemini Uygulamaları hangi konum bilgilerini topluyor, bu bilgiler neden ve nasıl kullanılıyor?
+[L0255] Gemini Uygulamaları kullanılırken konum verileri her zaman toplanır.
+[L0256] Bu sayede, Gemini Uygulamaları sorgunuzla alakalı yanıtlar verebilir.
+[L0257] Örneğin, "Hava nasıl?" gibi istemlere yanıt verirken Gemini Uygulamaları'nın konumunuzu bilmesi gerekir.
+[L0258] Gemini Uygulamaları, konum verilerini nereden alır ve nasıl kullanır?
+[L0259] Gemini Uygulamaları'nın topladığı konum verilerinin kaynağı değişiklik gösterir.
+[L0260] "Hava nasıl?" gibi istemlere alakalı yanıtlar verebilmek için Gemini Uygulamaları, varsayılan olarak IP adresinize dayalı genel alanı veya Google Hesabınızdaki ev ya da iş adresini kullanır.
+[L0261] Gemini Uygulamaları, izin verirseniz cihazınızdan aldığı tam konum verilerini de işler.
+[L0262] Örneğin, Gemini Uygulamaları, "En yakın kafe nerede?" gibi istemlere daha doğru yanıtlar vermek için tam konumunuzu kullanabilir.
+[L0263] Gemini, Google uygulamasındaki tam konum ayarı kapalı olsa bile tam konum verilerini Google Haritalar gibi başka bir Google hizmetinden de alabilir.
+[L0264] Google, tam konum verileriniz de dahil olmak üzere konum verilerinizi, Gemini Uygulamaları Gizlilik Uyarısı'nda açıklanan amaçlar ve yasal gerekçeler doğrultusunda kullanır.
+[L0265] Konum verileri hakkında daha fazla bilgiyi g.co/privacypolicy/location adresinde bulabilirsiniz.
+[L0266] Gemini Uygulamaları, isteğinizi yerine getirmek için tam konum verilerinizi Google Haritalar gibi Google hizmetleriyle paylaşabilir.
+[L0267] Bu Google hizmetleri, konum verilerinizi Google Gizlilik Politikası 'na uygun şekilde kullanır.
+[L0268] Google uygulamasındaki tam konum ayarı kapalı olsa bile Gemini, isteğinizi yerine getirmek için tam konumunuzu Google Haritalar gibi başka bir Google hizmetinden alabilir.
+[L0269] Konum verileri nasıl saklanır?
+[L0270] Cihazınızdan veya tarayıcınızdan izninizle işlenen tam konum bilgisi, Gemini Uygulamaları Etkinliğinize kaydedilmez.
+[L0271] Gemini Uygulamaları'nın işlediği konum verileri, Gemini Uygulamaları Etkinliğinizde saklanmadan önce genel bir alana indirgenir. Genel alan 3 kilometrekareden büyük olup sınırları içinde en az 1.000 kullanıcı vardır. Böylece isteminizin genel alanından kimliğiniz tanımlanamaz ve gizliliğiniz korunmuş olur. Bu, şehir dışındaki genel alanların genellikle 3 kilometrekareden çok daha büyük olduğu anlamına gelir.
+[L0272] Verilerinizi nasıl kontrol edebilir ve yönetebilirsiniz?
+[L0273] İstediğiniz zaman:
+[L0274] Gemini mobil ve Google Haritalar gibi mobil uygulamalarınızın konum izinlerini yönetin. Cihaz konum ayarlarını nasıl yöneteceğinizi ve cihazınızda asistan olarak Gemini'ı kullanırken mobil izinleri nasıl yöneteceğinizi öğrenin.
+[L0275] Gemini Uygulamaları Etkinliğinizi inceleyin ve silin. Gemini Uygulamaları Etkinliğinizi nasıl yöneteceğinizi öğrenin.
+[L0276] Bilmeniz Gerekenler Konum verileri, istemlerinizin veya yanıtlarınızın bir parçasıysa (ör.
+[L0277] Gemini Uygulamaları'na "yakınımdaki" restoranları sorduğunuzda ve yanıtınızda şehrinizden bahsedildiğinde) sohbetlerinizde saklanır.
+[L0278] Gemini Uygulamaları etkinliğinizi istediğiniz zaman yönetebilir ve silebilirsiniz.
+[L0279] Gemini Uygulamaları'nın tam konumuma erişip erişmediğini ve konum bilgimi kullanıp kullanmadığını nasıl anlayabilirim?
+[L0280] Gemini Uygulamaları'nın tam konumunuza erişip erişmediğini ve konum bilginizi kullanıp kullanmadığını kontrol edin.
+[L0281] Nasıl kontrol edilir?
+[L0282] Gemini web uygulaması
+[L0283] Android cihazlarda Gemini mobil uygulaması
+[L0284] iPhone veya iPad'de Gemini mobil uygulaması
+[L0285] WearOS cihazlarda kol saatinde Gemini
+[L0286] Chrome'da Gemini
+[L0287] Yukarıdaki tam konum ayarları kapalı olsa bile Gemini, isteğinizi yerine getirmek için tam konum verilerinizi Android Auto gibi başka bir Google hizmetinden alabilir.
+[L0288] Android Auto'da tam konumu nasıl kapatacağınızı öğrenin.
+[L0289] Google Mesajlar'a entegre Gemini Google Mesajlar'da Gemini'ın tam konum bilginize erişimi yok.
+[L0290] Google Mesajlar'a entegre Gemini'ın hangi ülkelerde kullanılabildiğini öğrenin.
+[L0291] Konumunuz ve onu nasıl yöneteceğiniz hakkında daha fazla bilgi edinin.
+[L0292] Gemini ve Google Asistan birlikte çalışırken verilerim nereye kaydedilir?
+[L0293] Gemini ve Google Asistan, Gemini mobil uygulamasında birlikte çalışırken etkinlikleriniz Gemini Uygulamaları Etkinliğinize (Etkinliği Sakla ayarı açıksa) kaydedilir ve Gemini Uygulamaları Gizlilik Uyarısı'nda açıklandığı şekilde kullanılır.
+[L0294] Google Asistan, Gemini mobil uygulamanızın dışındaki özellikleri veya cihazları desteklediğinde ise etkinlikleriniz Web ve Uygulama Etkinliğinize (açıksa) kaydedilir.
+[L0295] Google Asistan'ın verilerinizi nasıl kullandığı hakkında daha fazla bilgi edinin.
+[L0296] Cihazımda asistan olarak Gemini'ı kullanırken mobil izinlerimi nasıl yönetirim?
+[L0297] Gemini mobil uygulaması (Android'de) Gemini uygulamasını          indirseniz bile Gemini, Google uygulaması tarafından barındırılır.
+[L0298] Gemini ve Google uygulaması, Google uygulama izinlerinize bağlı olarak cihazınızdaki çeşitli özellikleri ve işlevleri (ör.
+[L0299] kameranız, mikrofonunuz, kişileriniz veya konumunuz) kullanabilir.
+[L0300] Bu izinleri inceleyip yönetmek için:
+[L0301] Google uygulamasına       dokunup basılı tutun.
+[L0302] Uygulama Bilgileri      İzinler'e dokunun.
+[L0303] Bir izin ayarını değiştirmek için izne dokunun, ardından İzin ver veya İzin verme'yi seçin.
+[L0304] Yüklemeler
+[L0305] Google, yüklediğim resimleri nasıl kullanır?
+[L0306] İstemlerdeki görseller nasıl işlenir?
+[L0307] İsteminize bir görsel ekleyerek Gemini'a bu görselle ilgili sorular sorabilir, görseli düzenleyebilir veya başka içerikler (ör.
+[L0308] video) oluşturmak için kullanabilirsiniz.
+[L0309] İsteminize bir görsel veya "Bu ekran hakkında soru sorun" gibi bir ekrana göre işlem üzerinden ekran görüntüsü eklediğinizde, Gemini Uygulamaları görselin içeriğini anlamak ve metni okumak için Google Lens teknolojisini kullanır.
+[L0310] Google, bu verileri Gemini Uygulamaları Gizlilik Uyarısı'nda açıklandığı üzere, herhangi bir istem gibi kullanır.
+[L0311] Bağlı bir medya galerisi uygulamasındaki fotoğrafı veya videoyu Gemini Uygulamaları ile paylaştığımda ne olur?
+[L0312] Bağlı bir medya galerisi uygulamasındaki (ör.
+[L0313] Google Fotoğraflar) bir fotoğrafı veya videoyu Gemini Uygulamaları ile paylaşırsanız fotoğrafınız veya videonuz Gemini Uygulamaları Gizlilik Uyarısı'na göre işlenir.
+[L0314] Örneğin, bir medya galerisi uygulamasındaki fotoğrafı veya videoyu Gemini Uygulamaları ile paylaşmak için ekrana göre işlemleri ya da Gemini yükleme özelliğini kullanırsanız ve Etkinliği Sakla  ayarınız açıksa fotoğrafınız veya videonuz, inceleme uzmanlarının yardımıyla Google hizmetlerini iyileştirmek için kullanılır.
+[L0315] Etkinliği Sakla ayarı hakkında daha fazla bilgi edinin.
+[L0316] Gemini'da Bağlı Uygulamalar
+[L0317] Gemini, Bağlı Uygulamalar ve diğer hizmetlerin paylaştığı verilerime ne olur?
+[L0318] Gemini, size özel yardım sunmak, sizin için bilgi bulmak ve daha fazla iş yapmanıza yardımcı olmak için Bağlı Uygulamalar'ı ve diğer hizmetleri kullanabilir.
+[L0319] Örneğin, Google Workspace veya Google Fotoğraflar'a bağlanırsanız Gemini'ı kullanarak e-postalarınızdaki veya fotoğraflarınızdaki bilgileri arayabilirsiniz.
+[L0320] Uçuşlar ve oteller hakkında öneri isterseniz Gemini, size özel yardım sunmak için Google Uçuş Arama ve Google Oteller'deki herkese açık bilgileri kullanabilir.
+[L0321] Hangi veriler paylaşılır?
+[L0322] Gemini ile Bağlı Uygulamalar ve diğer Google hizmetleri arasında paylaşılan veriler şunları içerir:
+[L0323] Gemini ile etkileşimlerinizdeki bilgiler
+[L0324] Cihazınız ve tercihleriniz (ör. dil) hakkında bilgiler
+[L0325] Konumunuzla ilgili bilgiler
+[L0326] Bağlı uygulamalarınızdaki bilgiler ve içerikler (ör. e-postalar, dosyalar, etkinlikler, fotoğraflar ve videolar)
+[L0327] Verileriniz nasıl kullanılır?
+[L0328] Gemini, Bağlı Uygulamalar'daki verileri Gemini Uygulamaları Gizlilik Uyarısı'na uygun şekilde kullanır.
+[L0329] Bu veriler, size özel yardım sunmak, sizin için bilgi bulmak ve daha fazla iş yapmanıza yardımcı olmak gibi amaçlarla kullanılır.
+[L0330] Belirli uygunluk koşullarını karşılıyorsanız ve belirli Bağlı Uygulamalar ile kişiselleştirmeyi etkinleştirirseniz Google, bu Bağlı Uygulamalar'daki verileri Gemini deneyiminizi kişiselleştirmek    için de kullanır.
+[L0331] Gemini'ın diğer Google hizmetleriyle paylaştığı veriler, ürünlerin daha iyi hale getirilmesi de dahil olmak üzere farklı amaçlar için Google Gizlilik Politikası 'na uygun şekilde kullanılır.
+[L0332] Üçüncü taraf uygulamaları, Gemini'dan alınan verileri kendi gizlilik politikalarına ve şartlarına uygun olarak kullanır.
+[L0333] Bağlı Uygulamaları yönetme Uygulamaları bağlama ve bağlantılarını kesme işlemlerini, Bağlı Uygulamalar ayarlarında yapabilirsiniz.
+[L0334] Gemini'ın hangi uygulamalarla çalışacağını nasıl kontrol edeceğinizi öğrenin.
+[L0335] Telefon, Mesajlar, WhatsApp ve Yardımcı Programlar gibi bazı bağlı uygulamalar, Etkinliği Sakla ayarı açıkken de kapalıyken de Android mobil cihazınızda kullanılabilir.
+[L0336] Etkinliği Sakla ayarını devre dışı bırakırsanız şu an için Google Workspace gibi diğer bağlı uygulamalar kullanılamaz.
+[L0337] Etkinliği Sakla ayarını yeniden açtığınızda, Gemini daha önce bağladığınız uygulamalara tekrar erişebilir.
+[L0338] Uygulamaların bağlantısını kaldırma ve verileri silme
+[L0339] Bağlı Uygulamalar ayarlarında uygulamaların bağlantısını nasıl kaldıracağınızı öğrenin.
+[L0340] Bir uygulamanın bağlantısı kaldırıldığında veya bağlı uygulamadaki veriler silindiğinde Gemini Uygulamaları Etkinliği    'ndeki veriler silinmez.
+[L0341] Gemini Uygulamaları etkinliğinizi istediğiniz zaman yönetebilir ve silebilirsiniz.
+[L0342] Uygulamalar, Gemini'ın paylaştığı verileri kendi politikalarına tabi olarak saklar. Gemini Uygulamaları Etkinliği'ndeki verilerin silinmesi, diğer uygulamaların Gemini'dan aldığı verileri silmez. Google hizmetlerinin topladığı verileri nasıl sakladığı hakkında     daha fazla bilgi edinin.
+[L0343] Gemini'ın sizinle ilgili hatırladığı bir şeyi bağlı uygulamadan nasıl sileceğinizi öğrenin. Bağlı uygulamalardaki (ör. Gmail'den gelen bir e-posta veya Google Fotoğraflar'daki bir fotoğraf) verileri siler ya da güncellerseniz Gemini'daki deneyiminiz birkaç gün etkilenmeyebilir.
+[L0344] Bilinmesi gerekenler Gemini Uygulamaları'ndan diğer hizmetlerdeki paylaşılan içeriklerde değişiklik yapmasını veya paylaşılan cihazları kontrol etmesini isterseniz yaptığınız işlemler o içeriklere veya cihaza erişimi olan herkes tarafından görülebilir.
+[L0345] Gemini'ın Bağlı Uygulamalar'daki verilerimle deneyimimi kişiselleştirmesine nasıl izin verebilirim?
+[L0346] Kişisel Zeka'yı kullanabilen uygun kullanıcılar, Bağlı Uygulamalar aracılığıyla Gemini'da daha önce kullanılamayan yeni ve daha kişiselleştirilmiş deneyimler elde etmek için bazı Google uygulamalarını Gemini'a bağlayabilir.
+[L0347] Bağlı Uygulamalar'daki verilerinizle kişiselleştirme hakkında daha fazla bilgi edinin.
+[L0348] Gemini'da Bağlı Uygulamalar'la arama yapıp mesaj gönderirken verilerim nasıl kullanılıyor?
+[L0349] Hangi veriler toplanır ve işlenir?
+[L0350] Gemini'da telefon araması yapmak veya mesaj göndermek için Bağlı Uygulamalar'ı kullandığınızda, Gemini mobil uygulamaları aşağıdaki verileri toplayıp işler:
+[L0351] Gemini Uygulamaları Etkinliği (varsa)
+[L0352] Cihaz arama ve mesajlaşma günlükleri
+[L0353] İletişim bilgileri
+[L0354] Cihaz bilgileri ve ayarları
+[L0355] Daha önce Google Asistan'ı kullanarak telefon ettiyseniz veya mesaj gönderdiyseniz kayıtlı Google Asistan iletişim isteği geçmişinizin (ör.
+[L0356] "Deniz'e mesaj gönder") 90 güne kadar olan kısmı Web ve Uygulama Etkinliğinizden      Gemini Uygulamaları Etkinliğinize    aktarılabilir.
+[L0357] Gemini Uygulamaları'nın Google hizmetlerinden nasıl yardım aldığı hakkında daha fazla bilgi edinin.
+[L0358] Veriler nasıl kullanılır?
+[L0359] Gemini mobil uygulamaları, Bağlı Uygulamalar'la telefon araması yapmak veya mesaj göndermek için verilerinizi şu amaçla kullanır:
+[L0360] En fazla işe yarayacak telefon araması yapma veya mesaj gönderme uygulamasını seçme
+[L0361] Doğru kişiyle iletişim kurmanızı sağlama
+[L0362] Gemini uygulamasıyla oluşturup gönderdiğiniz mesajlar Google tarafından uçtan uca şifrelenmez.
+[L0363] Verilerinizi nasıl kontrol edebilir ve yönetebilirsiniz?
+[L0364] Gemini mobil uygulamalarının arama yapmak veya mesaj göndermek için etkinliğinizi kullanmasını istemiyorsanız istediğiniz zaman Gemini Uygulamaları Etkinliği          'nde etkinliğinizi silebilirsiniz.
+[L0365] Desteklenen arama ve mesajlaşma uygulamalarının bağlantısını istediğiniz zaman Bağlı Uygulamalar ayarlarından kaldırabilirsiniz. Gemini'da Bağlı Uygulamalar'ı nasıl yöneteceğinizi öğrenin.
+[L0366] Desteklenen arama ve mesajlaşma uygulamalarını mobil cihazınızda Etkinliği Sakla              ayarı kapalıyken bile kullanabilirsiniz.
+[L0367] Etkinliği Sakla   ayarı kapalıyken arama ve mesajlaşma uygulamaları akıllı saatlerde kullanılamaz.
+[L0368] Önemli: "Kilitli ekrandan Asistan'a erişim" gibi Google Asistan ayarları Gemini'a bağlı uygulamaları etkilemez.
+[L0369] Gemini Agent
+[L0370] Gemini Agent, uzak tarayıcıda verilerimi nasıl kullanır?
+[L0371] Deneysel Gemini Agent özelliğini kullandığınızda Gemini, görevlerinizi tamamlamanıza yardımcı olmak için bir uzak tarayıcı kullanabilir.
+[L0372] Bu özellik yalnızca Etkinliği Sakla   ayarı açıkken kullanılabilir.
+[L0373] Uygunluk koşulları hakkında daha fazla bilgi edinin.
+[L0374] Hangi veriler toplanır ve işlenir?
+[L0375] Gemini Agent, uzak tarayıcıyı kullanırken tarayıcı oturumunuzdaki bilgileri (ör.
+[L0376] web sitenizin kimlik doğrulama bilgilerini içeren çerezler ve ekran görüntüleri ya da diğer sayfa içerikleri) toplar ve işler.
+[L0377] Gemini Agent, bu verileri gelecekteki sohbetlerde uzak tarayıcıyı kullanmanızı kolaylaştırmak için ve Gemini Uygulamaları Gizlilik Uyarısı'na uygun şekilde kullanır.
+[L0378] Bu verileri istediğiniz zaman Uzak tarayıcı verileri ayarınızdan silebilirsiniz.
+[L0379] Uzak tarayıcı kullanılırken hangi veriler paylaşılır?
+[L0380] Gemini Agent, isteklerinizi yerine getirmek için sohbetinizdeki bilgileri uzak tarayıcı ve etkileşimde bulunduğunuz web siteleriyle paylaşabilir.
+[L0381] Sohbette bağlı bir uygulama kullandıysanız paylaşılan sohbet bilgileri, bu bağlı uygulamadaki verileri ve içerikleri barındırıyor olabilir.
+[L0382] Verilerinizi nasıl kontrol edebilir ve yönetebilirsiniz?
+[L0383] Gemini Agent'ı yakından izleyin ve istem metin kutusunda Durdur'u     veya uzak tarayıcıda Kontrolü elinize alın'ı   seçerek müdahale edin.
+[L0384] Gemini'ın tarayıcısının kontrolünü nasıl ele alacağınızı öğrenin.
+[L0385] Uzak tarayıcı verilerini Uzak tarayıcı verileri ayarından silebilirsiniz.
+[L0386] Bu işlem, uzak tarayıcıyla ziyaret ettiğiniz tüm sitelerdeki oturumunuzu kapatır.
+[L0387] Gemini Live
+[L0388] Google, Gemini Live verilerini nasıl kullanır?
+[L0389] Gemini Live ile etkileşimlerinizin kayıtları ve transkriptleri, ayrıca Gemini Live ile paylaştığınız diğer içerikler Gemini Uygulamaları Gizlilik Uyarısı'na uygun şekilde işlenir ve Etkinliği sakla      ayarınız açıksa Gemini Uygulamaları Etkinliği 'nde saklanır.
+[L0390] Gemini Uygulamaları Etkinliğinizi istediğiniz zaman yönetebilir ve silebilirsiniz.
+[L0391] "Etkinliği sakla" ayarınız kapalıysa Gemini Live sohbetleriniz, Google'ın hizmeti sağlayabilmesi ve geri bildirimleri işleyebilmesi için 72 saate kadar Google Hesabınızda saklanır.
+[L0392] Daha fazla bilgi
+[L0393] Gemini Live transkriptleri Etkinliği sakla ayarı açıksa Live sohbetlerinizin transkriptleri, yapay zeka modelleri de dahil olmak üzere Google hizmetlerini geliştirmek için kullanılır.
+[L0394] Etkinliği sakla ayarı hakkında daha fazla bilgi edinin.
+[L0395] Gemini Live kayıtları Gemini Live kayıtları (ses, video ve ekran paylaşımları dahil) varsayılan olarak Google hizmetlerini daha iyi hale getirmek için kullanılmaz.
+[L0396] Bu ayarı istediğiniz zaman nasıl değiştireceğiniz hakkında daha fazla bilgi edinin.
+[L0397] Lütfen diğer kişilerin gizliliğine saygı gösterin   ve kendilerini kaydetmeden veya Live sohbetine dahil etmeden önce izinlerini isteyin.
+[L0398] Gemini Live'ı nasıl kullanacağınızı öğrenin.
+[L0399] Chrome'da Gemini
+[L0400] Chrome'da Gemini kullanırken verilerinize ne olur?
+[L0401] Chrome'da Gemini     özelliğini kullanırken Gemini, geçerli sekmenizdeki ve kendisiyle paylaştığınız diğer sekmelerdeki sayfa içeriği ile URL'yi alır ve işler.
+[L0402] Chrome'da ziyaret ettiğiniz sayfaları bulmak için Chrome'da Gemini'ı kullanırsanız geçmişinizdeki ilgili URL'ler de Gemini tarafından toplanır.
+[L0403] Gemini'ın kullandığı sayfa bağlamının bir kısmı sizin için görünür olmayabilir.
+[L0404] Veriler nasıl saklanır?
+[L0405] Chrome'da Gemini özelliğiyle ziyaret ettiğiniz web sitelerindeki bilgiler, bu özelliği kullanarak paylaştığınız ses ve dosyalar, Etkinliği sakla  ayarınız açıksa Gemini Uygulamaları Etkinliği'nde saklanır.
+[L0406] Sayfa içeriği, Google Hesabınıza geçici olarak kaydedilir ve Gemini Uygulamaları Etkinliğinizde görünmez.
+[L0407] Verilerinizi nasıl kontrol edebilir ve yönetebilirsiniz?
+[L0408] Mevcut sekmenizi ve Gemini ile paylaştığınız diğer açık sekmeleri paylaşmayı durdurabilirsiniz.
+[L0409] Daha fazla bilgi edinin.
+[L0410] Android uygulamalarında ekran otomasyonu
+[L0411] Gemini, Android uygulamalarında görevleri tamamlamama yardımcı olmak için ekran otomasyonunu kullandığında verilerime ne olur?
+[L0412] Cihazınızdaki belirli uygulamalarda ekran otomasyonunu kullanarak sipariş verme veya araç çağırma gibi görevlerde Gemini size yardımcı olabilir.
+[L0413] Kontrol sizde Gemini hata yapabilir.
+[L0414] Gemini'ın sizin adınıza yaptığı işlemlerin sorumluluğu size aittir.
+[L0415] Bu nedenle, Gemini'ı yakından takip etmelisiniz.
+[L0416] Gemini'ı durdurabilir, ilerleme durumunu görüntüleyebilir ve manuel olarak kontrolü ele alabilirsiniz.
+[L0417] Unutmayın Otomasyon sırasında Gemini tarafından ekran görüntüleri alınır.
+[L0418] Bu ekran görüntüleri, uygulamada görünen tüm bilgileri içerebilir.
+[L0419] Etkinliği Sakla  ayarı açıksa ekran görüntüleri eğitimli inceleme uzmanları tarafından incelenir ve Google hizmetlerini daha iyi hale getirmek için kullanılır.
+[L0420] Gemini ile etkileşimlerinizde giriş veya ödeme bilgisi vermeyin.
+[L0421] Hassas bilgiler içeren görevler veya acil durumlar için ekran otomasyonunu kullanmayın.
+[L0422] Ekran otomasyonu kapalıyken Gemini'ı Bağlı Uygulamalar ile kullanmaya devam edebilirsiniz.
+[L0423] Bağlı Uygulamalar hakkında daha fazla bilgi edinin.
+[L0424] Ekran otomasyonu ile görevleri tamamlamak için Gemini'ı nasıl kullanabileceğiniz hakkında daha fazla bilgi edinin.
+[L0425] Alışveriş
+[L0426] Gemini'da Google Pay'i kullandığımda verilerime ne olur?
+[L0427] Gemini'da satın alma işlemi yapmak için Google Pay'i kullandığınızda işlem geçmişi Google Pay etkinliğinize kaydedilerek Google Payments Gizlilik Uyarısı'na ve Google Pay etkinliği ayarlarınıza uygun şekilde kullanılır.
+[L0428] Verilerinizi nasıl kontrol edebilir ve yönetebilirsiniz?
+[L0429] Sipariş geçmişinizi Gemini'da istediğiniz zaman Öğelerim bölümündeki Satın alma işlemleri kısmından inceleyebilirsiniz.
+[L0430] İstediğiniz zaman Google Pay uygulamasına veya web sitesine giderek işlem geçmişinizi inceleyebilir ve siparişlerinizi yönetebilirsiniz.
+[L0431] Gemini'ın alışveriş yapmanıza nasıl yardımcı olabileceği hakkında daha fazla bilgi edinin.
+[L0432] Google Labs'den Gem'ler
+[L0433] Google Labs'deki Gem'lerle etkileşimde bulunduğumda verilerime ne olur?
+[L0434] Artık Gemini Uygulamaları'nda veya opal.google            adresinde Google Labs     Gem'lerini bulabilir ve bunlara erişebilirsiniz.
+[L0435] Google Labs'deki Gem'ler , oluşturabileceğiniz, düzenleyebileceğiniz ve paylaşabileceğiniz yapay zeka mini uygulamalarına dahil edilmiş özel iş akışlarıdır.
+[L0436] Google Labs'deki Gem'lerle etkileşim kurduğunuzda deneysel bir Google Labs çalışması olan Opal'ı kullanırsınız.
+[L0437] Önemli: Deneysel bir Google Labs çalışması olan Opal, Gemini Uygulamaları'nın bir parçası değildir.
+[L0438] Bu nedenle, bu deneyimdeki veriler Gemini Uygulamaları Etkinliğinizde görünmez ve Gemini'ın Workspace'e bağlı uygulama ayarı tarafından kontrol edilmez.
+[L0439] Gemini Uygulamaları Gizlilik Uyarısı geçerli değildir ve verdiğiniz geri bildirimler de dahil olmak üzere Opal verileriniz Google Gizlilik Politikası   'na uygun şekilde işlenir.
+[L0440] Veriler nasıl saklanır?
+[L0441] Google Labs'de oluşturduğunuz        Gem'ler, onlarla etkileşimleriniz ve yüklediğiniz medya (ses, resim, belge) içerikleri Google Drive 'ınızdaki "Opal" klasöründe saklanır.
+[L0442] Google Labs'deki Gem'lerinizi nasıl kontrol edip yönetebilir, nasıl silebilirsiniz?
+[L0443] Google Labs'deki Gem'leri Gemini web uygulamasının Gem yöneticisinden            veya Google Drive 'ınızdaki "Opal" klasöründen silebilirsiniz.
+[L0444] Google Labs'den alınan Gem ile ilişkili etkileşim geçmişi de silinir.
+[L0445] Google Labs'deki Gem'ler hakkında daha fazla bilgi edinin.
+[L0446] Diğer yapay zeka platformlarından içe aktarılan veriler
+[L0447] Diğer yapay zeka platformlarından hafıza veya sohbet içe aktardığımda verilerime ne olur?
+[L0448] Diğer yapay zeka platformlarından içe aktardığınız veriler (hafıza ve sohbetler) Etkinlik'inize kaydedilir.
+[L0449] Bu veriler, hizmetlerimizi geliştirmek (üretken yapay zeka modellerini eğitmek dahil) ve
+[L0450] Google'ı, kullanıcılarımızı ve toplumun genelini korumak için Gemini Uygulamaları Etkinliğinizle tutarlı bir şekilde kullanılır.
+[L0451] İstediğiniz zaman etkinliğinizi yönetebilir veya silebilirsiniz.Gemini Uygulamaları Etkinliğinizi nasıl yöneteceğinizi ve sileceğinizi öğrenin.
+[L0452] Ayrıca, içe aktarılan sohbetleri istediğiniz zaman tek tek silebilir veya Gemini Uygulamaları'na aktarmak için kullanılan .zip dosyasıyla ilişkili olarak içe aktarılan tüm sohbetleri toplu olarak silebilirsiniz.
+[L0453] Canvas
+[L0454] Canvas web uygulamalarıyla etkileşim yaptıktan sonra verilerime ne olur?
+[L0455] Kullanıcı tarafından üretilen Canvas uygulamalarıyla etkileşim kurarsanız bu uygulamaların geliştiricileri girmiş olduğunuz verileri görebilir.
+[L0456] Veriler nasıl saklanır?
+[L0457] Google, Canvas uygulamalarının kullanıcı verilerini süresiz olarak Firebase'de saklama seçeneği sunar.
+[L0458] Uygulama geliştiricileri bu seçeneği kullanabilir ancak sizden gelen herhangi bir etkileşim verisini başka konumlarda da saklayabilir (ya da bu tür verileri hiç saklamayabilir).
+[L0459] Verilerinizi nasıl kontrol edebilir ve yönetebilirsiniz?
+[L0460] Dikkatli olun ve yalnızca güvendiğiniz uygulamalarla etkileşim kurun.
+[L0461] Canvas uygulamasıyla herhangi bir veri paylaşmanız durumunda sizin bu verileri silme seçeneğiniz olmaz ama uygulama geliştirici bu verileri isterse silebilir.
+[L0462] Hizmet şartları
+[L0463] Gemini Uygulamaları'nın kullanımına hangi şartlar uygulanır?
+[L0464] Gemini Uygulamaları, Google Hizmet Şartları            'na ve Üretken Yapay Zeka Yasaklanan Kullanım Politikası    'na tabidir.
+[L0465] Kore'de bulunan bir tüketiciyseniz Gemini Uygulamaları'nın Kore Konum Şartları             'nı kabul etmiş olursunuz.
+[L0466] İlgili kaynaklar
+[L0467] Gemini Uygulamaları'ndaki etkinliğinizi yönetme ve silme
+[L0468] Konum Geçmişinizi yönetme
+[L0469] Gemini Uygulamaları'nda geri bildirim gönderme veya sorun bildirme
+[L0470] Gemini Uygulamaları'nı kullanma
+[L0471] Üretken Yapay Zeka Yasaklanan Kullanım Politikası
+[L0472] Gemini mobil uygulamaları ile ilgili diğer kaynaklar
+[L0473] Gemini mobil uygulamanızla neler yapabilirsiniz?
+[L0474] Gemini mobil uygulamasını kullanmaya başlama
+[L0475] Android cihazınızdaki Gemini uygulamasını yönetme veya silme
