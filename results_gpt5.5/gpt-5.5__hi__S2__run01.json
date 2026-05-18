@@ -1,0 +1,57 @@
+{
+  "ts": "2026-05-13T17:29:01.355991+00:00",
+  "model": "gpt-5.5",
+  "num_ctx": null,
+  "language": "hi",
+  "scenario_id": "S2",
+  "run": 1,
+  "latency_ms": [
+    16587.527751922607
+  ],
+  "prompt_eval_count": 22554,
+  "prompt_truncated": false,
+  "raw": "{\"confidence\":\"High\",\"decision\":\"DENY\",\"justification\":\"The policy states that Gemini Apps use general area information from the IP address by default and may also use saved Home or Work addresses for better answers. It separately conditions processing precise device location on the user’s permission. Because the scenario states that the user has not granted device or browser location permission, Gemini may not collect and use the user’s precise device location for this request.\",\"source_excerpts\":[{\"line_id\":\"L0292\",\"quote\":\"Gemini Apps डिफ़ॉल्ट रूप से आपके आईपी पते से मिली सामान्य इलाक़े की जानकारी का इस्ते माल करते हैं .\"},{\"line_id\":\"L0293\",\"quote\":\"इसके अलावा, वे आपके Google खाते में से व किए गए घर या ऑफ़िस के पते का इस्ते माल करके , \\\"मौसम कै सा है ?\\\" जै से प्रॉम्ट का बे हतर जवाब दे सकते हैं .\"},{\"line_id\":\"L0294\",\"quote\":\"आपकी अनु मति मिलने पर, Gemini Apps आपके डिवाइस की जगह की सटीक जानकारी का डे टा भी प्रोसे स करते हैं .\"}]}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The policy states that Gemini Apps use general area information from the IP address by default and may also use saved Home or Work addresses for better answers. It separately conditions processing precise device location on the user’s permission. Because the scenario states that the user has not granted device or browser location permission, Gemini may not collect and use the user’s precise device location for this request.",
+  "source_excerpts": [
+    {
+      "line_id": "L0292",
+      "quote": "Gemini Apps डिफ़ॉल्ट रूप से आपके आईपी पते से मिली सामान्य इलाक़े की जानकारी का इस्ते माल करते हैं ."
+    },
+    {
+      "line_id": "L0293",
+      "quote": "इसके अलावा, वे आपके Google खाते में से व किए गए घर या ऑफ़िस के पते का इस्ते माल करके , \"मौसम कै सा है ?\" जै से प्रॉम्ट का बे हतर जवाब दे सकते हैं ."
+    },
+    {
+      "line_id": "L0294",
+      "quote": "आपकी अनु मति मिलने पर, Gemini Apps आपके डिवाइस की जगह की सटीक जानकारी का डे टा भी प्रोसे स करते हैं ."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0292",
+      "model_quote": "Gemini Apps डिफ़ॉल्ट रूप से आपके आईपी पते से मिली सामान्य इलाक़े की जानकारी का इस्ते माल करते हैं .",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Gemini Apps डिफ़ॉल्ट रूप से आपके आईपी पते से मिली सामान्य इलाक़े की जानकारी का इस्ते माल करते हैं ."
+    },
+    {
+      "line_id": "L0293",
+      "model_quote": "इसके अलावा, वे आपके Google खाते में से व किए गए घर या ऑफ़िस के पते का इस्ते माल करके , \"मौसम कै सा है ?\" जै से प्रॉम्ट का बे हतर जवाब दे सकते हैं .",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "इसके अलावा, वे आपके Google खाते में से व किए गए घर या ऑफ़िस के पते का इस्ते माल करके , \"मौसम कै सा है ?\" जै से प्रॉम्ट का बे हतर जवाब दे सकते हैं ."
+    },
+    {
+      "line_id": "L0294",
+      "model_quote": "आपकी अनु मति मिलने पर, Gemini Apps आपके डिवाइस की जगह की सटीक जानकारी का डे टा भी प्रोसे स करते हैं .",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "आपकी अनु मति मिलने पर, Gemini Apps आपके डिवाइस की जगह की सटीक जानकारी का डे टा भी प्रोसे स करते हैं ."
+    }
+  ],
+  "all_quotes_verified": true
+}

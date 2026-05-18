@@ -1,0 +1,68 @@
+{
+  "ts": "2026-05-13T17:12:52.296406+00:00",
+  "model": "gpt-5.5",
+  "num_ctx": null,
+  "language": "en",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    21154.85405921936
+  ],
+  "prompt_eval_count": 11483,
+  "prompt_truncated": false,
+  "raw": "{\"confidence\":\"High\",\"decision\":\"ALLOW AFTER VERIFICATION\",\"justification\":\"The policy may permit future personalization for a user outside the EEA, Switzerland, and the UK, but the relevant personalization feature depends on settings. Specifically, Memory can be turned off to stop personalization based on past chats, and Keep Activity must be on to use the feature. Because the scenario does not state whether Memory and Keep Activity are turned on, Gemini should verify those settings before saving and using the information for future personalization.\",\"source_excerpts\":[{\"line_id\":\"L0226\",\"quote\":\"Outside of the European Economic Area, Switzerland, and the UK, Gemini personalizes your experience by referencing your chats in Gemini Apps Activity and using them to generate personalized insights.\"},{\"line_id\":\"L0227\",\"quote\":\"You can turn off Memory anytime to stop personalization based on your past Gemini chats.\"},{\"line_id\":\"L0228\",\"quote\":\"Keep Activity must be on to use this feature.\"},{\"line_id\":\"L0230\",\"quote\":\"Gemini may use sensitive info you provided in your chats to personalize your experience.\"}]}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW AFTER VERIFICATION",
+  "confidence": "High",
+  "justification": "The policy may permit future personalization for a user outside the EEA, Switzerland, and the UK, but the relevant personalization feature depends on settings. Specifically, Memory can be turned off to stop personalization based on past chats, and Keep Activity must be on to use the feature. Because the scenario does not state whether Memory and Keep Activity are turned on, Gemini should verify those settings before saving and using the information for future personalization.",
+  "source_excerpts": [
+    {
+      "line_id": "L0226",
+      "quote": "Outside of the European Economic Area, Switzerland, and the UK, Gemini personalizes your experience by referencing your chats in Gemini Apps Activity and using them to generate personalized insights."
+    },
+    {
+      "line_id": "L0227",
+      "quote": "You can turn off Memory anytime to stop personalization based on your past Gemini chats."
+    },
+    {
+      "line_id": "L0228",
+      "quote": "Keep Activity must be on to use this feature."
+    },
+    {
+      "line_id": "L0230",
+      "quote": "Gemini may use sensitive info you provided in your chats to personalize your experience."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0226",
+      "model_quote": "Outside of the European Economic Area, Switzerland, and the UK, Gemini personalizes your experience by referencing your chats in Gemini Apps Activity and using them to generate personalized insights.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Outside of the European Economic Area, Switzerland, and the UK, Gemini personalizes your experience by referencing your chats in Gemini Apps Activity and using them to generate personalized insights."
+    },
+    {
+      "line_id": "L0227",
+      "model_quote": "You can turn off Memory anytime to stop personalization based on your past Gemini chats.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "You can turn off Memory anytime to stop personalization based on your past Gemini chats."
+    },
+    {
+      "line_id": "L0228",
+      "model_quote": "Keep Activity must be on to use this feature.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Keep Activity must be on to use this feature."
+    },
+    {
+      "line_id": "L0230",
+      "model_quote": "Gemini may use sensitive info you provided in your chats to personalize your experience.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Gemini may use sensitive info you provided in your chats to personalize your experience."
+    }
+  ],
+  "all_quotes_verified": true
+}

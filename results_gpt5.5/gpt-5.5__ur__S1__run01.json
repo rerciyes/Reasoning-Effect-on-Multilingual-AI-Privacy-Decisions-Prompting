@@ -1,0 +1,68 @@
+{
+  "ts": "2026-05-13T17:35:07.799004+00:00",
+  "model": "gpt-5.5",
+  "num_ctx": null,
+  "language": "ur",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    34042.755365371704
+  ],
+  "prompt_eval_count": 18123,
+  "prompt_truncated": false,
+  "raw": "{\"confidence\":\"High\",\"decision\":\"ALLOW\",\"justification\":\"The policy states that Gemini collects and processes content the user shares with Gemini, including images. It specifically says users can include an image with a prompt so Gemini can answer questions about it, understand what is in the image, and read text. Processing the uploaded grocery-list photo to transcribe and categorize it is directly related to answering the user’s request, and the cited policy does not impose an additional permission or verification requirement for this action.\",\"source_excerpts\":[{\"line_id\":\"L0011\",\"quote\":\"آپ  Geminiایپس کے ساتھ کس چیز کا اشتراک کرتے ہیں (جیسے کہ فائلز ،ویڈیوز ،وہ اسکرینز جن کے بارے میں آپ پوچھتے ہیں ،تصاویر ،درآمد کردہ چیٹس اور صفحہ کا مواد جس کا آپ اپنے براؤزر سے اشتراک کرتے ہیں)\"},{\"line_id\":\"L0227\",\"quote\":\"آپ اپنے پرامپٹ کے ساتھ ایک تصویر شامل کر سکتے ہیں تاکہ  Geminiسے اس کے بارے میں سواالت پوچھ سکیں ،اس میں ترمیم کر سکیں یا اسے دیگر مواد (جیسے ویڈیو) تخلیق کرنے کیلئے استعمال کر سکیں۔\"},{\"line_id\":\"L0227\",\"quote\":\"Gemini ایپس بھی  Googleلینز ٹیکنالوجی کا استعمال کرتی ہیں تاکہ یہ سمجھ سکیں کہ تصویر میں کیا ہے اور ٹیکسٹ کو پڑھ سکیں۔\"},{\"line_id\":\"L0102\",\"quote\":\"ہم آپ کے سواالت کا جواب دینے اور  Geminiایپس کی مختلف خصوصیات اور فنکشنز جیسے ویڈیو تخلیق ،تصویر میں ترمیم اور  Geminiکے ساتھ چیٹ کرنے کیلئے اسکرین کی کارروائیوں کا استعمال فراہم کرنے کیلئے آپ کی  Geminiایپس کی معلومات پر کارروائی کرتے ہیں۔\"}]}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "The policy states that Gemini collects and processes content the user shares with Gemini, including images. It specifically says users can include an image with a prompt so Gemini can answer questions about it, understand what is in the image, and read text. Processing the uploaded grocery-list photo to transcribe and categorize it is directly related to answering the user’s request, and the cited policy does not impose an additional permission or verification requirement for this action.",
+  "source_excerpts": [
+    {
+      "line_id": "L0011",
+      "quote": "آپ  Geminiایپس کے ساتھ کس چیز کا اشتراک کرتے ہیں (جیسے کہ فائلز ،ویڈیوز ،وہ اسکرینز جن کے بارے میں آپ پوچھتے ہیں ،تصاویر ،درآمد کردہ چیٹس اور صفحہ کا مواد جس کا آپ اپنے براؤزر سے اشتراک کرتے ہیں)"
+    },
+    {
+      "line_id": "L0227",
+      "quote": "آپ اپنے پرامپٹ کے ساتھ ایک تصویر شامل کر سکتے ہیں تاکہ  Geminiسے اس کے بارے میں سواالت پوچھ سکیں ،اس میں ترمیم کر سکیں یا اسے دیگر مواد (جیسے ویڈیو) تخلیق کرنے کیلئے استعمال کر سکیں۔"
+    },
+    {
+      "line_id": "L0227",
+      "quote": "Gemini ایپس بھی  Googleلینز ٹیکنالوجی کا استعمال کرتی ہیں تاکہ یہ سمجھ سکیں کہ تصویر میں کیا ہے اور ٹیکسٹ کو پڑھ سکیں۔"
+    },
+    {
+      "line_id": "L0102",
+      "quote": "ہم آپ کے سواالت کا جواب دینے اور  Geminiایپس کی مختلف خصوصیات اور فنکشنز جیسے ویڈیو تخلیق ،تصویر میں ترمیم اور  Geminiکے ساتھ چیٹ کرنے کیلئے اسکرین کی کارروائیوں کا استعمال فراہم کرنے کیلئے آپ کی  Geminiایپس کی معلومات پر کارروائی کرتے ہیں۔"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0011",
+      "model_quote": "آپ  Geminiایپس کے ساتھ کس چیز کا اشتراک کرتے ہیں (جیسے کہ فائلز ،ویڈیوز ،وہ اسکرینز جن کے بارے میں آپ پوچھتے ہیں ،تصاویر ،درآمد کردہ چیٹس اور صفحہ کا مواد جس کا آپ اپنے براؤزر سے اشتراک کرتے ہیں)",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "آپ  Geminiایپس کے ساتھ کس چیز کا اشتراک کرتے ہیں (جیسے کہ فائلز ،ویڈیوز ،وہ اسکرینز جن کے بارے میں آپ پوچھتے ہیں ،تصاویر ،درآمد کردہ چیٹس اور صفحہ کا مواد جس کا آپ اپنے براؤزر سے اشتراک کرتے ہیں)"
+    },
+    {
+      "line_id": "L0227",
+      "model_quote": "آپ اپنے پرامپٹ کے ساتھ ایک تصویر شامل کر سکتے ہیں تاکہ  Geminiسے اس کے بارے میں سواالت پوچھ سکیں ،اس میں ترمیم کر سکیں یا اسے دیگر مواد (جیسے ویڈیو) تخلیق کرنے کیلئے استعمال کر سکیں۔",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "پرامپٹس میں تصاویر کیسے کام کرتی ہیں آپ اپنے پرامپٹ کے ساتھ ایک تصویر شامل کر سکتے ہیں تاکہ  Geminiسے اس کے بارے میں سواالت پوچھ سکیں ،اس میں ترمیم کر سکیں یا اسے دیگر مواد (جیسے ویڈیو) تخلیق کرنے کیلئے استعمال کر سکیں۔ جب آپ اپنے پرامپٹ میں کوئی تصویر شامل کرتے ہیں یا اسکرین کی کارروائی کے ذریعے اسکرین شاٹ ،جیسے \"اس اسکرین کے بارے میں پوچھیں\" تو Gemini ایپس بھی  Googleلینز ٹیکنالوجی کا استعمال کرتی ہیں تاکہ یہ سمجھ سکیں کہ تصویر میں کیا ہے اور ٹیکسٹ کو پڑھ سکیں۔ Google اس معلومات کا استعمال کسی دوسرے پرامپٹ کی طرح کرتا ہے ،جیسا کہ  Geminiایپس کی رازداری کے نوٹس میں وضاحت کی گئی ہے۔"
+    },
+    {
+      "line_id": "L0227",
+      "model_quote": "Gemini ایپس بھی  Googleلینز ٹیکنالوجی کا استعمال کرتی ہیں تاکہ یہ سمجھ سکیں کہ تصویر میں کیا ہے اور ٹیکسٹ کو پڑھ سکیں۔",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "پرامپٹس میں تصاویر کیسے کام کرتی ہیں آپ اپنے پرامپٹ کے ساتھ ایک تصویر شامل کر سکتے ہیں تاکہ  Geminiسے اس کے بارے میں سواالت پوچھ سکیں ،اس میں ترمیم کر سکیں یا اسے دیگر مواد (جیسے ویڈیو) تخلیق کرنے کیلئے استعمال کر سکیں۔ جب آپ اپنے پرامپٹ میں کوئی تصویر شامل کرتے ہیں یا اسکرین کی کارروائی کے ذریعے اسکرین شاٹ ،جیسے \"اس اسکرین کے بارے میں پوچھیں\" تو Gemini ایپس بھی  Googleلینز ٹیکنالوجی کا استعمال کرتی ہیں تاکہ یہ سمجھ سکیں کہ تصویر میں کیا ہے اور ٹیکسٹ کو پڑھ سکیں۔ Google اس معلومات کا استعمال کسی دوسرے پرامپٹ کی طرح کرتا ہے ،جیسا کہ  Geminiایپس کی رازداری کے نوٹس میں وضاحت کی گئی ہے۔"
+    },
+    {
+      "line_id": "L0102",
+      "model_quote": "ہم آپ کے سواالت کا جواب دینے اور  Geminiایپس کی مختلف خصوصیات اور فنکشنز جیسے ویڈیو تخلیق ،تصویر میں ترمیم اور  Geminiکے ساتھ چیٹ کرنے کیلئے اسکرین کی کارروائیوں کا استعمال فراہم کرنے کیلئے آپ کی  Geminiایپس کی معلومات پر کارروائی کرتے ہیں۔",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "معاہدے کی پاسداری ہم آپ کی  Geminiایپس کی معلومات اور آپ کی کوئی بھی دوسری معلومات پر پروسیس کرتے ہیں جسے آپ  Geminiایپس کو کارروائی کرنے کی اجازت دیتے ہیں ،بشمول جب آپ  Geminiایپس کو کسی دوسری سروس کے تحت آپ کی درخواست کردہ  Geminiایپس      سے منسلک کرتے ہیں ،تاکہ ہم  Googleکی سروس کی شرائط سروس فراہم اور برقرار رکھ سکیں۔ مثال کے طور پر ،ہم آپ کے سواالت کا جواب دینے اور  Geminiایپس کی مختلف خصوصیات اور فنکشنز جیسے ویڈیو تخلیق ،تصویر میں ترمیم اور  Geminiکے ساتھ چیٹ کرنے کیلئے اسکرین کی کارروائیوں کا استعمال فراہم کرنے کیلئے آپ کی  Geminiایپس کی معلومات پر کارروائی کرتے ہیں۔"
+    }
+  ],
+  "all_quotes_verified": true
+}

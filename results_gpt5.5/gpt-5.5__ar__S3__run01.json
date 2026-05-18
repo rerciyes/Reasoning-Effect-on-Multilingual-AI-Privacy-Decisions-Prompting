@@ -1,0 +1,68 @@
+{
+  "ts": "2026-05-13T17:32:28.326906+00:00",
+  "model": "gpt-5.5",
+  "num_ctx": null,
+  "language": "ar",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    17742.735862731934
+  ],
+  "prompt_eval_count": 16935,
+  "prompt_truncated": false,
+  "raw": "{\"confidence\":\"High\",\"decision\":\"ALLOW AFTER VERIFICATION\",\"justification\":\"The notice allows Gemini to use saved information and instructions to provide more personalized responses, and it says that outside the EEA, Switzerland, and the UK, Gemini can personalize using prior conversations through Memory. However, that personalization feature depends on conditions: Memory must be enabled, and Keep Activity must be enabled to use it. Because the scenario does not state whether Keep Activity or Memory is turned on, Gemini may save and use the information only after verifying the required settings are enabled.\",\"source_excerpts\":[{\"line_id\":\"L0179\",\"quote\":\"تستخدم \\\"تطبيقات  \\\"Geminiمعلوماتك وتعليماتك لتقديم ردود أكثر تخصيًص ا .تظل هذه البيانات محفوظة إلى أن تختار حذفها .يمكنك إيقاف حفظ المعلومات والتعليمات في أي وقت .مزيد من المعلومات\"},{\"line_id\":\"L0181\",\"quote\":\"خارج المنطقة الاقتصادية الأوروبية وسويسرا والمملكة المتحدة ،يخّص ص  Geminiتجربتك من خلال الرجوع إلى محادثاتك في سجّل نشاطك على تطبيقات  Geminiويستخدمها لإنشاء بيانات مفيدة مخّص صة لك .يمكنك إيقاف ميزة \\\"الذاكرة\\\" في أي وقت لإيقاف التخصيص استناًد ا إلى محادثاتك السابقة مع  .Geminiويجب تفعيل خيار \\\"الاحتفاظ بالنشاط\\\" لاستخدام هذه الميزة.\"},{\"line_id\":\"L0182\",\"quote\":\"إذا كانت ميزة \\\"الذاكرة\\\" مفَّع لة:\"},{\"line_id\":\"L0183\",\"quote\":\"قد يستخدم  Geminiالمعلومات الحّس اسة التي قّد متها في محادثاتك لتخصيص تجربتك.\"}]}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW AFTER VERIFICATION",
+  "confidence": "High",
+  "justification": "The notice allows Gemini to use saved information and instructions to provide more personalized responses, and it says that outside the EEA, Switzerland, and the UK, Gemini can personalize using prior conversations through Memory. However, that personalization feature depends on conditions: Memory must be enabled, and Keep Activity must be enabled to use it. Because the scenario does not state whether Keep Activity or Memory is turned on, Gemini may save and use the information only after verifying the required settings are enabled.",
+  "source_excerpts": [
+    {
+      "line_id": "L0179",
+      "quote": "تستخدم \"تطبيقات  \"Geminiمعلوماتك وتعليماتك لتقديم ردود أكثر تخصيًص ا .تظل هذه البيانات محفوظة إلى أن تختار حذفها .يمكنك إيقاف حفظ المعلومات والتعليمات في أي وقت .مزيد من المعلومات"
+    },
+    {
+      "line_id": "L0181",
+      "quote": "خارج المنطقة الاقتصادية الأوروبية وسويسرا والمملكة المتحدة ،يخّص ص  Geminiتجربتك من خلال الرجوع إلى محادثاتك في سجّل نشاطك على تطبيقات  Geminiويستخدمها لإنشاء بيانات مفيدة مخّص صة لك .يمكنك إيقاف ميزة \"الذاكرة\" في أي وقت لإيقاف التخصيص استناًد ا إلى محادثاتك السابقة مع  .Geminiويجب تفعيل خيار \"الاحتفاظ بالنشاط\" لاستخدام هذه الميزة."
+    },
+    {
+      "line_id": "L0182",
+      "quote": "إذا كانت ميزة \"الذاكرة\" مفَّع لة:"
+    },
+    {
+      "line_id": "L0183",
+      "quote": "قد يستخدم  Geminiالمعلومات الحّس اسة التي قّد متها في محادثاتك لتخصيص تجربتك."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0179",
+      "model_quote": "تستخدم \"تطبيقات  \"Geminiمعلوماتك وتعليماتك لتقديم ردود أكثر تخصيًص ا .تظل هذه البيانات محفوظة إلى أن تختار حذفها .يمكنك إيقاف حفظ المعلومات والتعليمات في أي وقت .مزيد من المعلومات",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "تستخدم \"تطبيقات  \"Geminiمعلوماتك وتعليماتك لتقديم ردود أكثر تخصيًص ا .تظل هذه البيانات محفوظة إلى أن تختار حذفها .يمكنك إيقاف حفظ المعلومات والتعليمات في أي وقت .مزيد من المعلومات"
+    },
+    {
+      "line_id": "L0181",
+      "model_quote": "خارج المنطقة الاقتصادية الأوروبية وسويسرا والمملكة المتحدة ،يخّص ص  Geminiتجربتك من خلال الرجوع إلى محادثاتك في سجّل نشاطك على تطبيقات  Geminiويستخدمها لإنشاء بيانات مفيدة مخّص صة لك .يمكنك إيقاف ميزة \"الذاكرة\" في أي وقت لإيقاف التخصيص استناًد ا إلى محادثاتك السابقة مع  .Geminiويجب تفعيل خيار \"الاحتفاظ بالنشاط\" لاستخدام هذه الميزة.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "خارج المنطقة الاقتصادية الأوروبية وسويسرا والمملكة المتحدة ،يخّص ص  Geminiتجربتك من خلال الرجوع إلى محادثاتك في سجّل نشاطك على تطبيقات  Geminiويستخدمها لإنشاء بيانات مفيدة مخّص صة لك .يمكنك إيقاف ميزة \"الذاكرة\" في أي وقت لإيقاف التخصيص استناًد ا إلى محادثاتك السابقة مع  .Geminiويجب تفعيل خيار \"الاحتفاظ بالنشاط\" لاستخدام هذه الميزة."
+    },
+    {
+      "line_id": "L0182",
+      "model_quote": "إذا كانت ميزة \"الذاكرة\" مفَّع لة:",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "إذا كانت ميزة \"الذاكرة\" مفَّع لة:"
+    },
+    {
+      "line_id": "L0183",
+      "model_quote": "قد يستخدم  Geminiالمعلومات الحّس اسة التي قّد متها في محادثاتك لتخصيص تجربتك.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "قد يستخدم  Geminiالمعلومات الحّس اسة التي قّد متها في محادثاتك لتخصيص تجربتك."
+    }
+  ],
+  "all_quotes_verified": true
+}

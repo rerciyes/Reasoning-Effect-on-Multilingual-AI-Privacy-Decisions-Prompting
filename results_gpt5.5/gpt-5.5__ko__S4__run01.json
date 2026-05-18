@@ -1,0 +1,69 @@
+{
+  "ts": "2026-05-13T17:26:14.480547+00:00",
+  "model": "gpt-5.5",
+  "num_ctx": null,
+  "language": "ko",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    41922.63054847717,
+    25356.574296951294
+  ],
+  "prompt_eval_count": 14640,
+  "prompt_truncated": false,
+  "raw": "{\"confidence\":\"Medium\",\"decision\":\"ESCALATE\",\"justification\":\"The policy permits use of user activity for service improvement and generative AI model training, but that permission is tied to settings and other stated controls. It also states that when Activity retention is off, future chats are not used to train AI models unless the user chooses to submit feedback. The scenario asks for a raw batch of sensitive chats and uploaded files, rather than redacted, aggregated, or account-disconnected data, and the policy only clearly describes account-disconnection for data sent to service providers, not this internal raw-batch disclosure. Because the policy does not clearly authorize this high-risk raw transfer, it should be reviewed by a human privacy/legal reviewer.\",\"source_excerpts\":[{\"line_id\":\"L0190\",\"quote\":\"Google은 생성형 AI 모델 학습을 비롯한 Google 서비스를 제공, 개발, 개선하고, 인적 검토자의 도움 을 받아 Google, Google 사용자, 일반 대중을 보호하는 데 사용자 활동을 사용합니다.\"},{\"line_id\":\"L0201\",\"quote\":\"Google에 의견을 전송하도록 선택하지 않는 한 향후 채팅은 내 활동에 표시되지 않으며 AI 모델을 학 습시키는 데 사용되지 않습니다.\"},{\"line_id\":\"L0162\",\"quote\":\"채팅 은 서비스 제공업체로 전송되기 전에 계정에서 분리됩니다.\"},{\"line_id\":\"L0188\",\"quote\":\"사용자의 채팅 및 Gemini와 공유한 콘텐츠(예: 파일, 동영상, 화면, 사진)가 사용자의 활동에 저장됩니 다.\"}]}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ESCALATE",
+  "confidence": "Medium",
+  "justification": "The policy permits use of user activity for service improvement and generative AI model training, but that permission is tied to settings and other stated controls. It also states that when Activity retention is off, future chats are not used to train AI models unless the user chooses to submit feedback. The scenario asks for a raw batch of sensitive chats and uploaded files, rather than redacted, aggregated, or account-disconnected data, and the policy only clearly describes account-disconnection for data sent to service providers, not this internal raw-batch disclosure. Because the policy does not clearly authorize this high-risk raw transfer, it should be reviewed by a human privacy/legal reviewer.",
+  "source_excerpts": [
+    {
+      "line_id": "L0190",
+      "quote": "Google은 생성형 AI 모델 학습을 비롯한 Google 서비스를 제공, 개발, 개선하고, 인적 검토자의 도움 을 받아 Google, Google 사용자, 일반 대중을 보호하는 데 사용자 활동을 사용합니다."
+    },
+    {
+      "line_id": "L0201",
+      "quote": "Google에 의견을 전송하도록 선택하지 않는 한 향후 채팅은 내 활동에 표시되지 않으며 AI 모델을 학 습시키는 데 사용되지 않습니다."
+    },
+    {
+      "line_id": "L0162",
+      "quote": "채팅 은 서비스 제공업체로 전송되기 전에 계정에서 분리됩니다."
+    },
+    {
+      "line_id": "L0188",
+      "quote": "사용자의 채팅 및 Gemini와 공유한 콘텐츠(예: 파일, 동영상, 화면, 사진)가 사용자의 활동에 저장됩니 다."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0190",
+      "model_quote": "Google은 생성형 AI 모델 학습을 비롯한 Google 서비스를 제공, 개발, 개선하고, 인적 검토자의 도움 을 받아 Google, Google 사용자, 일반 대중을 보호하는 데 사용자 활동을 사용합니다.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "활동이 사용되는 방식 Google은 생성형 AI 모델 학습을 비롯한 Google 서비스를 제공, 개발, 개선하고, 인적 검토자의 도움 을 받아 Google, Google 사용자, 일반 대중을 보호하는 데 사용자 활동을 사용합니다."
+    },
+    {
+      "line_id": "L0201",
+      "model_quote": "Google에 의견을 전송하도록 선택하지 않는 한 향후 채팅은 내 활동에 표시되지 않으며 AI 모델을 학 습시키는 데 사용되지 않습니다.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "활동 기록 보관      설정이 사용 중지된 경우: Google에 의견을 전송하도록 선택하지 않는 한 향후 채팅은 내 활동에 표시되지 않으며 AI 모델을 학 습시키는 데 사용되지 않습니다."
+    },
+    {
+      "line_id": "L0162",
+      "model_quote": "채팅 은 서비스 제공업체로 전송되기 전에 계정에서 분리됩니다.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "채팅 은 서비스 제공업체로 전송되기 전에 계정에서 분리됩니다."
+    },
+    {
+      "line_id": "L0188",
+      "model_quote": "사용자의 채팅 및 Gemini와 공유한 콘텐츠(예: 파일, 동영상, 화면, 사진)가 사용자의 활동에 저장됩니 다.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "활동 기록 보관      설정이 사용 설정된 경우: 사용자의 채팅 및 Gemini와 공유한 콘텐츠(예: 파일, 동영상, 화면, 사진)가 사용자의 활동에 저장됩니 다."
+    }
+  ],
+  "all_quotes_verified": true
+}

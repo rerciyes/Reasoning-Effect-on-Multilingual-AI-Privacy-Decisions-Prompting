@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-13T17:35:41.851462+00:00",
+  "model": "gpt-5.5",
+  "num_ctx": null,
+  "language": "ur",
+  "scenario_id": "S2",
+  "run": 1,
+  "latency_ms": [
+    16043.78342628479
+  ],
+  "prompt_eval_count": 18136,
+  "prompt_truncated": false,
+  "raw": "{\"confidence\":\"High\",\"decision\":\"DENY\",\"justification\":\"The policy states that Gemini Apps process precise location data from the user’s device only with the user’s permission. The scenario says the user has not granted device or browser location permission, so the required permission is absent. Gemini may still answer using default general-area sources, but it may not collect and use precise device location in this scenario.\",\"source_excerpts\":[{\"line_id\":\"L0196\",\"quote\":\"بطور ڈیفالٹ Gemini ،ایپس آپ کے  IPپتے سے عام عالقے یا آپ کے  Googleاکاؤنٹ میں گھر یا دفتر کے پتوں کا استعمال کرتی ہیں\"},{\"line_id\":\"L0197\",\"quote\":\"آپ کی اجازت سے Gemini ،ایپس آپ کے آلے سے قطعی مقام کے ڈیٹا پر بھی کارروائی کرتی ہیں۔\"}]}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The policy states that Gemini Apps process precise location data from the user’s device only with the user’s permission. The scenario says the user has not granted device or browser location permission, so the required permission is absent. Gemini may still answer using default general-area sources, but it may not collect and use precise device location in this scenario.",
+  "source_excerpts": [
+    {
+      "line_id": "L0196",
+      "quote": "بطور ڈیفالٹ Gemini ،ایپس آپ کے  IPپتے سے عام عالقے یا آپ کے  Googleاکاؤنٹ میں گھر یا دفتر کے پتوں کا استعمال کرتی ہیں"
+    },
+    {
+      "line_id": "L0197",
+      "quote": "آپ کی اجازت سے Gemini ،ایپس آپ کے آلے سے قطعی مقام کے ڈیٹا پر بھی کارروائی کرتی ہیں۔"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0196",
+      "model_quote": "بطور ڈیفالٹ Gemini ،ایپس آپ کے  IPپتے سے عام عالقے یا آپ کے  Googleاکاؤنٹ میں گھر یا دفتر کے پتوں کا استعمال کرتی ہیں",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Gemini ایپس کو مقام کا ڈیٹا کہاں سے ملتا ہے اور اسے کیسے استعمال کیا جاتا ہے Gemini ایپس کے ذریعے جمع کردہ مقام کے ڈیٹا کا ماخذ مختلف ہوتا ہے۔ بطور ڈیفالٹ Gemini ،ایپس آپ کے  IPپتے سے عام عالقے یا آپ کے  Googleاکاؤنٹ میں گھر یا دفتر کے پتوں کا استعمال کرتی ہیں تاکہ \"موسم کیسا ہے؟\" جیسے پرامپٹس کے متعلقہ جوابات فراہم کیے جا سکیں۔"
+    },
+    {
+      "line_id": "L0197",
+      "model_quote": "آپ کی اجازت سے Gemini ،ایپس آپ کے آلے سے قطعی مقام کے ڈیٹا پر بھی کارروائی کرتی ہیں۔",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "آپ کی اجازت سے Gemini ،ایپس آپ کے آلے سے قطعی مقام کے ڈیٹا پر بھی کارروائی کرتی ہیں۔ مثال کے طور پر، Geminiایپس آپ کے قطعی مقام کا استعمال کر کے \"میرے قریب ترین کافی شاپ کہاں ہے؟\" جیسے پرامپٹس کا زیادہ درست طریقے سے جواب دے سکتی ہیں۔  Googleایپ میں قطعی مقام کی ترتیب آف ہونے کے باوجود Gemini ،کو Google Mapsجیسی کسی دوسری  Googleسروس سے بھی قطعی مقام کا ڈیٹا موصول ہو سکتا ہے"
+    }
+  ],
+  "all_quotes_verified": true
+}

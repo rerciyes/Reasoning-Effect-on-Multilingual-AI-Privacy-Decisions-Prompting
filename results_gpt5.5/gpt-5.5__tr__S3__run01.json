@@ -1,0 +1,79 @@
+{
+  "ts": "2026-05-13T17:22:44.843924+00:00",
+  "model": "gpt-5.5",
+  "num_ctx": null,
+  "language": "tr",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    30607.771396636963
+  ],
+  "prompt_eval_count": 16582,
+  "prompt_truncated": false,
+  "raw": "{\"confidence\":\"High\",\"decision\":\"ALLOW AFTER VERIFICATION\",\"justification\":\"The policy says Gemini can use saved information and instructions to provide more customized responses, and that such data remains saved until the user deletes it. However, for personalization based on past chats outside the EEA, Switzerland, and the UK, the policy requires the Keep Activity setting to be on. Because the information includes sensitive dietary and medication details and the scenario does not state whether Keep Activity or Memory is enabled, Gemini may proceed only after verifying the required settings are active.\",\"source_excerpts\":[{\"line_id\":\"L0237\",\"quote\":\"Gemini Uygulamaları, daha özelleştirilmiş yanıtlar vermek için bilgilerinizi ve talimatlarınızı kullanır.\"},{\"line_id\":\"L0238\",\"quote\":\"Bu veriler, siz silmeyi seçene kadar kaydedilmiş olarak kalır.\"},{\"line_id\":\"L0242\",\"quote\":\"Avrupa Ekonomik Alanı, İsviçre ve Birleşik Krallık dışında Gemini, Gemini Uygulamaları Etkinliği 'ndeki sohbetlerinize başvurarak ve bunları kişiselleştirilmiş analizler üretmek için kullanarak deneyiminizi kişiselleştirir.\"},{\"line_id\":\"L0244\",\"quote\":\"Bu özelliği kullanmak için Etkinliği Sakla ayarı açık olmalıdır.\"},{\"line_id\":\"L0246\",\"quote\":\"Gemini, deneyiminizi kişiselleştirmek için sohbetlerinizde sağladığınız hassas bilgileri kullanabilir.\"}]}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW AFTER VERIFICATION",
+  "confidence": "High",
+  "justification": "The policy says Gemini can use saved information and instructions to provide more customized responses, and that such data remains saved until the user deletes it. However, for personalization based on past chats outside the EEA, Switzerland, and the UK, the policy requires the Keep Activity setting to be on. Because the information includes sensitive dietary and medication details and the scenario does not state whether Keep Activity or Memory is enabled, Gemini may proceed only after verifying the required settings are active.",
+  "source_excerpts": [
+    {
+      "line_id": "L0237",
+      "quote": "Gemini Uygulamaları, daha özelleştirilmiş yanıtlar vermek için bilgilerinizi ve talimatlarınızı kullanır."
+    },
+    {
+      "line_id": "L0238",
+      "quote": "Bu veriler, siz silmeyi seçene kadar kaydedilmiş olarak kalır."
+    },
+    {
+      "line_id": "L0242",
+      "quote": "Avrupa Ekonomik Alanı, İsviçre ve Birleşik Krallık dışında Gemini, Gemini Uygulamaları Etkinliği 'ndeki sohbetlerinize başvurarak ve bunları kişiselleştirilmiş analizler üretmek için kullanarak deneyiminizi kişiselleştirir."
+    },
+    {
+      "line_id": "L0244",
+      "quote": "Bu özelliği kullanmak için Etkinliği Sakla ayarı açık olmalıdır."
+    },
+    {
+      "line_id": "L0246",
+      "quote": "Gemini, deneyiminizi kişiselleştirmek için sohbetlerinizde sağladığınız hassas bilgileri kullanabilir."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0237",
+      "model_quote": "Gemini Uygulamaları, daha özelleştirilmiş yanıtlar vermek için bilgilerinizi ve talimatlarınızı kullanır.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Gemini Uygulamaları, daha özelleştirilmiş yanıtlar vermek için bilgilerinizi ve talimatlarınızı kullanır."
+    },
+    {
+      "line_id": "L0238",
+      "model_quote": "Bu veriler, siz silmeyi seçene kadar kaydedilmiş olarak kalır.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Bu veriler, siz silmeyi seçene kadar kaydedilmiş olarak kalır."
+    },
+    {
+      "line_id": "L0242",
+      "model_quote": "Avrupa Ekonomik Alanı, İsviçre ve Birleşik Krallık dışında Gemini, Gemini Uygulamaları Etkinliği 'ndeki sohbetlerinize başvurarak ve bunları kişiselleştirilmiş analizler üretmek için kullanarak deneyiminizi kişiselleştirir.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Avrupa Ekonomik Alanı, İsviçre ve Birleşik Krallık dışında Gemini, Gemini Uygulamaları Etkinliği 'ndeki sohbetlerinize başvurarak ve bunları kişiselleştirilmiş analizler üretmek için kullanarak deneyiminizi kişiselleştirir."
+    },
+    {
+      "line_id": "L0244",
+      "model_quote": "Bu özelliği kullanmak için Etkinliği Sakla ayarı açık olmalıdır.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Bu özelliği kullanmak için Etkinliği Sakla ayarı açık olmalıdır."
+    },
+    {
+      "line_id": "L0246",
+      "model_quote": "Gemini, deneyiminizi kişiselleştirmek için sohbetlerinizde sağladığınız hassas bilgileri kullanabilir.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Gemini, deneyiminizi kişiselleştirmek için sohbetlerinizde sağladığınız hassas bilgileri kullanabilir."
+    }
+  ],
+  "all_quotes_verified": true
+}

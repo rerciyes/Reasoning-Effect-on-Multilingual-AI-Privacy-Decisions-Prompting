@@ -1,0 +1,57 @@
+{
+  "ts": "2026-05-13T17:31:27.290645+00:00",
+  "model": "gpt-5.5",
+  "num_ctx": null,
+  "language": "ar",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    43505.444049835205
+  ],
+  "prompt_eval_count": 16922,
+  "prompt_truncated": false,
+  "raw": "{\"confidence\":\"High\",\"decision\":\"ALLOW\",\"justification\":\"The policy expressly allows users to add an image to a prompt and ask Gemini about it, and says Gemini uses technology to understand the image and read text. It also states that Gemini processes user information to respond to requests, which directly covers transcribing and organizing the uploaded grocery-list image.\",\"source_excerpts\":[{\"line_id\":\"L0226\",\"quote\":\"يمكنك إضافة صورة إلى طلبك وتوجيه أسئلة إلى  Geminiحولها أو تعديلها أو استخدامها لإنشاء محتوى آخر (مثل فيديو) .\"},{\"line_id\":\"L0226\",\"quote\":\"تستخدم \\\"تطبيقات  \\\"Geminiأيًض ا تكنولوجيا \\\"عدسة  \\\"Googleلفهم مضمون الصورة وقراءة النص\"},{\"line_id\":\"L0095\",\"quote\":\"نعالج معلوماتك على \\\"تطبيقات  \\\"Geminiللرّد على طلباتك\"}]}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "The policy expressly allows users to add an image to a prompt and ask Gemini about it, and says Gemini uses technology to understand the image and read text. It also states that Gemini processes user information to respond to requests, which directly covers transcribing and organizing the uploaded grocery-list image.",
+  "source_excerpts": [
+    {
+      "line_id": "L0226",
+      "quote": "يمكنك إضافة صورة إلى طلبك وتوجيه أسئلة إلى  Geminiحولها أو تعديلها أو استخدامها لإنشاء محتوى آخر (مثل فيديو) ."
+    },
+    {
+      "line_id": "L0226",
+      "quote": "تستخدم \"تطبيقات  \"Geminiأيًض ا تكنولوجيا \"عدسة  \"Googleلفهم مضمون الصورة وقراءة النص"
+    },
+    {
+      "line_id": "L0095",
+      "quote": "نعالج معلوماتك على \"تطبيقات  \"Geminiللرّد على طلباتك"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0226",
+      "model_quote": "يمكنك إضافة صورة إلى طلبك وتوجيه أسئلة إلى  Geminiحولها أو تعديلها أو استخدامها لإنشاء محتوى آخر (مثل فيديو) .",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "يمكنك إضافة صورة إلى طلبك وتوجيه أسئلة إلى  Geminiحولها أو تعديلها أو استخدامها لإنشاء محتوى آخر (مثل فيديو) .عندما تضيف صورة إلى طلبك أو لقطة شاشة عبر إجراء يخّص محتوى الشاشة ،مثل \"السؤال عن محتوى هذه الشاشة\" ،تستخدم \"تطبيقات  \"Geminiأيًض ا تكنولوجيا \"عدسة  \"Googleلفهم مضمون الصورة وقراءة النص .تتعامل Googleمع هذه المعلومات مثلما تتعامل مع أي طلب آخر ،كما هو موّض ح في إشعار الخصوصية في \"تطبيقات .\"Gemini"
+    },
+    {
+      "line_id": "L0226",
+      "model_quote": "تستخدم \"تطبيقات  \"Geminiأيًض ا تكنولوجيا \"عدسة  \"Googleلفهم مضمون الصورة وقراءة النص",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "يمكنك إضافة صورة إلى طلبك وتوجيه أسئلة إلى  Geminiحولها أو تعديلها أو استخدامها لإنشاء محتوى آخر (مثل فيديو) .عندما تضيف صورة إلى طلبك أو لقطة شاشة عبر إجراء يخّص محتوى الشاشة ،مثل \"السؤال عن محتوى هذه الشاشة\" ،تستخدم \"تطبيقات  \"Geminiأيًض ا تكنولوجيا \"عدسة  \"Googleلفهم مضمون الصورة وقراءة النص .تتعامل Googleمع هذه المعلومات مثلما تتعامل مع أي طلب آخر ،كما هو موّض ح في إشعار الخصوصية في \"تطبيقات .\"Gemini"
+    },
+    {
+      "line_id": "L0095",
+      "model_quote": "نعالج معلوماتك على \"تطبيقات  \"Geminiللرّد على طلباتك",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "تنفيذ العقد :نعالج معلوماتك على \"تطبيقات  \"Geminiوأي معلومات أخرى تمنح \"تطبيقات  \"Geminiإذًن ا بمعالجتها، بما في ذلك عندما تربطها بخدمة أخرى ،وذلك حتى نتمّك ن من توفير الخدمة التي طلبتها من \"تطبيقات \"Gemini والحفاظ على أدائها وفًق ا لبنود خدمة  . Googleعلى سبيل المثال ،نعالج معلوماتك على \"تطبيقات  \"Geminiللرّد على طلباتك ولتوفير العديد من ميزات \"تطبيقات  \"Geminiووظائفها ،مثل إنشاء الفيديوهات وتعديل الصور واستخدام الإجراءات التي تخّص محتوى الشاشة للتحّد ث إلى .Gemini"
+    }
+  ],
+  "all_quotes_verified": true
+}

@@ -1,0 +1,80 @@
+{
+  "ts": "2026-05-13T17:29:43.399242+00:00",
+  "model": "gpt-5.5",
+  "num_ctx": null,
+  "language": "hi",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    57955.47318458557,
+    24491.352319717407
+  ],
+  "prompt_eval_count": 22569,
+  "prompt_truncated": false,
+  "raw": "{\"confidence\":\"Medium\",\"decision\":\"ESCALATE\",\"justification\":\"The policy broadly says Gemini activity data may be used to provide, develop, and improve Google services, including training generative AI models, so the improvement purpose is partially covered. However, the scenario requests a raw batch containing sensitive free text, contact details, and uploaded files, rather than redacted, aggregated, or account-disconnected data. The policy specifically describes reviewer/service-provider review and says reviewed data is separated from the user’s account, so it does not clearly authorize handing raw sensitive chats to an internal analytics or ML team without comparable safeguards. Because the requested disclosure is high-risk and the policy text does not clearly resolve whether raw, identifiable batches may be provided for this purpose, it should be escalated for privacy/legal review.\",\"source_excerpts\":[{\"line_id\":\"L0222\",\"quote\":\"आपकी गतिविधि का डे टा कै से इस्ते माल किया जाता है Google आपकी गतिविधि के डे टा का इस्ते माल, अपनी से वाओं को उपलब्ध कराने , डे वलप करने , और बे हतर बनाने के लिए करता है .\"},{\"line_id\":\"L0223\",\"quote\":\"इनमें जनरे टिव एआई मॉडल की ट्रे निं ग भी शामिल है .\"},{\"line_id\":\"L0225\",\"quote\":\"इसके लिए, समीक्षा करने वाले लोगों की मदद ली जाती है .\"},{\"line_id\":\"L0226\",\"quote\":\"से वा दे ने वाली कं पनियाँ , जिस डे टा की समीक्षा करती हैं उसे आपके खाते से अलग कर दिया जाता है और तीन सालों तक से व रखा जाता है .\"},{\"line_id\":\"L0185\",\"quote\":\"चै ट, से वा दे ने वाली कं पनियों को भे जने से पहले आपके खाते से अलग कर दी जाती हैं .\"}]}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ESCALATE",
+  "confidence": "Medium",
+  "justification": "The policy broadly says Gemini activity data may be used to provide, develop, and improve Google services, including training generative AI models, so the improvement purpose is partially covered. However, the scenario requests a raw batch containing sensitive free text, contact details, and uploaded files, rather than redacted, aggregated, or account-disconnected data. The policy specifically describes reviewer/service-provider review and says reviewed data is separated from the user’s account, so it does not clearly authorize handing raw sensitive chats to an internal analytics or ML team without comparable safeguards. Because the requested disclosure is high-risk and the policy text does not clearly resolve whether raw, identifiable batches may be provided for this purpose, it should be escalated for privacy/legal review.",
+  "source_excerpts": [
+    {
+      "line_id": "L0222",
+      "quote": "आपकी गतिविधि का डे टा कै से इस्ते माल किया जाता है Google आपकी गतिविधि के डे टा का इस्ते माल, अपनी से वाओं को उपलब्ध कराने , डे वलप करने , और बे हतर बनाने के लिए करता है ."
+    },
+    {
+      "line_id": "L0223",
+      "quote": "इनमें जनरे टिव एआई मॉडल की ट्रे निं ग भी शामिल है ."
+    },
+    {
+      "line_id": "L0225",
+      "quote": "इसके लिए, समीक्षा करने वाले लोगों की मदद ली जाती है ."
+    },
+    {
+      "line_id": "L0226",
+      "quote": "से वा दे ने वाली कं पनियाँ , जिस डे टा की समीक्षा करती हैं उसे आपके खाते से अलग कर दिया जाता है और तीन सालों तक से व रखा जाता है ."
+    },
+    {
+      "line_id": "L0185",
+      "quote": "चै ट, से वा दे ने वाली कं पनियों को भे जने से पहले आपके खाते से अलग कर दी जाती हैं ."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0222",
+      "model_quote": "आपकी गतिविधि का डे टा कै से इस्ते माल किया जाता है Google आपकी गतिविधि के डे टा का इस्ते माल, अपनी से वाओं को उपलब्ध कराने , डे वलप करने , और बे हतर बनाने के लिए करता है .",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "आपकी गतिविधि का डे टा कै से इस्ते माल किया जाता है Google आपकी गतिविधि के डे टा का इस्ते माल, अपनी से वाओं को उपलब्ध कराने , डे वलप करने , और बे हतर बनाने के लिए करता है ."
+    },
+    {
+      "line_id": "L0223",
+      "model_quote": "इनमें जनरे टिव एआई मॉडल की ट्रे निं ग भी शामिल है .",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "इनमें जनरे टिव एआई मॉडल की ट्रे निं ग भी शामिल है ."
+    },
+    {
+      "line_id": "L0225",
+      "model_quote": "इसके लिए, समीक्षा करने वाले लोगों की मदद ली जाती है .",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "इसके लिए, समीक्षा करने वाले लोगों की मदद ली जाती है ."
+    },
+    {
+      "line_id": "L0226",
+      "model_quote": "से वा दे ने वाली कं पनियाँ , जिस डे टा की समीक्षा करती हैं उसे आपके खाते से अलग कर दिया जाता है और तीन सालों तक से व रखा जाता है .",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "से वा दे ने वाली कं पनियाँ , जिस डे टा की समीक्षा करती हैं उसे आपके खाते से अलग कर दिया जाता है और तीन सालों तक से व रखा जाता है ."
+    },
+    {
+      "line_id": "L0185",
+      "model_quote": "चै ट, से वा दे ने वाली कं पनियों को भे जने से पहले आपके खाते से अलग कर दी जाती हैं .",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "चै ट, से वा दे ने वाली कं पनियों को भे जने से पहले आपके खाते से अलग कर दी जाती हैं ."
+    }
+  ],
+  "all_quotes_verified": true
+}

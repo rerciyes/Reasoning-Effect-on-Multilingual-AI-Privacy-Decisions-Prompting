@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-13T17:22:32.523896+00:00",
+  "model": "gpt-5.5",
+  "num_ctx": null,
+  "language": "tr",
+  "scenario_id": "S2",
+  "run": 1,
+  "latency_ms": [
+    12304.028987884521
+  ],
+  "prompt_eval_count": 16582,
+  "prompt_truncated": false,
+  "raw": "{\"confidence\":\"High\",\"decision\":\"DENY\",\"justification\":\"The policy says Gemini can use a general area from IP address or saved Home/Work addresses by default for relevant responses. It separately states that precise device location is processed only if the user gives permission. Because the scenario says the user has not granted device or browser location permission, Gemini may not collect and use the user’s precise device location for this request.\",\"source_excerpts\":[{\"line_id\":\"L0260\",\"quote\":\"\\\"Hava nasıl?\\\" gibi istemlere alakalı yanıtlar verebilmek için Gemini Uygulamaları, varsayılan olarak IP adresinize dayalı genel alanı veya Google Hesabınızdaki ev ya da iş adresini kullanır.\"},{\"line_id\":\"L0261\",\"quote\":\"Gemini Uygulamaları, izin verirseniz cihazınızdan aldığı tam konum verilerini de işler.\"}]}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The policy says Gemini can use a general area from IP address or saved Home/Work addresses by default for relevant responses. It separately states that precise device location is processed only if the user gives permission. Because the scenario says the user has not granted device or browser location permission, Gemini may not collect and use the user’s precise device location for this request.",
+  "source_excerpts": [
+    {
+      "line_id": "L0260",
+      "quote": "\"Hava nasıl?\" gibi istemlere alakalı yanıtlar verebilmek için Gemini Uygulamaları, varsayılan olarak IP adresinize dayalı genel alanı veya Google Hesabınızdaki ev ya da iş adresini kullanır."
+    },
+    {
+      "line_id": "L0261",
+      "quote": "Gemini Uygulamaları, izin verirseniz cihazınızdan aldığı tam konum verilerini de işler."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0260",
+      "model_quote": "\"Hava nasıl?\" gibi istemlere alakalı yanıtlar verebilmek için Gemini Uygulamaları, varsayılan olarak IP adresinize dayalı genel alanı veya Google Hesabınızdaki ev ya da iş adresini kullanır.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "\"Hava nasıl?\" gibi istemlere alakalı yanıtlar verebilmek için Gemini Uygulamaları, varsayılan olarak IP adresinize dayalı genel alanı veya Google Hesabınızdaki ev ya da iş adresini kullanır."
+    },
+    {
+      "line_id": "L0261",
+      "model_quote": "Gemini Uygulamaları, izin verirseniz cihazınızdan aldığı tam konum verilerini de işler.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Gemini Uygulamaları, izin verirseniz cihazınızdan aldığı tam konum verilerini de işler."
+    }
+  ],
+  "all_quotes_verified": true
+}

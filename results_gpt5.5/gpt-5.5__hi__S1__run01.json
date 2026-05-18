@@ -1,0 +1,57 @@
+{
+  "ts": "2026-05-13T17:28:36.138042+00:00",
+  "model": "gpt-5.5",
+  "num_ctx": null,
+  "language": "hi",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    25161.72456741333
+  ],
+  "prompt_eval_count": 22541,
+  "prompt_truncated": false,
+  "raw": "{\"confidence\":\"High\",\"decision\":\"ALLOW\",\"justification\":\"The policy specifically covers adding an image to a prompt and asking Gemini about it. It also states that Gemini Apps may use Google Lens technology to understand the image and read text shown in it, which directly matches transcribing a handwritten grocery list. The policy says this information is used according to the Gemini Apps Privacy Notice, and no cited provision requires extra consent or verification for this non-sensitive uploaded image processing to answer the user’s request.\",\"source_excerpts\":[{\"line_id\":\"L0344\",\"quote\":\"प्रॉम्प्ट के साथ कोई इमे ज जोड़कर, Gemini से उसके बारे में सवाल पू छे जा सकते हैं\"},{\"line_id\":\"L0345\",\"quote\":\"Gemini Apps उस इमे ज को समझने और उसमें दिख रहे टे क्स्ट को पढ़ने के लिए Google Lens टे क्नोलॉजी का भी इस्ते माल करते हैं\"},{\"line_id\":\"L0346\",\"quote\":\"Google इस जानकारी का इस्ते माल, अन्य प्रॉम्प्ट की तरह ही Gemini Apps के निजता नोटिस के मु ताबिक़ करता है .\"}]}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "The policy specifically covers adding an image to a prompt and asking Gemini about it. It also states that Gemini Apps may use Google Lens technology to understand the image and read text shown in it, which directly matches transcribing a handwritten grocery list. The policy says this information is used according to the Gemini Apps Privacy Notice, and no cited provision requires extra consent or verification for this non-sensitive uploaded image processing to answer the user’s request.",
+  "source_excerpts": [
+    {
+      "line_id": "L0344",
+      "quote": "प्रॉम्प्ट के साथ कोई इमे ज जोड़कर, Gemini से उसके बारे में सवाल पू छे जा सकते हैं"
+    },
+    {
+      "line_id": "L0345",
+      "quote": "Gemini Apps उस इमे ज को समझने और उसमें दिख रहे टे क्स्ट को पढ़ने के लिए Google Lens टे क्नोलॉजी का भी इस्ते माल करते हैं"
+    },
+    {
+      "line_id": "L0346",
+      "quote": "Google इस जानकारी का इस्ते माल, अन्य प्रॉम्प्ट की तरह ही Gemini Apps के निजता नोटिस के मु ताबिक़ करता है ."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0344",
+      "model_quote": "प्रॉम्प्ट के साथ कोई इमे ज जोड़कर, Gemini से उसके बारे में सवाल पू छे जा सकते हैं",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "प्रॉम्ट में इमे ज शामिल करने पर क्या होता है प्रॉम्प्ट के साथ कोई इमे ज जोड़कर, Gemini से उसके बारे में सवाल पू छे जा सकते हैं , उसमें बदलाव किए जा सकते हैं या उसका इस्ते माल करके कोई दूसरा कॉन्टें ट, जै से कि वीडियो बनाया जा सकता है ."
+    },
+    {
+      "line_id": "L0345",
+      "model_quote": "Gemini Apps उस इमे ज को समझने और उसमें दिख रहे टे क्स्ट को पढ़ने के लिए Google Lens टे क्नोलॉजी का भी इस्ते माल करते हैं",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "जब प्रॉम्प्ट के साथ कोई इमे ज जोड़ी जाती है या \"इस स्क्रीन के बारे में सवाल पू छें \" जै सी किसी सु विधा का इस्ते माल करके स्क्रीनशॉट शामिल किया जाता है , तो Gemini Apps उस इमे ज को समझने और उसमें दिख रहे टे क्स्ट को पढ़ने के लिए Google Lens टे क्नोलॉजी का भी इस्ते माल करते हैं ."
+    },
+    {
+      "line_id": "L0346",
+      "model_quote": "Google इस जानकारी का इस्ते माल, अन्य प्रॉम्प्ट की तरह ही Gemini Apps के निजता नोटिस के मु ताबिक़ करता है .",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Google इस जानकारी का इस्ते माल, अन्य प्रॉम्प्ट की तरह ही Gemini Apps के निजता नोटिस के मु ताबिक़ करता है ."
+    }
+  ],
+  "all_quotes_verified": true
+}

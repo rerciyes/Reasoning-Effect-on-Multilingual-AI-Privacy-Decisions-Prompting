@@ -1,0 +1,80 @@
+{
+  "ts": "2026-05-13T17:36:52.038000+00:00",
+  "model": "gpt-5.5",
+  "num_ctx": null,
+  "language": "ur",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    57932.15608596802,
+    58749.2778301239
+  ],
+  "prompt_eval_count": 18151,
+  "prompt_truncated": false,
+  "raw": "{\"confidence\":\"High\",\"decision\":\"ESCALATE\",\"justification\":\"The notice permits Google to process Gemini Apps information to improve services and machine-learning technologies, and it says some chats may be reviewed for those purposes. However, the cited language also ties such processing to privacy safeguards, account-disconnection in at least some reviewer contexts, and user settings that can prevent future chats from being used for AI model training unless feedback is submitted. The policy does not clearly authorize providing a raw, sensitive, unredacted batch of past chats and uploaded files to an internal analytics or ML team for a purpose unrelated to the original users’ requests. Because the request involves sensitive personal data and unclear safeguards, it should be escalated for privacy/legal review.\",\"source_excerpts\":[{\"line_id\":\"L0104\",\"quote\":\"ہم عوامی طور پر قابل رسائی ذرائع اور آپ کی  Geminiایپس کی معلومات سے حاصل کردہ معلومات پر کارروائی کرتے ہیں تاکہ ہم  Googleپروڈکٹس ،سروسز ،اور مشین لرننگ ٹیکنالوجیز فراہم کر سکیں ،انہیں برقرار رکھ سکیں، انہیں بہتر بنا سکیں اور تیار کر سکیں۔\"},{\"line_id\":\"L0040\",\"quote\":\"انسان جائزہ کاران (بشمول ہمارے سروس فراہم کنندگان کے تربیت یافتہ تجزیہ کاران) ان مقاصد کیلئے ہمارے ذریعے اکٹھا کردہ کچھ چیٹس کا جائزہ لیتے ہیں۔\"},{\"line_id\":\"L0103\",\"quote\":\"آپ کی رازداری کے تحفظ کیلئے مناسب حفاظتی اقدامت کے ساتھ  Googleاور فریقین ثالث کی جائز دلچسپیاں۔\"},{\"line_id\":\"L0128\",\"quote\":\"سروس فراہم کنندگان کو بھیجنے سے پہلے چیٹس کو آپ کے اکاؤنٹ سے غیر منسلک کر دیا جاتا ہے۔\"},{\"line_id\":\"L0160\",\"quote\":\"آپ کی مستقبل کی چیٹس آپ کی سرگرمی میں ظاہر نہیں ہوں گی اور ہمارے  AIماڈلز کی تربیت کے لیے استعمال نہیں کی جائیں گی جب تک کہ آپ  Googleکو تاثرات بھیجنے کا انتخاب نہ کریں۔\"}]}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ESCALATE",
+  "confidence": "High",
+  "justification": "The notice permits Google to process Gemini Apps information to improve services and machine-learning technologies, and it says some chats may be reviewed for those purposes. However, the cited language also ties such processing to privacy safeguards, account-disconnection in at least some reviewer contexts, and user settings that can prevent future chats from being used for AI model training unless feedback is submitted. The policy does not clearly authorize providing a raw, sensitive, unredacted batch of past chats and uploaded files to an internal analytics or ML team for a purpose unrelated to the original users’ requests. Because the request involves sensitive personal data and unclear safeguards, it should be escalated for privacy/legal review.",
+  "source_excerpts": [
+    {
+      "line_id": "L0104",
+      "quote": "ہم عوامی طور پر قابل رسائی ذرائع اور آپ کی  Geminiایپس کی معلومات سے حاصل کردہ معلومات پر کارروائی کرتے ہیں تاکہ ہم  Googleپروڈکٹس ،سروسز ،اور مشین لرننگ ٹیکنالوجیز فراہم کر سکیں ،انہیں برقرار رکھ سکیں، انہیں بہتر بنا سکیں اور تیار کر سکیں۔"
+    },
+    {
+      "line_id": "L0040",
+      "quote": "انسان جائزہ کاران (بشمول ہمارے سروس فراہم کنندگان کے تربیت یافتہ تجزیہ کاران) ان مقاصد کیلئے ہمارے ذریعے اکٹھا کردہ کچھ چیٹس کا جائزہ لیتے ہیں۔"
+    },
+    {
+      "line_id": "L0103",
+      "quote": "آپ کی رازداری کے تحفظ کیلئے مناسب حفاظتی اقدامت کے ساتھ  Googleاور فریقین ثالث کی جائز دلچسپیاں۔"
+    },
+    {
+      "line_id": "L0128",
+      "quote": "سروس فراہم کنندگان کو بھیجنے سے پہلے چیٹس کو آپ کے اکاؤنٹ سے غیر منسلک کر دیا جاتا ہے۔"
+    },
+    {
+      "line_id": "L0160",
+      "quote": "آپ کی مستقبل کی چیٹس آپ کی سرگرمی میں ظاہر نہیں ہوں گی اور ہمارے  AIماڈلز کی تربیت کے لیے استعمال نہیں کی جائیں گی جب تک کہ آپ  Googleکو تاثرات بھیجنے کا انتخاب نہ کریں۔"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0104",
+      "model_quote": "ہم عوامی طور پر قابل رسائی ذرائع اور آپ کی  Geminiایپس کی معلومات سے حاصل کردہ معلومات پر کارروائی کرتے ہیں تاکہ ہم  Googleپروڈکٹس ،سروسز ،اور مشین لرننگ ٹیکنالوجیز فراہم کر سکیں ،انہیں برقرار رکھ سکیں، انہیں بہتر بنا سکیں اور تیار کر سکیں۔",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "ہم عوامی طور پر قابل رسائی ذرائع اور آپ کی  Geminiایپس کی معلومات سے حاصل کردہ معلومات پر کارروائی کرتے ہیں تاکہ ہم  Googleپروڈکٹس ،سروسز ،اور مشین لرننگ ٹیکنالوجیز فراہم کر سکیں ،انہیں برقرار رکھ سکیں، انہیں بہتر بنا سکیں اور تیار کر سکیں۔"
+    },
+    {
+      "line_id": "L0040",
+      "model_quote": "انسان جائزہ کاران (بشمول ہمارے سروس فراہم کنندگان کے تربیت یافتہ تجزیہ کاران) ان مقاصد کیلئے ہمارے ذریعے اکٹھا کردہ کچھ چیٹس کا جائزہ لیتے ہیں۔",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "انسان جائزہ کاران (بشمول ہمارے سروس فراہم کنندگان کے تربیت یافتہ تجزیہ کاران) ان مقاصد کیلئے ہمارے ذریعے اکٹھا کردہ کچھ چیٹس کا جائزہ لیتے ہیں۔ براہ کرم ایسی رازدارانہ معلومات درج نہ کریں جنہیں آپ نہیں چاہتے کہ کوئی جائزہ کار دیکھے یا  Googleانہیں مشین لرننگ ٹیکنالوجیز سمیت اپنی سروسز کو بہتر بنانے کیلئے استعمال کرے۔"
+    },
+    {
+      "line_id": "L0103",
+      "model_quote": "آپ کی رازداری کے تحفظ کیلئے مناسب حفاظتی اقدامت کے ساتھ  Googleاور فریقین ثالث کی جائز دلچسپیاں۔",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "آپ کی رازداری کے تحفظ کیلئے مناسب حفاظتی اقدامت کے ساتھ  Googleاور فریقین ثالث کی جائز دلچسپیاں۔"
+    },
+    {
+      "line_id": "L0128",
+      "model_quote": "سروس فراہم کنندگان کو بھیجنے سے پہلے چیٹس کو آپ کے اکاؤنٹ سے غیر منسلک کر دیا جاتا ہے۔",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "اس پروسیس میں ہم آپ کی رازداری کا تحفظ کس طرح کرتے ہیں ہم آپ کی رازداری کو سنجیدگی سے لیتے ہیں اور ہم آپ کی ذاتی معلومات کسی کو فروخت نہیں کرتے۔ سروس فراہم کنندگان کو بھیجنے سے پہلے چیٹس کو آپ کے اکاؤنٹ سے غیر منسلک کر دیا جاتا ہے۔"
+    },
+    {
+      "line_id": "L0160",
+      "model_quote": "آپ کی مستقبل کی چیٹس آپ کی سرگرمی میں ظاہر نہیں ہوں گی اور ہمارے  AIماڈلز کی تربیت کے لیے استعمال نہیں کی جائیں گی جب تک کہ آپ  Googleکو تاثرات بھیجنے کا انتخاب نہ کریں۔",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "کی ترتیب آف ہے:             اگر سرگرمی برقرار رکھیں آپ کی مستقبل کی چیٹس آپ کی سرگرمی میں ظاہر نہیں ہوں گی اور ہمارے  AIماڈلز کی تربیت کے لیے استعمال نہیں کی جائیں گی جب تک کہ آپ  Googleکو تاثرات بھیجنے کا انتخاب نہ کریں۔ مستقبل کی چیٹس اب بھی  72گھنٹوں کے لیے محفوظ کی جاتی ہیں تاکہ  Geminiآپ کو جواب دے سکے ،آپ کے تاثرات پر کارروائی کر سکے اور  ،Googleاس کے صارفین اور عوام کا تحفظ کر سکے۔"
+    }
+  ],
+  "all_quotes_verified": true
+}

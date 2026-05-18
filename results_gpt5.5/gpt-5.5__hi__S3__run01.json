@@ -1,0 +1,90 @@
+{
+  "ts": "2026-05-13T17:29:17.953457+00:00",
+  "model": "gpt-5.5",
+  "num_ctx": null,
+  "language": "hi",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    25434.22293663025
+  ],
+  "prompt_eval_count": 22554,
+  "prompt_truncated": false,
+  "raw": "{\"confidence\":\"High\",\"decision\":\"ALLOW AFTER VERIFICATION\",\"justification\":\"The policy permits Gemini Apps to use information and instructions provided by the user to give personalized responses, and says this data is saved until the user deletes it. For personalization based on chats outside the EEA, Switzerland, and the UK, the policy states this uses Gemini Apps activity data and requires the activity-saving setting to be on. The policy also specifically says that if Memory is on, Gemini may use sensitive information shared during chats for personalization. Because the scenario does not state whether Keep Activity or Memory is turned on, Gemini may save and use the information only after verifying those required settings/conditions.\",\"source_excerpts\":[{\"line_id\":\"L0268\",\"quote\":\"Gemini Apps, आपकी दी गई जानकारी और निर्दे शों का इस्ते माल करके आपको पसं द के मु ताबिक़ जवाब दे ते हैं .\"},{\"line_id\":\"L0269\",\"quote\":\"यह डे टा तब तक से व रहता है , जब तक आप इसे मिटा न दें .\"},{\"line_id\":\"L0273\",\"quote\":\"यू रोपियन इकनॉमिक एरिया, स्विट्ज़रलैं ड, और यू नाइटे ड किं गडम के अलावा, अन्य दे शों /इलाक़ों में Gemini आपको मनमु ताबिक़ अनु भव दे ता है .\"},{\"line_id\":\"L0274\",\"quote\":\"इसके लिए Gemini Apps में की गई गतिविधि      में मौजू द आपकी चै ट का इस्ते माल किया जाता है .\"},{\"line_id\":\"L0277\",\"quote\":\"इसका इस्ते माल करने के लिए, गतिविधि से व करके रखने की से टिं ग चालू होना ज़रूरी है .\"},{\"line_id\":\"L0279\",\"quote\":\"Gemini, आपको मनमु ताबिक़ अनु भव दे ने के लिए चै ट के दौरान शे यर की गई सं वे दनशील जानकारी का इस्ते माल कर सकता है .\"}]}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW AFTER VERIFICATION",
+  "confidence": "High",
+  "justification": "The policy permits Gemini Apps to use information and instructions provided by the user to give personalized responses, and says this data is saved until the user deletes it. For personalization based on chats outside the EEA, Switzerland, and the UK, the policy states this uses Gemini Apps activity data and requires the activity-saving setting to be on. The policy also specifically says that if Memory is on, Gemini may use sensitive information shared during chats for personalization. Because the scenario does not state whether Keep Activity or Memory is turned on, Gemini may save and use the information only after verifying those required settings/conditions.",
+  "source_excerpts": [
+    {
+      "line_id": "L0268",
+      "quote": "Gemini Apps, आपकी दी गई जानकारी और निर्दे शों का इस्ते माल करके आपको पसं द के मु ताबिक़ जवाब दे ते हैं ."
+    },
+    {
+      "line_id": "L0269",
+      "quote": "यह डे टा तब तक से व रहता है , जब तक आप इसे मिटा न दें ."
+    },
+    {
+      "line_id": "L0273",
+      "quote": "यू रोपियन इकनॉमिक एरिया, स्विट्ज़रलैं ड, और यू नाइटे ड किं गडम के अलावा, अन्य दे शों /इलाक़ों में Gemini आपको मनमु ताबिक़ अनु भव दे ता है ."
+    },
+    {
+      "line_id": "L0274",
+      "quote": "इसके लिए Gemini Apps में की गई गतिविधि      में मौजू द आपकी चै ट का इस्ते माल किया जाता है ."
+    },
+    {
+      "line_id": "L0277",
+      "quote": "इसका इस्ते माल करने के लिए, गतिविधि से व करके रखने की से टिं ग चालू होना ज़रूरी है ."
+    },
+    {
+      "line_id": "L0279",
+      "quote": "Gemini, आपको मनमु ताबिक़ अनु भव दे ने के लिए चै ट के दौरान शे यर की गई सं वे दनशील जानकारी का इस्ते माल कर सकता है ."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0268",
+      "model_quote": "Gemini Apps, आपकी दी गई जानकारी और निर्दे शों का इस्ते माल करके आपको पसं द के मु ताबिक़ जवाब दे ते हैं .",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Gemini Apps, आपकी दी गई जानकारी और निर्दे शों का इस्ते माल करके आपको पसं द के मु ताबिक़ जवाब दे ते हैं ."
+    },
+    {
+      "line_id": "L0269",
+      "model_quote": "यह डे टा तब तक से व रहता है , जब तक आप इसे मिटा न दें .",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "यह डे टा तब तक से व रहता है , जब तक आप इसे मिटा न दें ."
+    },
+    {
+      "line_id": "L0273",
+      "model_quote": "यू रोपियन इकनॉमिक एरिया, स्विट्ज़रलैं ड, और यू नाइटे ड किं गडम के अलावा, अन्य दे शों /इलाक़ों में Gemini आपको मनमु ताबिक़ अनु भव दे ता है .",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "यू रोपियन इकनॉमिक एरिया, स्विट्ज़रलैं ड, और यू नाइटे ड किं गडम के अलावा, अन्य दे शों /इलाक़ों में Gemini आपको मनमु ताबिक़ अनु भव दे ता है ."
+    },
+    {
+      "line_id": "L0274",
+      "model_quote": "इसके लिए Gemini Apps में की गई गतिविधि      में मौजू द आपकी चै ट का इस्ते माल किया जाता है .",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "इसके लिए Gemini Apps में की गई गतिविधि      में मौजू द आपकी चै ट का इस्ते माल किया जाता है ."
+    },
+    {
+      "line_id": "L0277",
+      "model_quote": "इसका इस्ते माल करने के लिए, गतिविधि से व करके रखने की से टिं ग चालू होना ज़रूरी है .",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "इसका इस्ते माल करने के लिए, गतिविधि से व करके रखने की से टिं ग चालू होना ज़रूरी है ."
+    },
+    {
+      "line_id": "L0279",
+      "model_quote": "Gemini, आपको मनमु ताबिक़ अनु भव दे ने के लिए चै ट के दौरान शे यर की गई सं वे दनशील जानकारी का इस्ते माल कर सकता है .",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Gemini, आपको मनमु ताबिक़ अनु भव दे ने के लिए चै ट के दौरान शे यर की गई सं वे दनशील जानकारी का इस्ते माल कर सकता है ."
+    }
+  ],
+  "all_quotes_verified": true
+}

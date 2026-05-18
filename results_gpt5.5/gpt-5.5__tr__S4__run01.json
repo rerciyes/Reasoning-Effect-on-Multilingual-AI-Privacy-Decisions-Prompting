@@ -1,0 +1,68 @@
+{
+  "ts": "2026-05-13T17:23:15.462470+00:00",
+  "model": "gpt-5.5",
+  "num_ctx": null,
+  "language": "tr",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    38063.22526931763
+  ],
+  "prompt_eval_count": 16597,
+  "prompt_truncated": false,
+  "raw": "{\"confidence\":\"Medium\",\"decision\":\"ESCALATE\",\"justification\":\"The policy permits processing Gemini Apps information to improve and develop Google products, services, and machine-learning technologies, and it also mentions analytics-related use. However, it places this use in the context of user controls such as Activity Save and specific safeguards such as disconnecting chats from accounts before sending them to service providers. The policy does not clearly state that an internal team may receive a raw batch of past chats containing names, contact details, sensitive free text, and uploaded files, especially where the request rejects redaction, aggregation, or account-disconnection. Because the request involves sensitive personal data and the applicable safeguards/settings are unclear, it should be escalated for human privacy/legal review rather than provided directly.\",\"source_excerpts\":[{\"line_id\":\"L0138\",\"quote\":\"Google ürünlerini, hizmetlerini ve makine öğrenimi teknolojilerini sağlamak, sürdürmek, iyileştirmek ve geliştirmek için herkese açık kaynaklardan gelen bilgileri ve Gemini Uygulamaları bilgilerinizi işleriz.\"},{\"line_id\":\"L0142\",\"quote\":\"Hizmetlerimizi geliştirmek için kullanıcıların onları nasıl kullandığını anlama (ör. kullanıcıların Gemini Uygulamaları'nı kullanıcı deneyimini daha iyi özelleştirmek için nasıl kullandığını anlamak amacıyla metrikler oluşturma)\"},{\"line_id\":\"L0211\",\"quote\":\"Etkinliği Sakla       ayarı kapalıysa: Google'a geri bildirim göndermeyi seçmediğiniz sürece gelecekteki sohbetleriniz, Etkinliğinizde görünmez ve yapay zeka modellerimizi eğitmek için kullanılmaz.\"},{\"line_id\":\"L0169\",\"quote\":\"Servis sağlayıcılara gönderilmeden önce sohbetlerin hesabınızla ilişkisi kesilir.\"}]}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ESCALATE",
+  "confidence": "Medium",
+  "justification": "The policy permits processing Gemini Apps information to improve and develop Google products, services, and machine-learning technologies, and it also mentions analytics-related use. However, it places this use in the context of user controls such as Activity Save and specific safeguards such as disconnecting chats from accounts before sending them to service providers. The policy does not clearly state that an internal team may receive a raw batch of past chats containing names, contact details, sensitive free text, and uploaded files, especially where the request rejects redaction, aggregation, or account-disconnection. Because the request involves sensitive personal data and the applicable safeguards/settings are unclear, it should be escalated for human privacy/legal review rather than provided directly.",
+  "source_excerpts": [
+    {
+      "line_id": "L0138",
+      "quote": "Google ürünlerini, hizmetlerini ve makine öğrenimi teknolojilerini sağlamak, sürdürmek, iyileştirmek ve geliştirmek için herkese açık kaynaklardan gelen bilgileri ve Gemini Uygulamaları bilgilerinizi işleriz."
+    },
+    {
+      "line_id": "L0142",
+      "quote": "Hizmetlerimizi geliştirmek için kullanıcıların onları nasıl kullandığını anlama (ör. kullanıcıların Gemini Uygulamaları'nı kullanıcı deneyimini daha iyi özelleştirmek için nasıl kullandığını anlamak amacıyla metrikler oluşturma)"
+    },
+    {
+      "line_id": "L0211",
+      "quote": "Etkinliği Sakla       ayarı kapalıysa: Google'a geri bildirim göndermeyi seçmediğiniz sürece gelecekteki sohbetleriniz, Etkinliğinizde görünmez ve yapay zeka modellerimizi eğitmek için kullanılmaz."
+    },
+    {
+      "line_id": "L0169",
+      "quote": "Servis sağlayıcılara gönderilmeden önce sohbetlerin hesabınızla ilişkisi kesilir."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0138",
+      "model_quote": "Google ürünlerini, hizmetlerini ve makine öğrenimi teknolojilerini sağlamak, sürdürmek, iyileştirmek ve geliştirmek için herkese açık kaynaklardan gelen bilgileri ve Gemini Uygulamaları bilgilerinizi işleriz.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Google ürünlerini, hizmetlerini ve makine öğrenimi teknolojilerini sağlamak, sürdürmek, iyileştirmek ve geliştirmek için herkese açık kaynaklardan gelen bilgileri ve Gemini Uygulamaları bilgilerinizi işleriz."
+    },
+    {
+      "line_id": "L0142",
+      "model_quote": "Hizmetlerimizi geliştirmek için kullanıcıların onları nasıl kullandığını anlama (ör. kullanıcıların Gemini Uygulamaları'nı kullanıcı deneyimini daha iyi özelleştirmek için nasıl kullandığını anlamak amacıyla metrikler oluşturma)",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Hizmetlerimizi geliştirmek için kullanıcıların onları nasıl kullandığını anlama (ör. kullanıcıların Gemini Uygulamaları'nı kullanıcı deneyimini daha iyi özelleştirmek için nasıl kullandığını anlamak amacıyla metrikler oluşturma)"
+    },
+    {
+      "line_id": "L0211",
+      "model_quote": "Etkinliği Sakla       ayarı kapalıysa: Google'a geri bildirim göndermeyi seçmediğiniz sürece gelecekteki sohbetleriniz, Etkinliğinizde görünmez ve yapay zeka modellerimizi eğitmek için kullanılmaz.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Etkinliği Sakla       ayarı kapalıysa: Google'a geri bildirim göndermeyi seçmediğiniz sürece gelecekteki sohbetleriniz, Etkinliğinizde görünmez ve yapay zeka modellerimizi eğitmek için kullanılmaz."
+    },
+    {
+      "line_id": "L0169",
+      "model_quote": "Servis sağlayıcılara gönderilmeden önce sohbetlerin hesabınızla ilişkisi kesilir.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Servis sağlayıcılara gönderilmeden önce sohbetlerin hesabınızla ilişkisi kesilir."
+    }
+  ],
+  "all_quotes_verified": true
+}

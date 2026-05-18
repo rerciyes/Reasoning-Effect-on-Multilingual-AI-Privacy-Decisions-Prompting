@@ -1,0 +1,68 @@
+{
+  "ts": "2026-05-13T17:35:57.902079+00:00",
+  "model": "gpt-5.5",
+  "num_ctx": null,
+  "language": "ur",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    54128.91459465027
+  ],
+  "prompt_eval_count": 18136,
+  "prompt_truncated": false,
+  "raw": "{\"confidence\":\"High\",\"decision\":\"ALLOW AFTER VERIFICATION\",\"justification\":\"The policy allows Gemini to use saved information and instructions to provide more customized responses, and the user has asked Gemini to remember the information. However, for past-chat personalization outside the EEA, Switzerland, and the UK, the policy says the feature requires Keep Activity to be on, and sensitive information may be used only if Memory is on. Because the scenario does not state whether Keep Activity or Memory is turned on, Gemini may save and use this information for future personalization only after verifying those required settings are enabled.\",\"source_excerpts\":[{\"line_id\":\"L0182\",\"quote\":\"Gemini ایپس مزید حسب ضرورت رسپانسز فراہم کرنے کے لیے آپ کی معلومات اور ہدایات کا استعمال کرتی ہیں۔ یہ ڈیٹا اس وقت تک محفوظ رہتا ہے جب تک آپ اسے حذف کرنے کے لیے انتخاب نہیں کرتے ہیں۔\"},{\"line_id\":\"L0184\",\"quote\":\"اس خصوصیت کو استعمال کرنے کیلئے سرگرمی برقرار رکھیں کا آن ہونا ضروری ہے۔\"},{\"line_id\":\"L0185\",\"quote\":\"اگر میموری آن ہے:\"},{\"line_id\":\"L0186\",\"quote\":\"Gemini آپ کے تجربے کو ذاتی نوعیت کا بنانے کیلئے آپ کی چیٹس میں فراہم کردہ حساس معلومات کا استعمال کر سکتا ہے۔\"}]}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW AFTER VERIFICATION",
+  "confidence": "High",
+  "justification": "The policy allows Gemini to use saved information and instructions to provide more customized responses, and the user has asked Gemini to remember the information. However, for past-chat personalization outside the EEA, Switzerland, and the UK, the policy says the feature requires Keep Activity to be on, and sensitive information may be used only if Memory is on. Because the scenario does not state whether Keep Activity or Memory is turned on, Gemini may save and use this information for future personalization only after verifying those required settings are enabled.",
+  "source_excerpts": [
+    {
+      "line_id": "L0182",
+      "quote": "Gemini ایپس مزید حسب ضرورت رسپانسز فراہم کرنے کے لیے آپ کی معلومات اور ہدایات کا استعمال کرتی ہیں۔ یہ ڈیٹا اس وقت تک محفوظ رہتا ہے جب تک آپ اسے حذف کرنے کے لیے انتخاب نہیں کرتے ہیں۔"
+    },
+    {
+      "line_id": "L0184",
+      "quote": "اس خصوصیت کو استعمال کرنے کیلئے سرگرمی برقرار رکھیں کا آن ہونا ضروری ہے۔"
+    },
+    {
+      "line_id": "L0185",
+      "quote": "اگر میموری آن ہے:"
+    },
+    {
+      "line_id": "L0186",
+      "quote": "Gemini آپ کے تجربے کو ذاتی نوعیت کا بنانے کیلئے آپ کی چیٹس میں فراہم کردہ حساس معلومات کا استعمال کر سکتا ہے۔"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0182",
+      "model_quote": "Gemini ایپس مزید حسب ضرورت رسپانسز فراہم کرنے کے لیے آپ کی معلومات اور ہدایات کا استعمال کرتی ہیں۔ یہ ڈیٹا اس وقت تک محفوظ رہتا ہے جب تک آپ اسے حذف کرنے کے لیے انتخاب نہیں کرتے ہیں۔",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Gemini ایپس مزید حسب ضرورت رسپانسز فراہم کرنے کے لیے آپ کی معلومات اور ہدایات کا استعمال کرتی ہیں۔ یہ ڈیٹا اس وقت تک محفوظ رہتا ہے جب تک آپ اسے حذف کرنے کے لیے انتخاب نہیں کرتے ہیں۔ آپ کسی بھی وقت معلومات اور ہدایات کو محفوظ کرنا اسٹاپ کر سکتے ہیں۔ مزید جانیں۔"
+    },
+    {
+      "line_id": "L0184",
+      "model_quote": "اس خصوصیت کو استعمال کرنے کیلئے سرگرمی برقرار رکھیں کا آن ہونا ضروری ہے۔",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "میں آپ کی چیٹس تجویز        یوروپین اکنامک ایریا ،سوئٹزرلینڈ اور برطانیہ سے باہر Gemini Gemini ،ایپس کی سرگرمی کر کے اور انہیں ذاتی نوعیت کی بصیرتیں تخلیق کرنے کیلئے استعمال کر کے آپ کے تجربے کو ذاتی نوعیت کا بناتا ہے۔ آپ اپنی ماضی کی  Geminiچیٹس کی بنیاد پر ذاتی نوعیت سازی کو روکنے کے لیے کسی بھی وقت میموری کو آف کر سکتے ہیں۔ اس خصوصیت کو استعمال کرنے کیلئے سرگرمی برقرار رکھیں کا آن ہونا ضروری ہے۔"
+    },
+    {
+      "line_id": "L0185",
+      "model_quote": "اگر میموری آن ہے:",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "اگر میموری آن ہے:"
+    },
+    {
+      "line_id": "L0186",
+      "model_quote": "Gemini آپ کے تجربے کو ذاتی نوعیت کا بنانے کیلئے آپ کی چیٹس میں فراہم کردہ حساس معلومات کا استعمال کر سکتا ہے۔",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Gemini آپ کے تجربے کو ذاتی نوعیت کا بنانے کیلئے آپ کی چیٹس میں فراہم کردہ حساس معلومات کا استعمال کر سکتا ہے۔"
+    }
+  ],
+  "all_quotes_verified": true
+}

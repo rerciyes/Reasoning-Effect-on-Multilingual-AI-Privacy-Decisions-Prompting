@@ -1,0 +1,69 @@
+{
+  "ts": "2026-05-13T17:16:34.862220+00:00",
+  "model": "gpt-5.5",
+  "num_ctx": null,
+  "language": "pt-BR",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    36369.707107543945,
+    24153.061151504517
+  ],
+  "prompt_eval_count": 13682,
+  "prompt_truncated": false,
+  "raw": "{\"confidence\":\"High\",\"decision\":\"ALLOW AFTER VERIFICATION\",\"justification\":\"The policy indicates that, outside the EEA, Switzerland, and the UK, Gemini can personalize the user’s experience using prior Gemini conversations and personalized insights. However, it also states that Keep Activity must be enabled for this feature and frames the use of sensitive information as occurring when Memory is enabled. Because the scenario does not state whether Keep Activity and Memory are turned on, Gemini may save and use this information for future personalization only after verifying those settings.\",\"source_excerpts\":[{\"line_id\":\"L0239\",\"quote\":\"Fora do Espaço Econômico Europeu, da Suíça e do Reino Unido, o Gemini personaliza sua experiência consultando suas conversas na atividade nos apps do Gemini        e usando-as para gerar insights personalizados.\"},{\"line_id\":\"L0242\",\"quote\":\"A opção Manter Atividade precisa estar ativada para usar esse recurso.\"},{\"line_id\":\"L0243\",\"quote\":\"Se a Memória está ativada:\"},{\"line_id\":\"L0244\",\"quote\":\"Pode ser que o Gemini use informações sensíveis que você forneceu nas conversas para personalizar sua experiência.\"}]}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW AFTER VERIFICATION",
+  "confidence": "High",
+  "justification": "The policy indicates that, outside the EEA, Switzerland, and the UK, Gemini can personalize the user’s experience using prior Gemini conversations and personalized insights. However, it also states that Keep Activity must be enabled for this feature and frames the use of sensitive information as occurring when Memory is enabled. Because the scenario does not state whether Keep Activity and Memory are turned on, Gemini may save and use this information for future personalization only after verifying those settings.",
+  "source_excerpts": [
+    {
+      "line_id": "L0239",
+      "quote": "Fora do Espaço Econômico Europeu, da Suíça e do Reino Unido, o Gemini personaliza sua experiência consultando suas conversas na atividade nos apps do Gemini        e usando-as para gerar insights personalizados."
+    },
+    {
+      "line_id": "L0242",
+      "quote": "A opção Manter Atividade precisa estar ativada para usar esse recurso."
+    },
+    {
+      "line_id": "L0243",
+      "quote": "Se a Memória está ativada:"
+    },
+    {
+      "line_id": "L0244",
+      "quote": "Pode ser que o Gemini use informações sensíveis que você forneceu nas conversas para personalizar sua experiência."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0239",
+      "model_quote": "Fora do Espaço Econômico Europeu, da Suíça e do Reino Unido, o Gemini personaliza sua experiência consultando suas conversas na atividade nos apps do Gemini        e usando-as para gerar insights personalizados.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Fora do Espaço Econômico Europeu, da Suíça e do Reino Unido, o Gemini personaliza sua experiência consultando suas conversas na atividade nos apps do Gemini        e usando-as para gerar insights personalizados."
+    },
+    {
+      "line_id": "L0242",
+      "model_quote": "A opção Manter Atividade precisa estar ativada para usar esse recurso.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "A opção Manter Atividade precisa estar ativada para usar esse recurso."
+    },
+    {
+      "line_id": "L0243",
+      "model_quote": "Se a Memória está ativada:",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Se a Memória está ativada:"
+    },
+    {
+      "line_id": "L0244",
+      "model_quote": "Pode ser que o Gemini use informações sensíveis que você forneceu nas conversas para personalizar sua experiência.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Pode ser que o Gemini use informações sensíveis que você forneceu nas conversas para personalizar sua experiência."
+    }
+  ],
+  "all_quotes_verified": true
+}

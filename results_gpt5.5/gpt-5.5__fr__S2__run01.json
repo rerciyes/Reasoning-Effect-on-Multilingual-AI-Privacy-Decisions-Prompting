@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-13T17:18:16.254341+00:00",
+  "model": "gpt-5.5",
+  "num_ctx": null,
+  "language": "fr",
+  "scenario_id": "S2",
+  "run": 1,
+  "latency_ms": [
+    8829.96654510498
+  ],
+  "prompt_eval_count": 14840,
+  "prompt_truncated": false,
+  "raw": "{\"confidence\":\"High\",\"decision\":\"DENY\",\"justification\":\"The policy allows Gemini to answer location-related prompts by default using only the user's general area from IP address or saved home/work address. It separately states that precise device location is processed only with the user's authorization. Because the scenario says the user has not granted device or browser location permission, Gemini may not collect and use the user's precise device location for this request.\",\"source_excerpts\":[{\"line_id\":\"L0264\",\"quote\":\"Pour vous fournir des réponses utiles à vos prompts (comme \\\"Quel temps fait-il ?\\\"), les applications Gemini utilisent par défaut la zone géographique générale de votre adresse IP, ou l'adresse professionnelle ou personnelle figurant dans votre compte Google.\"},{\"line_id\":\"L0265\",\"quote\":\"Avec votre autorisation, les applications Gemini traitent également les données de localisation exacte de votre appareil.\"}]}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The policy allows Gemini to answer location-related prompts by default using only the user's general area from IP address or saved home/work address. It separately states that precise device location is processed only with the user's authorization. Because the scenario says the user has not granted device or browser location permission, Gemini may not collect and use the user's precise device location for this request.",
+  "source_excerpts": [
+    {
+      "line_id": "L0264",
+      "quote": "Pour vous fournir des réponses utiles à vos prompts (comme \"Quel temps fait-il ?\"), les applications Gemini utilisent par défaut la zone géographique générale de votre adresse IP, ou l'adresse professionnelle ou personnelle figurant dans votre compte Google."
+    },
+    {
+      "line_id": "L0265",
+      "quote": "Avec votre autorisation, les applications Gemini traitent également les données de localisation exacte de votre appareil."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0264",
+      "model_quote": "Pour vous fournir des réponses utiles à vos prompts (comme \"Quel temps fait-il ?\"), les applications Gemini utilisent par défaut la zone géographique générale de votre adresse IP, ou l'adresse professionnelle ou personnelle figurant dans votre compte Google.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Pour vous fournir des réponses utiles à vos prompts (comme \"Quel temps fait-il ?\"), les applications Gemini utilisent par défaut la zone géographique générale de votre adresse IP, ou l'adresse professionnelle ou personnelle figurant dans votre compte Google."
+    },
+    {
+      "line_id": "L0265",
+      "model_quote": "Avec votre autorisation, les applications Gemini traitent également les données de localisation exacte de votre appareil.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Avec votre autorisation, les applications Gemini traitent également les données de localisation exacte de votre appareil."
+    }
+  ],
+  "all_quotes_verified": true
+}

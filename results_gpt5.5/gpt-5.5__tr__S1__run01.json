@@ -1,0 +1,57 @@
+{
+  "ts": "2026-05-13T17:22:18.571179+00:00",
+  "model": "gpt-5.5",
+  "num_ctx": null,
+  "language": "tr",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    13942.116737365723
+  ],
+  "prompt_eval_count": 16569,
+  "prompt_truncated": false,
+  "raw": "{\"confidence\":\"High\",\"decision\":\"ALLOW\",\"justification\":\"The policy expressly contemplates users adding an image to a prompt and asking Gemini about that image. It also states that when an image is added, Gemini uses Google Lens technology to understand the image content and read text, which directly covers transcribing a handwritten grocery list. The policy further permits processing Gemini Apps information to provide and maintain the requested Gemini service, so categorizing the transcribed items is directly related to the user’s request.\",\"source_excerpts\":[{\"line_id\":\"L0307\",\"quote\":\"İsteminize bir görsel ekleyerek Gemini'a bu görselle ilgili sorular sorabilir\"},{\"line_id\":\"L0309\",\"quote\":\"Gemini Uygulamaları görselin içeriğini anlamak ve metni okumak için Google Lens teknolojisini kullanır.\"},{\"line_id\":\"L0136\",\"quote\":\"talep ettiğiniz Gemini Uygulamaları hizmetini sağlayıp sürdürebilmek için işleriz.\"}]}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "The policy expressly contemplates users adding an image to a prompt and asking Gemini about that image. It also states that when an image is added, Gemini uses Google Lens technology to understand the image content and read text, which directly covers transcribing a handwritten grocery list. The policy further permits processing Gemini Apps information to provide and maintain the requested Gemini service, so categorizing the transcribed items is directly related to the user’s request.",
+  "source_excerpts": [
+    {
+      "line_id": "L0307",
+      "quote": "İsteminize bir görsel ekleyerek Gemini'a bu görselle ilgili sorular sorabilir"
+    },
+    {
+      "line_id": "L0309",
+      "quote": "Gemini Uygulamaları görselin içeriğini anlamak ve metni okumak için Google Lens teknolojisini kullanır."
+    },
+    {
+      "line_id": "L0136",
+      "quote": "talep ettiğiniz Gemini Uygulamaları hizmetini sağlayıp sürdürebilmek için işleriz."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0307",
+      "model_quote": "İsteminize bir görsel ekleyerek Gemini'a bu görselle ilgili sorular sorabilir",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "İsteminize bir görsel ekleyerek Gemini'a bu görselle ilgili sorular sorabilir, görseli düzenleyebilir veya başka içerikler (ör."
+    },
+    {
+      "line_id": "L0309",
+      "model_quote": "Gemini Uygulamaları görselin içeriğini anlamak ve metni okumak için Google Lens teknolojisini kullanır.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "İsteminize bir görsel veya \"Bu ekran hakkında soru sorun\" gibi bir ekrana göre işlem üzerinden ekran görüntüsü eklediğinizde, Gemini Uygulamaları görselin içeriğini anlamak ve metni okumak için Google Lens teknolojisini kullanır."
+    },
+    {
+      "line_id": "L0136",
+      "model_quote": "talep ettiğiniz Gemini Uygulamaları hizmetini sağlayıp sürdürebilmek için işleriz.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Sözleşme kapsamındaki yükümlülüklerin yerine getirilmesi. Gemini Uygulamaları bilgilerinizi ve Gemini Uygulamaları'nı başka bir hizmetle bağladığınızda Gemini Uygulamaları'nın işlemesine izin verdiğiniz diğer tüm bilgilerinizi Google Hizmet Şartları 'na uygun olarak, talep ettiğiniz Gemini Uygulamaları hizmetini sağlayıp sürdürebilmek için işleriz. Örneğin, Gemini Uygulamaları bilgilerinizi sorgularınıza yanıt vermenin yanı sıra video üretimi, görüntü düzenleme ve ekrana göre işlemleri kullanarak Gemini ile sohbet etme gibi çeşitli Gemini Uygulamaları özelliklerini ve işlevlerini sunmak için işleriz."
+    }
+  ],
+  "all_quotes_verified": true
+}

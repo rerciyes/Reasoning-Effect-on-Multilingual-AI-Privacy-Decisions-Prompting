@@ -1,0 +1,70 @@
+{
+  "ts": "2026-05-13T17:13:13.459338+00:00",
+  "model": "gpt-5.5",
+  "num_ctx": null,
+  "language": "en",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    38966.45140647888,
+    44798.00462722778,
+    26501.20234489441
+  ],
+  "prompt_eval_count": 11498,
+  "prompt_truncated": false,
+  "raw": "{\"confidence\":\"Medium\",\"decision\":\"ESCALATE\",\"justification\":\"The policy supports that Gemini activity may be used to improve services and train generative AI models when Keep Activity is on, but it also states that future chats are not used for AI model training when Keep Activity is off unless feedback is submitted. The request is for a raw batch of past chats containing sensitive user-submitted content and uploaded files, and the policy does not clearly authorize providing such raw, non-redacted, account-connected batches to an internal analytics or ML team without verifying user settings or applying safeguards. Because the proposed sharing involves sensitive personal data at scale and the exact internal-access safeguards are not specifically covered, this should be escalated for privacy/legal review rather than approved directly.\",\"source_excerpts\":[{\"line_id\":\"L0184\",\"quote\":\"How your activity is used Google uses your activity to provide, develop, and improve its services (including training generative AI models), as well as to protect Google, its users, and the public with the help of human reviewers.\"},{\"line_id\":\"L0195\",\"quote\":\"If the Keep Activity        setting is off: Your future chats won’t appear in your Activity, and won’t be used to train our AI models, unless you choose to send Google feedback.\"},{\"line_id\":\"L0044\",\"quote\":\"Please don’t enter confidential information that you wouldn’t want a reviewer to see or Google to use to improve our services, including machine- learning technologies.\"},{\"line_id\":\"L0067\",\"quote\":\"Visit Gemini Apps Activity to review and delete your activity (which includes imported chats), change your auto-delete period, and control whether your data is used to improve Google AI. These services include, for example, the generative AI models powering Gemini Apps. The settings in Gemini Apps Activity don’t control processing of your chats to create anonymized data to improve Google services. When your Keep Activity setting is off, Google still uses your chats to respond to you and help protect Google, our users, and the public, including with help from human reviewers.\"}]}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ESCALATE",
+  "confidence": "Medium",
+  "justification": "The policy supports that Gemini activity may be used to improve services and train generative AI models when Keep Activity is on, but it also states that future chats are not used for AI model training when Keep Activity is off unless feedback is submitted. The request is for a raw batch of past chats containing sensitive user-submitted content and uploaded files, and the policy does not clearly authorize providing such raw, non-redacted, account-connected batches to an internal analytics or ML team without verifying user settings or applying safeguards. Because the proposed sharing involves sensitive personal data at scale and the exact internal-access safeguards are not specifically covered, this should be escalated for privacy/legal review rather than approved directly.",
+  "source_excerpts": [
+    {
+      "line_id": "L0184",
+      "quote": "How your activity is used Google uses your activity to provide, develop, and improve its services (including training generative AI models), as well as to protect Google, its users, and the public with the help of human reviewers."
+    },
+    {
+      "line_id": "L0195",
+      "quote": "If the Keep Activity        setting is off: Your future chats won’t appear in your Activity, and won’t be used to train our AI models, unless you choose to send Google feedback."
+    },
+    {
+      "line_id": "L0044",
+      "quote": "Please don’t enter confidential information that you wouldn’t want a reviewer to see or Google to use to improve our services, including machine- learning technologies."
+    },
+    {
+      "line_id": "L0067",
+      "quote": "Visit Gemini Apps Activity to review and delete your activity (which includes imported chats), change your auto-delete period, and control whether your data is used to improve Google AI. These services include, for example, the generative AI models powering Gemini Apps. The settings in Gemini Apps Activity don’t control processing of your chats to create anonymized data to improve Google services. When your Keep Activity setting is off, Google still uses your chats to respond to you and help protect Google, our users, and the public, including with help from human reviewers."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0184",
+      "model_quote": "How your activity is used Google uses your activity to provide, develop, and improve its services (including training generative AI models), as well as to protect Google, its users, and the public with the help of human reviewers.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "How your activity is used Google uses your activity to provide, develop, and improve its services (including training generative AI models), as well as to protect Google, its users, and the public with the help of human reviewers."
+    },
+    {
+      "line_id": "L0195",
+      "model_quote": "If the Keep Activity        setting is off: Your future chats won’t appear in your Activity, and won’t be used to train our AI models, unless you choose to send Google feedback.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "If the Keep Activity        setting is off: Your future chats won’t appear in your Activity, and won’t be used to train our AI models, unless you choose to send Google feedback."
+    },
+    {
+      "line_id": "L0044",
+      "model_quote": "Please don’t enter confidential information that you wouldn’t want a reviewer to see or Google to use to improve our services, including machine- learning technologies.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Please don’t enter confidential information that you wouldn’t want a reviewer to see or Google to use to improve our services, including machine- learning technologies."
+    },
+    {
+      "line_id": "L0067",
+      "model_quote": "Visit Gemini Apps Activity to review and delete your activity (which includes imported chats), change your auto-delete period, and control whether your data is used to improve Google AI. These services include, for example, the generative AI models powering Gemini Apps. The settings in Gemini Apps Activity don’t control processing of your chats to create anonymized data to improve Google services. When your Keep Activity setting is off, Google still uses your chats to respond to you and help protect Google, our users, and the public, including with help from human reviewers.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Visit Gemini Apps Activity to review and delete your activity (which includes imported chats), change your auto-delete period, and control whether your data is used to improve Google AI. These services include, for example, the generative AI models powering Gemini Apps. The settings in Gemini Apps Activity don’t control processing of your chats to create anonymized data to improve Google services. When your Keep Activity setting is off, Google still uses your chats to respond to you and help protect Google, our users, and the public, including with help from human reviewers."
+    }
+  ],
+  "all_quotes_verified": true
+}

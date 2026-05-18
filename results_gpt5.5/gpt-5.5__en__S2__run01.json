@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-13T17:12:45.544348+00:00",
+  "model": "gpt-5.5",
+  "num_ctx": null,
+  "language": "en",
+  "scenario_id": "S2",
+  "run": 1,
+  "latency_ms": [
+    6744.056701660156
+  ],
+  "prompt_eval_count": 11483,
+  "prompt_truncated": false,
+  "raw": "{\"confidence\":\"High\",\"decision\":\"DENY\",\"justification\":\"The policy allows Gemini to use general location sources by default to answer location-relevant queries. However, it states that precise location data from the device is processed only with the user's permission. Because the scenario says the user has not granted device or browser location permission, Gemini may not collect and use the user's precise device location for this request.\",\"source_excerpts\":[{\"line_id\":\"L0242\",\"quote\":\"By default, Gemini Apps use the general area from your IP address or the Home or Work addresses in your Google Account to give relevant responses to prompts like “What’s the weather?”\"},{\"line_id\":\"L0243\",\"quote\":\"With your permission, Gemini Apps also process precise location data from your device.\"}]}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The policy allows Gemini to use general location sources by default to answer location-relevant queries. However, it states that precise location data from the device is processed only with the user's permission. Because the scenario says the user has not granted device or browser location permission, Gemini may not collect and use the user's precise device location for this request.",
+  "source_excerpts": [
+    {
+      "line_id": "L0242",
+      "quote": "By default, Gemini Apps use the general area from your IP address or the Home or Work addresses in your Google Account to give relevant responses to prompts like “What’s the weather?”"
+    },
+    {
+      "line_id": "L0243",
+      "quote": "With your permission, Gemini Apps also process precise location data from your device."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0242",
+      "model_quote": "By default, Gemini Apps use the general area from your IP address or the Home or Work addresses in your Google Account to give relevant responses to prompts like “What’s the weather?”",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "By default, Gemini Apps use the general area from your IP address or the Home or Work addresses in your Google Account to give relevant responses to prompts like “What’s the weather?”"
+    },
+    {
+      "line_id": "L0243",
+      "model_quote": "With your permission, Gemini Apps also process precise location data from your device.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "With your permission, Gemini Apps also process precise location data from your device."
+    }
+  ],
+  "all_quotes_verified": true
+}

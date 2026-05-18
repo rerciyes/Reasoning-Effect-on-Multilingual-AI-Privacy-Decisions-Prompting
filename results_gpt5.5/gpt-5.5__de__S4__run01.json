@@ -1,0 +1,79 @@
+{
+  "ts": "2026-05-13T17:41:21.638303+00:00",
+  "model": "gpt-5.5",
+  "num_ctx": null,
+  "language": "de",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    25825.952529907227
+  ],
+  "prompt_eval_count": 14640,
+  "prompt_truncated": false,
+  "raw": "{\"confidence\":\"High\",\"decision\":\"ESCALATE\",\"justification\":\"The notice permits Google to use activity information to improve services, including training generative AI models, and it says some collected data may be reviewed for those purposes. However, the notice also gives users controls that can prevent future chats from being reviewed or used for AI-model improvement, and it describes account-disconnection safeguards for data sent to service providers. It does not clearly authorize providing a raw, bulk batch of past chats with uploaded content and personal details to an internal analytics or ML team, especially where applicable user settings and safeguards are unknown. Given the sensitive nature of the raw chat contents and the ambiguity, this should be escalated for privacy/legal review.\",\"source_excerpts\":[{\"line_id\":\"L0204\",\"quote\":\"Google nutzt Informationen zu Ihren Aktivitäten, um Google-Dienste bereitzustellen, zu entwickeln und zu verbessern (einschließlich des Trainierens von generativen KI-Modellen) und um Google, seine Nutzer und die Öffentlichkeit mithilfe von Prüferinnen und Prüfern zu schützen.\"},{\"line_id\":\"L0044\",\"quote\":\"Zu diesen Zwecken werden einige der von uns erhobenen Daten von Prüfern (einschließlich Prüfern unserer Dienstleister) überprüft.\"},{\"line_id\":\"L0173\",\"quote\":\"So steuern Sie, was mit Prüfern geteilt wird Wenn Sie nicht möchten, dass Ihre künftigen Chats geprüft werden, um die Google-Dienste zu verbessern, deaktivieren Sie unter Aktivitäten speichern      die entsprechende Einstellung.\"},{\"line_id\":\"L0215\",\"quote\":\"Wenn die Einstellung Aktivitäten speichern               deaktiviert ist, gilt Folgendes: Ihre zukünftigen Chats werden nicht in Ihren Aktivitäten angezeigt und nicht zum Trainieren von KI-Modellen von Google verwendet, es sei denn, Sie senden Google Feedback.\"},{\"line_id\":\"L0172\",\"quote\":\"Bevor wir die Daten Ihrer Chats mit Gemini-Apps an Dienstleister senden, heben wir die Verbindung zwischen den Daten und Ihrem Konto auf.\"}]}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ESCALATE",
+  "confidence": "High",
+  "justification": "The notice permits Google to use activity information to improve services, including training generative AI models, and it says some collected data may be reviewed for those purposes. However, the notice also gives users controls that can prevent future chats from being reviewed or used for AI-model improvement, and it describes account-disconnection safeguards for data sent to service providers. It does not clearly authorize providing a raw, bulk batch of past chats with uploaded content and personal details to an internal analytics or ML team, especially where applicable user settings and safeguards are unknown. Given the sensitive nature of the raw chat contents and the ambiguity, this should be escalated for privacy/legal review.",
+  "source_excerpts": [
+    {
+      "line_id": "L0204",
+      "quote": "Google nutzt Informationen zu Ihren Aktivitäten, um Google-Dienste bereitzustellen, zu entwickeln und zu verbessern (einschließlich des Trainierens von generativen KI-Modellen) und um Google, seine Nutzer und die Öffentlichkeit mithilfe von Prüferinnen und Prüfern zu schützen."
+    },
+    {
+      "line_id": "L0044",
+      "quote": "Zu diesen Zwecken werden einige der von uns erhobenen Daten von Prüfern (einschließlich Prüfern unserer Dienstleister) überprüft."
+    },
+    {
+      "line_id": "L0173",
+      "quote": "So steuern Sie, was mit Prüfern geteilt wird Wenn Sie nicht möchten, dass Ihre künftigen Chats geprüft werden, um die Google-Dienste zu verbessern, deaktivieren Sie unter Aktivitäten speichern      die entsprechende Einstellung."
+    },
+    {
+      "line_id": "L0215",
+      "quote": "Wenn die Einstellung Aktivitäten speichern               deaktiviert ist, gilt Folgendes: Ihre zukünftigen Chats werden nicht in Ihren Aktivitäten angezeigt und nicht zum Trainieren von KI-Modellen von Google verwendet, es sei denn, Sie senden Google Feedback."
+    },
+    {
+      "line_id": "L0172",
+      "quote": "Bevor wir die Daten Ihrer Chats mit Gemini-Apps an Dienstleister senden, heben wir die Verbindung zwischen den Daten und Ihrem Konto auf."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0204",
+      "model_quote": "Google nutzt Informationen zu Ihren Aktivitäten, um Google-Dienste bereitzustellen, zu entwickeln und zu verbessern (einschließlich des Trainierens von generativen KI-Modellen) und um Google, seine Nutzer und die Öffentlichkeit mithilfe von Prüferinnen und Prüfern zu schützen.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Google nutzt Informationen zu Ihren Aktivitäten, um Google-Dienste bereitzustellen, zu entwickeln und zu verbessern (einschließlich des Trainierens von generativen KI-Modellen) und um Google, seine Nutzer und die Öffentlichkeit mithilfe von Prüferinnen und Prüfern zu schützen."
+    },
+    {
+      "line_id": "L0044",
+      "model_quote": "Zu diesen Zwecken werden einige der von uns erhobenen Daten von Prüfern (einschließlich Prüfern unserer Dienstleister) überprüft.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Zu diesen Zwecken werden einige der von uns erhobenen Daten von Prüfern (einschließlich Prüfern unserer Dienstleister) überprüft."
+    },
+    {
+      "line_id": "L0173",
+      "model_quote": "So steuern Sie, was mit Prüfern geteilt wird Wenn Sie nicht möchten, dass Ihre künftigen Chats geprüft werden, um die Google-Dienste zu verbessern, deaktivieren Sie unter Aktivitäten speichern      die entsprechende Einstellung.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "So steuern Sie, was mit Prüfern geteilt wird Wenn Sie nicht möchten, dass Ihre künftigen Chats geprüft werden, um die Google-Dienste zu verbessern, deaktivieren Sie unter Aktivitäten speichern      die entsprechende Einstellung."
+    },
+    {
+      "line_id": "L0215",
+      "model_quote": "Wenn die Einstellung Aktivitäten speichern               deaktiviert ist, gilt Folgendes: Ihre zukünftigen Chats werden nicht in Ihren Aktivitäten angezeigt und nicht zum Trainieren von KI-Modellen von Google verwendet, es sei denn, Sie senden Google Feedback.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Wenn die Einstellung Aktivitäten speichern               deaktiviert ist, gilt Folgendes: Ihre zukünftigen Chats werden nicht in Ihren Aktivitäten angezeigt und nicht zum Trainieren von KI-Modellen von Google verwendet, es sei denn, Sie senden Google Feedback."
+    },
+    {
+      "line_id": "L0172",
+      "model_quote": "Bevor wir die Daten Ihrer Chats mit Gemini-Apps an Dienstleister senden, heben wir die Verbindung zwischen den Daten und Ihrem Konto auf.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Bevor wir die Daten Ihrer Chats mit Gemini-Apps an Dienstleister senden, heben wir die Verbindung zwischen den Daten und Ihrem Konto auf."
+    }
+  ],
+  "all_quotes_verified": true
+}

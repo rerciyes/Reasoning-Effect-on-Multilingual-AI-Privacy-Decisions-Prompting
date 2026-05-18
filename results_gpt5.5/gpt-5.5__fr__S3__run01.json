@@ -1,0 +1,79 @@
+{
+  "ts": "2026-05-13T17:18:25.088313+00:00",
+  "model": "gpt-5.5",
+  "num_ctx": null,
+  "language": "fr",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    25433.680295944214
+  ],
+  "prompt_eval_count": 14840,
+  "prompt_truncated": false,
+  "raw": "{\"confidence\":\"High\",\"decision\":\"ALLOW AFTER VERIFICATION\",\"justification\":\"The policy says Gemini uses information and instructions the user asks it to save to provide more personalized responses. However, for personalization based on prior Gemini discussions outside the EEA, UK, and Switzerland, the policy states that the Keep Activity setting must be enabled, and it separately frames use of sensitive information for personalization as conditional on Memory being enabled. Because the scenario does not state whether Keep Activity or Memory is turned on, Gemini may proceed only after verifying the required settings are enabled.\",\"source_excerpts\":[{\"line_id\":\"L0242\",\"quote\":\"Les applications Gemini utilisent vos informations et instructions pour vous fournir des réponses plus personnalisées.\"},{\"line_id\":\"L0247\",\"quote\":\"En dehors de l'Espace économique européen, du Royaume-Uni et de la Suisse, Gemini personnalise votre expérience en se référant à vos discussions enregistrées dans l'Activité dans les applications Gemini   et en les utilisant pour générer des réponses personnalisées.\"},{\"line_id\":\"L0249\",\"quote\":\"Pour utiliser cette fonctionnalité, vous devez activer le paramètre \\\"Conserver l'activité\\\".\"},{\"line_id\":\"L0250\",\"quote\":\"Si les Infos mémorisées sont activées :\"},{\"line_id\":\"L0251\",\"quote\":\"Gemini peut utiliser des informations sensibles que vous avez fournies dans vos discussions pour personnaliser votre expérience.\"}]}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW AFTER VERIFICATION",
+  "confidence": "High",
+  "justification": "The policy says Gemini uses information and instructions the user asks it to save to provide more personalized responses. However, for personalization based on prior Gemini discussions outside the EEA, UK, and Switzerland, the policy states that the Keep Activity setting must be enabled, and it separately frames use of sensitive information for personalization as conditional on Memory being enabled. Because the scenario does not state whether Keep Activity or Memory is turned on, Gemini may proceed only after verifying the required settings are enabled.",
+  "source_excerpts": [
+    {
+      "line_id": "L0242",
+      "quote": "Les applications Gemini utilisent vos informations et instructions pour vous fournir des réponses plus personnalisées."
+    },
+    {
+      "line_id": "L0247",
+      "quote": "En dehors de l'Espace économique européen, du Royaume-Uni et de la Suisse, Gemini personnalise votre expérience en se référant à vos discussions enregistrées dans l'Activité dans les applications Gemini   et en les utilisant pour générer des réponses personnalisées."
+    },
+    {
+      "line_id": "L0249",
+      "quote": "Pour utiliser cette fonctionnalité, vous devez activer le paramètre \"Conserver l'activité\"."
+    },
+    {
+      "line_id": "L0250",
+      "quote": "Si les Infos mémorisées sont activées :"
+    },
+    {
+      "line_id": "L0251",
+      "quote": "Gemini peut utiliser des informations sensibles que vous avez fournies dans vos discussions pour personnaliser votre expérience."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0242",
+      "model_quote": "Les applications Gemini utilisent vos informations et instructions pour vous fournir des réponses plus personnalisées.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Les applications Gemini utilisent vos informations et instructions pour vous fournir des réponses plus personnalisées."
+    },
+    {
+      "line_id": "L0247",
+      "model_quote": "En dehors de l'Espace économique européen, du Royaume-Uni et de la Suisse, Gemini personnalise votre expérience en se référant à vos discussions enregistrées dans l'Activité dans les applications Gemini   et en les utilisant pour générer des réponses personnalisées.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "En dehors de l'Espace économique européen, du Royaume-Uni et de la Suisse, Gemini personnalise votre expérience en se référant à vos discussions enregistrées dans l'Activité dans les applications Gemini   et en les utilisant pour générer des réponses personnalisées."
+    },
+    {
+      "line_id": "L0249",
+      "model_quote": "Pour utiliser cette fonctionnalité, vous devez activer le paramètre \"Conserver l'activité\".",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Pour utiliser cette fonctionnalité, vous devez activer le paramètre \"Conserver l'activité\"."
+    },
+    {
+      "line_id": "L0250",
+      "model_quote": "Si les Infos mémorisées sont activées :",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Si les Infos mémorisées sont activées :"
+    },
+    {
+      "line_id": "L0251",
+      "model_quote": "Gemini peut utiliser des informations sensibles que vous avez fournies dans vos discussions pour personnaliser votre expérience.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Gemini peut utiliser des informations sensibles que vous avez fournies dans vos discussions pour personnaliser votre expérience."
+    }
+  ],
+  "all_quotes_verified": true
+}
