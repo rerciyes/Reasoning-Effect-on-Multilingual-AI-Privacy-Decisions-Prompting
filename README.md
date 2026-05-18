@@ -7,7 +7,7 @@ The runner prompts models with policy files in multiple languages, asks them
 to make structured privacy decisions for fixed scenarios, and writes one JSON
 result file per `(model, language, scenario, run)` combination.
 
-This version is intended for Hugging Face models on the UMD cluster. It does
+This version is intended for Hugging Face models on the University of Maryland (UMD) cluster for the course project CMSC848T Multilingual AI. It does
 not require Ollama or the Ollama local API.
 
 ## What This Does
