@@ -1,0 +1,57 @@
+{
+  "ts": "2026-05-04T19:21:07.929769+00:00",
+  "model": "gemma3:4b",
+  "num_ctx": 32768,
+  "language": "de",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    12108.360528945923
+  ],
+  "prompt_eval_count": 16685,
+  "prompt_truncated": false,
+  "raw": "{\"decision\": \"DENY\", \"justification\": \"The Gemini Apps Privacy Notice explicitly states that chats with names, contact details, and sensitive user-submitted free text are stored in the Activity Log in Gemini-Apps and are subject to review by specialized teams. Furthermore, it states that these chats are retained for up to three years, even if you delete your activities. The request for a ‘raw batch’ of chats, containing all this sensitive data, goes directly against this policy and the safeguards described, particularly the restriction on sharing data with external teams for model training without explicit consent or a defined purpose beyond improving the service. The request is for raw, unfiltered data, which is a significant departure from the controlled access and review processes outlined in the policy.\",\"source_excerpts\": [{\"line_id\": \"L0044\" , \"quote\": \"Diese Verwendungszwecke erstrecken sich auch auf die generativen KI-Modelle und anderen Technologien für maschinelles Lernen, die wir zum Betrieb unserer Dienste einsetzen.\"} , {\"line_id\": \"L0045\" , \"quote\": \"Gebnen Sie keine vertraulichen Informationen ein, die ein Prüfer (einschließlich Prüfern unserer Dienstleister) nicht sehen oder die Google nicht zur Verbesserung seiner Dienste, einschließlich Technologien für maschinelles Lernen, verwenden soll.\"} , {\"line_id\": \"L0089\" , \"quote\": \"Wenn Sie diese Rechte ausüben möchten, können Sie auf unserer Hilfeseite zu rechtlichen Hinweisen einen Antrag stellen.\"} ] , \"confidence\": \"High\"}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The Gemini Apps Privacy Notice explicitly states that chats with names, contact details, and sensitive user-submitted free text are stored in the Activity Log in Gemini-Apps and are subject to review by specialized teams. Furthermore, it states that these chats are retained for up to three years, even if you delete your activities. The request for a ‘raw batch’ of chats, containing all this sensitive data, goes directly against this policy and the safeguards described, particularly the restriction on sharing data with external teams for model training without explicit consent or a defined purpose beyond improving the service. The request is for raw, unfiltered data, which is a significant departure from the controlled access and review processes outlined in the policy.",
+  "source_excerpts": [
+    {
+      "line_id": "L0044",
+      "quote": "Diese Verwendungszwecke erstrecken sich auch auf die generativen KI-Modelle und anderen Technologien für maschinelles Lernen, die wir zum Betrieb unserer Dienste einsetzen."
+    },
+    {
+      "line_id": "L0045",
+      "quote": "Gebnen Sie keine vertraulichen Informationen ein, die ein Prüfer (einschließlich Prüfern unserer Dienstleister) nicht sehen oder die Google nicht zur Verbesserung seiner Dienste, einschließlich Technologien für maschinelles Lernen, verwenden soll."
+    },
+    {
+      "line_id": "L0089",
+      "quote": "Wenn Sie diese Rechte ausüben möchten, können Sie auf unserer Hilfeseite zu rechtlichen Hinweisen einen Antrag stellen."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0044",
+      "model_quote": "Diese Verwendungszwecke erstrecken sich auch auf die generativen KI-Modelle und anderen Technologien für maschinelles Lernen, die wir zum Betrieb unserer Dienste einsetzen.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Zu diesen Zwecken werden einige der von uns erhobenen Daten von Prüfern (einschließlich Prüfern unserer Dienstleister) überprüft."
+    },
+    {
+      "line_id": "L0045",
+      "model_quote": "Gebnen Sie keine vertraulichen Informationen ein, die ein Prüfer (einschließlich Prüfern unserer Dienstleister) nicht sehen oder die Google nicht zur Verbesserung seiner Dienste, einschließlich Technologien für maschinelles Lernen, verwenden soll.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Geben Sie keine vertraulichen Informationen ein, die ein Prüfer nicht sehen oder die Google nicht zur Verbesserung seiner Dienste, einschließlich Technologien für maschinelles Lernen, verwenden soll."
+    },
+    {
+      "line_id": "L0089",
+      "model_quote": "Wenn Sie diese Rechte ausüben möchten, können Sie auf unserer Hilfeseite zu rechtlichen Hinweisen einen Antrag stellen.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Chats (und dazugehörige Daten wie Ihre Sprache, Ihre Standortinformationen, Ihr Gerätetyp oder Ihr Feedback), die von unseren Prüfern zu Trainingszwecken angesehen wurden, werden nicht gelöscht, wenn Sie Ihre Aktivitäten löschen, sondern bis zu drei Jahre aufbewahrt."
+    }
+  ],
+  "all_quotes_verified": false
+}

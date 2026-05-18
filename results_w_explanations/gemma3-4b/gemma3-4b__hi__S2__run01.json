@@ -1,0 +1,35 @@
+{
+  "ts": "2026-05-04T19:23:56.440032+00:00",
+  "model": "gemma3:4b",
+  "num_ctx": 32768,
+  "language": "hi",
+  "scenario_id": "S2",
+  "run": 1,
+  "latency_ms": [
+    13128.75771522522
+  ],
+  "prompt_eval_count": 22770,
+  "prompt_truncated": false,
+  "raw": "{\"decision\": \"ALLOW AFTER VERIFICATION\",\n\"justification\": \"The policy states that Gemini Apps collect your device’s location information, using your general area or saved Home/Work addresses. However, it also allows for the collection of precise location data if the user has granted permission, or if the user is using a feature like ‘Ok Google’ where the user has implicitly consented to location data collection. The scenario explicitly states the system wants to collect precise location data without explicit user permission, therefore, this action requires verification that the user has enabled a relevant setting or feature that allows for precise location data collection.\",\n\"source_excerpts\": [\n{\n\"line_id\": \"L0026\",\n\"quote\": \"Gemini Apps के इस्ते माल के दौरान इकट्ठा की गई जानकारी\"\n}\n]\n,\n\"confidence\": \"Medium\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW AFTER VERIFICATION",
+  "confidence": "Medium",
+  "justification": "The policy states that Gemini Apps collect your device’s location information, using your general area or saved Home/Work addresses. However, it also allows for the collection of precise location data if the user has granted permission, or if the user is using a feature like ‘Ok Google’ where the user has implicitly consented to location data collection. The scenario explicitly states the system wants to collect precise location data without explicit user permission, therefore, this action requires verification that the user has enabled a relevant setting or feature that allows for precise location data collection.",
+  "source_excerpts": [
+    {
+      "line_id": "L0026",
+      "quote": "Gemini Apps के इस्ते माल के दौरान इकट्ठा की गई जानकारी"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0026",
+      "model_quote": "Gemini Apps के इस्ते माल के दौरान इकट्ठा की गई जानकारी",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Gemini Apps के साथ आपके ऐप्लिके शन, ब्राउज़र, और डिवाइस के इं टरै क्शन से जु ड़ी जानकारी (जै से : इं टरै क्शन लॉग, परफ़ॉर्में स मे ट्रि क, क्रै श और डीबग करने की जानकारी)"
+    }
+  ],
+  "all_quotes_verified": false
+}

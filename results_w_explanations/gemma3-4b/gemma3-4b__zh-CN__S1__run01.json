@@ -1,0 +1,57 @@
+{
+  "ts": "2026-05-04T19:22:56.056772+00:00",
+  "model": "gemma3:4b",
+  "num_ctx": 32768,
+  "language": "zh-CN",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    11516.39461517334
+  ],
+  "prompt_eval_count": 13157,
+  "prompt_truncated": false,
+  "raw": "{\"decision\": \"ALLOW AFTER VERIFICATION\", \"justification\": \"The policy [L0008] states that Gemini will collect ‘You share content with Gemini (e.g., files, videos, you asked screen content, photos, imported conversations, and webpages shared from the browser)’. It also states [L0011] that Gemini will collect ‘You provide to Gemini app information’ and ‘You share content with Gemini Live 互动时的转写内容和记录’. The scenario describes a user uploading a photo, which falls under the category of ‘content’ that Gemini collects. Therefore, Gemini may process the uploaded image to transcribe it and organize the items by category, but only if the user has enabled the feature that allows Gemini to process images and if the user consents to this processing. The policy does not explicitly prohibit this action, but requires verification that the user has enabled the relevant feature and provided consent.\", \"source_excerpts\": [{\"line_id\": \"L0008\", \"quote\": \"You provide to Gemini app information\" }, {\"line_id\": \"L0011\", \"quote\": \"You share content with Gemini Live 互动时的转写内容和记录\" }, {\"line_id\": \"L0017\", \"quote\": \"Gemini 应用生成的内容（例如文本、代码、音频、图片、视频、音乐、公开链接、引用、对话摘要和个性化数据洞见）\" } ] , \"confidence\": \"Medium\"}\n",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW AFTER VERIFICATION",
+  "confidence": "Medium",
+  "justification": "The policy [L0008] states that Gemini will collect ‘You share content with Gemini (e.g., files, videos, you asked screen content, photos, imported conversations, and webpages shared from the browser)’. It also states [L0011] that Gemini will collect ‘You provide to Gemini app information’ and ‘You share content with Gemini Live 互动时的转写内容和记录’. The scenario describes a user uploading a photo, which falls under the category of ‘content’ that Gemini collects. Therefore, Gemini may process the uploaded image to transcribe it and organize the items by category, but only if the user has enabled the feature that allows Gemini to process images and if the user consents to this processing. The policy does not explicitly prohibit this action, but requires verification that the user has enabled the relevant feature and provided consent.",
+  "source_excerpts": [
+    {
+      "line_id": "L0008",
+      "quote": "You provide to Gemini app information"
+    },
+    {
+      "line_id": "L0011",
+      "quote": "You share content with Gemini Live 互动时的转写内容和记录"
+    },
+    {
+      "line_id": "L0017",
+      "quote": "Gemini 应用生成的内容（例如文本、代码、音频、图片、视频、音乐、公开链接、引用、对话摘要和个性化数据洞见）"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0008",
+      "model_quote": "You provide to Gemini app information",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Google 会收集哪些数据"
+    },
+    {
+      "line_id": "L0011",
+      "model_quote": "You share content with Gemini Live 互动时的转写内容和记录",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "你与 Gemini 应用分享的内容（例如文件、视频、你问过的屏幕内容、照片、导入的对话，以及你从浏览 器分享的网页内容）"
+    },
+    {
+      "line_id": "L0017",
+      "model_quote": "Gemini 应用生成的内容（例如文本、代码、音频、图片、视频、音乐、公开链接、引用、对话摘要和个性化数据洞见）",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Gemini 应用生成的内容（例如文本、代码、音频、图片、视频、音乐、公开链接、引用、对话摘要和个 性化数据洞见）"
+    }
+  ],
+  "all_quotes_verified": false
+}

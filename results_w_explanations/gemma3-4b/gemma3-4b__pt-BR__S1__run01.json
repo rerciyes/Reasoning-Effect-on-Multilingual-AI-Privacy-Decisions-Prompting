@@ -1,0 +1,35 @@
+{
+  "ts": "2026-05-04T19:19:11.194379+00:00",
+  "model": "gemma3:4b",
+  "num_ctx": 32768,
+  "language": "pt-BR",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    9697.064399719238
+  ],
+  "prompt_eval_count": 15451,
+  "prompt_truncated": false,
+  "raw": "{\"decision\": \"ALLOW AFTER VERIFICATION\", \"justification\": \"The policy states that when you use the Apps do Gemini, the Google collects and treats your data (like images) to provide services. Specifically, L0160 states that the Google uses these images to improve its services, including training AI models. The policy also mentions that the user can control whether the Google uses their images to improve services. Therefore, Gemini may process the uploaded image to answer the user’s request, but only if the user has enabled the ‘Manter Atividade’ setting, which controls whether the Google uses their images to improve services.\", \"source_excerpts\": [{\"line_id\": \"L0160\", \"quote\": \"O Google usa esses dados, como os de qualquer outro comando, conforme explicado no Aviso de Privacidade dos Apps do Gemini.\"}],\n    \"confidence\": \"Medium\"}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW AFTER VERIFICATION",
+  "confidence": "Medium",
+  "justification": "The policy states that when you use the Apps do Gemini, the Google collects and treats your data (like images) to provide services. Specifically, L0160 states that the Google uses these images to improve its services, including training AI models. The policy also mentions that the user can control whether the Google uses their images to improve services. Therefore, Gemini may process the uploaded image to answer the user’s request, but only if the user has enabled the ‘Manter Atividade’ setting, which controls whether the Google uses their images to improve services.",
+  "source_excerpts": [
+    {
+      "line_id": "L0160",
+      "quote": "O Google usa esses dados, como os de qualquer outro comando, conforme explicado no Aviso de Privacidade dos Apps do Gemini."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0160",
+      "model_quote": "O Google usa esses dados, como os de qualquer outro comando, conforme explicado no Aviso de Privacidade dos Apps do Gemini.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Para saber como mantemos a privacidade, a segurança e a proteção dos dados dos nossos usuários, leia os Princípios de Privacidade e Segurança ."
+    }
+  ],
+  "all_quotes_verified": false
+}

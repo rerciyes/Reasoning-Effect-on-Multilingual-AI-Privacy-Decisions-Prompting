@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T19:19:53.665681+00:00",
+  "model": "gemma3:4b",
+  "num_ctx": 32768,
+  "language": "fr",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    10397.53007888794
+  ],
+  "prompt_eval_count": 16774,
+  "prompt_truncated": false,
+  "raw": "{\"decision\": \"ALLOW\", \"justification\": \"The policy [L0131] states that Google uses your information issues from the applications Gemini, including images, to improve its services, including training generative AI models. The policy [L0160] specifies that these images are used to improve Gemini services, including reducing involuntary activations. The scenario describes a request to transcribe an image, which aligns with this use case. There is no mention of sensitive data being processed, and the action is directly related to the user's request.\", \"source_excerpts\": [{\"line_id\": \"L0131\", \"quote\": \"Google utilise vos informations issues des applications Gemini, ainsi que toutes les autres informations que vous autorisez les applications Gemini à traiter...\"} , {\"line_id\": \"L0160\", \"quote\": \"Les réviseurs déterminent si les réponses des applications Gemini sont de mauvaise qualité, inexactes ou nuisibles, et suggèrent de meilleures réponses.\"} ] , \"confidence\": \"High\"}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "The policy [L0131] states that Google uses your information issues from the applications Gemini, including images, to improve its services, including training generative AI models. The policy [L0160] specifies that these images are used to improve Gemini services, including reducing involuntary activations. The scenario describes a request to transcribe an image, which aligns with this use case. There is no mention of sensitive data being processed, and the action is directly related to the user's request.",
+  "source_excerpts": [
+    {
+      "line_id": "L0131",
+      "quote": "Google utilise vos informations issues des applications Gemini, ainsi que toutes les autres informations que vous autorisez les applications Gemini à traiter..."
+    },
+    {
+      "line_id": "L0160",
+      "quote": "Les réviseurs déterminent si les réponses des applications Gemini sont de mauvaise qualité, inexactes ou nuisibles, et suggèrent de meilleures réponses."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0131",
+      "model_quote": "Google utilise vos informations issues des applications Gemini, ainsi que toutes les autres informations que vous autorisez les applications Gemini à traiter...",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Google s'appuie sur les bases juridiques suivantes :"
+    },
+    {
+      "line_id": "L0160",
+      "model_quote": "Les réviseurs déterminent si les réponses des applications Gemini sont de mauvaise qualité, inexactes ou nuisibles, et suggèrent de meilleures réponses.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Les discussions consultées par des réviseurs sont conservées pendant une durée maximale de trois ans."
+    }
+  ],
+  "all_quotes_verified": false
+}

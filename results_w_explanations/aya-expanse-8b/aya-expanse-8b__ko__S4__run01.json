@@ -1,0 +1,57 @@
+{
+  "ts": "2026-05-04T18:31:44.703284+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "ko",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    23293.140411376953
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"Based on the Gemini Apps Privacy Notice, user data including chats, names, contact details, and uploaded files are protected. The request for raw chat batches from past interactions, regardless of their relation to resolving users' requests, violates user privacy and is not permitted.\"\n\n, \"source_excerpts\": [\n    {\"line_id\": \"L0327\", \"quote\": \"Gemini 앱이... 사용자 데이터를 포함한 채팅과 같은 페이지 콘텐츠는 기본적으로 Google 서비스 개선에 사용되지 않습니다.\"},\n    {\"line_id\": \"L0368\", \"quote\": \"데이터 저장 방식... 활동 기록 보관 설정에 대해 자세히 알아보기\"},\n    {\"line_id\": \"L0427\", \"quote\": \"Gemini 앱에는... 서비스 약관 및 생성형 AI에 관한 금지된 사용 정책이 적용됩니다.\"}\n  ]\n\n, \"confidence\": \"High\" }",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "Based on the Gemini Apps Privacy Notice, user data including chats, names, contact details, and uploaded files are protected. The request for raw chat batches from past interactions, regardless of their relation to resolving users' requests, violates user privacy and is not permitted.",
+  "source_excerpts": [
+    {
+      "line_id": "L0327",
+      "quote": "Gemini 앱이... 사용자 데이터를 포함한 채팅과 같은 페이지 콘텐츠는 기본적으로 Google 서비스 개선에 사용되지 않습니다."
+    },
+    {
+      "line_id": "L0368",
+      "quote": "데이터 저장 방식... 활동 기록 보관 설정에 대해 자세히 알아보기"
+    },
+    {
+      "line_id": "L0427",
+      "quote": "Gemini 앱에는... 서비스 약관 및 생성형 AI에 관한 금지된 사용 정책이 적용됩니다."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0327",
+      "model_quote": "Gemini 앱이... 사용자 데이터를 포함한 채팅과 같은 페이지 콘텐츠는 기본적으로 Google 서비스 개선에 사용되지 않습니다.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Gemini에서 연결된 앱으로 전화를 걸고 메시지를 보낼 때 내 데이터가 어떻게 사용되나요?"
+    },
+    {
+      "line_id": "L0368",
+      "model_quote": "데이터 저장 방식... 활동 기록 보관 설정에 대해 자세히 알아보기",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "이 설정을 언제든지 변경하는 방법 자세히 알아보기"
+    },
+    {
+      "line_id": "L0427",
+      "model_quote": "Gemini 앱에는... 서비스 약관 및 생성형 AI에 관한 금지된 사용 정책이 적용됩니다.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Canvas 앱과 데이터를 공유한 후에는 데 이터를 삭제할 수 없으며, 다만 앱 제작자는 삭제할 수 있습니다."
+    }
+  ],
+  "all_quotes_verified": false
+}

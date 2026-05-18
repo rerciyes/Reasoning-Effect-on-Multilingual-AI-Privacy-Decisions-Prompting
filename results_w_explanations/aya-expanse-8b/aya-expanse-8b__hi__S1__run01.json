@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T18:33:14.393678+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "hi",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    27231.396436691284
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"Based on the Gemini Apps Privacy Notice, user-uploaded content is processed for the purpose of fulfilling user requests, and sensitive personal data (as defined in the notice) is not present in the uploaded image.\"\n\n, \"source_excerpts\": [\n    {\n      \"line_id\": \"[L0489]\",\n      \"quote\": \"Google Pay के ऐप्लिके शन या वे बसाइट पर जाकर, कभी भी अपने ले न-दे न का इतिहास दे खा जा सकता है और ऑर्ड र मै ने ज किए जा सकते हैं.\"\n    },\n    {\n      \"line_id\": \"[L0537]\",\n      \"quote\": \"Google की से वा की शर्तें        और जनरे टिव एआई के इस्ते माल से जु ड़ी पाबं दी की नीति     लागू होती है.\"\n    }\n  ]\n\n, \"confidence\": \"High\" }",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "Based on the Gemini Apps Privacy Notice, user-uploaded content is processed for the purpose of fulfilling user requests, and sensitive personal data (as defined in the notice) is not present in the uploaded image.",
+  "source_excerpts": [
+    {
+      "line_id": "[L0489]",
+      "quote": "Google Pay के ऐप्लिके शन या वे बसाइट पर जाकर, कभी भी अपने ले न-दे न का इतिहास दे खा जा सकता है और ऑर्ड र मै ने ज किए जा सकते हैं."
+    },
+    {
+      "line_id": "[L0537]",
+      "quote": "Google की से वा की शर्तें        और जनरे टिव एआई के इस्ते माल से जु ड़ी पाबं दी की नीति     लागू होती है."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0489",
+      "model_quote": "Google Pay के ऐप्लिके शन या वे बसाइट पर जाकर, कभी भी अपने ले न-दे न का इतिहास दे खा जा सकता है और ऑर्ड र मै ने ज किए जा सकते हैं.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Gemini में कोई ख़रीदारी करने के लिए Google Pay का इस्ते माल करने पर, ले न-दे न का इतिहास Google Pay से जु ड़ी गतिविधि में से व हो जाता है ."
+    },
+    {
+      "line_id": "L0537",
+      "model_quote": "Google की से वा की शर्तें        और जनरे टिव एआई के इस्ते माल से जु ड़ी पाबं दी की नीति     लागू होती है.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Gemini Apps पर, Google की से वा की शर्तें        और जनरे टिव एआई के इस्ते माल से जु ड़ी पाबं दियों की नीति     लागू होती है ."
+    }
+  ],
+  "all_quotes_verified": false
+}

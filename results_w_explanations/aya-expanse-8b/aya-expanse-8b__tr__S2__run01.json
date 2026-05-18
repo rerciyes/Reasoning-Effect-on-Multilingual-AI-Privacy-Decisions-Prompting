@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T18:29:49.609008+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "tr",
+  "scenario_id": "S2",
+  "run": 1,
+  "latency_ms": [
+    20909.3599319458
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"Based on the provided Gemini Apps Privacy Notice, it states that 'Your data is collected only when you choose to use certain features or provide information.' Since the user has not granted location permission, collecting their precise device location would be a violation of this policy.\"\n\n, \"source_excerpts\": [\n    {\"line_id\": \"L0457\", \"quote\": \"Google, Canvas uygulamalarının kullanıcı verilerini süresiz olarak Firebase'de saklama seçeneği sunar.\"},\n    {\"line_id\": \"L0464\", \"quote\": \"Gemini Uygulamaları, Google Hizmet Şartları            'na ve Üretken Yapay Zeka Yasaklanan Kullanım Politikası    'na tabidir.\"}\n  ]\n\n, \"confidence\": \"High\" }",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "Based on the provided Gemini Apps Privacy Notice, it states that 'Your data is collected only when you choose to use certain features or provide information.' Since the user has not granted location permission, collecting their precise device location would be a violation of this policy.",
+  "source_excerpts": [
+    {
+      "line_id": "L0457",
+      "quote": "Google, Canvas uygulamalarının kullanıcı verilerini süresiz olarak Firebase'de saklama seçeneği sunar."
+    },
+    {
+      "line_id": "L0464",
+      "quote": "Gemini Uygulamaları, Google Hizmet Şartları            'na ve Üretken Yapay Zeka Yasaklanan Kullanım Politikası    'na tabidir."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0457",
+      "model_quote": "Google, Canvas uygulamalarının kullanıcı verilerini süresiz olarak Firebase'de saklama seçeneği sunar.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Google, Canvas uygulamalarının kullanıcı verilerini süresiz olarak Firebase'de saklama seçeneği sunar."
+    },
+    {
+      "line_id": "L0464",
+      "model_quote": "Gemini Uygulamaları, Google Hizmet Şartları            'na ve Üretken Yapay Zeka Yasaklanan Kullanım Politikası    'na tabidir.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Gemini Uygulamaları, Google Hizmet Şartları            'na ve Üretken Yapay Zeka Yasaklanan Kullanım Politikası    'na tabidir."
+    }
+  ],
+  "all_quotes_verified": true
+}

@@ -1,0 +1,35 @@
+{
+  "ts": "2026-05-04T19:20:04.074532+00:00",
+  "model": "gemma3:4b",
+  "num_ctx": 32768,
+  "language": "fr",
+  "scenario_id": "S2",
+  "run": 1,
+  "latency_ms": [
+    9934.968948364258
+  ],
+  "prompt_eval_count": 16789,
+  "prompt_truncated": false,
+  "raw": "{\"decision\": \"ALLOW AFTER VERIFICATION\", \"justification\": \"The policy states that Gemini can use location data from your device, such as your precise device location, when you use the applications Gemini. This is because Gemini can use your precise location to answer your prompts, such as \\\"What is the closest pharmacy to me?\\\" The policy also states that the user can manage their location settings. Therefore, Gemini may collect and use the user’s precise device location if the user has enabled this feature and has consented to its use.\", \"source_excerpts\": [{\"line_id\": \"L0027\", \"quote\": \"Gemini peut s'activer alors que ce n'était pas votre intention, par exemple si elles détectent un bruit ressemblant à \\\"Hey Google\\\" ou si vous les activez involontairement par le toucher.\"}],\"confidence\": \"Medium\"}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW AFTER VERIFICATION",
+  "confidence": "Medium",
+  "justification": "The policy states that Gemini can use location data from your device, such as your precise device location, when you use the applications Gemini. This is because Gemini can use your precise location to answer your prompts, such as \"What is the closest pharmacy to me?\" The policy also states that the user can manage their location settings. Therefore, Gemini may collect and use the user’s precise device location if the user has enabled this feature and has consented to its use.",
+  "source_excerpts": [
+    {
+      "line_id": "L0027",
+      "quote": "Gemini peut s'activer alors que ce n'était pas votre intention, par exemple si elles détectent un bruit ressemblant à \"Hey Google\" ou si vous les activez involontairement par le toucher."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0027",
+      "model_quote": "Gemini peut s'activer alors que ce n'était pas votre intention, par exemple si elles détectent un bruit ressemblant à \"Hey Google\" ou si vous les activez involontairement par le toucher.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Autorisations du système et données de l'appareil lorsque vous utilisez les applications mobiles Gemini, comme les journaux des appels et des messages, les contacts (pour vous aider à communiquer), les applications installées (comme Horloge), les préférences de langues (pour vous aider à parler à Gemini), le contenu affiché à l'écran (pour vous aider à l'utiliser) et d'autres informations sur les applications, comme le contexte web et l'URL de la page (lorsque vous utilisez la fenêtre Gemini en superposition pour poser des questions)"
+    }
+  ],
+  "all_quotes_verified": false
+}

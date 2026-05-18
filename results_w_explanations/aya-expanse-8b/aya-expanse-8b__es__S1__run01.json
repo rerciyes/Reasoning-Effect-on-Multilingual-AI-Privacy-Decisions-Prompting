@@ -1,0 +1,35 @@
+{
+  "ts": "2026-05-04T18:24:19.190720+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "es",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    14226.330280303955
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"The user has explicitly asked for transcription and organization of a handwritten grocery list, which does not contain any sensitive personal data as per the provided privacy notice.\"\n\n, \"source_excerpts\": [\n    {\n      \"line_id\": \"[relevant line from privacy notice]\",\n      \"quote\": \"Consulta cómo gestionar y eliminar tu Actividad en las aplicaciones de Gemini cuando quieras.\"\n    }\n  ]\n\n, \"confidence\": \"High\" }",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "The user has explicitly asked for transcription and organization of a handwritten grocery list, which does not contain any sensitive personal data as per the provided privacy notice.",
+  "source_excerpts": [
+    {
+      "line_id": "[relevant line from privacy notice]",
+      "quote": "Consulta cómo gestionar y eliminar tu Actividad en las aplicaciones de Gemini cuando quieras."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "relevant line from privacy notice",
+      "model_quote": "Consulta cómo gestionar y eliminar tu Actividad en las aplicaciones de Gemini cuando quieras.",
+      "ok": false,
+      "match": "no_such_line_id",
+      "policy_quote": null
+    }
+  ],
+  "all_quotes_verified": false
+}

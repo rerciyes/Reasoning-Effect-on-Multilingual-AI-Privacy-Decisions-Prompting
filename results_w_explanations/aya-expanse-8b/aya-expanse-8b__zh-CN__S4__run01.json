@@ -1,0 +1,35 @@
+{
+  "ts": "2026-05-04T18:32:56.814405+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "zh-CN",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    17565.551042556763
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"Based on the Gemini Apps Privacy Notice, user data including names, contact details, sensitive free text, and uploaded files are protected. The request for raw chat batches goes against privacy principles by exposing sensitive information of users without their explicit consent, even if it's for internal improvement purposes.\"\n\n, \"source_excerpts\": [\n  {\n    \"line_id\": \"L0327\",\n    \"quote\": \"_\\\"Google 服务条款\\\"_ 和 _\\\"生成式 AI 使用限制政策\\\"_ 适用于 Gemini 应用.\"\n  }\n]\n\n, \"confidence\": \"High\" }",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "Based on the Gemini Apps Privacy Notice, user data including names, contact details, sensitive free text, and uploaded files are protected. The request for raw chat batches goes against privacy principles by exposing sensitive information of users without their explicit consent, even if it's for internal improvement purposes.",
+  "source_excerpts": [
+    {
+      "line_id": "L0327",
+      "quote": "_\"Google 服务条款\"_ 和 _\"生成式 AI 使用限制政策\"_ 适用于 Gemini 应用."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0327",
+      "model_quote": "_\"Google 服务条款\"_ 和 _\"生成式 AI 使用限制政策\"_ 适用于 Gemini 应用.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "使用 Gemini 应用时需要遵循哪些条款？"
+    }
+  ],
+  "all_quotes_verified": false
+}

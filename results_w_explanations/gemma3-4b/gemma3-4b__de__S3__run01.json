@@ -1,0 +1,35 @@
+{
+  "ts": "2026-05-04T19:20:57.688090+00:00",
+  "model": "gemma3:4b",
+  "num_ctx": 32768,
+  "language": "de",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    10237.3685836792
+  ],
+  "prompt_eval_count": 16672,
+  "prompt_truncated": false,
+  "raw": "{\"decision\": \"ALLOW AFTER VERIFICATION\", \"justification\": \"The policy states that if the user has enabled ‘Informationen merken’ (Memory), Gemini can use your chats to personalize your usage. The scenario explicitly states the user is outside the EEA, Switzerland, and the UK, which is a key factor in determining the applicable data processing rules. The policy also details how Google uses data from connected apps, which this scenario involves. Therefore, Gemini may save and use this information for future personalization, pending verification that the user has enabled the ‘Informationen merken’ setting.\", \"source_excerpts\": [{\"line_id\": \"L0135\", \"quote\": \"Google verarbeitet Ihre Gemini-Apps-Daten gemäß unserer Datenschutzerklärung           für folgende Zwecke:\"}],\n    \"confidence\": \"High\"}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW AFTER VERIFICATION",
+  "confidence": "High",
+  "justification": "The policy states that if the user has enabled ‘Informationen merken’ (Memory), Gemini can use your chats to personalize your usage. The scenario explicitly states the user is outside the EEA, Switzerland, and the UK, which is a key factor in determining the applicable data processing rules. The policy also details how Google uses data from connected apps, which this scenario involves. Therefore, Gemini may save and use this information for future personalization, pending verification that the user has enabled the ‘Informationen merken’ setting.",
+  "source_excerpts": [
+    {
+      "line_id": "L0135",
+      "quote": "Google verarbeitet Ihre Gemini-Apps-Daten gemäß unserer Datenschutzerklärung           für folgende Zwecke:"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0135",
+      "model_quote": "Google verarbeitet Ihre Gemini-Apps-Daten gemäß unserer Datenschutzerklärung           für folgende Zwecke:",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Wo wir nachstehend die Bezeichnung „Ihre Gemini-Apps-Daten“ verwenden, beziehen wir uns dabei auf die in den Datenschutzhinweisen für Gemini-Apps aufgeführten Datenkategorien, die Folgendes beinhalten: (i) Daten, die Sie in Gemini-Apps angeben (z."
+    }
+  ],
+  "all_quotes_verified": false
+}

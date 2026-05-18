@@ -1,0 +1,57 @@
+{
+  "ts": "2026-05-04T19:27:18.441201+00:00",
+  "model": "gemma3:4b",
+  "num_ctx": 32768,
+  "language": "en",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    10055.928230285645
+  ],
+  "prompt_eval_count": 13186,
+  "prompt_truncated": false,
+  "raw": "{\"decision\": \"ALLOW AFTER VERIFICATION\", \"justification\": \"The policy states that Gemini Apps may use your chats to personalize your experience if Keep Activity is on. However, the scenario does not explicitly state whether Keep Activity is enabled. Therefore, Gemini may save and use this information for future personalization only if the user has enabled Keep Activity. The policy also mentions that if Keep Activity is off, Gemini will not use your chats to improve its AI models unless you choose to send Google feedback.\", \"source_excerpts\": [{\"line_id\": \"L0166\", \"quote\": \"You can visit your Google Account to manage your data and privacy.\"}, {\"line_id\": \"L0167\", \"quote\": \"Visit Gemini Apps Activity to review and delete your activity (which includes imported chats), change your auto-delete period, and control whether your data is used to improve Google AI.\"}, {\"line_id\": \"L0168\", \"quote\": \"Manage Gems in Gem Manager.\"} ] , \"confidence\": \"Medium\"}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW AFTER VERIFICATION",
+  "confidence": "Medium",
+  "justification": "The policy states that Gemini Apps may use your chats to personalize your experience if Keep Activity is on. However, the scenario does not explicitly state whether Keep Activity is enabled. Therefore, Gemini may save and use this information for future personalization only if the user has enabled Keep Activity. The policy also mentions that if Keep Activity is off, Gemini will not use your chats to improve its AI models unless you choose to send Google feedback.",
+  "source_excerpts": [
+    {
+      "line_id": "L0166",
+      "quote": "You can visit your Google Account to manage your data and privacy."
+    },
+    {
+      "line_id": "L0167",
+      "quote": "Visit Gemini Apps Activity to review and delete your activity (which includes imported chats), change your auto-delete period, and control whether your data is used to improve Google AI."
+    },
+    {
+      "line_id": "L0168",
+      "quote": "Manage Gems in Gem Manager."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0166",
+      "model_quote": "You can visit your Google Account to manage your data and privacy.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "protect Google, our users, and the public. For example, Google stores your chats with your account for 72 hours so it is available in case of a potential system failure."
+    },
+    {
+      "line_id": "L0167",
+      "model_quote": "Visit Gemini Apps Activity to review and delete your activity (which includes imported chats), change your auto-delete period, and control whether your data is used to improve Google AI.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Temporary chats are not used to train Google’s AI models."
+    },
+    {
+      "line_id": "L0168",
+      "model_quote": "Manage Gems in Gem Manager.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "If Keep Activity is off and you don’t submit feedback, Google also does not use your future chats to improve its AI models."
+    }
+  ],
+  "all_quotes_verified": false
+}

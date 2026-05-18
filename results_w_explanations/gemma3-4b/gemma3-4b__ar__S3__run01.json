@@ -1,0 +1,101 @@
+{
+  "ts": "2026-05-04T19:25:03.919041+00:00",
+  "model": "gemma3:4b",
+  "num_ctx": 32768,
+  "language": "ar",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    16159.284591674805
+  ],
+  "prompt_eval_count": 19037,
+  "prompt_truncated": false,
+  "raw": "{\"decision\": \"ALLOW AFTER VERIFICATION\", \"justification\": \"The policy [L0006] states that Gemini collects information when a user interacts with it, including requests and shared files. It also states that when a user is signed in, Gemini processes data for the user. The scenario describes the user sharing personal information (dietary restrictions, medication schedule, routine) with Gemini, requesting that it remember this information for future personalization. The policy [L0037] mentions that Google uses this data for generative AI models and machine learning, and that data is reviewed. Because the user is outside the EEA, Switzerland, and the UK, the standard data processing rules apply. The key condition is whether the user has enabled the ‘Memory’ feature, which is not stated. Therefore, Gemini may save and use this information for future personalization *if* the user has enabled the ‘Memory’ feature, as this is the only condition that allows for personalization based on the user’s shared information.\", \"source_excerpts\": [{\"line_id\": \"L0006\", \"quote\": \"ي كّم ل هذا الإشعار سياسة خصوصية  ،Googleويوضّ حان مًع ا كيف تعالج  Googleبياناتك عند تفاعلك مع ،Gemini مساعدك الشخصي من  Googleالمستند إلى الذكاء الاصطناعي ،عند استخدام الخدمات الُم دَر جة هنا (\" },{\"line_id\": \"L0008\", \"quote\": \"البيانات التي يتم جمعها المعلومات التي تقّد مها لـ \"},{\"line_id\": \"L0009\", \"quote\": \"ما تقوله لـ \"},{\"line_id\": \"L0010\", \"quote\": \"ما تشاركه مع \"},{\"line_id\": \"L0011\", \"quote\": \"نصوص وتسجيلات تفاعلاتك مع ( Gemini Live\"},{\"line_id\": \"L0016\", \"quote\": \"المحتوى الذي تنشئه \"},{\"line_id\": \"L0017\", \"quote\": \"معلومات من تطبيقاتك ومتصّف حاتك وأجهزتك ّل\"}] , \"confidence\": \"Medium\"}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW AFTER VERIFICATION",
+  "confidence": "Medium",
+  "justification": "The policy [L0006] states that Gemini collects information when a user interacts with it, including requests and shared files. It also states that when a user is signed in, Gemini processes data for the user. The scenario describes the user sharing personal information (dietary restrictions, medication schedule, routine) with Gemini, requesting that it remember this information for future personalization. The policy [L0037] mentions that Google uses this data for generative AI models and machine learning, and that data is reviewed. Because the user is outside the EEA, Switzerland, and the UK, the standard data processing rules apply. The key condition is whether the user has enabled the ‘Memory’ feature, which is not stated. Therefore, Gemini may save and use this information for future personalization *if* the user has enabled the ‘Memory’ feature, as this is the only condition that allows for personalization based on the user’s shared information.",
+  "source_excerpts": [
+    {
+      "line_id": "L0006",
+      "quote": "ي كّم ل هذا الإشعار سياسة خصوصية  ،Googleويوضّ حان مًع ا كيف تعالج  Googleبياناتك عند تفاعلك مع ،Gemini مساعدك الشخصي من  Googleالمستند إلى الذكاء الاصطناعي ،عند استخدام الخدمات الُم دَر جة هنا ("
+    },
+    {
+      "line_id": "L0008",
+      "quote": "البيانات التي يتم جمعها المعلومات التي تقّد مها لـ "
+    },
+    {
+      "line_id": "L0009",
+      "quote": "ما تقوله لـ "
+    },
+    {
+      "line_id": "L0010",
+      "quote": "ما تشاركه مع "
+    },
+    {
+      "line_id": "L0011",
+      "quote": "نصوص وتسجيلات تفاعلاتك مع ( Gemini Live"
+    },
+    {
+      "line_id": "L0016",
+      "quote": "المحتوى الذي تنشئه "
+    },
+    {
+      "line_id": "L0017",
+      "quote": "معلومات من تطبيقاتك ومتصّف حاتك وأجهزتك ّل"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0006",
+      "model_quote": "ي كّم ل هذا الإشعار سياسة خصوصية  ،Googleويوضّ حان مًع ا كيف تعالج  Googleبياناتك عند تفاعلك مع ،Gemini مساعدك الشخصي من  Googleالمستند إلى الذكاء الاصطناعي ،عند استخدام الخدمات الُم دَر جة هنا (",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "ُي كّم ل هذا الإشعار سياسة خصوصية  ،Googleويوضحان مًع ا كيف تعالج  Googleبياناتك عند تفاعلك مع ،Gemini مساعدك الشخصي من  Googleالمستند إلى الذكاء الاصطناعي ،عند استخدام الخدمات الُم دَر جة هنا (\"تطبيقات  \"Geminiأو \" \"Geminiاختصاًر ا) وأنت مسجّل الدخول .توّض ح \"سياسة خصوصية  \"Googleكيف تعالج  Googleبياناتك عند استخدام Geminiبدون تسجيل الدخول."
+    },
+    {
+      "line_id": "L0008",
+      "model_quote": "البيانات التي يتم جمعها المعلومات التي تقّد مها لـ ",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "البيانات التي يتم جمعها المعلومات التي تقّد مها لـ \"تطبيقات \"Gemini"
+    },
+    {
+      "line_id": "L0009",
+      "model_quote": "ما تقوله لـ ",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "ما تقوله لـ \"تطبيقات ( \"Geminiمثل الطلبات المكتوبة أو المحكية)"
+    },
+    {
+      "line_id": "L0010",
+      "model_quote": "ما تشاركه مع ",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "ما تشاركه مع \"تطبيقات ( \"Geminiمثل الملفات والفيديوهات والشاشات التي تسأل عنها والصور والمحادثات المستوَر دة ومحتوى الصفحة الذي تشاركه من متصّف حك)"
+    },
+    {
+      "line_id": "L0011",
+      "model_quote": "نصوص وتسجيلات تفاعلاتك مع ( Gemini Live",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "نصوص وتسجيلات تفاعلاتك مع ( Gemini Liveبما في ذلك المحتوى الصوتي والفيديوهات والشاشات التي تشاركها مع )Live"
+    },
+    {
+      "line_id": "L0016",
+      "model_quote": "المحتوى الذي تنشئه ",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "المحتوى الذي تنشئه \"تطبيقات ( \"Geminiمثل النصوص والرموز البرمجية والصوت والصور والفيديوهات والموسيقى والروابط المتاحة للجميع والاقتباسات وملّخ صات المحادثات والردود المخّص صة)"
+    },
+    {
+      "line_id": "L0017",
+      "model_quote": "معلومات من تطبيقاتك ومتصّف حاتك وأجهزتك ّل",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "معلومات من تطبيقاتك ومتصّف حاتك وأجهزتك ّل"
+    }
+  ],
+  "all_quotes_verified": false
+}

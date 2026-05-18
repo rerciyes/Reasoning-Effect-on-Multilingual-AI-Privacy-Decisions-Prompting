@@ -1,0 +1,57 @@
+{
+  "ts": "2026-05-04T19:25:45.599636+00:00",
+  "model": "gemma3:4b",
+  "num_ctx": 32768,
+  "language": "ur",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    13567.51036643982
+  ],
+  "prompt_eval_count": 18586,
+  "prompt_truncated": false,
+  "raw": "{\"decision\": \"ALLOW\", \"justification\": \"The policy states that GeminiApps processes data when you are signed in and using the apps. The scenario describes a user uploading a photo of a handwritten grocery list and requesting transcription and categorization. This action is directly related to the user's request and does not involve sensitive personal data as defined in the policy. Gemini may process the uploaded image to answer the user’s request.\", \"source_excerpts\": [{\"line_id\": \"L0008\", \"quote\": \"وہ معلومات جو آپ  Geminiایپس کو فراہم کرتے ہیں (جیسے آپ کے پرامپٹس اور اپ لوڈ کردہ مواد)\"}, {\"line_id\": \"L0011\", \"quote\": \"آپ  Geminiایپس کے ساتھ کس چیز کا اشتراک کرتے ہیں (جیسے کہ فائلز ،ویڈیوز ،وہ اسکرینز جن کے بارے میں آپ پوچھتے ہیں ،تصاویر ،درآمد کردہ چیٹس اور صفحہ کا مواد جس کا آپ اپنے براؤزر سے اشتراک کرتے ہیں)\"}, {\"line_id\": \"L0017\", \"quote\": \"وہ مواد جو  Geminiایپس تخلیق کرتی ہیں (جیسے ٹیکسٹ ،کوڈ ،آڈیو ،تصاویر ،ویڈیو ،عوامی لنکس ،حوالہ جات ،چیٹ کے خالصے اور ذاتی نوعیت کی بصیرتیں)\"} ] , \"confidence\": \"High\"}\n",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "The policy states that GeminiApps processes data when you are signed in and using the apps. The scenario describes a user uploading a photo of a handwritten grocery list and requesting transcription and categorization. This action is directly related to the user's request and does not involve sensitive personal data as defined in the policy. Gemini may process the uploaded image to answer the user’s request.",
+  "source_excerpts": [
+    {
+      "line_id": "L0008",
+      "quote": "وہ معلومات جو آپ  Geminiایپس کو فراہم کرتے ہیں (جیسے آپ کے پرامپٹس اور اپ لوڈ کردہ مواد)"
+    },
+    {
+      "line_id": "L0011",
+      "quote": "آپ  Geminiایپس کے ساتھ کس چیز کا اشتراک کرتے ہیں (جیسے کہ فائلز ،ویڈیوز ،وہ اسکرینز جن کے بارے میں آپ پوچھتے ہیں ،تصاویر ،درآمد کردہ چیٹس اور صفحہ کا مواد جس کا آپ اپنے براؤزر سے اشتراک کرتے ہیں)"
+    },
+    {
+      "line_id": "L0017",
+      "quote": "وہ مواد جو  Geminiایپس تخلیق کرتی ہیں (جیسے ٹیکسٹ ،کوڈ ،آڈیو ،تصاویر ،ویڈیو ،عوامی لنکس ،حوالہ جات ،چیٹ کے خالصے اور ذاتی نوعیت کی بصیرتیں)"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0008",
+      "model_quote": "وہ معلومات جو آپ  Geminiایپس کو فراہم کرتے ہیں (جیسے آپ کے پرامپٹس اور اپ لوڈ کردہ مواد)",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "کون سا ڈیٹا اکٹھا کیا جاتا ہے"
+    },
+    {
+      "line_id": "L0011",
+      "model_quote": "آپ  Geminiایپس کے ساتھ کس چیز کا اشتراک کرتے ہیں (جیسے کہ فائلز ،ویڈیوز ،وہ اسکرینز جن کے بارے میں آپ پوچھتے ہیں ،تصاویر ،درآمد کردہ چیٹس اور صفحہ کا مواد جس کا آپ اپنے براؤزر سے اشتراک کرتے ہیں)",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "آپ  Geminiایپس کے ساتھ کس چیز کا اشتراک کرتے ہیں (جیسے کہ فائلز ،ویڈیوز ،وہ اسکرینز جن کے بارے میں آپ پوچھتے ہیں ،تصاویر ،درآمد کردہ چیٹس اور صفحہ کا مواد جس کا آپ اپنے براؤزر سے اشتراک کرتے ہیں)"
+    },
+    {
+      "line_id": "L0017",
+      "model_quote": "وہ مواد جو  Geminiایپس تخلیق کرتی ہیں (جیسے ٹیکسٹ ،کوڈ ،آڈیو ،تصاویر ،ویڈیو ،عوامی لنکس ،حوالہ جات ،چیٹ کے خالصے اور ذاتی نوعیت کی بصیرتیں)",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "وہ مواد جو  Geminiایپس تخلیق کرتی ہیں (جیسے ٹیکسٹ ،کوڈ ،آڈیو ،تصاویر ،ویڈیو ،عوامی لنکس ،حوالہ جات ،چیٹ کے خالصے اور ذاتی نوعیت کی بصیرتیں)"
+    }
+  ],
+  "all_quotes_verified": false
+}

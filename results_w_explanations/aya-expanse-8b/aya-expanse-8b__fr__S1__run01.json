@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T18:26:58.254100+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "fr",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    18937.315702438354
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"Based on the provided notice, Gemini is permitted to use and process images for tasks like transcription and organization without explicit consent if no sensitive personal data is present.\"\n\n, \"source_excerpts\": [\n    {\"line_id\": \"L0417\", \"quote\": \"Par défaut, les enregistrements Gemini Live (y compris l'audio, les vidéos et les partages d'écran) ne sont pas utilisés pour améliorer les services Google.\"},\n    {\"line_id\": \"L0429\", \"quote\": \"Vous pouvez l'arrêter, suivre sa progression et reprendre le contrôle manuellement.\"}\n  ]\n\n, \"confidence\": \"High\" }",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "Based on the provided notice, Gemini is permitted to use and process images for tasks like transcription and organization without explicit consent if no sensitive personal data is present.",
+  "source_excerpts": [
+    {
+      "line_id": "L0417",
+      "quote": "Par défaut, les enregistrements Gemini Live (y compris l'audio, les vidéos et les partages d'écran) ne sont pas utilisés pour améliorer les services Google."
+    },
+    {
+      "line_id": "L0429",
+      "quote": "Vous pouvez l'arrêter, suivre sa progression et reprendre le contrôle manuellement."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0417",
+      "model_quote": "Par défaut, les enregistrements Gemini Live (y compris l'audio, les vidéos et les partages d'écran) ne sont pas utilisés pour améliorer les services Google.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Lorsque vous utilisez la fonctionnalité Gemini dans Chrome , Gemini recueille et traite le contenu de la page ainsi que l'URL de l'onglet actuel et de tous les autres onglets que vous avez partagés avec lui."
+    },
+    {
+      "line_id": "L0429",
+      "model_quote": "Vous pouvez l'arrêter, suivre sa progression et reprendre le contrôle manuellement.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Vous avez le contrôle Gemini peut se tromper."
+    }
+  ],
+  "all_quotes_verified": false
+}

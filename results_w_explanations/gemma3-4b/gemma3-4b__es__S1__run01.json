@@ -1,0 +1,35 @@
+{
+  "ts": "2026-05-04T19:18:20.139253+00:00",
+  "model": "gemma3:4b",
+  "num_ctx": 32768,
+  "language": "es",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    20578.652143478394
+  ],
+  "prompt_eval_count": 15537,
+  "prompt_truncated": false,
+  "raw": "{\"decision\": \"ALLOW\", \"justification\": \"The policy states that Gemini can process content you upload, such as images, to fulfill your requests. The scenario describes a user uploading a photo of a handwritten grocery list and asking Gemini to transcribe and organize it by category. This falls under the permitted use of processing content for service provision and improving services, as outlined in L0111 and L0134. The image does not contain sensitive personal data, so no additional verification is needed.\", \"source_excerpts\": [{\"line_id\": \"L0111\" , \"quote\": \"Lo que compartes con las aplicaciones de Gemini, como archivos, vídeos, pantallas sobre las que preguntes, fotos, conversaciones importadas y contenido de páginas que compartes desde tu navegador\"}] ,\n    \"confidence\": \"High\"}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "The policy states that Gemini can process content you upload, such as images, to fulfill your requests. The scenario describes a user uploading a photo of a handwritten grocery list and asking Gemini to transcribe and organize it by category. This falls under the permitted use of processing content for service provision and improving services, as outlined in L0111 and L0134. The image does not contain sensitive personal data, so no additional verification is needed.",
+  "source_excerpts": [
+    {
+      "line_id": "L0111",
+      "quote": "Lo que compartes con las aplicaciones de Gemini, como archivos, vídeos, pantallas sobre las que preguntes, fotos, conversaciones importadas y contenido de páginas que compartes desde tu navegador"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0111",
+      "model_quote": "Lo que compartes con las aplicaciones de Gemini, como archivos, vídeos, pantallas sobre las que preguntes, fotos, conversaciones importadas y contenido de páginas que compartes desde tu navegador",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "En ocasiones, también se hace referencia a las aplicaciones de Gemini como la \"aplicación Gemini\" o \"Gemini\"."
+    }
+  ],
+  "all_quotes_verified": false
+}

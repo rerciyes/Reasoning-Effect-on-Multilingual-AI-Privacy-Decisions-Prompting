@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T18:26:14.474299+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "pt-BR",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    20532.31120109558
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"Based on the user's request to personalize responses based on dietary restrictions, medication schedule, and daily routine, and the fact that they are located outside of the EEA, Switzerland, and the UK, where the standard privacy notice applies, Gemini is authorized to store and use this information for personalization purposes as per the user's consent.\"\n\n, \"source_excerpts\": [\n    {\n      \"line_id\": \"L0457\",\n      \"quote\": \"Se você atender a determinados requisitos de qualificação e ativar a personalização com seus dados dos apps conectados...\"\n    },\n    {\n      \"line_id\": \"L0339\",\n      \"quote\": \"Esse recurso só fica disponível quando a opção Manter Atividade   está ativada.\"\n    }\n  ]\n\n, \"confidence\": \"High\" }",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "Based on the user's request to personalize responses based on dietary restrictions, medication schedule, and daily routine, and the fact that they are located outside of the EEA, Switzerland, and the UK, where the standard privacy notice applies, Gemini is authorized to store and use this information for personalization purposes as per the user's consent.",
+  "source_excerpts": [
+    {
+      "line_id": "L0457",
+      "quote": "Se você atender a determinados requisitos de qualificação e ativar a personalização com seus dados dos apps conectados..."
+    },
+    {
+      "line_id": "L0339",
+      "quote": "Esse recurso só fica disponível quando a opção Manter Atividade   está ativada."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0457",
+      "model_quote": "Se você atender a determinados requisitos de qualificação e ativar a personalização com seus dados dos apps conectados...",
+      "ok": false,
+      "match": "no_such_line_id",
+      "policy_quote": null
+    },
+    {
+      "line_id": "L0339",
+      "model_quote": "Esse recurso só fica disponível quando a opção Manter Atividade   está ativada.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Saiba mais sobre a personalização com seus dados dos apps conectados."
+    }
+  ],
+  "all_quotes_verified": false
+}

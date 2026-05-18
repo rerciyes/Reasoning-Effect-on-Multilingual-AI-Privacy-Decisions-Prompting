@@ -1,0 +1,35 @@
+{
+  "ts": "2026-05-04T19:24:51.521148+00:00",
+  "model": "gemma3:4b",
+  "num_ctx": 32768,
+  "language": "ar",
+  "scenario_id": "S2",
+  "run": 1,
+  "latency_ms": [
+    12393.465280532837
+  ],
+  "prompt_eval_count": 19039,
+  "prompt_truncated": false,
+  "raw": "{\"decision\": \"ALLOW AFTER VERIFICATION\", \"justification\": \"The policy states that Gemini can collect the user’s general area from their IP address or saved Home/Work addresses. However, it also states that Gemini can collect the user’s precise device location from their phone if the user has not granted location permission. Therefore, Gemini may collect and use the user’s precise device location only if the user has not granted device or browser location permission. This requires verification that the user has not granted location permission.\", \"source_excerpts\": [{\"line_id\": \"L0027\", \"quote\": \"ي رجى عدم إدخال معلومات سرية لا تريد أن يراها المراجع أو أن تستخدمها Googleلتحسين خدماتها بما في ذلك تكنولوجيات تعُّلم الآلة.\"}], \"confidence\": \"Medium\"}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW AFTER VERIFICATION",
+  "confidence": "Medium",
+  "justification": "The policy states that Gemini can collect the user’s general area from their IP address or saved Home/Work addresses. However, it also states that Gemini can collect the user’s precise device location from their phone if the user has not granted location permission. Therefore, Gemini may collect and use the user’s precise device location only if the user has not granted device or browser location permission. This requires verification that the user has not granted location permission.",
+  "source_excerpts": [
+    {
+      "line_id": "L0027",
+      "quote": "ي رجى عدم إدخال معلومات سرية لا تريد أن يراها المراجع أو أن تستخدمها Googleلتحسين خدماتها بما في ذلك تكنولوجيات تعُّلم الآلة."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0027",
+      "model_quote": "ي رجى عدم إدخال معلومات سرية لا تريد أن يراها المراجع أو أن تستخدمها Googleلتحسين خدماتها بما في ذلك تكنولوجيات تعُّلم الآلة.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "معلومات عن موقع الجهاز الجغرافي :المنطقة العامة استناًد ا إلى جهازك ،أو عنوان  ،IPأو عنوان المنزل أو العمل في حساب .Googleيتوّف ر مزيد من المعلومات على . g.co/privacypolicy/location"
+    }
+  ],
+  "all_quotes_verified": false
+}

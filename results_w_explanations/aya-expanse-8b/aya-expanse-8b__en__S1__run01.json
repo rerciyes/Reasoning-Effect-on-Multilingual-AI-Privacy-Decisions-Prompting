@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T18:23:09.764873+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "en",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    17490.73052406311
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"The uploaded image does not contain any sensitive personal data as per the provided privacy notice, and processing it is necessary to fulfill the user's request for transcription and organization.\"\n\n, \"source_excerpts\": [\n    {\n      \"line_id\": \"L0294\",\n      \"quote\": \"What happens when I share a photo or video from a connected app with Gemini Apps? Gemini can use publicly available information from those apps to give you tailored help...\"\n    },\n    {\n      \"line_id\": \"L0317\",\n      \"quote\": \"How data is used To make it easier for you to use the remote browser in future chats and consistent with the Gemini Apps Privacy Notice.\"\n    }\n  ]\n\n, \"confidence\": \"High\" }",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "The uploaded image does not contain any sensitive personal data as per the provided privacy notice, and processing it is necessary to fulfill the user's request for transcription and organization.",
+  "source_excerpts": [
+    {
+      "line_id": "L0294",
+      "quote": "What happens when I share a photo or video from a connected app with Gemini Apps? Gemini can use publicly available information from those apps to give you tailored help..."
+    },
+    {
+      "line_id": "L0317",
+      "quote": "How data is used To make it easier for you to use the remote browser in future chats and consistent with the Gemini Apps Privacy Notice."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0294",
+      "model_quote": "What happens when I share a photo or video from a connected app with Gemini Apps? Gemini can use publicly available information from those apps to give you tailored help...",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Gemini can use Connected Apps and other services to give you tailored help, find info for you, and help you get more done."
+    },
+    {
+      "line_id": "L0317",
+      "model_quote": "How data is used To make it easier for you to use the remote browser in future chats and consistent with the Gemini Apps Privacy Notice.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Learn how to delete something from a connected app that Gemini remembers about you. If you delete or update data in a connected app, like an email from Gmail or a photo from Google Photos, your experience in Gemini may not be affected until days later."
+    }
+  ],
+  "all_quotes_verified": false
+}

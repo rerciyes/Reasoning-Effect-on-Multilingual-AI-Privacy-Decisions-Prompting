@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T18:36:38.348250+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "ur",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    26650.087594985962
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"Based on the provided privacy notice, Gemini is permitted to process non-sensitive images for tasks like transcription and organization. The user's grocery list does not contain any prohibited data types as defined in the policy.\"\n\n, \"source_excerpts\": [\n    {\"line_id\": \"[L0324]\", \"quote\": \"یہ ڈیٹا (میموری اور چیٹس) جسے آپ دوسرے  AIپلیٹ فارمز سے درآمد کرتے ہیں آپ کی سرگرمی میں محفوظ ہو جاتا ہے۔\"},\n    {\"line_id\": \"[L0328]\", \"quote\": \"ڈیٹا کو کیسے اسٹور کیا جاتا ہے Google Canvas ایپس کو Firebaseمیں صارف کے ڈیٹا کو مستقل طور پر اسٹور کرنے کا اختیار فراہم کرتا ہے۔\"}\n  ]\n\n, \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "Based on the provided privacy notice, Gemini is permitted to process non-sensitive images for tasks like transcription and organization. The user's grocery list does not contain any prohibited data types as defined in the policy.",
+  "source_excerpts": [
+    {
+      "line_id": "[L0324]",
+      "quote": "یہ ڈیٹا (میموری اور چیٹس) جسے آپ دوسرے  AIپلیٹ فارمز سے درآمد کرتے ہیں آپ کی سرگرمی میں محفوظ ہو جاتا ہے۔"
+    },
+    {
+      "line_id": "[L0328]",
+      "quote": "ڈیٹا کو کیسے اسٹور کیا جاتا ہے Google Canvas ایپس کو Firebaseمیں صارف کے ڈیٹا کو مستقل طور پر اسٹور کرنے کا اختیار فراہم کرتا ہے۔"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0324",
+      "model_quote": "یہ ڈیٹا (میموری اور چیٹس) جسے آپ دوسرے  AIپلیٹ فارمز سے درآمد کرتے ہیں آپ کی سرگرمی میں محفوظ ہو جاتا ہے۔",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "وہ ڈیٹا (میموری اور چیٹس) جسے آپ دوسرے  AIپلیٹ فارمز سے درآمد کرتے ہیں آپ کی سرگرمی میں محفوظ ہو جاتا ہے۔ یہ ڈیٹا آپ کی  Geminiایپس کی سرگرمی کے ساتھ مستقل طور پر استعمال کیا جاتا ہے ،بشمول ہماری سروسز کو بہتر بنانے (بشمول تخلیق کر سکنے والے  AIماڈلز کی تربیت) اور  ،Googleہمارے صارفین اور عوام کی حفاظت کے لیے۔ آپ کسی بھی وقت اپنی سرگرمی کا نظم یا اسے حذف کر سکتے ہیں۔ اپنی  Geminiایپس کی سرگرمی کا نظم کرنے اور اسے حذف کرنے کا طریقہ جانیں۔"
+    },
+    {
+      "line_id": "L0328",
+      "model_quote": "ڈیٹا کو کیسے اسٹور کیا جاتا ہے Google Canvas ایپس کو Firebaseمیں صارف کے ڈیٹا کو مستقل طور پر اسٹور کرنے کا اختیار فراہم کرتا ہے۔",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "جب آپ صارف کی تخلیق کردہ  Canvasایپس کے ساتھ تعامل کرتے ہیں تو عوامی لنک واال کوئی بھی شخص آپ کا اشتراک کردہ کوئی بھی ڈیٹا دیکھ سکتا ہے۔"
+    }
+  ],
+  "all_quotes_verified": false
+}

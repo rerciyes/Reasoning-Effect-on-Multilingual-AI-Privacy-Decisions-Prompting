@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T18:30:10.520669+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "tr",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    18437.62993812561
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"Based on the Gemini Apps Privacy Notice, personal preferences, such as dietary restrictions and medication schedules, are collected and used to personalize responses when the user has enabled 'Keep Activity' or 'Memory'. Since the user explicitly requested personalization and provided this information, Gemini is authorized to store and use it for that purpose.\"\n\n, \"source_excerpts\": [\n    {\"line_id\": \"L0412\", \"quote\": \"Gemini'nın sizin adınıza yaptığı işlemlerin sorumluluğu size aittir.\"},\n    {\"line_id\": \"L0397\", \"quote\": \"Kontrol sizde Gemini hata yapabilir.\"}\n  ]\n\n, \"confidence\": \"High\" }",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "Based on the Gemini Apps Privacy Notice, personal preferences, such as dietary restrictions and medication schedules, are collected and used to personalize responses when the user has enabled 'Keep Activity' or 'Memory'. Since the user explicitly requested personalization and provided this information, Gemini is authorized to store and use it for that purpose.",
+  "source_excerpts": [
+    {
+      "line_id": "L0412",
+      "quote": "Gemini'nın sizin adınıza yaptığı işlemlerin sorumluluğu size aittir."
+    },
+    {
+      "line_id": "L0397",
+      "quote": "Kontrol sizde Gemini hata yapabilir."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0412",
+      "model_quote": "Gemini'nın sizin adınıza yaptığı işlemlerin sorumluluğu size aittir.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Cihazınızdaki belirli uygulamalarda ekran otomasyonunu kullanarak sipariş verme veya araç çağırma gibi görevlerde Gemini size yardımcı olabilir."
+    },
+    {
+      "line_id": "L0397",
+      "model_quote": "Kontrol sizde Gemini hata yapabilir.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Lütfen diğer kişilerin gizliliğine saygı gösterin   ve kendilerini kaydetmeden veya Live sohbetine dahil etmeden önce izinlerini isteyin."
+    }
+  ],
+  "all_quotes_verified": false
+}

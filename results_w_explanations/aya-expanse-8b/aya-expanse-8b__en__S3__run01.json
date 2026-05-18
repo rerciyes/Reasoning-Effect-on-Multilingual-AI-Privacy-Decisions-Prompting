@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T18:23:43.173723+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "en",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    17879.369497299194
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"Based on the user's request to personalize their experience and the lack of geographical constraints, Gemini can store and use the provided dietary restrictions, medication schedule, and preferred daily routine for future interactions, as long as Keep Activity (or a similar setting) is enabled.\"\n\n, \"source_excerpts\": [\n  {\n    \"line_id\": \"L0427\",\n    \"quote\": \"If you’re a Korea-based consumer, you also agree that your use of Gemini Apps is subject to the Korean Location Terms of Service.\"\n  },\n  {\n    \"line_id\": \"[L0315]\",\n    \"quote\": \"Learn more about how Gemini Apps get help from Google services.\"\n  }\n]\n\n, \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "Based on the user's request to personalize their experience and the lack of geographical constraints, Gemini can store and use the provided dietary restrictions, medication schedule, and preferred daily routine for future interactions, as long as Keep Activity (or a similar setting) is enabled.",
+  "source_excerpts": [
+    {
+      "line_id": "L0427",
+      "quote": "If you’re a Korea-based consumer, you also agree that your use of Gemini Apps is subject to the Korean Location Terms of Service."
+    },
+    {
+      "line_id": "[L0315]",
+      "quote": "Learn more about how Gemini Apps get help from Google services."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0427",
+      "model_quote": "If you’re a Korea-based consumer, you also agree that your use of Gemini Apps is subject to the Korean Location Terms of Service.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Related resources"
+    },
+    {
+      "line_id": "L0315",
+      "model_quote": "Learn more about how Gemini Apps get help from Google services.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "You can manage and delete your Gemini Apps activity anytime."
+    }
+  ],
+  "all_quotes_verified": false
+}

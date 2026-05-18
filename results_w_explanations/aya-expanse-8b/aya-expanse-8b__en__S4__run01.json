@@ -1,0 +1,35 @@
+{
+  "ts": "2026-05-04T18:24:01.055629+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "en",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    18133.159637451172
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"Based on the Gemini Apps Privacy Notice, user-submitted data, including free text and uploaded files, is protected and cannot be shared for any purpose unrelated to fulfilling users' original requests or improving Gemini services as described in the notice. Contact details are also considered sensitive personal information. Therefore, providing raw chat batches containing such data to an internal team for unstated purposes would violate user privacy.\"\n\n, \"source_excerpts\": [\n  {\n    \"line_id\": \"L0427\",\n    \"quote\": \"The Google Terms of Service     and the Generative AI Prohibited Use Policy     apply to Gemini Apps.\"\n  }\n]\n\n, \"confidence\": \"High\" }",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "Based on the Gemini Apps Privacy Notice, user-submitted data, including free text and uploaded files, is protected and cannot be shared for any purpose unrelated to fulfilling users' original requests or improving Gemini services as described in the notice. Contact details are also considered sensitive personal information. Therefore, providing raw chat batches containing such data to an internal team for unstated purposes would violate user privacy.",
+  "source_excerpts": [
+    {
+      "line_id": "L0427",
+      "quote": "The Google Terms of Service     and the Generative AI Prohibited Use Policy     apply to Gemini Apps."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0427",
+      "model_quote": "The Google Terms of Service     and the Generative AI Prohibited Use Policy     apply to Gemini Apps.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Related resources"
+    }
+  ],
+  "all_quotes_verified": false
+}

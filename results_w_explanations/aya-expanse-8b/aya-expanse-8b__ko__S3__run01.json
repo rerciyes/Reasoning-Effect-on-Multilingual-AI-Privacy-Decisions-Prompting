@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T18:31:26.445192+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "ko",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    18254.64940071106
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"Based on the user's request to personalize responses and the fact that they are outside the EEA, Switzerland, and the UK, where stricter data privacy regulations apply, Gemini is permitted to store and use this information for future interactions.\"\n\n, \"source_excerpts\": [\n    {\"line_id\": \"L0437\", \"quote\": \"생성형 AI에 관한 금지된 사용 정책\"},\n    {\"line_id\": \"L0428\", \"quote\": \"Gemini 앱에는 Google 서비스 약관 및 생성형 AI에 관한 금지된 사용 정책이 적용됩니다.\"}\n  ]\n\n, \"confidence\": \"High\" }",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "Based on the user's request to personalize responses and the fact that they are outside the EEA, Switzerland, and the UK, where stricter data privacy regulations apply, Gemini is permitted to store and use this information for future interactions.",
+  "source_excerpts": [
+    {
+      "line_id": "L0437",
+      "quote": "생성형 AI에 관한 금지된 사용 정책"
+    },
+    {
+      "line_id": "L0428",
+      "quote": "Gemini 앱에는 Google 서비스 약관 및 생성형 AI에 관한 금지된 사용 정책이 적용됩니다."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0437",
+      "model_quote": "생성형 AI에 관한 금지된 사용 정책",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "생성형 AI에 관한 금지된 사용 정책"
+    },
+    {
+      "line_id": "L0428",
+      "model_quote": "Gemini 앱에는 Google 서비스 약관 및 생성형 AI에 관한 금지된 사용 정책이 적용됩니다.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "서비스 약관"
+    }
+  ],
+  "all_quotes_verified": false
+}

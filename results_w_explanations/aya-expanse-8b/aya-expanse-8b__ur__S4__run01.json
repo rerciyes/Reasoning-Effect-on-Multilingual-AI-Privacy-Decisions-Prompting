@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T18:37:49.447583+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "ur",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    22841.234922409058
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"Based on the Gemini Apps Privacy Notice, user data is to be processed and stored in a way that protects user privacy. Providing raw chat batches containing sensitive information would violate this notice. The request does not align with the principles of data minimization and purpose limitation outlined in the privacy notice.\"\n\n, \"source_excerpts\": [\n    {\"line_id\": \"L0308\", \"quote\": \"جب میں  Geminiمیں  Google Payاستعمال کرتا ہوں تو میرے ڈیٹا کا کیا ہوتا ہے؟\"},\n    {\"line_id\": \"L0316\", \"quote\": \"بشمول آپ کے فراہم کردہ تاثرات ،پر  Googleکی رازداری کی پالیسی\"}\n  ]\n\n, \"confidence\": \"High\" }",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "Based on the Gemini Apps Privacy Notice, user data is to be processed and stored in a way that protects user privacy. Providing raw chat batches containing sensitive information would violate this notice. The request does not align with the principles of data minimization and purpose limitation outlined in the privacy notice.",
+  "source_excerpts": [
+    {
+      "line_id": "L0308",
+      "quote": "جب میں  Geminiمیں  Google Payاستعمال کرتا ہوں تو میرے ڈیٹا کا کیا ہوتا ہے؟"
+    },
+    {
+      "line_id": "L0316",
+      "quote": "بشمول آپ کے فراہم کردہ تاثرات ،پر  Googleکی رازداری کی پالیسی"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0308",
+      "model_quote": "جب میں  Geminiمیں  Google Payاستعمال کرتا ہوں تو میرے ڈیٹا کا کیا ہوتا ہے؟",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "جب میں  Geminiمیں  Google Payاستعمال کرتا ہوں تو میرے ڈیٹا کا کیا ہوتا ہے؟"
+    },
+    {
+      "line_id": "L0316",
+      "model_quote": "بشمول آپ کے فراہم کردہ تاثرات ،پر  Googleکی رازداری کی پالیسی",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "سے  Gemsتک رسائی حاصل کر سکتے ہیں اور             پر  Googleلیبز      اب آپ  Geminiایپس میں یا opal.google انہیں تالش کر سکتے ہیں۔"
+    }
+  ],
+  "all_quotes_verified": false
+}

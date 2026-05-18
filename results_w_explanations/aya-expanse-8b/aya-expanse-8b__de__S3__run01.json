@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T18:28:51.174877+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "de",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    21542.039394378662
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"Based on the user's request to personalize responses based on dietary restrictions, medication schedule, and daily routine, and given that the user is located outside of the EEA, Switzerland, and the UK (regions where stricter data privacy regulations apply), Gemini can store and use this information for future interactions. The Privacy Notice explicitly states that users have control over their data and can manage it through app settings.\"\n\n, \"source_excerpts\": [\n  {\n    \"line_id\": \"L0401\",\n    \"quote\": \"Wenn Aktivitäten speichern     aktiviert ist, werden ... Informationen von Websites ... im Aktivitätsverlauf in Gemini-Apps gespeichert...\"\n  },\n  {\n    \"line_id\": \"L0397\",\n    \"quote\": \"Sie können das Teilen ... und die Kontrolle manuell übernehmen.\"\n  }\n]\n\n, \"confidence\": \"High\" }",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "Based on the user's request to personalize responses based on dietary restrictions, medication schedule, and daily routine, and given that the user is located outside of the EEA, Switzerland, and the UK (regions where stricter data privacy regulations apply), Gemini can store and use this information for future interactions. The Privacy Notice explicitly states that users have control over their data and can manage it through app settings.",
+  "source_excerpts": [
+    {
+      "line_id": "L0401",
+      "quote": "Wenn Aktivitäten speichern     aktiviert ist, werden ... Informationen von Websites ... im Aktivitätsverlauf in Gemini-Apps gespeichert..."
+    },
+    {
+      "line_id": "L0397",
+      "quote": "Sie können das Teilen ... und die Kontrolle manuell übernehmen."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0401",
+      "model_quote": "Wenn Aktivitäten speichern     aktiviert ist, werden ... Informationen von Websites ... im Aktivitätsverlauf in Gemini-Apps gespeichert...",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Wenn „Aktivitäten speichern“ in Gemini-Apps deaktiviert ist, werden Ihre Gemini Live-Chats bis zu 72 Stunden lang in Ihrem Google-Konto gespeichert, damit Google den Dienst bereitstellen und Feedback verarbeiten kann."
+    },
+    {
+      "line_id": "L0397",
+      "model_quote": "Sie können das Teilen ... und die Kontrolle manuell übernehmen.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Gemini Live"
+    }
+  ],
+  "all_quotes_verified": false
+}

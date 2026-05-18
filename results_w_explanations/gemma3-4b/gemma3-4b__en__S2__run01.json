@@ -1,0 +1,57 @@
+{
+  "ts": "2026-05-04T19:27:08.168087+00:00",
+  "model": "gemma3:4b",
+  "num_ctx": 32768,
+  "language": "en",
+  "scenario_id": "S2",
+  "run": 1,
+  "latency_ms": [
+    10270.34878730774
+  ],
+  "prompt_eval_count": 13188,
+  "prompt_truncated": false,
+  "raw": "{\"decision\": \"ALLOW AFTER VERIFICATION\", \"justification\": \"The policy states that Gemini Apps can use precise location data from your device if you give permission. It also notes that Gemini Apps may receive precise location data from another Google service, like Google Maps, even if the precise location setting is off. Therefore, Gemini may collect and use the user’s precise device location, but only if the user has granted permission or if the data is received from another Google service.\", \"source_excerpts\": [{\"line_id\": \"L0124\", \"quote\": \"Information from your apps, browsers, and devices\"}, {\"line_id\": \"L0125\", \"quote\": \"Google’s legal bases are: Performance of a contract. We process your Gemini Apps information, and any of your other information you give Gemini Apps permission to process, including when you connect Gemini Apps to another service, so that we can provide and maintain the Gemini Apps service you have requested under the Google Terms of Service .\"}, {\"line_id\": \"L0126\", \"quote\": \"We process information from publicly accessible sources and your Gemini Apps information so that we can provide, maintain, and improve Google products, services, and machine-learning technologies.\"} ] , \"confidence\": \"Medium\"}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW AFTER VERIFICATION",
+  "confidence": "Medium",
+  "justification": "The policy states that Gemini Apps can use precise location data from your device if you give permission. It also notes that Gemini Apps may receive precise location data from another Google service, like Google Maps, even if the precise location setting is off. Therefore, Gemini may collect and use the user’s precise device location, but only if the user has granted permission or if the data is received from another Google service.",
+  "source_excerpts": [
+    {
+      "line_id": "L0124",
+      "quote": "Information from your apps, browsers, and devices"
+    },
+    {
+      "line_id": "L0125",
+      "quote": "Google’s legal bases are: Performance of a contract. We process your Gemini Apps information, and any of your other information you give Gemini Apps permission to process, including when you connect Gemini Apps to another service, so that we can provide and maintain the Gemini Apps service you have requested under the Google Terms of Service ."
+    },
+    {
+      "line_id": "L0126",
+      "quote": "We process information from publicly accessible sources and your Gemini Apps information so that we can provide, maintain, and improve Google products, services, and machine-learning technologies."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0124",
+      "model_quote": "Information from your apps, browsers, and devices",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "When we refer to “your Gemini Apps information” below we mean data categories listed in the Gemini Apps Privacy Notice, consisting of: (i) information you provide Gemini Apps (such as your prompts and uploaded content, recordings and transcripts of your Gemini Live interactions, your feedback, and instructions for Gemini); (ii) Information we collect as you use Gemini Apps (such as content that Gemini Apps generates, info from your apps, browsers, devices, and Connected Apps, and device data collected when you use the Gemini mobile apps); (iii) information collected through supplemental Gemini Apps features you opt into; (iv) location information; and (v) subscription information."
+    },
+    {
+      "line_id": "L0125",
+      "model_quote": "Google’s legal bases are: Performance of a contract. We process your Gemini Apps information, and any of your other information you give Gemini Apps permission to process, including when you connect Gemini Apps to another service, so that we can provide and maintain the Gemini Apps service you have requested under the Google Terms of Service .",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Google’s legal bases are:"
+    },
+    {
+      "line_id": "L0126",
+      "model_quote": "We process information from publicly accessible sources and your Gemini Apps information so that we can provide, maintain, and improve Google products, services, and machine-learning technologies.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Performance of a contract. We process your Gemini Apps information, and any of your other information you give Gemini Apps permission to process, including when you connect Gemini Apps to another service, so that we can provide and maintain the Gemini Apps service you have requested under the Google Terms of Service . For example, we process your Gemini Apps information to respond to your queries, and to provide various Gemini Apps features and functionalities such as video generation, image editing, and using screen actions to chat with Gemini."
+    }
+  ],
+  "all_quotes_verified": false
+}

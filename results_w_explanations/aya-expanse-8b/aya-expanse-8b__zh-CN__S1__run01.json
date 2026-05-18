@@ -1,0 +1,35 @@
+{
+  "ts": "2026-05-04T18:32:08.000055+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "zh-CN",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    14039.92486000061
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"Based on the provided privacy notice, Gemini is permitted to process non-sensitive data, such as images of handwritten lists, for tasks like transcription and organization.\"\n\n, \"source_excerpts\": [\n    {\"line_id\": \"L0239\", \"quote\": \"which includes...information from your device and settings\"}\n  ]\n\n, \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "Based on the provided privacy notice, Gemini is permitted to process non-sensitive data, such as images of handwritten lists, for tasks like transcription and organization.",
+  "source_excerpts": [
+    {
+      "line_id": "L0239",
+      "quote": "which includes...information from your device and settings"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0239",
+      "model_quote": "which includes...information from your device and settings",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "你在 Gemini 对话中的信息"
+    }
+  ],
+  "all_quotes_verified": false
+}

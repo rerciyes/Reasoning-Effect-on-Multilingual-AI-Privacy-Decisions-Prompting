@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T18:37:05.004061+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "ur",
+  "scenario_id": "S2",
+  "run": 1,
+  "latency_ms": [
+    22490.99349975586
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"Based on the Gemini Apps Privacy Notice, the system should not collect or use the user's precise device location without their explicit consent.\"\n\n, \"source_excerpts\": [\n    {\"line_id\": \"[L0342]\", \"quote\": \"Gemini موبائل ایپ کے لیے مزید وسائل\\n[L0343] آپ اپنی  Geminiموبائل ایپ کے ساتھ کیا کر سکتے ہیں\"},\n    {\"line_id\": \"[L0345]\", \"quote\": \"Gemini موبائل ایپ شروع کریں\\n[L0346] اپنے  Androidآلہ پر  Geminiایپ کا نظم کریں یا اسے حذف کریں\"}\n  ]\n\n, \"confidence\": \"High\" }",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "Based on the Gemini Apps Privacy Notice, the system should not collect or use the user's precise device location without their explicit consent.",
+  "source_excerpts": [
+    {
+      "line_id": "[L0342]",
+      "quote": "Gemini موبائل ایپ کے لیے مزید وسائل\n[L0343] آپ اپنی  Geminiموبائل ایپ کے ساتھ کیا کر سکتے ہیں"
+    },
+    {
+      "line_id": "[L0345]",
+      "quote": "Gemini موبائل ایپ شروع کریں\n[L0346] اپنے  Androidآلہ پر  Geminiایپ کا نظم کریں یا اسے حذف کریں"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0342",
+      "model_quote": "Gemini موبائل ایپ کے لیے مزید وسائل\n[L0343] آپ اپنی  Geminiموبائل ایپ کے ساتھ کیا کر سکتے ہیں",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Gemini موبائل ایپس کے لیے مزید وسائل"
+    },
+    {
+      "line_id": "L0345",
+      "model_quote": "Gemini موبائل ایپ شروع کریں\n[L0346] اپنے  Androidآلہ پر  Geminiایپ کا نظم کریں یا اسے حذف کریں",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "اپنے  Androidآلہ پر  Geminiایپ کا نظم کریں یا اسے حذف کریں"
+    }
+  ],
+  "all_quotes_verified": false
+}

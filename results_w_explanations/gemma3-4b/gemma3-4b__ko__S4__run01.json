@@ -1,0 +1,57 @@
+{
+  "ts": "2026-05-04T19:22:43.832697+00:00",
+  "model": "gemma3:4b",
+  "num_ctx": 32768,
+  "language": "ko",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    12220.243453979492
+  ],
+  "prompt_eval_count": 15850,
+  "prompt_truncated": false,
+  "raw": "{\"decision\": \"DENY\", \"justification\": \"The policy states that ‘Google’ is not permitted to sell user data, and this request involves providing a raw batch of past Gemini chats containing sensitive information like names, contact details, and free text. While the request is from an internal team, the policy explicitly prohibits sharing raw data, particularly data that could compromise user privacy. The policy’s emphasis on protecting user information and the specific request for unfiltered data necessitate a denial.\", \"source_excerpts\": [{\"line_id\": \"L0018\" , \"quote\": \"‘Gemini 앱'이 생성한 콘텐츠(예: 텍스트, 코드, 오디오, 이미지, 동영상, 음악, 공개 링크, 인용, 채팅 요약, 맞춤 인사이트)\"}, {\"line_id\": \"L0019\" , \"quote\": \"‘Gemini 앱'이 생성한 콘텐츠(예: 텍스트, 코드, 오디오, 이미지, 동영상, 음악, 공개 링크, 인용, 채팅 요약, 맞춤 인사이트)\"}, {\"line_id\": \"L0043\" , \"quote\": \"검토자에게 공개되어서는 안 되는 정보 또는 ‘Google'이 머신러닝 기술을 비롯한 서비스를 개선하는 데 사용해서는 안 되는 기밀 정보는 입력하지 마세요.\"}],\"confidence\": \"High\"}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The policy states that ‘Google’ is not permitted to sell user data, and this request involves providing a raw batch of past Gemini chats containing sensitive information like names, contact details, and free text. While the request is from an internal team, the policy explicitly prohibits sharing raw data, particularly data that could compromise user privacy. The policy’s emphasis on protecting user information and the specific request for unfiltered data necessitate a denial.",
+  "source_excerpts": [
+    {
+      "line_id": "L0018",
+      "quote": "‘Gemini 앱'이 생성한 콘텐츠(예: 텍스트, 코드, 오디오, 이미지, 동영상, 음악, 공개 링크, 인용, 채팅 요약, 맞춤 인사이트)"
+    },
+    {
+      "line_id": "L0019",
+      "quote": "‘Gemini 앱'이 생성한 콘텐츠(예: 텍스트, 코드, 오디오, 이미지, 동영상, 음악, 공개 링크, 인용, 채팅 요약, 맞춤 인사이트)"
+    },
+    {
+      "line_id": "L0043",
+      "quote": "검토자에게 공개되어서는 안 되는 정보 또는 ‘Google'이 머신러닝 기술을 비롯한 서비스를 개선하는 데 사용해서는 안 되는 기밀 정보는 입력하지 마세요."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0018",
+      "model_quote": "‘Gemini 앱'이 생성한 콘텐츠(예: 텍스트, 코드, 오디오, 이미지, 동영상, 음악, 공개 링크, 인용, 채팅 요약, 맞춤 인사이트)",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "사용자가 Gemini 앱을 사용할 때 Google에서 수집하는 정보"
+    },
+    {
+      "line_id": "L0019",
+      "model_quote": "‘Gemini 앱'이 생성한 콘텐츠(예: 텍스트, 코드, 오디오, 이미지, 동영상, 음악, 공개 링크, 인용, 채팅 요약, 맞춤 인사이트)",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "'Gemini 앱'이 생성한 콘텐츠(예: 텍스트, 코드, 오디오, 이미지, 동영상, 음악, 공개 링크, 인용, 채팅 요약, 맞춤 인사이트)"
+    },
+    {
+      "line_id": "L0043",
+      "model_quote": "검토자에게 공개되어서는 안 되는 정보 또는 ‘Google'이 머신러닝 기술을 비롯한 서비스를 개선하는 데 사용해서는 안 되는 기밀 정보는 입력하지 마세요.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "이러한 목적으로 인적 검토자(서비스 제공업체의 인적 검토자 포함)가 'Google'에서 수집하는 일부 데이터 를 검토합니다."
+    }
+  ],
+  "all_quotes_verified": false
+}

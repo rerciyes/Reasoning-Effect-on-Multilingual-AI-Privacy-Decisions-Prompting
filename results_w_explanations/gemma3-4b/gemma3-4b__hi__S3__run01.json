@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T19:24:09.621117+00:00",
+  "model": "gemma3:4b",
+  "num_ctx": 32768,
+  "language": "hi",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    14022.70531654358
+  ],
+  "prompt_eval_count": 22768,
+  "prompt_truncated": false,
+  "raw": "{\"decision\": \"ALLOW AFTER VERIFICATION\", \"justification\": \"The policy [L0007] states that Gemini ‘processes your and Gemini (your AI assistant) interactions…’, and [L0044] states that this includes using generative AI models and machine learning technology. The scenario describes the user sharing detailed personal information, including dietary restrictions, medication schedule, and preferred daily routine, with Gemini. The policy does not explicitly state whether Keep Activity or Memory is turned on, therefore, we must allow this action after verification. Gemini may save and use this information for future personalization, provided the user has enabled the relevant setting(s) to allow for this data processing.\", \"source_excerpts\": [{\"line_id\": \"L0007\", \"quote\": \"…your and Gemini (your for Google’s AI assistant) interactions’…\"}, {\"line_id\": \"L0044\", \"quote\": \"…using generative AI models and machine learning technology.\"}],\"confidence\": \"Medium\"}\n",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW AFTER VERIFICATION",
+  "confidence": "Medium",
+  "justification": "The policy [L0007] states that Gemini ‘processes your and Gemini (your AI assistant) interactions…’, and [L0044] states that this includes using generative AI models and machine learning technology. The scenario describes the user sharing detailed personal information, including dietary restrictions, medication schedule, and preferred daily routine, with Gemini. The policy does not explicitly state whether Keep Activity or Memory is turned on, therefore, we must allow this action after verification. Gemini may save and use this information for future personalization, provided the user has enabled the relevant setting(s) to allow for this data processing.",
+  "source_excerpts": [
+    {
+      "line_id": "L0007",
+      "quote": "…your and Gemini (your for Google’s AI assistant) interactions’…"
+    },
+    {
+      "line_id": "L0044",
+      "quote": "…using generative AI models and machine learning technology."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0007",
+      "model_quote": "…your and Gemini (your for Google’s AI assistant) interactions’…",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "नोटिस और निजता नीति, दोनों में बताया गया है कि आपके साइन इन होने पर Google यहाँ बताई गई से वाओं के ज़रिए आपके और Gemini (आपके लिए Google का एआई असिस्टें ट) के बीच हुए इं टरै क्शन का डे टा कै से प्रोसे स करता है (“Gemini Apps” या कम शब्दों में कहें , तो “Gemini”)."
+    },
+    {
+      "line_id": "L0044",
+      "model_quote": "…using generative AI models and machine learning technology.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "इसी मक़सद से डे टा का इस्ते माल, हमारी से वाओं के साथ काम करने वाले जनरे टिव एआई मॉडल और अन्य मशीन लर्निं ग टे क्नोलॉजी के लिए भी किया जाता है ."
+    }
+  ],
+  "all_quotes_verified": false
+}

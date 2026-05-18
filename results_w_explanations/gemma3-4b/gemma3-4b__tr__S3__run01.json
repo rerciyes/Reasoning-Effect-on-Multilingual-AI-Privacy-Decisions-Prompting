@@ -1,0 +1,57 @@
+{
+  "ts": "2026-05-04T19:21:43.737451+00:00",
+  "model": "gemma3:4b",
+  "num_ctx": 32768,
+  "language": "tr",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    12126.241445541382
+  ],
+  "prompt_eval_count": 17711,
+  "prompt_truncated": false,
+  "raw": "{\"decision\": \"ALLOW AFTER VERIFICATION\", \"justification\": \"The policy [L0011] states that Gemini collects information you give it, including your instructions and prompts. [L0017] specifies that Gemini collects instructions (or ‘Saved Information’) for Gemini. The policy [L0067] details settings to manage your data and personalization. However, the scenario explicitly states the user is outside the EEA, Switzerland, and the UK, and does not mention whether Keep Activity or Memory is enabled. Therefore, Gemini may save and use this information for future personalization *if* the user has enabled the relevant settings, as the policy allows for personalization based on collected information.\", \"source_excerpts\": [\n    {\n      \"line_id\": \"L0011\",\n      \"quote\": \"Gemini Uygulamaları'na verdiğiniz bilgiler\"\n    },\n    {\n      \"line_id\": \"L0017\",\n      \"quote\": \"Gemini için talimatlar (veya bazı yerlerde \\\"Kayıtlı Bilgiler\\\")\"\n    },\n    {\n      \"line_id\": \"L0067\",\n      \"quote\": \"Verilerinizi ve gizliliğinizi yönetmek için Google Hesabınızı ziyaret edebilirsiniz.\"\n    }\n  ],\n  \"confidence\": \"Medium\"\n}\n",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW AFTER VERIFICATION",
+  "confidence": "Medium",
+  "justification": "The policy [L0011] states that Gemini collects information you give it, including your instructions and prompts. [L0017] specifies that Gemini collects instructions (or ‘Saved Information’) for Gemini. The policy [L0067] details settings to manage your data and personalization. However, the scenario explicitly states the user is outside the EEA, Switzerland, and the UK, and does not mention whether Keep Activity or Memory is enabled. Therefore, Gemini may save and use this information for future personalization *if* the user has enabled the relevant settings, as the policy allows for personalization based on collected information.",
+  "source_excerpts": [
+    {
+      "line_id": "L0011",
+      "quote": "Gemini Uygulamaları'na verdiğiniz bilgiler"
+    },
+    {
+      "line_id": "L0017",
+      "quote": "Gemini için talimatlar (veya bazı yerlerde \"Kayıtlı Bilgiler\")"
+    },
+    {
+      "line_id": "L0067",
+      "quote": "Verilerinizi ve gizliliğinizi yönetmek için Google Hesabınızı ziyaret edebilirsiniz."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0011",
+      "model_quote": "Gemini Uygulamaları'na verdiğiniz bilgiler",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Gemini Uygulamaları'na verdiğiniz bilgiler"
+    },
+    {
+      "line_id": "L0017",
+      "model_quote": "Gemini için talimatlar (veya bazı yerlerde \"Kayıtlı Bilgiler\")",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Gemini için talimatlar (veya bazı yerlerde \"Kayıtlı Bilgiler\")"
+    },
+    {
+      "line_id": "L0067",
+      "model_quote": "Verilerinizi ve gizliliğinizi yönetmek için Google Hesabınızı ziyaret edebilirsiniz.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Verilerinizi ve deneyiminizi yönetmenize yardımcı olacak Gemini Uygulamaları ayarları:"
+    }
+  ],
+  "all_quotes_verified": false
+}

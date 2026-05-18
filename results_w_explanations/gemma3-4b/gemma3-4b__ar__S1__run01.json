@@ -1,0 +1,35 @@
+{
+  "ts": "2026-05-04T19:24:39.574944+00:00",
+  "model": "gemma3:4b",
+  "num_ctx": 32768,
+  "language": "ar",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    11941.115617752075
+  ],
+  "prompt_eval_count": 19024,
+  "prompt_truncated": false,
+  "raw": "{\"decision\": \"ALLOW\", \"justification\": \"The policy [L0008] states that Gemini collects ‘what you share with Gemini…like files, videos, and screenshots.’ The scenario describes a user uploading a photo of a handwritten grocery list, which falls under the category of ‘what you share.’ The policy does not explicitly prohibit processing images for transcription or categorization, and the scenario does not involve sensitive personal data. Therefore, Gemini may process the uploaded image to fulfill the user’s request.\", \"source_excerpts\": [{\"line_id\": \"L0008\", \"quote\": \"البيانات التي يتم جمعها المعلومات التي تقّد مها لـ \\\"تطبيقات ( \\\"Geminiمثل الطلبات المكتوبة أو المحكية\"}], \"confidence\": \"High\"}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "The policy [L0008] states that Gemini collects ‘what you share with Gemini…like files, videos, and screenshots.’ The scenario describes a user uploading a photo of a handwritten grocery list, which falls under the category of ‘what you share.’ The policy does not explicitly prohibit processing images for transcription or categorization, and the scenario does not involve sensitive personal data. Therefore, Gemini may process the uploaded image to fulfill the user’s request.",
+  "source_excerpts": [
+    {
+      "line_id": "L0008",
+      "quote": "البيانات التي يتم جمعها المعلومات التي تقّد مها لـ \"تطبيقات ( \"Geminiمثل الطلبات المكتوبة أو المحكية"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0008",
+      "model_quote": "البيانات التي يتم جمعها المعلومات التي تقّد مها لـ \"تطبيقات ( \"Geminiمثل الطلبات المكتوبة أو المحكية",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "البيانات التي يتم جمعها المعلومات التي تقّد مها لـ \"تطبيقات \"Gemini"
+    }
+  ],
+  "all_quotes_verified": false
+}

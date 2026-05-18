@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T18:31:07.731406+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "ko",
+  "scenario_id": "S2",
+  "run": 1,
+  "latency_ms": [
+    18710.512161254883
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"Based on the provided notice, Gemini is not permitted to collect or use a user's precise device location unless the user has explicitly granted location access for the specific app interaction (e.g., through browser permissions or within the Gemini app itself).\"\n\n, \"source_excerpts\": [\n    {\"line_id\": \"L0329\", \"quote\": \"Gemini 앱이... 기기의 특정 앱에서 주문이나 차량 예약 등을 할 때...\"},\n    {\"line_id\": \"L0387\", \"quote\": \"긴급 상황이나 민감한 정보가 포함된 작업에는 화면 자동화를 사용하지 마세요.\"}\n  ]\n\n, \"confidence\": \"High\" }",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "Based on the provided notice, Gemini is not permitted to collect or use a user's precise device location unless the user has explicitly granted location access for the specific app interaction (e.g., through browser permissions or within the Gemini app itself).",
+  "source_excerpts": [
+    {
+      "line_id": "L0329",
+      "quote": "Gemini 앱이... 기기의 특정 앱에서 주문이나 차량 예약 등을 할 때..."
+    },
+    {
+      "line_id": "L0387",
+      "quote": "긴급 상황이나 민감한 정보가 포함된 작업에는 화면 자동화를 사용하지 마세요."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0329",
+      "model_quote": "Gemini 앱이... 기기의 특정 앱에서 주문이나 차량 예약 등을 할 때...",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Gemini 앱 활동(있는 경우)"
+    },
+    {
+      "line_id": "L0387",
+      "model_quote": "긴급 상황이나 민감한 정보가 포함된 작업에는 화면 자동화를 사용하지 마세요.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "주의사항 자동화 기능 사용 중에는 Gemini가 스크린샷을 찍으며, 스크린샷에는 앱에 표시되는 모든 정보가 포함 될 수 있습니다."
+    }
+  ],
+  "all_quotes_verified": false
+}

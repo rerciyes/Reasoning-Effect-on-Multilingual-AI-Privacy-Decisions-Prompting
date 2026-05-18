@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T18:25:17.849263+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "es",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    20341.242790222168
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"Based on the provided notice, user data including names, contact details, and uploaded files are protected. The request for raw chats violates user privacy and is not covered by the consent given for activity storage in Gemini.\"\n\n, \"source_excerpts\": [\n    {\"line_id\": \"L0427\", \"quote\": \"Los Términos del Servicio de Google     y la Política de Usos Prohibidos de la IA Generativa   se aplican a las aplicaciones de Gemini.\"},\n    {\"line_id\": \">\" , \"quote\": \"La información de los sitios web que visitas con la función Gemini en Chrome, además de los audios y archivos que compartes, se guardan en Actividad en las Aplicaciones de Gemini si el ajuste Guardar actividad   está activado.\"}\n  ]\n\n, \"confidence\": \"High\" }",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "Based on the provided notice, user data including names, contact details, and uploaded files are protected. The request for raw chats violates user privacy and is not covered by the consent given for activity storage in Gemini.",
+  "source_excerpts": [
+    {
+      "line_id": "L0427",
+      "quote": "Los Términos del Servicio de Google     y la Política de Usos Prohibidos de la IA Generativa   se aplican a las aplicaciones de Gemini."
+    },
+    {
+      "line_id": ">",
+      "quote": "La información de los sitios web que visitas con la función Gemini en Chrome, además de los audios y archivos que compartes, se guardan en Actividad en las Aplicaciones de Gemini si el ajuste Guardar actividad   está activado."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0427",
+      "model_quote": "Los Términos del Servicio de Google     y la Política de Usos Prohibidos de la IA Generativa   se aplican a las aplicaciones de Gemini.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Los Términos del Servicio de Google     y la Política de Usos Prohibidos de la IA Generativa   se aplican a las aplicaciones de Gemini."
+    },
+    {
+      "line_id": ">",
+      "model_quote": "La información de los sitios web que visitas con la función Gemini en Chrome, además de los audios y archivos que compartes, se guardan en Actividad en las Aplicaciones de Gemini si el ajuste Guardar actividad   está activado.",
+      "ok": false,
+      "match": "no_such_line_id",
+      "policy_quote": null
+    }
+  ],
+  "all_quotes_verified": false
+}

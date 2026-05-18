@@ -1,0 +1,35 @@
+{
+  "ts": "2026-05-04T19:25:20.083405+00:00",
+  "model": "gemma3:4b",
+  "num_ctx": 32768,
+  "language": "ar",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    25513.690948486328
+  ],
+  "prompt_eval_count": 19050,
+  "prompt_truncated": false,
+  "raw": "{\"decision\": \"DENY\", \"justification\": \"The policy states that ‘Google Ireland Limited is responsible for providing Gemini in the European Economic Area and Switzerland, while Google LLC is responsible for providing it in other areas.’ and ‘Data that is collected is the information that you provide to Gemini, such as written or spoken requests, files and videos that you ask for, images and conversations that are summarized, and page content that you share from a browser.’ and ‘Google uses this data as described in the Google Privacy Policy’ and ‘Google may use this data to train generative AI models and other machine learning technologies.’ However, the policy does not explicitly authorize the provision of raw, unredacted chat data to internal teams for model training, especially when the request is for a complete batch of chats containing sensitive information. The policy mentions review of data by reviewers, but doesn't authorize the team's request. The policy also states that the team should not input sensitive information.\", \"source_excerpts\": [{\"line_id\": \"L0008\", \"quote\": \"البيانات التي يتم جمعها المعلومات التي تقّد مها لـ \\\"تطبيقات ( \\\"Geminiمثل الطلبات المكتوبة أو المحكية\"}],\n  \"confidence\": \"High\"}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The policy states that ‘Google Ireland Limited is responsible for providing Gemini in the European Economic Area and Switzerland, while Google LLC is responsible for providing it in other areas.’ and ‘Data that is collected is the information that you provide to Gemini, such as written or spoken requests, files and videos that you ask for, images and conversations that are summarized, and page content that you share from a browser.’ and ‘Google uses this data as described in the Google Privacy Policy’ and ‘Google may use this data to train generative AI models and other machine learning technologies.’ However, the policy does not explicitly authorize the provision of raw, unredacted chat data to internal teams for model training, especially when the request is for a complete batch of chats containing sensitive information. The policy mentions review of data by reviewers, but doesn't authorize the team's request. The policy also states that the team should not input sensitive information.",
+  "source_excerpts": [
+    {
+      "line_id": "L0008",
+      "quote": "البيانات التي يتم جمعها المعلومات التي تقّد مها لـ \"تطبيقات ( \"Geminiمثل الطلبات المكتوبة أو المحكية"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0008",
+      "model_quote": "البيانات التي يتم جمعها المعلومات التي تقّد مها لـ \"تطبيقات ( \"Geminiمثل الطلبات المكتوبة أو المحكية",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "البيانات التي يتم جمعها المعلومات التي تقّد مها لـ \"تطبيقات \"Gemini"
+    }
+  ],
+  "all_quotes_verified": false
+}

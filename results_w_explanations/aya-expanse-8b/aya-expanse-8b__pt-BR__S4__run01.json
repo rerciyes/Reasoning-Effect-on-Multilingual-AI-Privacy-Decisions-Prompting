@@ -1,0 +1,57 @@
+{
+  "ts": "2026-05-04T18:26:35.011348+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "pt-BR",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    23238.882064819336
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"Based on the provided privacy notice, user data including full chats, free text, and uploaded files are treated as sensitive and personal information. The request for raw chat batches from past interactions goes against the explicit terms of the privacy notice which states that such data is used and stored according to the user's consent and can be managed or deleted by the user at any time.\"\n\n, \"source_excerpts\": [\n    {\n      \"line_id\": \"L0452\",\n      \"quote\": \"Gerar dados para melhorar os Serviços do Google, incluindo os modelos de IA.\"\n    },\n    {\n      \"line_id\": \"L0376\",\n      \"quote\": \"As gravações e transcrições das suas conversas Live serão usadas para melhorar os Serviços do Google...\"\n    },\n    {\n      \"line_id\": \"L0429\",\n      \"quote\": \"Os dados (memória e conversas) importados de outras plataformas de IA são salvos na sua atividade...\"\n    }\n  ]\n\n, \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "Based on the provided privacy notice, user data including full chats, free text, and uploaded files are treated as sensitive and personal information. The request for raw chat batches from past interactions goes against the explicit terms of the privacy notice which states that such data is used and stored according to the user's consent and can be managed or deleted by the user at any time.",
+  "source_excerpts": [
+    {
+      "line_id": "L0452",
+      "quote": "Gerar dados para melhorar os Serviços do Google, incluindo os modelos de IA."
+    },
+    {
+      "line_id": "L0376",
+      "quote": "As gravações e transcrições das suas conversas Live serão usadas para melhorar os Serviços do Google..."
+    },
+    {
+      "line_id": "L0429",
+      "quote": "Os dados (memória e conversas) importados de outras plataformas de IA são salvos na sua atividade..."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0452",
+      "model_quote": "Gerar dados para melhorar os Serviços do Google, incluindo os modelos de IA.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Mais recursos dos apps Gemini para dispositivos móveis"
+    },
+    {
+      "line_id": "L0376",
+      "model_quote": "As gravações e transcrições das suas conversas Live serão usadas para melhorar os Serviços do Google...",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Você pode gerenciar e excluir sua atividade nos apps do Gemini sempre que quiser."
+    },
+    {
+      "line_id": "L0429",
+      "model_quote": "Os dados (memória e conversas) importados de outras plataformas de IA são salvos na sua atividade...",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Os dados (memória e conversas) importados de outras plataformas de IA são salvos na sua atividade."
+    }
+  ],
+  "all_quotes_verified": false
+}

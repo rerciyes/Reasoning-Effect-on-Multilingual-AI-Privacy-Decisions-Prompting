@@ -1,0 +1,35 @@
+{
+  "ts": "2026-05-04T18:34:53.425218+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "hi",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    19717.870473861694
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"Based on the Gemini Apps Privacy Notice, user data including chats, contact details, and uploaded files are protected. The request for raw chat batches from past interactions, even for 'improvement' purposes, violates user privacy. Redacted or aggregated data should be provided instead to ensure user information remains secure.\"\n\n, \"source_excerpts\": [\n    {\n      \"line_id\": \"[L0547]\",\n      \"quote\": \"Gemini के मोबाइल ऐप्लिके शन की मदद से कौन-कौनसे काम किए जा सकते हैं\"\n    }\n  ]\n\n, \"confidence\": \"High\" }",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "Based on the Gemini Apps Privacy Notice, user data including chats, contact details, and uploaded files are protected. The request for raw chat batches from past interactions, even for 'improvement' purposes, violates user privacy. Redacted or aggregated data should be provided instead to ensure user information remains secure.",
+  "source_excerpts": [
+    {
+      "line_id": "[L0547]",
+      "quote": "Gemini के मोबाइल ऐप्लिके शन की मदद से कौन-कौनसे काम किए जा सकते हैं"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0547",
+      "model_quote": "Gemini के मोबाइल ऐप्लिके शन की मदद से कौन-कौनसे काम किए जा सकते हैं",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Gemini के मोबाइल ऐप्लिके शन का इस्ते माल शु रू करना"
+    }
+  ],
+  "all_quotes_verified": false
+}

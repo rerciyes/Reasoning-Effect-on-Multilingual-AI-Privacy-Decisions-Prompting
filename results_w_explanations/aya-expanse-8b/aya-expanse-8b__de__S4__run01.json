@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T18:29:12.719124+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "de",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    20241.387844085693
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"Based on the provided privacy notice, Gemini is not permitted to share raw user chats containing sensitive information, such as names, contact details, and uploaded files, even for internal product improvement purposes.\"\n\n, \"source_excerpts\": [\n    {\n      \"line_id\": \"L0401\",\n      \"quote\": \"Wenn Aktivitäten speichern     aktiviert ist, werden Transkripte Ihrer Gemini Live-Chats verwendet, um Google-Dienste, einschließlich KI-Modelle, zu verbessern.\"\n    },\n    {\n      \"line_id\": \"L0429\",\n      \"quote\": \"Ihren Bestellverlauf in Gemini können Sie jederzeit im Bereich „Käufe“ aufrufen...\"\n    }\n  ]\n\n, \"confidence\": \"High\" }",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "Based on the provided privacy notice, Gemini is not permitted to share raw user chats containing sensitive information, such as names, contact details, and uploaded files, even for internal product improvement purposes.",
+  "source_excerpts": [
+    {
+      "line_id": "L0401",
+      "quote": "Wenn Aktivitäten speichern     aktiviert ist, werden Transkripte Ihrer Gemini Live-Chats verwendet, um Google-Dienste, einschließlich KI-Modelle, zu verbessern."
+    },
+    {
+      "line_id": "L0429",
+      "quote": "Ihren Bestellverlauf in Gemini können Sie jederzeit im Bereich „Käufe“ aufrufen..."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0401",
+      "model_quote": "Wenn Aktivitäten speichern     aktiviert ist, werden Transkripte Ihrer Gemini Live-Chats verwendet, um Google-Dienste, einschließlich KI-Modelle, zu verbessern.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Wenn „Aktivitäten speichern“ in Gemini-Apps deaktiviert ist, werden Ihre Gemini Live-Chats bis zu 72 Stunden lang in Ihrem Google-Konto gespeichert, damit Google den Dienst bereitstellen und Feedback verarbeiten kann."
+    },
+    {
+      "line_id": "L0429",
+      "model_quote": "Ihren Bestellverlauf in Gemini können Sie jederzeit im Bereich „Käufe“ aufrufen...",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Geben Sie keine Anmelde- oder Zahlungsinformationen in Ihre Chats mit Gemini ein."
+    }
+  ],
+  "all_quotes_verified": false
+}

@@ -1,0 +1,57 @@
+{
+  "ts": "2026-05-04T18:34:12.904489+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "hi",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    40516.562938690186
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"Based on the Gemini Apps Privacy Notice, user data can be stored and used to personalize responses, including dietary restrictions, medication schedules, and daily routines. The notice does not explicitly exclude users outside the EEA, Switzerland, or UK from these practices.\"\n\n, \"source_excerpts\": [\n    {\n      \"line_id\": \"[L0473]\",\n      \"quote\": \"Google Labs के Gems, एआई की मदद से काम करने वाले ऐसे मिनी-ऐप्लिके शन होते हैं जिनमें एक कस्टम वर्क फ़्लो होता है.\"\n    },\n    {\n      \"line_id\": \"[L0526]\",\n      \"quote\": \"यू ज़र के बनाए हुए Canvas ऐप्लिके शन से इं टरै क्ट करने पर, उस ऐप्लिके शन को बनाने वाले क्रि एटर आपके दिए हुए हर डे टा को दे ख सकते हैं.\"\n    },\n    {\n      \"line_id\": \"[L0537]\",\n      \"quote\": \"अगर आप कोरिया में मौजू द उपभोक्ता हैं , तो आप इस बात से भी सहमत हैं कि Gemini Apps का इस्ते माल करने पर, कोरिया में जगह की जानकारी के बारे में से वा की शर्तें भी लागू हों गी.\"\n    }\n  ]\n\n, \"confidence\": \"High\" }",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "Based on the Gemini Apps Privacy Notice, user data can be stored and used to personalize responses, including dietary restrictions, medication schedules, and daily routines. The notice does not explicitly exclude users outside the EEA, Switzerland, or UK from these practices.",
+  "source_excerpts": [
+    {
+      "line_id": "[L0473]",
+      "quote": "Google Labs के Gems, एआई की मदद से काम करने वाले ऐसे मिनी-ऐप्लिके शन होते हैं जिनमें एक कस्टम वर्क फ़्लो होता है."
+    },
+    {
+      "line_id": "[L0526]",
+      "quote": "यू ज़र के बनाए हुए Canvas ऐप्लिके शन से इं टरै क्ट करने पर, उस ऐप्लिके शन को बनाने वाले क्रि एटर आपके दिए हुए हर डे टा को दे ख सकते हैं."
+    },
+    {
+      "line_id": "[L0537]",
+      "quote": "अगर आप कोरिया में मौजू द उपभोक्ता हैं , तो आप इस बात से भी सहमत हैं कि Gemini Apps का इस्ते माल करने पर, कोरिया में जगह की जानकारी के बारे में से वा की शर्तें भी लागू हों गी."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0473",
+      "model_quote": "Google Labs के Gems, एआई की मदद से काम करने वाले ऐसे मिनी-ऐप्लिके शन होते हैं जिनमें एक कस्टम वर्क फ़्लो होता है.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Android ऐप्लिके शन में काम पू रे करने के लिए, जब Gemini स्क्रीन ऑटोमे शन का इस्ते माल करता है , तो मे रा डे टा कै से मै ने ज होता है ?"
+    },
+    {
+      "line_id": "L0526",
+      "model_quote": "यू ज़र के बनाए हुए Canvas ऐप्लिके शन से इं टरै क्ट करने पर, उस ऐप्लिके शन को बनाने वाले क्रि एटर आपके दिए हुए हर डे टा को दे ख सकते हैं.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "यू ज़र के बनाए हुए Canvas ऐप्लिके शन से इं टरै क्ट करने पर, उस ऐप्लिके शन को बनाने वाले क्रि एटर आपके दिए हुए हर डे टा को दे ख सकते हैं ."
+    },
+    {
+      "line_id": "L0537",
+      "model_quote": "अगर आप कोरिया में मौजू द उपभोक्ता हैं , तो आप इस बात से भी सहमत हैं कि Gemini Apps का इस्ते माल करने पर, कोरिया में जगह की जानकारी के बारे में से वा की शर्तें भी लागू हों गी.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Gemini Apps पर, Google की से वा की शर्तें        और जनरे टिव एआई के इस्ते माल से जु ड़ी पाबं दियों की नीति     लागू होती है ."
+    }
+  ],
+  "all_quotes_verified": false
+}

@@ -1,0 +1,35 @@
+{
+  "ts": "2026-05-04T19:26:59.149074+00:00",
+  "model": "gemma3:4b",
+  "num_ctx": 32768,
+  "language": "en",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    9015.542984008789
+  ],
+  "prompt_eval_count": 13173,
+  "prompt_truncated": false,
+  "raw": "{\"decision\": \"ALLOW\",\n\"justification\": \"The Gemini Apps Privacy Notice states that Gemini Apps collect and processes content that you share with it, like files, videos, screens, and photos. The scenario describes a user uploading a photo of a handwritten grocery list, which falls under this category of shared content. Gemini is designed to process this content to fulfill user requests, such as transcribing and organizing the list. The notice does not explicitly prohibit this type of image processing, and the image does not contain sensitive personal data.\",\n\"source_excerpts\": [\n{\n\"line_id\": \"L0011\",\n\"quote\": \"What you share with Gemini Apps (like files, videos, screens you ask about, photos, imported chats, and page content you share from your browser)\"\n}\n]\n,\n\"confidence\": \"High\"}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "The Gemini Apps Privacy Notice states that Gemini Apps collect and processes content that you share with it, like files, videos, screens, and photos. The scenario describes a user uploading a photo of a handwritten grocery list, which falls under this category of shared content. Gemini is designed to process this content to fulfill user requests, such as transcribing and organizing the list. The notice does not explicitly prohibit this type of image processing, and the image does not contain sensitive personal data.",
+  "source_excerpts": [
+    {
+      "line_id": "L0011",
+      "quote": "What you share with Gemini Apps (like files, videos, screens you ask about, photos, imported chats, and page content you share from your browser)"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0011",
+      "model_quote": "What you share with Gemini Apps (like files, videos, screens you ask about, photos, imported chats, and page content you share from your browser)",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Information you provide Gemini Apps"
+    }
+  ],
+  "all_quotes_verified": false
+}

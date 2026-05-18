@@ -1,0 +1,57 @@
+{
+  "ts": "2026-05-04T19:23:17.628058+00:00",
+  "model": "gemma3:4b",
+  "num_ctx": 32768,
+  "language": "zh-CN",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    11696.820735931396
+  ],
+  "prompt_eval_count": 13170,
+  "prompt_truncated": false,
+  "raw": "{\"decision\": \"ALLOW AFTER VERIFICATION\", \"justification\": \"The policy [L0008] states that Gemini will collect ‘You provide to Gemini information’ including ‘You talk to Gemini…’, ‘You share content with Gemini…’, and ‘Your feedback’. It also states that Gemini will collect ‘From your apps, browser and device information’. The scenario describes the user providing detailed personal information about their daily routine, medication schedule, and dietary restrictions. The policy [L0014] mentions ‘Your Gem’s name and custom instructions’ and ‘Instructions you give to Gemini…’. Given the user’s request to have Gemini remember this information for future personalization, and the fact that the user is outside the EEA, Switzerland, and the UK [L0007], Gemini may save and use this information to provide more personalized responses, provided that the user has not explicitly disabled this functionality (i.e., ‘Keep Activity’ is not turned off). Verification is required to confirm whether the user has enabled the ‘Memory’ feature, which would further enable Gemini to retain and utilize this information.\", \"source_excerpts\": [{\"line_id\": \"L0008\", \"quote\": \"You provide to Gemini information\"}, {\"line_id\": \"L0014\", \"quote\": \"Your Gem’s name and custom instructions\"}, {\"line_id\": \"L0015\", \"quote\": \"Instructions you give to Gemini…\" } ] , \"confidence\": \"Medium\"}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW AFTER VERIFICATION",
+  "confidence": "Medium",
+  "justification": "The policy [L0008] states that Gemini will collect ‘You provide to Gemini information’ including ‘You talk to Gemini…’, ‘You share content with Gemini…’, and ‘Your feedback’. It also states that Gemini will collect ‘From your apps, browser and device information’. The scenario describes the user providing detailed personal information about their daily routine, medication schedule, and dietary restrictions. The policy [L0014] mentions ‘Your Gem’s name and custom instructions’ and ‘Instructions you give to Gemini…’. Given the user’s request to have Gemini remember this information for future personalization, and the fact that the user is outside the EEA, Switzerland, and the UK [L0007], Gemini may save and use this information to provide more personalized responses, provided that the user has not explicitly disabled this functionality (i.e., ‘Keep Activity’ is not turned off). Verification is required to confirm whether the user has enabled the ‘Memory’ feature, which would further enable Gemini to retain and utilize this information.",
+  "source_excerpts": [
+    {
+      "line_id": "L0008",
+      "quote": "You provide to Gemini information"
+    },
+    {
+      "line_id": "L0014",
+      "quote": "Your Gem’s name and custom instructions"
+    },
+    {
+      "line_id": "L0015",
+      "quote": "Instructions you give to Gemini…"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0008",
+      "model_quote": "You provide to Gemini information",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Google 会收集哪些数据"
+    },
+    {
+      "line_id": "L0014",
+      "model_quote": "Your Gem’s name and custom instructions",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "你的 Gem 的名称和自定义指令"
+    },
+    {
+      "line_id": "L0015",
+      "model_quote": "Instructions you give to Gemini…",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "给 Gemini 的指令（在某些语言区域称为“已保存的信息”）"
+    }
+  ],
+  "all_quotes_verified": false
+}

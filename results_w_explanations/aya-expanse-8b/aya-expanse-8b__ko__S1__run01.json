@@ -1,0 +1,35 @@
+{
+  "ts": "2026-05-04T18:30:50.439634+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "ko",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    17286.778450012207
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"Based on the Gemini Apps Privacy Notice, images uploaded for transcription and organization are not considered sensitive personal data and can be processed to fulfill user requests.\"\n\n, \"source_excerpts\": [\n    {\n      \"line_id\": \"[L0329]\",\n      \"quote\": \"Gemini Agent는 원격 브라우저를 사용할 때, 웹사이트 인증 정보가 포함된 쿠키, 화면 콘텐츠 등 브라우저 세션의 정보를 수집하고 처리합니다.\"\n    }\n  ]\n\n, \"confidence\": \"High\" }",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "Based on the Gemini Apps Privacy Notice, images uploaded for transcription and organization are not considered sensitive personal data and can be processed to fulfill user requests.",
+  "source_excerpts": [
+    {
+      "line_id": "[L0329]",
+      "quote": "Gemini Agent는 원격 브라우저를 사용할 때, 웹사이트 인증 정보가 포함된 쿠키, 화면 콘텐츠 등 브라우저 세션의 정보를 수집하고 처리합니다."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0329",
+      "model_quote": "Gemini Agent는 원격 브라우저를 사용할 때, 웹사이트 인증 정보가 포함된 쿠키, 화면 콘텐츠 등 브라우저 세션의 정보를 수집하고 처리합니다.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Gemini 앱 활동(있는 경우)"
+    }
+  ],
+  "all_quotes_verified": false
+}

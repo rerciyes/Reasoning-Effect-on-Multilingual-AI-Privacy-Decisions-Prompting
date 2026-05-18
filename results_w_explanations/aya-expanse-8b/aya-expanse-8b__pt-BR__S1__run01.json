@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T18:25:38.192666+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "pt-BR",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    17611.77372932434
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"Based on the provided notice, Gemini collects and treats images for the purpose of transcribing and organizing content. The user's grocery list does not contain sensitive personal data as defined in the privacy notice.\"\n\n, \"source_excerpts\": [\n    {\n      \"line_id\": \"[L0327]\",\n      \"quote\": \"Saiba mais sobre como esses serviços retêm os dados que coletam de você...\"\n    },\n    {\n      \"line_id\": \"[L0389]\",\n      \"quote\": \"O conteúdo da página fica temporariamente registrado na sua Conta do Google e não aparece na Atividade nos Apps do Gemini.\"\n    }\n  ]\n\n, \"confidence\": \"High\" }",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "Based on the provided notice, Gemini collects and treats images for the purpose of transcribing and organizing content. The user's grocery list does not contain sensitive personal data as defined in the privacy notice.",
+  "source_excerpts": [
+    {
+      "line_id": "[L0327]",
+      "quote": "Saiba mais sobre como esses serviços retêm os dados que coletam de você..."
+    },
+    {
+      "line_id": "[L0389]",
+      "quote": "O conteúdo da página fica temporariamente registrado na sua Conta do Google e não aparece na Atividade nos Apps do Gemini."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0327",
+      "model_quote": "Saiba mais sobre como esses serviços retêm os dados que coletam de você...",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Alguns apps conectados, como Telefone, Mensagens, WhatsApp e Utilitários, ficam disponíveis no seu dispositivo Android, mesmo quando a opção Manter Atividade está desativada."
+    },
+    {
+      "line_id": "L0389",
+      "model_quote": "O conteúdo da página fica temporariamente registrado na sua Conta do Google e não aparece na Atividade nos Apps do Gemini.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Algumas partes do conteúdo da página que o Gemini usa podem não ser visíveis para você."
+    }
+  ],
+  "all_quotes_verified": false
+}

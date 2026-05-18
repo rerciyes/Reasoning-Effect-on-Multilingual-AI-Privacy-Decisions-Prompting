@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T18:29:32.962688+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "tr",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    16595.762729644775
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"The uploaded image does not contain any sensitive personal data as specified in the Gemini Apps Privacy Notice, and processing it to transcribe and organize grocery list items is within the scope of the service.\"\n\n, \"source_excerpts\": [\n    {\"line_id\": \"L0412\", \"quote\": \"Gemini'nın sizin adınıza yaptığı işlemlerin sorumluluğu size aittir.\"},\n    {\"line_id\": \"L0397\", \"quote\": \"Kontrol sizde Gemini hata yapabilir.\"}\n  ]\n\n, \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "The uploaded image does not contain any sensitive personal data as specified in the Gemini Apps Privacy Notice, and processing it to transcribe and organize grocery list items is within the scope of the service.",
+  "source_excerpts": [
+    {
+      "line_id": "L0412",
+      "quote": "Gemini'nın sizin adınıza yaptığı işlemlerin sorumluluğu size aittir."
+    },
+    {
+      "line_id": "L0397",
+      "quote": "Kontrol sizde Gemini hata yapabilir."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0412",
+      "model_quote": "Gemini'nın sizin adınıza yaptığı işlemlerin sorumluluğu size aittir.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Cihazınızdaki belirli uygulamalarda ekran otomasyonunu kullanarak sipariş verme veya araç çağırma gibi görevlerde Gemini size yardımcı olabilir."
+    },
+    {
+      "line_id": "L0397",
+      "model_quote": "Kontrol sizde Gemini hata yapabilir.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Lütfen diğer kişilerin gizliliğine saygı gösterin   ve kendilerini kaydetmeden veya Live sohbetine dahil etmeden önce izinlerini isteyin."
+    }
+  ],
+  "all_quotes_verified": false
+}

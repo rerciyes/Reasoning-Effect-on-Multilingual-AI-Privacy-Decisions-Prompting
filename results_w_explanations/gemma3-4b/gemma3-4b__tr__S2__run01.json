@@ -1,0 +1,35 @@
+{
+  "ts": "2026-05-04T19:21:32.649524+00:00",
+  "model": "gemma3:4b",
+  "num_ctx": 32768,
+  "language": "tr",
+  "scenario_id": "S2",
+  "run": 1,
+  "latency_ms": [
+    11085.120916366577
+  ],
+  "prompt_eval_count": 17713,
+  "prompt_truncated": false,
+  "raw": "{\"decision\": \"DENY\", \"justification\": \"The policy states that Gemini can use location data from the device if the user has granted permission. However, the scenario describes the system attempting to collect precise device location without explicit user consent or permission. This violates the principle of requiring user authorization before accessing sensitive location data, as outlined in L0025 and L0270.\", \"source_excerpts\": [{\"line_id\": \"L0025\", \"quote\": \"Gemini mobil uygulamalarını kullandığınızda geçerli sistem izinleri ve cihaz verileri: arama ve mesaj kayıtları; kişiler (iletişiminizinizi sürdürmeniz için); yüklü uygulamalar (ör. Saat); dil tercihleri (Gemini ile konuşmanıza yardımcı olmak için); ekrandaki içerikler (bunlarla ilgili işlem yapmanız için); ve sayfa bağlamı ile URL gibi diğer uygulama bilgileri\"}] , \"confidence\": \"High\"}\n",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The policy states that Gemini can use location data from the device if the user has granted permission. However, the scenario describes the system attempting to collect precise device location without explicit user consent or permission. This violates the principle of requiring user authorization before accessing sensitive location data, as outlined in L0025 and L0270.",
+  "source_excerpts": [
+    {
+      "line_id": "L0025",
+      "quote": "Gemini mobil uygulamalarını kullandığınızda geçerli sistem izinleri ve cihaz verileri: arama ve mesaj kayıtları; kişiler (iletişiminizinizi sürdürmeniz için); yüklü uygulamalar (ör. Saat); dil tercihleri (Gemini ile konuşmanıza yardımcı olmak için); ekrandaki içerikler (bunlarla ilgili işlem yapmanız için); ve sayfa bağlamı ile URL gibi diğer uygulama bilgileri"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0025",
+      "model_quote": "Gemini mobil uygulamalarını kullandığınızda geçerli sistem izinleri ve cihaz verileri: arama ve mesaj kayıtları; kişiler (iletişiminizinizi sürdürmeniz için); yüklü uygulamalar (ör. Saat); dil tercihleri (Gemini ile konuşmanıza yardımcı olmak için); ekrandaki içerikler (bunlarla ilgili işlem yapmanız için); ve sayfa bağlamı ile URL gibi diğer uygulama bilgileri",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Gemini mobil uygulamalarını kullandığınızda geçerli sistem izinleri ve cihaz verileri: arama ve mesaj kayıtları; kişiler (iletişiminizi sürdürmeniz için); yüklü uygulamalar (ör. Saat); dil tercihleri (Gemini ile konuşmanıza yardımcı olmak için); ekrandaki içerikler (bunlarla ilgili işlem yapmanız için); ve sayfa bağlamı ile URL gibi diğer uygulama bilgileri (soru sormak için Gemini penceresini kullandığınızda) gibi"
+    }
+  ],
+  "all_quotes_verified": false
+}

@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T18:27:54.779853+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "fr",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    22306.941747665405
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"Based on the provided information, the request to share raw user chats containing sensitive data (names, contact details, free text, and uploaded files) violates user privacy as outlined in the Gemini Apps Privacy Notice. The notice explicitly states that users have control over their data and can manage or delete it at any time. Sharing raw chat history without explicit user consent for a purpose unrelated to fulfilling the original request is not permitted.\"\n\n, \"source_excerpts\": [\n    {\n      \"line_id\": \"L0403\",\n      \"quote\": \"You can manage and delete your activity at any time.\"\n    },\n    {\n      \"line_id\": \"L0425\",\n      \"quote\": \"Gemini can... perform captures of screen which may include all visible information in the app. These captures are examined by specialized reviewers and used to improve Google services...\"\n    }\n  ]\n\n, \"confidence\": \"High\" }",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "Based on the provided information, the request to share raw user chats containing sensitive data (names, contact details, free text, and uploaded files) violates user privacy as outlined in the Gemini Apps Privacy Notice. The notice explicitly states that users have control over their data and can manage or delete it at any time. Sharing raw chat history without explicit user consent for a purpose unrelated to fulfilling the original request is not permitted.",
+  "source_excerpts": [
+    {
+      "line_id": "L0403",
+      "quote": "You can manage and delete your activity at any time."
+    },
+    {
+      "line_id": "L0425",
+      "quote": "Gemini can... perform captures of screen which may include all visible information in the app. These captures are examined by specialized reviewers and used to improve Google services..."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0403",
+      "model_quote": "You can manage and delete your activity at any time.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Les enregistrements et les transcriptions de vos interactions avec Gemini Live, ainsi que tout autre contenu que vous partagez avec Gemini Live, sont traités conformément à l'Avis de confidentialité des applications Gemini et stockés dans l'Activité dans les applications Gemini    si le paramètre Conserver l'activité   est activé."
+    },
+    {
+      "line_id": "L0425",
+      "model_quote": "Gemini can... perform captures of screen which may include all visible information in the app. These captures are examined by specialized reviewers and used to improve Google services...",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "En savoir plus"
+    }
+  ],
+  "all_quotes_verified": false
+}

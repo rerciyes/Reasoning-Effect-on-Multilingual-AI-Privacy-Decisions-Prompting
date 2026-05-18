@@ -1,0 +1,57 @@
+{
+  "ts": "2026-05-04T19:25:59.171842+00:00",
+  "model": "gemma3:4b",
+  "num_ctx": 32768,
+  "language": "ur",
+  "scenario_id": "S2",
+  "run": 1,
+  "latency_ms": [
+    12662.997245788574
+  ],
+  "prompt_eval_count": 18601,
+  "prompt_truncated": false,
+  "raw": "{\"decision\": \"ALLOW AFTER VERIFICATION\", \"justification\": \"The policy states that Gemini may collect location data from your device, such as your general area IP address, home or work address, or your Google account location. It also specifies that this collection occurs when you use Gemini Live. The scenario describes a situation where the system wants to collect the user’s precise device location even though the user has not granted location permission. This falls under the policy’s allowance for collecting location data to fulfill requests, such as finding the closest pharmacy. Therefore, Gemini may collect and use the user’s precise device location if a verification step is implemented to ensure the user is aware of and consents to this data collection.\", \"source_excerpts\": [{\"line_id\": \"L0028\", \"quote\": \"‘We collect your location data…’\"}, {\"line_id\": \"L0029\", \"quote\": \"‘…Google Accounts in order to fulfill your requests’\"}, {\"line_id\": \"L0030\", \"quote\": \"‘Google may use this data to…’\"}], \"confidence\": \"Medium\"}\n",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW AFTER VERIFICATION",
+  "confidence": "Medium",
+  "justification": "The policy states that Gemini may collect location data from your device, such as your general area IP address, home or work address, or your Google account location. It also specifies that this collection occurs when you use Gemini Live. The scenario describes a situation where the system wants to collect the user’s precise device location even though the user has not granted location permission. This falls under the policy’s allowance for collecting location data to fulfill requests, such as finding the closest pharmacy. Therefore, Gemini may collect and use the user’s precise device location if a verification step is implemented to ensure the user is aware of and consents to this data collection.",
+  "source_excerpts": [
+    {
+      "line_id": "L0028",
+      "quote": "‘We collect your location data…’"
+    },
+    {
+      "line_id": "L0029",
+      "quote": "‘…Google Accounts in order to fulfill your requests’"
+    },
+    {
+      "line_id": "L0030",
+      "quote": "‘Google may use this data to…’"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0028",
+      "model_quote": "‘We collect your location data…’",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "مقام کی معلومات:آپ کے آلہ سے حاصل کردہ عام عالقہ IP ،پتہ یا آپ کے  Googleاکاؤنٹ میں موجود گھر یا دفتر کے پتے۔ پر مزید جانیں۔   g.co/privacypolicy/location"
+    },
+    {
+      "line_id": "L0029",
+      "model_quote": "‘…Google Accounts in order to fulfill your requests’",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "سبسکرپشن کی معلومات :اگر آپ کے پاس  Geminiکی بامعاوضہ سبسکرپشن ہے تو سبسکرپشن سے متعلق معلومات درجہ ذیل ہیں۔"
+    },
+    {
+      "line_id": "L0030",
+      "model_quote": "‘Google may use this data to…’",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "ٓاپ کے ڈیٹا کے استعمال کا طریقہ میں بیان کے مطابق درج ذیل کے لیے استعمال کرے گا:       Google اس ڈیٹا کو ہماری رازداری کی پالیسی"
+    }
+  ],
+  "all_quotes_verified": false
+}

@@ -1,0 +1,35 @@
+{
+  "ts": "2026-05-04T18:28:34.242401+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "de",
+  "scenario_id": "S2",
+  "run": 1,
+  "latency_ms": [
+    16930.145263671875
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"Based on the provided privacy notice, Gemini explicitly states that it will only access location data if activities speiching is enabled and the user has granted permission for app-level or browser-level location access. Since the user has not granted explicit location permission, Gemini should not attempt to collect precise device location.\"\n\n, \"source_excerpts\": [\n    {\n      \"line_id\": \"L0357\",\n      \"quote\": \"Diese Daten werden nicht von Google Ende-zu-Ende-verschlüsselt.\"\n    }\n  ]\n\n, \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "Based on the provided privacy notice, Gemini explicitly states that it will only access location data if activities speiching is enabled and the user has granted permission for app-level or browser-level location access. Since the user has not granted explicit location permission, Gemini should not attempt to collect precise device location.",
+  "source_excerpts": [
+    {
+      "line_id": "L0357",
+      "quote": "Diese Daten werden nicht von Google Ende-zu-Ende-verschlüsselt."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0357",
+      "model_quote": "Diese Daten werden nicht von Google Ende-zu-Ende-verschlüsselt.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Welche Daten werden erhoben und verarbeitet?"
+    }
+  ],
+  "all_quotes_verified": false
+}

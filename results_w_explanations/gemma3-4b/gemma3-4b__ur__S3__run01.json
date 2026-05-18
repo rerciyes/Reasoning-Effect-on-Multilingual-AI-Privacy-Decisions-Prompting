@@ -1,0 +1,57 @@
+{
+  "ts": "2026-05-04T19:26:11.839137+00:00",
+  "model": "gemma3:4b",
+  "num_ctx": 32768,
+  "language": "ur",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    14886.850833892822
+  ],
+  "prompt_eval_count": 18599,
+  "prompt_truncated": false,
+  "raw": "{\"decision\": \"ALLOW AFTER VERIFICATION\", \"justification\": \"The Gemini Apps Privacy Notice states that Gemini may use your chats to personalize your experience and improve our services. Specifically, lines L0173, L0174, and L0175 detail how Gemini uses chat data for personalization, including for improving AI models and providing more relevant responses. However, the notice also indicates that this personalization is contingent on the ‘Keep Activity’ setting being enabled. Since the scenario does not explicitly state whether this setting is on or off, a verification step is required to determine if this personalization is occurring. The user's request to have Gemini remember this information aligns with Gemini's stated purpose of providing personalized responses.\", \"source_excerpts\": [{\"line_id\": \"L0006\", \"quote\": \"Geminiایپس کی رازداری کی پالیسی ،Geminiجو کہ  Googleکی طرف سے ذاتی  AIاسسٹنٹ ہے ،کے ساتھ یہاں (” Geminiایپس“ یا مختصرًا ”“Gemini کیلئے) درج شدہ سروسز کے ذریعے تعامل کرتے ہیں تو  Googleآپ کے ڈیٹا کو کس طرح پروسیس کرتا ہے۔ Google کی رازداری کی پالیسی وضاحت کرتی ہے کہ جب آپ سائن آؤٹ ہونے کے دوران  Geminiاستعمال کرتے ہیں تو  Googleآپ کے ڈیٹا پر کیسے کارروائی کرتا ہے۔\"}, {\"line_id\": \"L0039\", \"quote\": \"یہ استعمال تخلیق کر سکنے والے  AIماڈلز اور دیگر مشین لرننگ ٹیکنالوجیز تک پھیلے ہوئے ہیں جو ہماری سروسز کو تقویت بخشتے ہیں۔\"}, {\"line_id\": \"L0173\", \"quote\": \"Gemini ایپس کی سرگرمی ہم آپ کی چیٹس میں فراہم کردہ معلومات کو استعمال کرتے ہیں...\"}], \"confidence\": \"Medium\"}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW AFTER VERIFICATION",
+  "confidence": "Medium",
+  "justification": "The Gemini Apps Privacy Notice states that Gemini may use your chats to personalize your experience and improve our services. Specifically, lines L0173, L0174, and L0175 detail how Gemini uses chat data for personalization, including for improving AI models and providing more relevant responses. However, the notice also indicates that this personalization is contingent on the ‘Keep Activity’ setting being enabled. Since the scenario does not explicitly state whether this setting is on or off, a verification step is required to determine if this personalization is occurring. The user's request to have Gemini remember this information aligns with Gemini's stated purpose of providing personalized responses.",
+  "source_excerpts": [
+    {
+      "line_id": "L0006",
+      "quote": "Geminiایپس کی رازداری کی پالیسی ،Geminiجو کہ  Googleکی طرف سے ذاتی  AIاسسٹنٹ ہے ،کے ساتھ یہاں (” Geminiایپس“ یا مختصرًا ”“Gemini کیلئے) درج شدہ سروسز کے ذریعے تعامل کرتے ہیں تو  Googleآپ کے ڈیٹا کو کس طرح پروسیس کرتا ہے۔ Google کی رازداری کی پالیسی وضاحت کرتی ہے کہ جب آپ سائن آؤٹ ہونے کے دوران  Geminiاستعمال کرتے ہیں تو  Googleآپ کے ڈیٹا پر کیسے کارروائی کرتا ہے۔"
+    },
+    {
+      "line_id": "L0039",
+      "quote": "یہ استعمال تخلیق کر سکنے والے  AIماڈلز اور دیگر مشین لرننگ ٹیکنالوجیز تک پھیلے ہوئے ہیں جو ہماری سروسز کو تقویت بخشتے ہیں۔"
+    },
+    {
+      "line_id": "L0173",
+      "quote": "Gemini ایپس کی سرگرمی ہم آپ کی چیٹس میں فراہم کردہ معلومات کو استعمال کرتے ہیں..."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0006",
+      "model_quote": "Geminiایپس کی رازداری کی پالیسی ،Geminiجو کہ  Googleکی طرف سے ذاتی  AIاسسٹنٹ ہے ،کے ساتھ یہاں (” Geminiایپس“ یا مختصرًا ”“Gemini کیلئے) درج شدہ سروسز کے ذریعے تعامل کرتے ہیں تو  Googleآپ کے ڈیٹا کو کس طرح پروسیس کرتا ہے۔ Google کی رازداری کی پالیسی وضاحت کرتی ہے کہ جب آپ سائن آؤٹ ہونے کے دوران  Geminiاستعمال کرتے ہیں تو  Googleآپ کے ڈیٹا پر کیسے کارروائی کرتا ہے۔",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "میں اضافہ کرتا ہے اور یہ وضاحت کرتے ہیں کہ جب آپ سائن ان حالت میں      یہ نوٹس  Googleکی رازداری کی پالیسی ،Geminiجو کہ  Googleکی طرف سے ذاتی  AIاسسٹنٹ ہے ،کے ساتھ یہاں (” Geminiایپس“ یا مختصرًا ”“Gemini کیلئے) درج شدہ سروسز کے ذریعے تعامل کرتے ہیں تو  Googleآپ کے ڈیٹا کو کس طرح پروسیس کرتا ہے۔ Google کی رازداری کی پالیسی وضاحت کرتی ہے کہ جب آپ سائن آؤٹ ہونے کے دوران  Geminiاستعمال کرتے ہیں تو  Googleآپ کے ڈیٹا پر کیسے کارروائی کرتا ہے۔"
+    },
+    {
+      "line_id": "L0039",
+      "model_quote": "یہ استعمال تخلیق کر سکنے والے  AIماڈلز اور دیگر مشین لرننگ ٹیکنالوجیز تک پھیلے ہوئے ہیں جو ہماری سروسز کو تقویت بخشتے ہیں۔",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "یہ استعمال تخلیق کر سکنے والے  AIماڈلز اور دیگر مشین لرننگ ٹیکنالوجیز تک پھیلے ہوئے ہیں جو ہماری سروسز کو تقویت بخشتے ہیں۔"
+    },
+    {
+      "line_id": "L0173",
+      "model_quote": "Gemini ایپس کی سرگرمی ہم آپ کی چیٹس میں فراہم کردہ معلومات کو استعمال کرتے ہیں...",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "ذہن میں رکھیں"
+    }
+  ],
+  "all_quotes_verified": false
+}

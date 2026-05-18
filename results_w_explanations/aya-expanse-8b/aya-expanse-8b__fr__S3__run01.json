@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T18:27:37.645791+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "fr",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    17131.67095184326
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"Based on the user's consent and the location (outside EEA, UK, and Switzerland), Gemini is permitted to store and use the provided dietary restrictions, medication schedule, and preferred daily routine for personalized responses, as per the Privacy Notice.\"\n\n, \"source_excerpts\": [\n    {\"line_id\": \"L0347\", \"quote\": \"You are responsible for what it does in your name, so watch it carefully.\"},\n    {\"line_id\": \"L0351\", \"quote\": \"You can stop, monitor its progress and take control manually.\"}\n  ]\n\n, \"confidence\": \"High\" }",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "Based on the user's consent and the location (outside EEA, UK, and Switzerland), Gemini is permitted to store and use the provided dietary restrictions, medication schedule, and preferred daily routine for personalized responses, as per the Privacy Notice.",
+  "source_excerpts": [
+    {
+      "line_id": "L0347",
+      "quote": "You are responsible for what it does in your name, so watch it carefully."
+    },
+    {
+      "line_id": "L0351",
+      "quote": "You can stop, monitor its progress and take control manually."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0347",
+      "model_quote": "You are responsible for what it does in your name, so watch it carefully.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Certaines Applis connectées, comme Téléphone, Messages, WhatsApp et Utilitaires, sont"
+    },
+    {
+      "line_id": "L0351",
+      "model_quote": "You can stop, monitor its progress and take control manually.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "disponibles si vous désactivez Conserver l'activité ."
+    }
+  ],
+  "all_quotes_verified": false
+}

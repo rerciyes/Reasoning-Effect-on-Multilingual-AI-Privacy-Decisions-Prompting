@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T18:37:27.499159+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "ur",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    21944.722175598145
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"Based on the user's request to personalize responses based on dietary restrictions, medication schedule, and daily routine, and the user's location outside of the EEA, Switzerland, and the UK, Gemini can store and use this information for future interactions as long as it complies with the Gemini Apps Privacy Notice.\"\n\n, \"source_excerpts\": [\n    {\"line_id\": \"[L0342]\", \"quote\": \"Gemini ایپس استعمال کریں\\nتخلیق کر سکنے والے  AIکی ممنوعہ استعمال کی پالیسی\"},\n    {\"line_id\": \"[L0317]\", \"quote\": \"بشمول آپ کے فراہم کردہ تاثرات ،پر  Googleکی رازداری کی پالیسی\"}\n  ]\n\n, \"confidence\": \"High\" }",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "Based on the user's request to personalize responses based on dietary restrictions, medication schedule, and daily routine, and the user's location outside of the EEA, Switzerland, and the UK, Gemini can store and use this information for future interactions as long as it complies with the Gemini Apps Privacy Notice.",
+  "source_excerpts": [
+    {
+      "line_id": "[L0342]",
+      "quote": "Gemini ایپس استعمال کریں\nتخلیق کر سکنے والے  AIکی ممنوعہ استعمال کی پالیسی"
+    },
+    {
+      "line_id": "[L0317]",
+      "quote": "بشمول آپ کے فراہم کردہ تاثرات ،پر  Googleکی رازداری کی پالیسی"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0342",
+      "model_quote": "Gemini ایپس استعمال کریں\nتخلیق کر سکنے والے  AIکی ممنوعہ استعمال کی پالیسی",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Gemini موبائل ایپس کے لیے مزید وسائل"
+    },
+    {
+      "line_id": "L0317",
+      "model_quote": "بشمول آپ کے فراہم کردہ تاثرات ،پر  Googleکی رازداری کی پالیسی",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "کے  Gemsحسب ضرورت ورک فلوز ہیں جو ِ AIم نی ایپس میں بنڈل ہوتے ہیں جنہیں آپ تخلیق ،ترمیم اور         Google لیبز اشتراک کر سکتے ہیں۔ جب آپ  Googleلیبز کے  Gemsکے ساتھ تعامل کرتے ہیں تو آپ  Googleلیبز کا تجربہ Opal استعمال کر رہے ہوتے ہیں۔"
+    }
+  ],
+  "all_quotes_verified": false
+}

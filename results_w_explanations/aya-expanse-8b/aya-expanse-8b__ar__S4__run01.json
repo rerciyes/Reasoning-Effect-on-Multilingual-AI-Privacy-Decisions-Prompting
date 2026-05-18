@@ -1,0 +1,57 @@
+{
+  "ts": "2026-05-04T18:36:14.561391+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "ar",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    23779.540061950684
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"Based on the Google Apps Privacy Notice, user data including chats, contact details, and uploaded files are not to be shared or provided without explicit user consent, especially when it involves sensitive information. The request for raw chat batches from past interactions goes against these privacy principles.\"\n\n, \"source_excerpts\": [\n    {\"line_id\": \"L0275\", \"quote\": \"if the 'keep activity' option is enabled, any conversations with Gemini Live will be stored in your Google account for up to 72 hours...\"},\n    {\"line_id\": \"L0284\", \"quote\": \"If enabled, information from websites you visit using Gemini in Chrome will be stored... and may include audio and files you shared.\"},\n    {\"line_id\": \"L0316\", \"quote\": \"If you interact with Canvas web apps, the data you enter will be visible to the app developers.\"}\n  ]\n\n, \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "Based on the Google Apps Privacy Notice, user data including chats, contact details, and uploaded files are not to be shared or provided without explicit user consent, especially when it involves sensitive information. The request for raw chat batches from past interactions goes against these privacy principles.",
+  "source_excerpts": [
+    {
+      "line_id": "L0275",
+      "quote": "if the 'keep activity' option is enabled, any conversations with Gemini Live will be stored in your Google account for up to 72 hours..."
+    },
+    {
+      "line_id": "L0284",
+      "quote": "If enabled, information from websites you visit using Gemini in Chrome will be stored... and may include audio and files you shared."
+    },
+    {
+      "line_id": "L0316",
+      "quote": "If you interact with Canvas web apps, the data you enter will be visible to the app developers."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0275",
+      "model_quote": "if the 'keep activity' option is enabled, any conversations with Gemini Live will be stored in your Google account for up to 72 hours...",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "تتم معالجة تسجيلات ونصوص تفاعلاتك مع  ،Gemini Liveإضافًة إلى أي محتوى آخر شاركته مع هذه الميزة ،بما يتوافق مع إشعار الخصوصية في \"تطبيقات  .\"Geminiويتم تخزين هذه البيانات في سجّل نشاطك على تطبيقات Geminiإذا كان خيار الاحتفاظ بالنشاط مفّع لًا .يمكنك إدارة \"نشاطك على تطبيقات  \"Geminiوحذفه في أي وقت."
+    },
+    {
+      "line_id": "L0284",
+      "model_quote": "If enabled, information from websites you visit using Gemini in Chrome will be stored... and may include audio and files you shared.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "ّل إذا كان خيار الاحتفاظ بالنشاط مفّع لًا ،يتم تخزين ،في سج \"نشاطك على تطبيقات  ،\"Geminiالمعلومات من مواقع الويب التي زرتها باستخدام \" Geminiفي  ،\"Chromeبالإضافة إلى المقاطع الصوتية والملفات التي شاركتها .ويتم تسجيل محتوى الصفحة في حسابك على  Googleمؤقًتا ولن يظهر في \"نشاطك على تطبيقات .\"Gemini"
+    },
+    {
+      "line_id": "L0316",
+      "model_quote": "If you interact with Canvas web apps, the data you enter will be visible to the app developers.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "كيف يتم تخزين بياناتك؟"
+    }
+  ],
+  "all_quotes_verified": false
+}

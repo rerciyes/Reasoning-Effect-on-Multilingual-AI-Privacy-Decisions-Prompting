@@ -1,0 +1,35 @@
+{
+  "ts": "2026-05-04T19:23:42.420913+00:00",
+  "model": "gemma3:4b",
+  "num_ctx": 32768,
+  "language": "hi",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    14012.23373413086
+  ],
+  "prompt_eval_count": 22755,
+  "prompt_truncated": false,
+  "raw": "{\"decision\": \"ALLOW\", \"justification\": \"The policy states that Gemini processes signed-in interactions between you and Gemini (your Google AI assistant). Transcribing a photo of a handwritten grocery list falls under this category of interaction. The scenario explicitly states the image does not contain sensitive personal data, so no additional permissions, settings, consent, notice, user choice, organizational safeguard, or human review are required. Gemini may process the image to fulfill the user’s request to transcribe and organize the items.\", \"source_excerpts\": [{\"line_id\": \"L0007\" , \"quote\": \"नोटिस और निजता नीति, दोनों में बताया गया है कि आपके साइन इन होने पर Google यहाँ बताई गई से वाओं के ज़रिए आपके और Gemini (आपके लिए Google का एआई असिस्टें ट) के बीच हुए इं टरै क्शन का डे टा कै से प्रोसे स करता है (“Gemini Apps” या कम शब्दों में कहें , तो “Gemini”).\"}] , \"confidence\": \"High\"}\n",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "The policy states that Gemini processes signed-in interactions between you and Gemini (your Google AI assistant). Transcribing a photo of a handwritten grocery list falls under this category of interaction. The scenario explicitly states the image does not contain sensitive personal data, so no additional permissions, settings, consent, notice, user choice, organizational safeguard, or human review are required. Gemini may process the image to fulfill the user’s request to transcribe and organize the items.",
+  "source_excerpts": [
+    {
+      "line_id": "L0007",
+      "quote": "नोटिस और निजता नीति, दोनों में बताया गया है कि आपके साइन इन होने पर Google यहाँ बताई गई से वाओं के ज़रिए आपके और Gemini (आपके लिए Google का एआई असिस्टें ट) के बीच हुए इं टरै क्शन का डे टा कै से प्रोसे स करता है (“Gemini Apps” या कम शब्दों में कहें , तो “Gemini”)."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0007",
+      "model_quote": "नोटिस और निजता नीति, दोनों में बताया गया है कि आपके साइन इन होने पर Google यहाँ बताई गई से वाओं के ज़रिए आपके और Gemini (आपके लिए Google का एआई असिस्टें ट) के बीच हुए इं टरै क्शन का डे टा कै से प्रोसे स करता है (“Gemini Apps” या कम शब्दों में कहें , तो “Gemini”).",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "नोटिस और निजता नीति, दोनों में बताया गया है कि आपके साइन इन होने पर Google यहाँ बताई गई से वाओं के ज़रिए आपके और Gemini (आपके लिए Google का एआई असिस्टें ट) के बीच हुए इं टरै क्शन का डे टा कै से प्रोसे स करता है (“Gemini Apps” या कम शब्दों में कहें , तो “Gemini”)."
+    }
+  ],
+  "all_quotes_verified": true
+}

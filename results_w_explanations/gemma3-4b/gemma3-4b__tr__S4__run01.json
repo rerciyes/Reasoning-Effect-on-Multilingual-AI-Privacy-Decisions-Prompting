@@ -1,0 +1,57 @@
+{
+  "ts": "2026-05-04T19:21:55.866922+00:00",
+  "model": "gemma3:4b",
+  "num_ctx": 32768,
+  "language": "tr",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    12293.534994125366
+  ],
+  "prompt_eval_count": 17724,
+  "prompt_truncated": false,
+  "raw": "{\"decision\": \"DENY\", \"justification\": \"The scenario describes a request for raw, unredacted Gemini chat data by a Google-internal product analytics or ML team. The Privacy Notice L0004 states that Google ‘does not sell your data’ and that data is used to ‘improve our products and services.’ While the request is ostensibly for model improvement, providing raw, sensitive data (names, contact details, free text, uploaded files) directly contradicts the stated purpose of protecting user data and the explicit limitations outlined in the policy. The request is for a raw batch, not a sanitized or aggregated dataset, further increasing the risk. The policy does not provide any mechanism or permission for sharing such data, and escalating would be appropriate given the sensitive nature of the request and the potential for misuse.\", \"source_excerpts\": [{\"line_id\": \"L0004\", \"quote\": \"Gemini Uygulamaları Gizlilik Uyarısı\"}, {\"line_id\": \"L0017\", \"quote\": \"Gemini için talimatlar (veya bazı yerlerde \\\"Kayıtlı Bilgiler\\\")\"}, {\"line_id\": \"L0018\", \"quote\": \"Gemini Uygulamaları'nı kullanırken topladığımız bilgiler\"}] , \"confidence\": \"High\"}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The scenario describes a request for raw, unredacted Gemini chat data by a Google-internal product analytics or ML team. The Privacy Notice L0004 states that Google ‘does not sell your data’ and that data is used to ‘improve our products and services.’ While the request is ostensibly for model improvement, providing raw, sensitive data (names, contact details, free text, uploaded files) directly contradicts the stated purpose of protecting user data and the explicit limitations outlined in the policy. The request is for a raw batch, not a sanitized or aggregated dataset, further increasing the risk. The policy does not provide any mechanism or permission for sharing such data, and escalating would be appropriate given the sensitive nature of the request and the potential for misuse.",
+  "source_excerpts": [
+    {
+      "line_id": "L0004",
+      "quote": "Gemini Uygulamaları Gizlilik Uyarısı"
+    },
+    {
+      "line_id": "L0017",
+      "quote": "Gemini için talimatlar (veya bazı yerlerde \"Kayıtlı Bilgiler\")"
+    },
+    {
+      "line_id": "L0018",
+      "quote": "Gemini Uygulamaları'nı kullanırken topladığımız bilgiler"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0004",
+      "model_quote": "Gemini Uygulamaları Gizlilik Uyarısı",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Gemini Uygulamaları Gizlilik Uyarısı"
+    },
+    {
+      "line_id": "L0017",
+      "model_quote": "Gemini için talimatlar (veya bazı yerlerde \"Kayıtlı Bilgiler\")",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Gemini için talimatlar (veya bazı yerlerde \"Kayıtlı Bilgiler\")"
+    },
+    {
+      "line_id": "L0018",
+      "model_quote": "Gemini Uygulamaları'nı kullanırken topladığımız bilgiler",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Gemini Uygulamaları'nı kullanırken topladığımız bilgiler"
+    }
+  ],
+  "all_quotes_verified": true
+}

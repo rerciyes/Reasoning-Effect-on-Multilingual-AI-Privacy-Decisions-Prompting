@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T18:35:32.728116+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "ar",
+  "scenario_id": "S2",
+  "run": 1,
+  "latency_ms": [
+    19782.83953666687
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"Based on the provided notice, Gemini states that it collects location data only when explicit permission is granted. Since the user has not granted device or browser location permission, collecting their precise location would be a violation of privacy.\"\n\n, \"source_excerpts\": [\n    {\"line_id\": \"L0213\", \"quote\": \"If you do not want your location data to be used for these services, you can turn off Location Services in your device settings.\"},\n    {\"line_id\": \"L0278\", \"quote\": \"If you have not enabled 'Keep Activity' or 'Location History', your location won't be saved.\"}\n  ]\n\n, \"confidence\": \"High\" }",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "Based on the provided notice, Gemini states that it collects location data only when explicit permission is granted. Since the user has not granted device or browser location permission, collecting their precise location would be a violation of privacy.",
+  "source_excerpts": [
+    {
+      "line_id": "L0213",
+      "quote": "If you do not want your location data to be used for these services, you can turn off Location Services in your device settings."
+    },
+    {
+      "line_id": "L0278",
+      "quote": "If you have not enabled 'Keep Activity' or 'Location History', your location won't be saved."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0213",
+      "model_quote": "If you do not want your location data to be used for these services, you can turn off Location Services in your device settings.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Gemini في Chrome"
+    },
+    {
+      "line_id": "L0278",
+      "model_quote": "If you have not enabled 'Keep Activity' or 'Location History', your location won't be saved.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "تسجيلات Gemini Live لا تتم تلقائًيا الاستعانة بتسجيلات تفاعلاتك مع ( Gemini Liveبما في ذلك المحتوى الصوتي والفيديوهات وتسجيلات مشاركة الشاشة) لتحسين خدمات  .Googleكيفية تغيير هذا الإعداد في أي وقت وطلب إذنهم قبل بدء التسجيل أو قبل ضّم هم إلى محادثة .Live        ُي رجى مراعاة خصوصية الآخرين كيفية استخدام Gemini Live"
+    }
+  ],
+  "all_quotes_verified": false
+}

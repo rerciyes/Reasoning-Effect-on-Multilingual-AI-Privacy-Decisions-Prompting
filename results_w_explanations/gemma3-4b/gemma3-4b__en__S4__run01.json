@@ -1,0 +1,35 @@
+{
+  "ts": "2026-05-04T19:27:28.499082+00:00",
+  "model": "gemma3:4b",
+  "num_ctx": 32768,
+  "language": "en",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    10245.992422103882
+  ],
+  "prompt_eval_count": 13199,
+  "prompt_truncated": false,
+  "raw": "{\"decision\": \"DENY\", \"justification\": \"The Gemini Apps Privacy Notice explicitly states that chats reviewed by human reviewers (and related data) are retained for up to three years, disconnected from your Google Account. It also states that human reviewers assess if Gemini Apps’ responses were low-quality, inaccurate, or harmful. The scenario requests a raw batch of chats, including sensitive information like names, contact details, and free text, which goes directly against this policy. Providing raw, unredacted chats would violate the safeguards in place to protect user privacy and prevent misuse of the data for model training, as highlighted in L0044, which advises against entering confidential information. The request is for raw data, not for a sanitized or aggregated dataset, further increasing the risk.\",\"source_excerpts\": [{\"line_id\": \"L0044\",\"quote\": \"Please don’t enter confidential information that you wouldn’t want a reviewer to see or Google to use to improve our services, including machine- learning technologies.\"}],\"confidence\": \"High\"}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The Gemini Apps Privacy Notice explicitly states that chats reviewed by human reviewers (and related data) are retained for up to three years, disconnected from your Google Account. It also states that human reviewers assess if Gemini Apps’ responses were low-quality, inaccurate, or harmful. The scenario requests a raw batch of chats, including sensitive information like names, contact details, and free text, which goes directly against this policy. Providing raw, unredacted chats would violate the safeguards in place to protect user privacy and prevent misuse of the data for model training, as highlighted in L0044, which advises against entering confidential information. The request is for raw data, not for a sanitized or aggregated dataset, further increasing the risk.",
+  "source_excerpts": [
+    {
+      "line_id": "L0044",
+      "quote": "Please don’t enter confidential information that you wouldn’t want a reviewer to see or Google to use to improve our services, including machine- learning technologies."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0044",
+      "model_quote": "Please don’t enter confidential information that you wouldn’t want a reviewer to see or Google to use to improve our services, including machine- learning technologies.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Please don’t enter confidential information that you wouldn’t want a reviewer to see or Google to use to improve our services, including machine- learning technologies."
+    }
+  ],
+  "all_quotes_verified": true
+}

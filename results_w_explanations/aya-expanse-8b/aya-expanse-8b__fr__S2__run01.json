@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T18:27:17.193262+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "fr",
+  "scenario_id": "S2",
+  "run": 1,
+  "latency_ms": [
+    20451.25961303711
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"Based on the provided notice, Gemini states that it collects and processes data only when enabled by the user through settings like 'Conserve l'activité'. Precise device location is sensitive information, and users have not explicitly granted permission for its collection. Therefore, collecting this data without explicit consent would violate privacy policies.\"\n\n, \"source_excerpts\": [\n    {\"line_id\": \"L0374\", \"quote\": \"You can control what data Gemini collects and uses... You can also choose to stop sharing a tab or all open tabs with Gemini.\"},\n    {\"line_id\": \"L0385\", \"quote\": \"Gemini may use a browser's distant view feature to help you... but users have the option to take control of the browser.\"}\n  ]\n\n, \"confidence\": \"High\" }",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "Based on the provided notice, Gemini states that it collects and processes data only when enabled by the user through settings like 'Conserve l'activité'. Precise device location is sensitive information, and users have not explicitly granted permission for its collection. Therefore, collecting this data without explicit consent would violate privacy policies.",
+  "source_excerpts": [
+    {
+      "line_id": "L0374",
+      "quote": "You can control what data Gemini collects and uses... You can also choose to stop sharing a tab or all open tabs with Gemini."
+    },
+    {
+      "line_id": "L0385",
+      "quote": "Gemini may use a browser's distant view feature to help you... but users have the option to take control of the browser."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0374",
+      "model_quote": "You can control what data Gemini collects and uses... You can also choose to stop sharing a tab or all open tabs with Gemini.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Comment les données sont-elles utilisées ?"
+    },
+    {
+      "line_id": "L0385",
+      "model_quote": "Gemini may use a browser's distant view feature to help you... but users have the option to take control of the browser.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Comment l'Agent Gemini utilise-t-il mes données avec le navigateur distant ?"
+    }
+  ],
+  "all_quotes_verified": false
+}

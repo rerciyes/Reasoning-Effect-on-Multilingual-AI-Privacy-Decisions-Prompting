@@ -1,0 +1,57 @@
+{
+  "ts": "2026-05-04T18:35:52.515350+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "ar",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    22043.349742889404
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"Based on the user's consent and the privacy notice, Gemini is permitted to store and utilize the provided dietary restrictions, medication schedule, and preferred routine for personalized responses, as long as the user is located outside of the EEA, Switzerland, or the UK.\"\n\n, \"source_excerpts\": [\n    {\"line_id\": \"L0247\", \"quote\": \"If you choose to provide us with personal information, we will use it in accordance with our Privacy Notice.\"},\n    {\"line_id\": \"L0253\", \"quote\": \"You can manage your 'Activity' and delete Gemini conversations at any time through the Settings menu.\"},\n    {\"line_id\": \"L0278\", \"quote\": \"When using Gemini in Chrome, it collects... information from websites you visit...\"}\n  ]\n\n, \"confidence\": \"High\" }",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "Based on the user's consent and the privacy notice, Gemini is permitted to store and utilize the provided dietary restrictions, medication schedule, and preferred routine for personalized responses, as long as the user is located outside of the EEA, Switzerland, or the UK.",
+  "source_excerpts": [
+    {
+      "line_id": "L0247",
+      "quote": "If you choose to provide us with personal information, we will use it in accordance with our Privacy Notice."
+    },
+    {
+      "line_id": "L0253",
+      "quote": "You can manage your 'Activity' and delete Gemini conversations at any time through the Settings menu."
+    },
+    {
+      "line_id": "L0278",
+      "quote": "When using Gemini in Chrome, it collects... information from websites you visit..."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0247",
+      "model_quote": "If you choose to provide us with personal information, we will use it in accordance with our Privacy Notice.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "تعّر ف على كيفية حذف معلومات تذّك رها  Geminiعنك من تطبيق مرتبط .وإذا حذفت بيانات أو ع لتها في تطبيق مرتبط ،مثل رسالة إلكترونية من  Gmailأو صورة من \"صور  ،\"Googleقد لا تتأثر تجربتك في  Geminiإلا بعد مرور بضعة أيام."
+    },
+    {
+      "line_id": "L0253",
+      "model_quote": "You can manage your 'Activity' and delete Gemini conversations at any time through the Settings menu.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "ّو عند استخدام التطبيقات المرتبطة بـ  Geminiلإجراء مكالمات أو إرسال رسائل ،تجمع تطبيقات  Geminiللأجهزة الج الة وتعالج البيانات التالية:"
+    },
+    {
+      "line_id": "L0278",
+      "model_quote": "When using Gemini in Chrome, it collects... information from websites you visit...",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "تسجيلات Gemini Live لا تتم تلقائًيا الاستعانة بتسجيلات تفاعلاتك مع ( Gemini Liveبما في ذلك المحتوى الصوتي والفيديوهات وتسجيلات مشاركة الشاشة) لتحسين خدمات  .Googleكيفية تغيير هذا الإعداد في أي وقت وطلب إذنهم قبل بدء التسجيل أو قبل ضّم هم إلى محادثة .Live        ُي رجى مراعاة خصوصية الآخرين كيفية استخدام Gemini Live"
+    }
+  ],
+  "all_quotes_verified": false
+}

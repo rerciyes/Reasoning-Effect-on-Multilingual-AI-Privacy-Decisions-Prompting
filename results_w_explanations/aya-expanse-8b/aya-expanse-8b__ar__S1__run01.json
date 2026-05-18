@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T18:35:13.146456+00:00",
+  "model": "aya-expanse:8b",
+  "num_ctx": 32768,
+  "language": "ar",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    19577.919244766235
+  ],
+  "prompt_eval_count": 8192,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"Based on the information provided in the Gemini Apps Privacy Notice, the user's handwritten grocery list does not contain sensitive personal data as defined in the notice. The processing of this image for transcription and categorization falls within the scope of services described, which include text analysis and automation.\"\n\n, \"source_excerpts\": [\n    {\"line_id\": \"[L0247]\", \"quote\": \"Gemini Agent...can assist you in tasks like...transcribing text...from images.\"},\n    {\"line_id\": \"[L0258]\", \"quote\": \"Any data collected from your interactions with the...agent...will be used...in accordance with our Privacy Policy.\"}\n  ]\n\n, \"confidence\": \"High\" }",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "Based on the information provided in the Gemini Apps Privacy Notice, the user's handwritten grocery list does not contain sensitive personal data as defined in the notice. The processing of this image for transcription and categorization falls within the scope of services described, which include text analysis and automation.",
+  "source_excerpts": [
+    {
+      "line_id": "[L0247]",
+      "quote": "Gemini Agent...can assist you in tasks like...transcribing text...from images."
+    },
+    {
+      "line_id": "[L0258]",
+      "quote": "Any data collected from your interactions with the...agent...will be used...in accordance with our Privacy Policy."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0247",
+      "model_quote": "Gemini Agent...can assist you in tasks like...transcribing text...from images.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "تعّر ف على كيفية حذف معلومات تذّك رها  Geminiعنك من تطبيق مرتبط .وإذا حذفت بيانات أو ع لتها في تطبيق مرتبط ،مثل رسالة إلكترونية من  Gmailأو صورة من \"صور  ،\"Googleقد لا تتأثر تجربتك في  Geminiإلا بعد مرور بضعة أيام."
+    },
+    {
+      "line_id": "L0258",
+      "model_quote": "Any data collected from your interactions with the...agent...will be used...in accordance with our Privacy Policy.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "طريقة استخدام بياناتك لإجراء المكالمات أو إرسال الرسائل باستخدام التطبيقات المرتبطة بـ  ،Geminiتستخدم تطبيقات  Geminiللأجهزة الجّو الة بياناتك لتنفيذ ما يلي: .1اختيار أفضل تطبيق لإجراء المكالمات أو إرسال الرسائل .2مساعدتك في التواصل مع الشخص المناسب لا تكون الرسائل التي تنشئها وترسلها باستخدام تطبيق  Geminiمحمية بتشفير تاّم بين الأطراف من .Google"
+    }
+  ],
+  "all_quotes_verified": false
+}
