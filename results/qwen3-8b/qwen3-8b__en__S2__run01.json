@@ -1,0 +1,16 @@
+{
+  "ts": "2026-05-08T01:39:39.861038+00:00",
+  "model": "qwen3:8b",
+  "num_ctx": 32768,
+  "language": "en",
+  "scenario_id": "S2",
+  "run": 1,
+  "latency_ms": [
+    3680.668592453003
+  ],
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High"
+}

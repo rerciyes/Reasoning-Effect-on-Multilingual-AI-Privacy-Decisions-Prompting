@@ -1,0 +1,16 @@
+{
+  "ts": "2026-05-08T03:46:44.756024+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 32768,
+  "language": "ar",
+  "scenario_id": "S2",
+  "run": 1,
+  "latency_ms": [
+    5643.817186355591
+  ],
+  "raw": "{\n  \"decision\": \"ALLOW AFTER VERIFICATION\",\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW AFTER VERIFICATION",
+  "confidence": "High"
+}

@@ -1,0 +1,16 @@
+{
+  "ts": "2026-05-08T03:44:47.025966+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 32768,
+  "language": "fr",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    4655.557870864868
+  ],
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High"
+}

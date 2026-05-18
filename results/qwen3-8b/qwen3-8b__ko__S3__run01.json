@@ -1,0 +1,16 @@
+{
+  "ts": "2026-05-08T01:41:54.154887+00:00",
+  "model": "qwen3:8b",
+  "num_ctx": 32768,
+  "language": "ko",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    5544.255495071411
+  ],
+  "raw": "{\n  \"decision\": \"ALLOW AFTER VERIFICATION\",\n  \"confidence\": \"Medium\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW AFTER VERIFICATION",
+  "confidence": "Medium"
+}
