@@ -1,0 +1,42 @@
+{
+  "ts": "2026-05-01T19:38:20.136494+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 32768,
+  "language": "tr",
+  "scenario_id": "S2",
+  "run": 1,
+  "latency_ms": [
+    77716.52221679688
+  ],
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"The policy states that Gemini Uygulamaları, izin verirseniz cihazınızdan aldığı tam konum verilerini de işler (L0261). However, it also mentions that Gemini Uygulamaları kullanılırken konum verileri her zaman toplanır (L0256), but this is only for general area information. The policy does not explicitly state that Gemini can collect and use precise device location without permission.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0261\",\n      \"quote\": \"Gemini Uygulamaları, izin verirseniz cihazınızdan aldığı tam konum verilerini de işler.\"\n    },\n    {\n      \"line_id\": \"L0256\",\n      \"quote\": \"Gemini Uygulamaları kullanılırken konum verileri her zaman toplanır.\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The policy states that Gemini Uygulamaları, izin verirseniz cihazınızdan aldığı tam konum verilerini de işler (L0261). However, it also mentions that Gemini Uygulamaları kullanılırken konum verileri her zaman toplanır (L0256), but this is only for general area information. The policy does not explicitly state that Gemini can collect and use precise device location without permission.",
+  "source_excerpts": [
+    {
+      "line_id": "L0261",
+      "quote": "Gemini Uygulamaları, izin verirseniz cihazınızdan aldığı tam konum verilerini de işler."
+    },
+    {
+      "line_id": "L0256",
+      "quote": "Gemini Uygulamaları kullanılırken konum verileri her zaman toplanır."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0261",
+      "quote": "Gemini Uygulamaları, izin verirseniz cihazınızdan aldığı tam konum verilerini de işler.",
+      "ok": true,
+      "match": "exact"
+    },
+    {
+      "line_id": "L0256",
+      "quote": "Gemini Uygulamaları kullanılırken konum verileri her zaman toplanır.",
+      "ok": false,
+      "match": "mismatch"
+    }
+  ],
+  "all_quotes_verified": false
+}

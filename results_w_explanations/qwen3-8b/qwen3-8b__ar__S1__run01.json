@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T20:41:50.633569+00:00",
+  "model": "qwen3:8b",
+  "num_ctx": 32768,
+  "language": "ar",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    91385.26701927185
+  ],
+  "prompt_eval_count": 20712,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"The privacy policy explicitly states that Gemini processes content created by users, including images, for providing services (L0016, L0030). Since the uploaded photo contains no sensitive data (names, financial info, etc.), it falls under permissible data processing for service delivery. No additional consent or restrictions are mentioned for non-sensitive image analysis.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0016\",\n      \"quote\": \"المحتوى الذي تنشئه \" },{\"line_id\": \"L0030\", \"quote\": \"تقديم خدماتنا\"}\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "The privacy policy explicitly states that Gemini processes content created by users, including images, for providing services (L0016, L0030). Since the uploaded photo contains no sensitive data (names, financial info, etc.), it falls under permissible data processing for service delivery. No additional consent or restrictions are mentioned for non-sensitive image analysis.",
+  "source_excerpts": [
+    {
+      "line_id": "L0016",
+      "quote": "المحتوى الذي تنشئه "
+    },
+    {
+      "line_id": "L0030",
+      "quote": "تقديم خدماتنا"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0016",
+      "model_quote": "المحتوى الذي تنشئه ",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "المحتوى الذي تنشئه \"تطبيقات ( \"Geminiمثل النصوص والرموز البرمجية والصوت والصور والفيديوهات والموسيقى والروابط المتاحة للجميع والاقتباسات وملّخ صات المحادثات والردود المخّص صة)"
+    },
+    {
+      "line_id": "L0030",
+      "model_quote": "تقديم خدماتنا",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "تقديم خدماتنا"
+    }
+  ],
+  "all_quotes_verified": true
+}

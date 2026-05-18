@@ -1,0 +1,57 @@
+{
+  "ts": "2026-05-04T20:43:22.025164+00:00",
+  "model": "qwen3:8b",
+  "num_ctx": 32768,
+  "language": "ar",
+  "scenario_id": "S2",
+  "run": 1,
+  "latency_ms": [
+    56140.80715179443
+  ],
+  "prompt_eval_count": 20642,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"The policy states that precise device location is only collected if the user has granted permission (L0194, L0196). Since the scenario specifies the user has not granted location permissions, Gemini may not collect precise device location. The policy allows using general location data from IP or saved addresses (L0192), but not precise location without consent.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0194\",\n      \"quote\": \"تستخدم \\\"تطبيقات  \\\"Gemini تلقائًيا المنطقة العامة من عنوان  IP أو من عنوان  المنزل والعمل المحفوظ في حسابك على .Google وبإذن منك، تعالج \\\"تطبيقات  \\\"Gemini أيًض ا بيانات الموقع الجغرافي الدقيق من جهازك.\"\n    },\n    {\n      \"line_id\": \"L0196\",\n      \"quote\": \"للتلبية طلباتك، قد يتلّق ى  Gemini أيًض ا موقعك الجغرافي الدقيق من خدمة أخرى من  ،Google مثل \\\"خرائط  ،\\\"Google حتى إذا كان خيار \\\"الموقع الجغرافي الدقيق\\\" غير مفّع ل في تطبيق .Google\"\n    },\n    {\n      \"line_id\": \"L0198\",\n      \"quote\": \"عند معالجة الموقع الجغرافي الدقيق من جهازك أو متصّف حك بعد الحصول على إذنك، لا يتم تخزينه في سج \\\"نشاطك على تطبيقات .\\\"Gemini\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The policy states that precise device location is only collected if the user has granted permission (L0194, L0196). Since the scenario specifies the user has not granted location permissions, Gemini may not collect precise device location. The policy allows using general location data from IP or saved addresses (L0192), but not precise location without consent.",
+  "source_excerpts": [
+    {
+      "line_id": "L0194",
+      "quote": "تستخدم \"تطبيقات  \"Gemini تلقائًيا المنطقة العامة من عنوان  IP أو من عنوان  المنزل والعمل المحفوظ في حسابك على .Google وبإذن منك، تعالج \"تطبيقات  \"Gemini أيًض ا بيانات الموقع الجغرافي الدقيق من جهازك."
+    },
+    {
+      "line_id": "L0196",
+      "quote": "للتلبية طلباتك، قد يتلّق ى  Gemini أيًض ا موقعك الجغرافي الدقيق من خدمة أخرى من  ،Google مثل \"خرائط  ،\"Google حتى إذا كان خيار \"الموقع الجغرافي الدقيق\" غير مفّع ل في تطبيق .Google"
+    },
+    {
+      "line_id": "L0198",
+      "quote": "عند معالجة الموقع الجغرافي الدقيق من جهازك أو متصّف حك بعد الحصول على إذنك، لا يتم تخزينه في سج \"نشاطك على تطبيقات .\"Gemini"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0194",
+      "model_quote": "تستخدم \"تطبيقات  \"Gemini تلقائًيا المنطقة العامة من عنوان  IP أو من عنوان  المنزل والعمل المحفوظ في حسابك على .Google وبإذن منك، تعالج \"تطبيقات  \"Gemini أيًض ا بيانات الموقع الجغرافي الدقيق من جهازك.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "تختلف مصادر بيانات الموقع الجغرافي التي تجمعها \"تطبيقات  .\"Geminiلتقديم ردود مناسبة على طلبات مثل \"ما حال الطقس؟\" ،تستخدم \"تطبيقات  \"Geminiتلقائًيا المنطقة العامة من عنوان  IPأو من عنواَن ي المنزل والعمل المحفوَظ ين في حسابك على .Google وبإذن منك ،تعالج \"تطبيقات  \"Geminiأيًض ا بيانات الموقع الجغرافي الدقيق من جهازك .على سبيل المثال ،يمكن أن تستخدم \"تطبيقات  \"Geminiموقعك الجغرافي الدقيق لتقديم رد أكثر تحديًد ا على طلبات مثل \"أين يقع أقرب مقهى؟\"."
+    },
+    {
+      "line_id": "L0196",
+      "model_quote": "للتلبية طلباتك، قد يتلّق ى  Gemini أيًض ا موقعك الجغرافي الدقيق من خدمة أخرى من  ،Google مثل \"خرائط  ،\"Google حتى إذا كان خيار \"الموقع الجغرافي الدقيق\" غير مفّع ل في تطبيق .Google",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "g.co/privacypolicy/location لتلبية طلبك ،قد تشارك \"تطبيقات  \"Geminiبيانات موقعك الجغرافي الدقيق مع إحدى خدمات  Googleالأخرى مثل \"خرائط  .\"Googleوعند حصول هذه الخدمة على بيانات موقعك الجغرافي ،تستخدمها بما يتوافق مع سياسة خصوصية ."
+    },
+    {
+      "line_id": "L0198",
+      "model_quote": "عند معالجة الموقع الجغرافي الدقيق من جهازك أو متصّف حك بعد الحصول على إذنك، لا يتم تخزينه في سج \"نشاطك على تطبيقات .\"Gemini",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "طريقة تخزين بيانات الموقع الجغرافي ّل"
+    }
+  ],
+  "all_quotes_verified": false
+}

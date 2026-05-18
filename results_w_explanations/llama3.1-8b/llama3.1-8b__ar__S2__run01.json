@@ -1,0 +1,34 @@
+{
+  "ts": "2026-05-01T21:26:27.594429+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 65536,
+  "language": "ar",
+  "scenario_id": "S2",
+  "run": 1,
+  "latency_ms": [
+    272286.2787246704
+  ],
+  "prompt_eval_count": 19199,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW AFTER VERIFICATION\",\n  \"justification\": \"According to L0194, 'تختلف مصادر بيانات الموقع الجغرافي التي تجمعها \\\"تطبيقات  .\\\"Geminiلتقديم ردود مناسبة على طلبات مثل \\\"ما حال الطقس؟\\\" ،تستخدم \\\"تطبيقات  \\\"Geminiتلقائًيا المنطقة العامة من عنوان  IPأو من عنواَن ي المنزل والعمل المحفوَظ ين في حسابك على .Google وبإذن منك، تعالج \\\"تطبيقات  \\\"Geminiأيًض ا بيانات الموقع الجغرافي الدقيق من جهازك.' This indicates that Gemini can collect the user's precise device location if they have granted permission. However, since the user has not granted device or browser location permission, Gemini cannot collect and use their precise device location without explicit consent.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0194\",\n      \"quote\": \"تختلف مصادر بيانات الموقع الجغرافي التي تجمعها \\\"تطبيقات  .\\\"Geminiلتقديم ردود مناسبة على طلبات مثل \\\"ما حال الطقس؟\\\" ،تستخدم \\\"تطبيقات  \\\"Geminiتلقائًيا المنطقة العامة من عنوان  IPأو من عنواَن ي المنزل والعمل المحفوَظ ين في حسابك على .Google وبإذن منك، تعالج \\\"تطبيقات  \\\"Geminiأيًض ا بيانات الموقع الجغرافي الدقيق من جهازك.\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW AFTER VERIFICATION",
+  "confidence": "High",
+  "justification": "According to L0194, 'تختلف مصادر بيانات الموقع الجغرافي التي تجمعها \"تطبيقات  .\"Geminiلتقديم ردود مناسبة على طلبات مثل \"ما حال الطقس؟\" ،تستخدم \"تطبيقات  \"Geminiتلقائًيا المنطقة العامة من عنوان  IPأو من عنواَن ي المنزل والعمل المحفوَظ ين في حسابك على .Google وبإذن منك، تعالج \"تطبيقات  \"Geminiأيًض ا بيانات الموقع الجغرافي الدقيق من جهازك.' This indicates that Gemini can collect the user's precise device location if they have granted permission. However, since the user has not granted device or browser location permission, Gemini cannot collect and use their precise device location without explicit consent.",
+  "source_excerpts": [
+    {
+      "line_id": "L0194",
+      "quote": "تختلف مصادر بيانات الموقع الجغرافي التي تجمعها \"تطبيقات  .\"Geminiلتقديم ردود مناسبة على طلبات مثل \"ما حال الطقس؟\" ،تستخدم \"تطبيقات  \"Geminiتلقائًيا المنطقة العامة من عنوان  IPأو من عنواَن ي المنزل والعمل المحفوَظ ين في حسابك على .Google وبإذن منك، تعالج \"تطبيقات  \"Geminiأيًض ا بيانات الموقع الجغرافي الدقيق من جهازك."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0194",
+      "quote": "تختلف مصادر بيانات الموقع الجغرافي التي تجمعها \"تطبيقات  .\"Geminiلتقديم ردود مناسبة على طلبات مثل \"ما حال الطقس؟\" ،تستخدم \"تطبيقات  \"Geminiتلقائًيا المنطقة العامة من عنوان  IPأو من عنواَن ي المنزل والعمل المحفوَظ ين في حسابك على .Google وبإذن منك، تعالج \"تطبيقات  \"Geminiأيًض ا بيانات الموقع الجغرافي الدقيق من جهازك.",
+      "ok": false,
+      "match": "mismatch"
+    }
+  ],
+  "all_quotes_verified": false
+}

@@ -1,0 +1,27 @@
+{
+  "ts": "2026-05-01T21:30:59.890825+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 65536,
+  "language": "ar",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    27359.491109848022,
+    24980.77130317688,
+    26063.676357269287
+  ],
+  "prompt_eval_count": 19200,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW AFTER VERIFICATION\",\n  \"justification\": \"According to Section L0042 of the policy, 'تطبيقات  \" \t}",
+  "json_extract_reason": "direct",
+  "schema_problems": [
+    "missing_source_excerpts",
+    "bad_confidence:None"
+  ],
+  "decision": "ALLOW AFTER VERIFICATION",
+  "confidence": null,
+  "justification": "According to Section L0042 of the policy, 'تطبيقات  ",
+  "source_excerpts": null,
+  "quote_verification": [],
+  "all_quotes_verified": false
+}

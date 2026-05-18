@@ -1,0 +1,32 @@
+{
+  "ts": "2026-05-01T19:47:12.087540+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 32768,
+  "language": "zh-CN",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    53118.399143218994
+  ],
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"The policy at L0011 states that Gemini collects 'you and Gemini share content (e.g., files, videos, screenshots, photos, imported dialogues, and web page contents you share from your browser)'. The uploaded image is a file shared with Gemini to transcribe it. Therefore, the processing of this image is permitted.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0011\",\n      \"quote\": \"你与 Gemini 应用分享的内容（例如文件、视频、截屏和照片）\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "The policy at L0011 states that Gemini collects 'you and Gemini share content (e.g., files, videos, screenshots, photos, imported dialogues, and web page contents you share from your browser)'. The uploaded image is a file shared with Gemini to transcribe it. Therefore, the processing of this image is permitted.",
+  "source_excerpts": [
+    {
+      "line_id": "L0011",
+      "quote": "你与 Gemini 应用分享的内容（例如文件、视频、截屏和照片）"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0011",
+      "quote": "你与 Gemini 应用分享的内容（例如文件、视频、截屏和照片）",
+      "ok": false,
+      "match": "mismatch"
+    }
+  ],
+  "all_quotes_verified": false
+}

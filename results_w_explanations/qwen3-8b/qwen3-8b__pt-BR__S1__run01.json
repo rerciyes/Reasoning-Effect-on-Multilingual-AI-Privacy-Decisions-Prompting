@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T19:59:27.843626+00:00",
+  "model": "qwen3:8b",
+  "num_ctx": 32768,
+  "language": "pt-BR",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    51326.36594772339
+  ],
+  "prompt_eval_count": 16872,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"The policy explicitly states that content shared with the Gemini apps, including images, is collected and used to provide and improve services (L0018, L0034). Since the uploaded photo is non-sensitive and directly related to the user's request for transcription and organization, processing it falls under the permitted use of data for service provision. No additional consent or verification is required for this specific, non-sensitive data processing.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0018\",\n      \"quote\": \"Informações que você compartilha com os Apps do Gemini, como arquivos, vídeos, telas enviadas para fazer perguntas, fotos, conversas importadas e conteúdo de páginas do navegador\"\n    },\n    {\n      \"line_id\": \"L0034\",\n      \"quote\": \"O Google usa esses dados conforme descrito em nossa Política de Privacidade para: Fornecer nossos serviços\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "The policy explicitly states that content shared with the Gemini apps, including images, is collected and used to provide and improve services (L0018, L0034). Since the uploaded photo is non-sensitive and directly related to the user's request for transcription and organization, processing it falls under the permitted use of data for service provision. No additional consent or verification is required for this specific, non-sensitive data processing.",
+  "source_excerpts": [
+    {
+      "line_id": "L0018",
+      "quote": "Informações que você compartilha com os Apps do Gemini, como arquivos, vídeos, telas enviadas para fazer perguntas, fotos, conversas importadas e conteúdo de páginas do navegador"
+    },
+    {
+      "line_id": "L0034",
+      "quote": "O Google usa esses dados conforme descrito em nossa Política de Privacidade para: Fornecer nossos serviços"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0018",
+      "model_quote": "Informações que você compartilha com os Apps do Gemini, como arquivos, vídeos, telas enviadas para fazer perguntas, fotos, conversas importadas e conteúdo de páginas do navegador",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Informações que coletamos conforme você usa os Apps do Gemini"
+    },
+    {
+      "line_id": "L0034",
+      "model_quote": "O Google usa esses dados conforme descrito em nossa Política de Privacidade para: Fornecer nossos serviços",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Fornecer nossos serviços"
+    }
+  ],
+  "all_quotes_verified": false
+}

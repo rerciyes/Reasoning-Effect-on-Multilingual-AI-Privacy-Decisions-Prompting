@@ -1,0 +1,57 @@
+{
+  "ts": "2026-05-04T20:20:47.204304+00:00",
+  "model": "qwen3:8b",
+  "num_ctx": 32768,
+  "language": "ko",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    81434.17477607727
+  ],
+  "prompt_eval_count": 17869,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"The privacy policy explicitly states that Gemini collects and uses images shared with the app, including screenshots and browser content (L0013). It also permits using data to provide services, improve functionality, and train AI models (L0033, L0042). Since the uploaded photo contains no sensitive data (per user scenario), processing it for transcription and organization aligns with permitted uses.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0013\",\n      \"quote\": \"사용자가 'Gemini 앱'과 공유한 자료(예: 파일, 동영상, 문의한 화면, 사진, 가져온 채팅, 브라우저에서 공유한 페이지 콘텐츠)\"\n    },\n    {\n      \"line_id\": \"L0033\",\n      \"quote\": \"Google 서비스 제공, 유지 및 개선, 신규 서비스 개발, Google 서비스 개인화, 맞춤설정, 사용자와의 커뮤니케이션, 실적 측정, Google, 사용자 및 대중 보호\"\n    },\n    {\n      \"line_id\": \"L0042\",\n      \"quote\": \"이러한 사용은 Google 서비스를 지원하는 생성형 AI 모델 및 기타 머신러닝 기술에도 적용됩니다.\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "The privacy policy explicitly states that Gemini collects and uses images shared with the app, including screenshots and browser content (L0013). It also permits using data to provide services, improve functionality, and train AI models (L0033, L0042). Since the uploaded photo contains no sensitive data (per user scenario), processing it for transcription and organization aligns with permitted uses.",
+  "source_excerpts": [
+    {
+      "line_id": "L0013",
+      "quote": "사용자가 'Gemini 앱'과 공유한 자료(예: 파일, 동영상, 문의한 화면, 사진, 가져온 채팅, 브라우저에서 공유한 페이지 콘텐츠)"
+    },
+    {
+      "line_id": "L0033",
+      "quote": "Google 서비스 제공, 유지 및 개선, 신규 서비스 개발, Google 서비스 개인화, 맞춤설정, 사용자와의 커뮤니케이션, 실적 측정, Google, 사용자 및 대중 보호"
+    },
+    {
+      "line_id": "L0042",
+      "quote": "이러한 사용은 Google 서비스를 지원하는 생성형 AI 모델 및 기타 머신러닝 기술에도 적용됩니다."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0013",
+      "model_quote": "사용자가 'Gemini 앱'과 공유한 자료(예: 파일, 동영상, 문의한 화면, 사진, 가져온 채팅, 브라우저에서 공유한 페이지 콘텐츠)",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "사용자가 'Gemini 앱'과 공유한 자료(예: 파일, 동영상, 문의한 화면, 사진, 가져온 채팅, 브라우저에서 공 유한 페이지 콘텐츠)"
+    },
+    {
+      "line_id": "L0033",
+      "model_quote": "Google 서비스 제공, 유지 및 개선, 신규 서비스 개발, Google 서비스 개인화, 맞춤설정, 사용자와의 커뮤니케이션, 실적 측정, Google, 사용자 및 대중 보호",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "개인정보처리방침       에 설명된 바와 같이, 'Google'은 다음의 목적으로 이 데이터를 사용합니다."
+    },
+    {
+      "line_id": "L0042",
+      "model_quote": "이러한 사용은 Google 서비스를 지원하는 생성형 AI 모델 및 기타 머신러닝 기술에도 적용됩니다.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "이러한 사용은 Google 서비스를 지원하는 생성형 AI 모델 및 기타 머신러닝 기술에도 적용됩니다."
+    }
+  ],
+  "all_quotes_verified": false
+}

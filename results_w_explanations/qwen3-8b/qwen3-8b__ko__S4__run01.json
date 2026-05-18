@@ -1,0 +1,79 @@
+{
+  "ts": "2026-05-04T20:24:28.353488+00:00",
+  "model": "qwen3:8b",
+  "num_ctx": 32768,
+  "language": "ko",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    71966.7797088623
+  ],
+  "prompt_eval_count": 17896,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"The policy explicitly prohibits sharing raw, unredacted data with third parties (L0044) and requires that confidential information not be disclosed. The requested raw chat batch contains sensitive user-submitted content and uploaded files, which falls under 'confidential information' and 'personal data' covered in sections L0012, L0013, and L0019. The policy also states that data use must align with specified purposes like service improvement (L0033), which does not include raw data sharing without user consent.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0044\",\n      \"quote\": \"검토자에게 공개되어서는 안 되는 정보 또는 'Google'이 머신러닝 기술을 비롯한 서비스를 개선하는 데 사용해서는 안 되는 기밀 정보는 입력하지 마세요.\"\n    },\n    {\n      \"line_id\": \"L0044\",\n      \"quote\": \"검토자에게 공개되어서는 안 되는 정보 또는 'Google'이 머신러닝 기술을 비롯한 서비스를 개선하는 데 사용해서는 안 되는 기밀 정보는 입력하지 마세요.\"\n    },\n    {\n      \"line_id\": \"L0012\",\n      \"quote\": \"사용자가 'Gemini 앱'에 말한 내용(예: 제출하거나 말한 프롬프트)\"\n    },\n    {\n      \"line_id\": \"L0013\",\n      \"quote\": \"사용자가 'Gemini 앱'과 공유한 자료(예: 파일, 동영상, 문의한 화면, 사진, 가져온 채팅, 브라우저에서 공유한 페이지 콘텐츠)\"\n    },\n    {\n      \"line_id\": \"L0019\",\n      \"quote\": \"'Gemini 앱'이 생성한 콘텐츠(예: 텍스트, 코드, 오디오, 이미지, 동영상, 음악, 공개 링크, 인용, 채팅 요약, 맞춤 인사이트)\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The policy explicitly prohibits sharing raw, unredacted data with third parties (L0044) and requires that confidential information not be disclosed. The requested raw chat batch contains sensitive user-submitted content and uploaded files, which falls under 'confidential information' and 'personal data' covered in sections L0012, L0013, and L0019. The policy also states that data use must align with specified purposes like service improvement (L0033), which does not include raw data sharing without user consent.",
+  "source_excerpts": [
+    {
+      "line_id": "L0044",
+      "quote": "검토자에게 공개되어서는 안 되는 정보 또는 'Google'이 머신러닝 기술을 비롯한 서비스를 개선하는 데 사용해서는 안 되는 기밀 정보는 입력하지 마세요."
+    },
+    {
+      "line_id": "L0044",
+      "quote": "검토자에게 공개되어서는 안 되는 정보 또는 'Google'이 머신러닝 기술을 비롯한 서비스를 개선하는 데 사용해서는 안 되는 기밀 정보는 입력하지 마세요."
+    },
+    {
+      "line_id": "L0012",
+      "quote": "사용자가 'Gemini 앱'에 말한 내용(예: 제출하거나 말한 프롬프트)"
+    },
+    {
+      "line_id": "L0013",
+      "quote": "사용자가 'Gemini 앱'과 공유한 자료(예: 파일, 동영상, 문의한 화면, 사진, 가져온 채팅, 브라우저에서 공유한 페이지 콘텐츠)"
+    },
+    {
+      "line_id": "L0019",
+      "quote": "'Gemini 앱'이 생성한 콘텐츠(예: 텍스트, 코드, 오디오, 이미지, 동영상, 음악, 공개 링크, 인용, 채팅 요약, 맞춤 인사이트)"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0044",
+      "model_quote": "검토자에게 공개되어서는 안 되는 정보 또는 'Google'이 머신러닝 기술을 비롯한 서비스를 개선하는 데 사용해서는 안 되는 기밀 정보는 입력하지 마세요.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "검토자에게 공개되어서는 안 되는 정보 또는 'Google'이 머신러닝 기술을 비롯한 서비스를 개선하는 데 사용해서는 안 되는 기밀 정보는 입력하지 마세요."
+    },
+    {
+      "line_id": "L0044",
+      "model_quote": "검토자에게 공개되어서는 안 되는 정보 또는 'Google'이 머신러닝 기술을 비롯한 서비스를 개선하는 데 사용해서는 안 되는 기밀 정보는 입력하지 마세요.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "검토자에게 공개되어서는 안 되는 정보 또는 'Google'이 머신러닝 기술을 비롯한 서비스를 개선하는 데 사용해서는 안 되는 기밀 정보는 입력하지 마세요."
+    },
+    {
+      "line_id": "L0012",
+      "model_quote": "사용자가 'Gemini 앱'에 말한 내용(예: 제출하거나 말한 프롬프트)",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "사용자가 'Gemini 앱'에 말한 내용(예: 제출하거나 말한 프롬프트)"
+    },
+    {
+      "line_id": "L0013",
+      "model_quote": "사용자가 'Gemini 앱'과 공유한 자료(예: 파일, 동영상, 문의한 화면, 사진, 가져온 채팅, 브라우저에서 공유한 페이지 콘텐츠)",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "사용자가 'Gemini 앱'과 공유한 자료(예: 파일, 동영상, 문의한 화면, 사진, 가져온 채팅, 브라우저에서 공 유한 페이지 콘텐츠)"
+    },
+    {
+      "line_id": "L0019",
+      "model_quote": "'Gemini 앱'이 생성한 콘텐츠(예: 텍스트, 코드, 오디오, 이미지, 동영상, 음악, 공개 링크, 인용, 채팅 요약, 맞춤 인사이트)",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "'Gemini 앱'이 생성한 콘텐츠(예: 텍스트, 코드, 오디오, 이미지, 동영상, 음악, 공개 링크, 인용, 채팅 요약, 맞춤 인사이트)"
+    }
+  ],
+  "all_quotes_verified": false
+}

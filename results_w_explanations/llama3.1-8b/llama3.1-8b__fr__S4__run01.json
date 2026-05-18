@@ -1,0 +1,42 @@
+{
+  "ts": "2026-05-01T19:28:36.671733+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 32768,
+  "language": "fr",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    74536.73481941223
+  ],
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"The policy clearly prohibits sharing sensitive user-submitted free text and uploaded files without consent (L0017, L0021). The request is unrelated to resolving the original users' requests, which further suggests that the data will not be used for a legitimate purpose. Additionally, the team's request for raw chats rather than redacted or aggregated data implies that they intend to use the sensitive information for their own purposes.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0017\",\n      \"quote\": \"Vos commentaires\"\n    },\n    {\n      \"line_id\": \"L0021\",\n      \"quote\": \"Les contenus générés par les applications Gemini (comme du texte, du code, de l'audio, des images, des vidéos, de la musique, des liens publics, des citations, des résumés de discussions et des infos personnalisées)\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The policy clearly prohibits sharing sensitive user-submitted free text and uploaded files without consent (L0017, L0021). The request is unrelated to resolving the original users' requests, which further suggests that the data will not be used for a legitimate purpose. Additionally, the team's request for raw chats rather than redacted or aggregated data implies that they intend to use the sensitive information for their own purposes.",
+  "source_excerpts": [
+    {
+      "line_id": "L0017",
+      "quote": "Vos commentaires"
+    },
+    {
+      "line_id": "L0021",
+      "quote": "Les contenus générés par les applications Gemini (comme du texte, du code, de l'audio, des images, des vidéos, de la musique, des liens publics, des citations, des résumés de discussions et des infos personnalisées)"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0017",
+      "quote": "Vos commentaires",
+      "ok": true,
+      "match": "exact"
+    },
+    {
+      "line_id": "L0021",
+      "quote": "Les contenus générés par les applications Gemini (comme du texte, du code, de l'audio, des images, des vidéos, de la musique, des liens publics, des citations, des résumés de discussions et des infos personnalisées)",
+      "ok": true,
+      "match": "exact"
+    }
+  ],
+  "all_quotes_verified": true
+}

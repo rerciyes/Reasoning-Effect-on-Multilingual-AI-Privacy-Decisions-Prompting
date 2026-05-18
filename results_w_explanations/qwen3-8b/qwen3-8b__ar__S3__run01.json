@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T21:39:06.787790+00:00",
+  "model": "qwen3:8b",
+  "num_ctx": 32768,
+  "language": "ar",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    100145.65014839172
+  ],
+  "prompt_eval_count": 20888,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW AFTER VERIFICATION\",\n  \"justification\": \"The policy states that Gemini may use past conversations to personalize experiences for users outside the EEA, Switzerland, and UK (L0181). However, this depends on the 'Keep Activity' setting being enabled (L0144-0147). Since the scenario does not specify whether this setting is active, the policy requires verification of the user's configuration before allowing data retention for personalization.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0181\",\n      \"quote\": \"خارج المنطقة الاقتصادية الأوروبية وسويسرا والمملكة المتحدة ،يخّص ص  Geminiتجربتك من خلال الرجوع إلى محادثاتك في سجّل نشاطك على تطبيقات  Geminiويستخدمها لإنشاء بيانات مفيدة مخّص صة لك .\"\n    },\n    {\n      \"line_id\": \"L0144\",\n      \"quote\": \"إذا كان خيار الاحتفاظ بالنشاط مفّع ًال: سيتم حفظ محادثاتك والمحتوى الذي تشاركه مع ( Geminiمثل الملفات والفيديوهات والشاشات والصور) في \" }\n  ],\n  \"confidence\": \"Medium\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW AFTER VERIFICATION",
+  "confidence": "Medium",
+  "justification": "The policy states that Gemini may use past conversations to personalize experiences for users outside the EEA, Switzerland, and UK (L0181). However, this depends on the 'Keep Activity' setting being enabled (L0144-0147). Since the scenario does not specify whether this setting is active, the policy requires verification of the user's configuration before allowing data retention for personalization.",
+  "source_excerpts": [
+    {
+      "line_id": "L0181",
+      "quote": "خارج المنطقة الاقتصادية الأوروبية وسويسرا والمملكة المتحدة ،يخّص ص  Geminiتجربتك من خلال الرجوع إلى محادثاتك في سجّل نشاطك على تطبيقات  Geminiويستخدمها لإنشاء بيانات مفيدة مخّص صة لك ."
+    },
+    {
+      "line_id": "L0144",
+      "quote": "إذا كان خيار الاحتفاظ بالنشاط مفّع ًال: سيتم حفظ محادثاتك والمحتوى الذي تشاركه مع ( Geminiمثل الملفات والفيديوهات والشاشات والصور) في "
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0181",
+      "model_quote": "خارج المنطقة الاقتصادية الأوروبية وسويسرا والمملكة المتحدة ،يخّص ص  Geminiتجربتك من خلال الرجوع إلى محادثاتك في سجّل نشاطك على تطبيقات  Geminiويستخدمها لإنشاء بيانات مفيدة مخّص صة لك .",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "خارج المنطقة الاقتصادية الأوروبية وسويسرا والمملكة المتحدة ،يخّص ص  Geminiتجربتك من خلال الرجوع إلى محادثاتك في سجّل نشاطك على تطبيقات  Geminiويستخدمها لإنشاء بيانات مفيدة مخّص صة لك .يمكنك إيقاف ميزة \"الذاكرة\" في أي وقت لإيقاف التخصيص استناًد ا إلى محادثاتك السابقة مع  .Geminiويجب تفعيل خيار \"الاحتفاظ بالنشاط\" لاستخدام هذه الميزة."
+    },
+    {
+      "line_id": "L0144",
+      "model_quote": "إذا كان خيار الاحتفاظ بالنشاط مفّع ًال: سيتم حفظ محادثاتك والمحتوى الذي تشاركه مع ( Geminiمثل الملفات والفيديوهات والشاشات والصور) في ",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "إذا كان خيار الاحتفاظ بالنشاط مفّع ًال: سيتم حفظ محادثاتك والمحتوى الذي تشاركه مع ( Geminiمثل الملفات والفيديوهات والشاشات والصور) في \"نشاطك\"."
+    }
+  ],
+  "all_quotes_verified": true
+}

@@ -1,0 +1,44 @@
+{
+  "ts": "2026-05-01T21:14:12.459915+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 65536,
+  "language": "hi",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    265510.48707962036
+  ],
+  "prompt_eval_count": 33820,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"According to L0042, Gemini Apps collects information about your activities, including 'Gemini Apps में दी गई आपकी जानकारी' (L0013), which includes information you provide to Gemini. Additionally, L0045 states that this data is used for the purpose of developing and improving Gemini's services, including personalizing future responses.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0013\",\n      \"quote\": \"Gemini Apps को दिए गए प्रॉम्प्ट (जै से , सबमिट किए गए या बोलकर दिए गए प्रॉम्प्ट)\"\n    },\n    {\n      \"line_id\": \"L0045\",\n      \"quote\": \"इस मक़सद से यह जानकारी प्रोसे स करना, Google और इसकी से वा इस्ते माल करने वाले लोगों के इन क़ानू नी हितों के लिए, इन मक़सद से ज़रूरी है :\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "According to L0042, Gemini Apps collects information about your activities, including 'Gemini Apps में दी गई आपकी जानकारी' (L0013), which includes information you provide to Gemini. Additionally, L0045 states that this data is used for the purpose of developing and improving Gemini's services, including personalizing future responses.",
+  "source_excerpts": [
+    {
+      "line_id": "L0013",
+      "quote": "Gemini Apps को दिए गए प्रॉम्प्ट (जै से , सबमिट किए गए या बोलकर दिए गए प्रॉम्प्ट)"
+    },
+    {
+      "line_id": "L0045",
+      "quote": "इस मक़सद से यह जानकारी प्रोसे स करना, Google और इसकी से वा इस्ते माल करने वाले लोगों के इन क़ानू नी हितों के लिए, इन मक़सद से ज़रूरी है :"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0013",
+      "quote": "Gemini Apps को दिए गए प्रॉम्प्ट (जै से , सबमिट किए गए या बोलकर दिए गए प्रॉम्प्ट)",
+      "ok": false,
+      "match": "mismatch"
+    },
+    {
+      "line_id": "L0045",
+      "quote": "इस मक़सद से यह जानकारी प्रोसे स करना, Google और इसकी से वा इस्ते माल करने वाले लोगों के इन क़ानू नी हितों के लिए, इन मक़सद से ज़रूरी है :",
+      "ok": false,
+      "match": "mismatch"
+    }
+  ],
+  "all_quotes_verified": false
+}

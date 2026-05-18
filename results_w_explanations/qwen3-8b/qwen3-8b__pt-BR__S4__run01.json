@@ -1,0 +1,57 @@
+{
+  "ts": "2026-05-04T20:01:44.685937+00:00",
+  "model": "qwen3:8b",
+  "num_ctx": 32768,
+  "language": "pt-BR",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    56973.19483757019
+  ],
+  "prompt_eval_count": 17103,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"The policy explicitly prohibits sharing raw, unredacted data for model training without user consent (L0044). The scenario's request for raw chats containing sensitive information violates this restriction. Additionally, data usage for model improvement requires user consent (L0156), which is not mentioned in the scenario. The policy also limits data retention to operational purposes only when 'Manter Atividade' is disabled (L0178), which does not authorize bulk data exports.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0044\",\n      \"quote\": \"Não insira informações confidenciais que você não quer que sejam revisadas ou usadas pelo Google para melhorar nossos serviços\"\n    },\n    {\n      \"line_id\": \"L0156\",\n      \"quote\": \"Seu consentimento. Precisamos do seu consentimento quando você usa alguns recursos...\"\n    },\n    {\n      \"line_id\": \"L0178\",\n      \"quote\": \"As conversas momentâneas... são retidas na sua conta por 72 horas e servem para: responder a você... proteger o Google...\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The policy explicitly prohibits sharing raw, unredacted data for model training without user consent (L0044). The scenario's request for raw chats containing sensitive information violates this restriction. Additionally, data usage for model improvement requires user consent (L0156), which is not mentioned in the scenario. The policy also limits data retention to operational purposes only when 'Manter Atividade' is disabled (L0178), which does not authorize bulk data exports.",
+  "source_excerpts": [
+    {
+      "line_id": "L0044",
+      "quote": "Não insira informações confidenciais que você não quer que sejam revisadas ou usadas pelo Google para melhorar nossos serviços"
+    },
+    {
+      "line_id": "L0156",
+      "quote": "Seu consentimento. Precisamos do seu consentimento quando você usa alguns recursos..."
+    },
+    {
+      "line_id": "L0178",
+      "quote": "As conversas momentâneas... são retidas na sua conta por 72 horas e servem para: responder a você... proteger o Google..."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0044",
+      "model_quote": "Não insira informações confidenciais que você não quer que sejam revisadas ou usadas pelo Google para melhorar nossos serviços",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Não insira informações confidenciais que você não quer que sejam revisadas ou usadas pelo Google para melhorar nossos serviços, incluindo as tecnologias de aprendizado de máquina."
+    },
+    {
+      "line_id": "L0156",
+      "model_quote": "Seu consentimento. Precisamos do seu consentimento quando você usa alguns recursos...",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Seu consentimento. Precisamos do seu consentimento quando você usa alguns recursos, como o Voice Match, e quando você permite que suas gravações de áudio e de conversas Live sejam usadas para aprimorar os Serviços do Google para todo mundo. Nos casos que precisam do seu consentimento para o tratamento das informações, você tem o direito de revogar a permissão a qualquer momento."
+    },
+    {
+      "line_id": "L0178",
+      "model_quote": "As conversas momentâneas... são retidas na sua conta por 72 horas e servem para: responder a você... proteger o Google...",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "As conversas momentâneas e as conversas que você tem quando a configuração Manter Atividade   está desativada são retidas na sua conta por 72 horas e servem para:"
+    }
+  ],
+  "all_quotes_verified": false
+}

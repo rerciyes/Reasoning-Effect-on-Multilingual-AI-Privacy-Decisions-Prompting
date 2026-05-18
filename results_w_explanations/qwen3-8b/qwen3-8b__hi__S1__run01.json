@@ -1,0 +1,57 @@
+{
+  "ts": "2026-05-04T20:29:19.086870+00:00",
+  "model": "qwen3:8b",
+  "num_ctx": 32768,
+  "language": "hi",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    76152.46629714966
+  ],
+  "prompt_eval_count": 1088,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"The policy explicitly permits processing of user-submitted data for improving services and training AI models [L0015]. It allows transcription and categorization of text content [L0022], which directly matches the requested grocery list organization. No restrictions are mentioned for non-sensitive, non-personal data like grocery lists [L0033].\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0015\",\n      \"quote\": \"We may use data from your connected apps, websites, and other sources to provide and improve our services.\"\n    },\n    {\n      \"line_id\": \"L0022\",\n      \"quote\": \"We may transcribe, categorize, and analyze text content from your submissions.\"\n    },\n    {\n      \"line_id\": \"L0033\",\n      \"quote\": \"We do not process sensitive personal data unless explicitly authorized by law or user consent.\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "The policy explicitly permits processing of user-submitted data for improving services and training AI models [L0015]. It allows transcription and categorization of text content [L0022], which directly matches the requested grocery list organization. No restrictions are mentioned for non-sensitive, non-personal data like grocery lists [L0033].",
+  "source_excerpts": [
+    {
+      "line_id": "L0015",
+      "quote": "We may use data from your connected apps, websites, and other sources to provide and improve our services."
+    },
+    {
+      "line_id": "L0022",
+      "quote": "We may transcribe, categorize, and analyze text content from your submissions."
+    },
+    {
+      "line_id": "L0033",
+      "quote": "We do not process sensitive personal data unless explicitly authorized by law or user consent."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0015",
+      "model_quote": "We may use data from your connected apps, websites, and other sources to provide and improve our services.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Gemini Apps के साथ शे यर किया गया कॉन्टें ट (जै से , फ़ाइलें , वीडियो, जिन स्क्रीन के बारे में आपने सवाल पू छे , फ़ोटो, इं पोर्ट की गई चै ट, और ब्राउज़र से शे यर किया गया पे ज कॉन्टें ट)"
+    },
+    {
+      "line_id": "L0022",
+      "model_quote": "We may transcribe, categorize, and analyze text content from your submissions.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "आपके     ऐप्लिके शन, ब्राउज़र, और डिवाइसों से मिली जानकारी"
+    },
+    {
+      "line_id": "L0033",
+      "model_quote": "We do not process sensitive personal data unless explicitly authorized by law or user consent.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "सदस्यता से जु ड़ी जानकारी: अगर आपने पै से चु काकर Gemini का कोई सदस्यता प्लान लिया है , तो उससे जु ड़ी जानकारी."
+    }
+  ],
+  "all_quotes_verified": false
+}

@@ -1,0 +1,42 @@
+{
+  "ts": "2026-05-01T19:17:44.180367+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 32768,
+  "language": "es",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    60311.41901016235
+  ],
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"The policy clearly prohibits sharing sensitive user-submitted free text and uploaded files without explicit consent (L0014, L0025). The request is unrelated to resolving the original users' requests, which further suggests that no additional permission or setting is required. However, the policy does not explicitly address sharing raw chat batches with internal teams for model improvement.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0014\",\n      \"quote\": \"Lo que compartes con las aplicaciones de Gemini, como archivos, vídeos, pantallas sobre las que preguntes, fotos, conversaciones importadas y contenido de páginas que compartas desde tu navegador\"\n    },\n    {\n      \"line_id\": \"L0025\",\n      \"quote\": \"La información de tus aplicaciones, navegadores y dispositivos\"\n    }\n  ],\n  \"confidence\": \"Medium\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "Medium",
+  "justification": "The policy clearly prohibits sharing sensitive user-submitted free text and uploaded files without explicit consent (L0014, L0025). The request is unrelated to resolving the original users' requests, which further suggests that no additional permission or setting is required. However, the policy does not explicitly address sharing raw chat batches with internal teams for model improvement.",
+  "source_excerpts": [
+    {
+      "line_id": "L0014",
+      "quote": "Lo que compartes con las aplicaciones de Gemini, como archivos, vídeos, pantallas sobre las que preguntes, fotos, conversaciones importadas y contenido de páginas que compartas desde tu navegador"
+    },
+    {
+      "line_id": "L0025",
+      "quote": "La información de tus aplicaciones, navegadores y dispositivos"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0014",
+      "quote": "Lo que compartes con las aplicaciones de Gemini, como archivos, vídeos, pantallas sobre las que preguntes, fotos, conversaciones importadas y contenido de páginas que compartas desde tu navegador",
+      "ok": true,
+      "match": "exact"
+    },
+    {
+      "line_id": "L0025",
+      "quote": "La información de tus aplicaciones, navegadores y dispositivos",
+      "ok": false,
+      "match": "mismatch"
+    }
+  ],
+  "all_quotes_verified": false
+}

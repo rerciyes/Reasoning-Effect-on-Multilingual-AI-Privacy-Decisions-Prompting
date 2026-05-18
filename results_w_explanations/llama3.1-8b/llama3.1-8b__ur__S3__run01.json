@@ -1,0 +1,52 @@
+{
+  "ts": "2026-05-01T20:12:00.395422+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 32768,
+  "language": "ur",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    142060.66274642944
+  ],
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"According to L0048, users can configure their data and experience management in Gemini Apps. This includes managing their memories, which are used for personalization. Since the user is outside the European Economic Area, Switzerland, and the UK (L0097), Google's legal grounds for processing the user's data apply (L0100). The user has given consent to process this information by asking Gemini to remember it (implied by L0048).\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0048\",\n      \"quote\": \"Gemini Apps allows users to configure their data and experience management, including managing their memories, which are used for personalization.\"\n    },\n    {\n      \"line_id\": \"L0097\",\n      \"quote\": \"If you're in the European Economic Area (EEA), Switzerland, or the UK, Google's legal grounds for processing your data apply.\"\n    },\n    {\n      \"line_id\": \"L0100\",\n      \"quote\": \"Google processes your data based on the following purposes and legal bases: ... (i) when you sign in to use Gemini Apps, we process the information you provide to us...\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "According to L0048, users can configure their data and experience management in Gemini Apps. This includes managing their memories, which are used for personalization. Since the user is outside the European Economic Area, Switzerland, and the UK (L0097), Google's legal grounds for processing the user's data apply (L0100). The user has given consent to process this information by asking Gemini to remember it (implied by L0048).",
+  "source_excerpts": [
+    {
+      "line_id": "L0048",
+      "quote": "Gemini Apps allows users to configure their data and experience management, including managing their memories, which are used for personalization."
+    },
+    {
+      "line_id": "L0097",
+      "quote": "If you're in the European Economic Area (EEA), Switzerland, or the UK, Google's legal grounds for processing your data apply."
+    },
+    {
+      "line_id": "L0100",
+      "quote": "Google processes your data based on the following purposes and legal bases: ... (i) when you sign in to use Gemini Apps, we process the information you provide to us..."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0048",
+      "quote": "Gemini Apps allows users to configure their data and experience management, including managing their memories, which are used for personalization.",
+      "ok": false,
+      "match": "mismatch"
+    },
+    {
+      "line_id": "L0097",
+      "quote": "If you're in the European Economic Area (EEA), Switzerland, or the UK, Google's legal grounds for processing your data apply.",
+      "ok": false,
+      "match": "mismatch"
+    },
+    {
+      "line_id": "L0100",
+      "quote": "Google processes your data based on the following purposes and legal bases: ... (i) when you sign in to use Gemini Apps, we process the information you provide to us...",
+      "ok": false,
+      "match": "mismatch"
+    }
+  ],
+  "all_quotes_verified": false
+}

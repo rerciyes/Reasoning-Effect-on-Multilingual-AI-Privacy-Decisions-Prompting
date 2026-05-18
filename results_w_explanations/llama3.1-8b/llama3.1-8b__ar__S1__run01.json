@@ -1,0 +1,44 @@
+{
+  "ts": "2026-05-01T21:23:41.509093+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 65536,
+  "language": "ar",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    166078.04346084595
+  ],
+  "prompt_eval_count": 19186,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"According to section [L0018], 'Gemini collects information from features you enable, such as Photos and Videos.' The uploaded image is considered a photo, which falls under this category. Additionally, section [L0020] states that Gemini collects information about the devices and browsers used to access it, including images. Since the user has enabled the feature to transcribe handwritten text, Gemini may process the uploaded image to answer the user's request.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0018\",\n      \"quote\": \"المعلومات التي نجمعها أثناء استخدامك \\\"تطبيقات .\\\"Gemini\"\n    },\n    {\n      \"line_id\": \"L0020\",\n      \"quote\": \"معلومات حول التطبيقات والمتصفحات والأجهزة التي تستخدمها للوصول إلى \\\"تطبيقات ( \\\"Gemini\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "According to section [L0018], 'Gemini collects information from features you enable, such as Photos and Videos.' The uploaded image is considered a photo, which falls under this category. Additionally, section [L0020] states that Gemini collects information about the devices and browsers used to access it, including images. Since the user has enabled the feature to transcribe handwritten text, Gemini may process the uploaded image to answer the user's request.",
+  "source_excerpts": [
+    {
+      "line_id": "L0018",
+      "quote": "المعلومات التي نجمعها أثناء استخدامك \"تطبيقات .\"Gemini"
+    },
+    {
+      "line_id": "L0020",
+      "quote": "معلومات حول التطبيقات والمتصفحات والأجهزة التي تستخدمها للوصول إلى \"تطبيقات ( \"Gemini"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0018",
+      "quote": "المعلومات التي نجمعها أثناء استخدامك \"تطبيقات .\"Gemini",
+      "ok": false,
+      "match": "mismatch"
+    },
+    {
+      "line_id": "L0020",
+      "quote": "معلومات حول التطبيقات والمتصفحات والأجهزة التي تستخدمها للوصول إلى \"تطبيقات ( \"Gemini",
+      "ok": true,
+      "match": "exact"
+    }
+  ],
+  "all_quotes_verified": false
+}

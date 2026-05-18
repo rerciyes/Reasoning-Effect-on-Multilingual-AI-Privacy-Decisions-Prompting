@@ -1,0 +1,44 @@
+{
+  "ts": "2026-05-01T21:32:18.308207+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 65536,
+  "language": "ar",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    136837.64624595642
+  ],
+  "prompt_eval_count": 19214,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"The policy clearly prohibits sharing sensitive user-submitted free text and uploaded files without explicit consent (L0014, L0026). The request is unrelated to resolving the original users' requests, which would have required a different justification. Furthermore, the team's request for raw chats rather than redacted or aggregated data suggests they are seeking identifiable information.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0014\",\n      \"quote\": \"العليمات الموّج هة إلى (Geminiأو \\\"المعلومات المحفوظة\\\" في بعض المناطق)\"\n    },\n    {\n      \"line_id\": \"L0026\",\n      \"quote\": \"التي يتم جمعها من خلال ميزات \\\"تطبيقات  Geminiالتكميلية التي تفع لها\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The policy clearly prohibits sharing sensitive user-submitted free text and uploaded files without explicit consent (L0014, L0026). The request is unrelated to resolving the original users' requests, which would have required a different justification. Furthermore, the team's request for raw chats rather than redacted or aggregated data suggests they are seeking identifiable information.",
+  "source_excerpts": [
+    {
+      "line_id": "L0014",
+      "quote": "العليمات الموّج هة إلى (Geminiأو \"المعلومات المحفوظة\" في بعض المناطق)"
+    },
+    {
+      "line_id": "L0026",
+      "quote": "التي يتم جمعها من خلال ميزات \"تطبيقات  Geminiالتكميلية التي تفع لها"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0014",
+      "quote": "العليمات الموّج هة إلى (Geminiأو \"المعلومات المحفوظة\" في بعض المناطق)",
+      "ok": false,
+      "match": "mismatch"
+    },
+    {
+      "line_id": "L0026",
+      "quote": "التي يتم جمعها من خلال ميزات \"تطبيقات  Geminiالتكميلية التي تفع لها",
+      "ok": false,
+      "match": "mismatch"
+    }
+  ],
+  "all_quotes_verified": false
+}

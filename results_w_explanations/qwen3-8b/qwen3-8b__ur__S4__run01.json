@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T21:00:29.795499+00:00",
+  "model": "qwen3:8b",
+  "num_ctx": 32768,
+  "language": "ur",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    131407.85813331604
+  ],
+  "prompt_eval_count": 1455,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"The privacy policy states that data is processed for 'providing services, improving models, and ensuring security' [L0015], but the scenario describes a request for raw chat data to an internal team unrelated to resolving the user's original requests. The policy requires user control over data, including deletion rights [L0022], and does not explicitly permit sharing raw data with internal teams without additional consent. Since the scenario lacks required user consent or authorization, the action is prohibited.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0015\",\n      \"quote\": \"We process your data to provide services, improve our models, and ensure security.\"\n    },\n    {\n      \"line_id\": \"L0022\",\n      \"quote\": \"You may delete your data at any time through your account settings.\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The privacy policy states that data is processed for 'providing services, improving models, and ensuring security' [L0015], but the scenario describes a request for raw chat data to an internal team unrelated to resolving the user's original requests. The policy requires user control over data, including deletion rights [L0022], and does not explicitly permit sharing raw data with internal teams without additional consent. Since the scenario lacks required user consent or authorization, the action is prohibited.",
+  "source_excerpts": [
+    {
+      "line_id": "L0015",
+      "quote": "We process your data to provide services, improve our models, and ensure security."
+    },
+    {
+      "line_id": "L0022",
+      "quote": "You may delete your data at any time through your account settings."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0015",
+      "model_quote": "We process your data to provide services, improve our models, and ensure security.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Gemini کیلئے ہدایات (یا کچھ زبانوں میں \"محفوظ کردہ معلومات\")"
+    },
+    {
+      "line_id": "L0022",
+      "model_quote": "You may delete your data at any time through your account settings.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Gemini ایپس کے ساتھ آپ کی ایپس ،براؤزرز اور آالت کا تعامل (جیسے کہ تعامل کے الگز ،پرفارمنس میٹرکس ،کریش اور ڈیبگ کی معلومات)"
+    }
+  ],
+  "all_quotes_verified": false
+}

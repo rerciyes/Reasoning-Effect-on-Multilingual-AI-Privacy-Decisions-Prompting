@@ -1,0 +1,57 @@
+{
+  "ts": "2026-05-04T20:28:25.430445+00:00",
+  "model": "qwen3:8b",
+  "num_ctx": 32768,
+  "language": "zh-CN",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    53653.90086174011
+  ],
+  "prompt_eval_count": 13814,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"The policy explicitly states that Gemini will anonymize data before using it for model training (L0135) and prohibits sharing raw, unredacted data with third parties (L0136). The requested raw chats contain sensitive user-submitted content and uploaded files, which would violate the policy's requirement to exclude confidential information from review (L0041).\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0041\",\n      \"quote\": \"人工审核员（包括服务提供商的专职审核员）会出于这些目的审核我们收集的部分数据。请勿输入你不希望审核者看到或不想让 Google 用来改进我们的服务（包括机器学习技术）的机密信息。\"\n    },\n    {\n      \"line_id\": \"L0135\",\n      \"quote\": \"我们十分重视你的隐私，不会将你的个人信息出售给任何人。在将对话内容发送给服务提供商之前，系统会将其与你的账号解除关联。\"\n    },\n    {\n      \"line_id\": \"L0136\",\n      \"quote\": \"你可以如何控制与审核员分享的内容 如果你不希望将来的对话被审核以用于改进 Google 服务，请关闭保留活动记录 设置。\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The policy explicitly states that Gemini will anonymize data before using it for model training (L0135) and prohibits sharing raw, unredacted data with third parties (L0136). The requested raw chats contain sensitive user-submitted content and uploaded files, which would violate the policy's requirement to exclude confidential information from review (L0041).",
+  "source_excerpts": [
+    {
+      "line_id": "L0041",
+      "quote": "人工审核员（包括服务提供商的专职审核员）会出于这些目的审核我们收集的部分数据。请勿输入你不希望审核者看到或不想让 Google 用来改进我们的服务（包括机器学习技术）的机密信息。"
+    },
+    {
+      "line_id": "L0135",
+      "quote": "我们十分重视你的隐私，不会将你的个人信息出售给任何人。在将对话内容发送给服务提供商之前，系统会将其与你的账号解除关联。"
+    },
+    {
+      "line_id": "L0136",
+      "quote": "你可以如何控制与审核员分享的内容 如果你不希望将来的对话被审核以用于改进 Google 服务，请关闭保留活动记录 设置。"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0041",
+      "model_quote": "人工审核员（包括服务提供商的专职审核员）会出于这些目的审核我们收集的部分数据。请勿输入你不希望审核者看到或不想让 Google 用来改进我们的服务（包括机器学习技术）的机密信息。",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "人工审核员（包括服务提供商的专职审核员）会出于这些目的审核我们收集的部分数据。请勿输入你不希 望审核者看到或不想让 Google 用来改进我们的服务（包括机器学习技术）的机密信息。"
+    },
+    {
+      "line_id": "L0135",
+      "model_quote": "我们十分重视你的隐私，不会将你的个人信息出售给任何人。在将对话内容发送给服务提供商之前，系统会将其与你的账号解除关联。",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Google 在此流程中如何保护你的隐私 我们十分重视你的隐私，不会将你的个人信息出售给任何人。在将对话内容发送给服务提供商之前， 系统会将其与你的账号解除关联。"
+    },
+    {
+      "line_id": "L0136",
+      "model_quote": "你可以如何控制与审核员分享的内容 如果你不希望将来的对话被审核以用于改进 Google 服务，请关闭保留活动记录 设置。",
+      "ok": true,
+      "match": "normalized",
+      "policy_quote": "你可以如何控制与审核员分享的内容 如果你不希望将来的对话被审核以用于改进 Google 服务，请关闭保留活动记录         设置。如果开启了 此设置，请勿输入任何机密数据、你不想让审核员看到的数据或不想让 Google 用于改进其服务的数 据。即使你关闭了“保留活动记录”设置，Google 仍会使用你的对话内容来回答你的问题，并帮助保护 Google、Google 用户和公众，包括在人工审核员的帮助下实现这一目标。"
+    }
+  ],
+  "all_quotes_verified": false
+}

@@ -1,0 +1,32 @@
+{
+  "ts": "2026-05-01T19:39:37.858189+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 32768,
+  "language": "tr",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    65268.38541030884
+  ],
+  "raw": "{\n  \"decision\": \"ALLOW AFTER VERIFICATION\",\n  \"justification\": \"The policy states that Gemini Uygulamaları, Avrupa Ekonomik Alanı, İsviçre ve Birleşik Krallık dışında, kullanıcıların geçmiş sohbetlerindeki bilgilerini kullanarak deneyiminizi kişiselleştirmek için kullanabilir (L0242). However, this requires the 'Hafıza' feature to be enabled. Since the scenario does not state whether Keep Activity or Memory is turned on, we cannot assume that Hafıza is enabled.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0242\",\n      \"quote\": \"Avrupa Ekonomik Alanı, İsviçre ve Birleşik Krallık dışında Gemini, deneyiminizi kişiselleştirmek için sohbetlerinizde sağladığınız hassas bilgileri kullanabilir.\"\n    }\n  ],\n  \"confidence\": \"Medium\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW AFTER VERIFICATION",
+  "confidence": "Medium",
+  "justification": "The policy states that Gemini Uygulamaları, Avrupa Ekonomik Alanı, İsviçre ve Birleşik Krallık dışında, kullanıcıların geçmiş sohbetlerindeki bilgilerini kullanarak deneyiminizi kişiselleştirmek için kullanabilir (L0242). However, this requires the 'Hafıza' feature to be enabled. Since the scenario does not state whether Keep Activity or Memory is turned on, we cannot assume that Hafıza is enabled.",
+  "source_excerpts": [
+    {
+      "line_id": "L0242",
+      "quote": "Avrupa Ekonomik Alanı, İsviçre ve Birleşik Krallık dışında Gemini, deneyiminizi kişiselleştirmek için sohbetlerinizde sağladığınız hassas bilgileri kullanabilir."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0242",
+      "quote": "Avrupa Ekonomik Alanı, İsviçre ve Birleşik Krallık dışında Gemini, deneyiminizi kişiselleştirmek için sohbetlerinizde sağladığınız hassas bilgileri kullanabilir.",
+      "ok": false,
+      "match": "mismatch"
+    }
+  ],
+  "all_quotes_verified": false
+}

@@ -1,0 +1,52 @@
+{
+  "ts": "2026-05-01T19:36:32.230260+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 32768,
+  "language": "tr",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    107699.33915138245
+  ],
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"The policy allows Gemini to use the information you provide (L0011) and the data collected when using Gemini Applications (L0018). The uploaded image is considered part of the 'Gemini Uygulamaları'na verdiğiniz bilgiler' category, which includes 'istemleriniz ve yüklediğiniz içerikler' (your requests and uploaded content). This information is used to provide services, improve and develop them, and personalize them (L0033-L0038).\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0011\",\n      \"quote\": \"Gemini Uygulamaları'na verdiğiniz bilgiler\"\n    },\n    {\n      \"line_id\": \"L0018\",\n      \"quote\": \"Gemini Uygulamaları'nın ürettiği içerikler (metin, kod, ses, resim, video, müzik, herkese açık bağlantılar, alıntılar, sohbet özetleri ve kişiye özel analizler gibi)\"\n    },\n    {\n      \"line_id\": \"L0033\",\n      \"quote\": \"Google, bu verileri Gizlilik Politikamızda açıklanan şu amaçlarla kullanır:\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "The policy allows Gemini to use the information you provide (L0011) and the data collected when using Gemini Applications (L0018). The uploaded image is considered part of the 'Gemini Uygulamaları'na verdiğiniz bilgiler' category, which includes 'istemleriniz ve yüklediğiniz içerikler' (your requests and uploaded content). This information is used to provide services, improve and develop them, and personalize them (L0033-L0038).",
+  "source_excerpts": [
+    {
+      "line_id": "L0011",
+      "quote": "Gemini Uygulamaları'na verdiğiniz bilgiler"
+    },
+    {
+      "line_id": "L0018",
+      "quote": "Gemini Uygulamaları'nın ürettiği içerikler (metin, kod, ses, resim, video, müzik, herkese açık bağlantılar, alıntılar, sohbet özetleri ve kişiye özel analizler gibi)"
+    },
+    {
+      "line_id": "L0033",
+      "quote": "Google, bu verileri Gizlilik Politikamızda açıklanan şu amaçlarla kullanır:"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0011",
+      "quote": "Gemini Uygulamaları'na verdiğiniz bilgiler",
+      "ok": true,
+      "match": "exact"
+    },
+    {
+      "line_id": "L0018",
+      "quote": "Gemini Uygulamaları'nın ürettiği içerikler (metin, kod, ses, resim, video, müzik, herkese açık bağlantılar, alıntılar, sohbet özetleri ve kişiye özel analizler gibi)",
+      "ok": false,
+      "match": "mismatch"
+    },
+    {
+      "line_id": "L0033",
+      "quote": "Google, bu verileri Gizlilik Politikamızda açıklanan şu amaçlarla kullanır:",
+      "ok": true,
+      "match": "normalized"
+    }
+  ],
+  "all_quotes_verified": false
+}

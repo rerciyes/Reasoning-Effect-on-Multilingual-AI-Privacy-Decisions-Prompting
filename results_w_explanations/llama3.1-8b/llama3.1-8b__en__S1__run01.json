@@ -1,0 +1,42 @@
+{
+  "ts": "2026-05-01T18:56:08.775450+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 32768,
+  "language": "en",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    72746.7291355133
+  ],
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"The policy allows Gemini to collect and use information from your apps, browsers, devices, and Connected Apps (L0021). The uploaded image is considered 'content that Gemini Apps generates' (L0019), which can be used to provide and improve services. There are no specific restrictions on processing images or sensitive data in this scenario.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0021\",\n      \"quote\": \"Information from your apps, browsers, devices, and Connected Apps (such as your Search or YouTube history, or your page context and URL from Chrome)\"\n    },\n    {\n      \"line_id\": \"L0019\",\n      \"quote\": \"Content that Gemini Apps generates (like text, code, audio, images, video, music, public links, citations, chat summaries and personalized insights)\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "The policy allows Gemini to collect and use information from your apps, browsers, devices, and Connected Apps (L0021). The uploaded image is considered 'content that Gemini Apps generates' (L0019), which can be used to provide and improve services. There are no specific restrictions on processing images or sensitive data in this scenario.",
+  "source_excerpts": [
+    {
+      "line_id": "L0021",
+      "quote": "Information from your apps, browsers, devices, and Connected Apps (such as your Search or YouTube history, or your page context and URL from Chrome)"
+    },
+    {
+      "line_id": "L0019",
+      "quote": "Content that Gemini Apps generates (like text, code, audio, images, video, music, public links, citations, chat summaries and personalized insights)"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0021",
+      "quote": "Information from your apps, browsers, devices, and Connected Apps (such as your Search or YouTube history, or your page context and URL from Chrome)",
+      "ok": false,
+      "match": "mismatch"
+    },
+    {
+      "line_id": "L0019",
+      "quote": "Content that Gemini Apps generates (like text, code, audio, images, video, music, public links, citations, chat summaries and personalized insights)",
+      "ok": true,
+      "match": "exact"
+    }
+  ],
+  "all_quotes_verified": false
+}

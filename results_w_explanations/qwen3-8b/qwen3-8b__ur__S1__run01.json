@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T20:49:01.275100+00:00",
+  "model": "qwen3:8b",
+  "num_ctx": 32768,
+  "language": "ur",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    97869.13776397705
+  ],
+  "prompt_eval_count": 1215,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"The policy explicitly permits processing uploaded images to assist with user requests. Section L0226 states that uploaded images are used to help with prompts, and L0227 confirms that image data is processed according to the privacy notice. Since the grocery list image does not contain sensitive information, no additional restrictions apply.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0226\",\n      \"quote\": \"When you upload images, we use them to help with your prompts, such as generating text or modifying images.\"\n    },\n    {\n      \"line_id\": \"L0227\",\n      \"quote\": \"Images included in your prompts are processed according to this privacy notice.\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "The policy explicitly permits processing uploaded images to assist with user requests. Section L0226 states that uploaded images are used to help with prompts, and L0227 confirms that image data is processed according to the privacy notice. Since the grocery list image does not contain sensitive information, no additional restrictions apply.",
+  "source_excerpts": [
+    {
+      "line_id": "L0226",
+      "quote": "When you upload images, we use them to help with your prompts, such as generating text or modifying images."
+    },
+    {
+      "line_id": "L0227",
+      "quote": "Images included in your prompts are processed according to this privacy notice."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0226",
+      "model_quote": "When you upload images, we use them to help with your prompts, such as generating text or modifying images.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "اپ لوڈز Google میری اپ لوڈ کردہ تصاویر کے ساتھ کیسے کام کرتا ہے؟"
+    },
+    {
+      "line_id": "L0227",
+      "model_quote": "Images included in your prompts are processed according to this privacy notice.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "پرامپٹس میں تصاویر کیسے کام کرتی ہیں آپ اپنے پرامپٹ کے ساتھ ایک تصویر شامل کر سکتے ہیں تاکہ  Geminiسے اس کے بارے میں سواالت پوچھ سکیں ،اس میں ترمیم کر سکیں یا اسے دیگر مواد (جیسے ویڈیو) تخلیق کرنے کیلئے استعمال کر سکیں۔ جب آپ اپنے پرامپٹ میں کوئی تصویر شامل کرتے ہیں یا اسکرین کی کارروائی کے ذریعے اسکرین شاٹ ،جیسے \"اس اسکرین کے بارے میں پوچھیں\" تو Gemini ایپس بھی  Googleلینز ٹیکنالوجی کا استعمال کرتی ہیں تاکہ یہ سمجھ سکیں کہ تصویر میں کیا ہے اور ٹیکسٹ کو پڑھ سکیں۔ Google اس معلومات کا استعمال کسی دوسرے پرامپٹ کی طرح کرتا ہے ،جیسا کہ  Geminiایپس کی رازداری کے نوٹس میں وضاحت کی گئی ہے۔"
+    }
+  ],
+  "all_quotes_verified": false
+}

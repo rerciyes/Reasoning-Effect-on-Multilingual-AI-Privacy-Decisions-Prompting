@@ -1,0 +1,32 @@
+{
+  "ts": "2026-05-01T19:13:39.797135+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 32768,
+  "language": "en",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    53252.034187316895
+  ],
+  "raw": "{\n  \"decision\": \"ALLOW AFTER VERIFICATION\",\n  \"justification\": \"The policy states that outside of the European Economic Area, Switzerland, and the UK, Gemini personalizes your experience by referencing your chats in Gemini Apps Activity and using them to generate personalized insights (L0226). This implies that Gemini may save and use information for future personalization. However, it is unclear whether this applies when Keep Activity or Memory is turned on.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0226\",\n      \"quote\": \"Outside of the European Economic Area, Switzerland, and the UK, Gemini personalizes your experience by referencing your chats in Gemini Apps Activity and using them to generate personalized insights.\"\n    }\n  ],\n  \"confidence\": \"Medium\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW AFTER VERIFICATION",
+  "confidence": "Medium",
+  "justification": "The policy states that outside of the European Economic Area, Switzerland, and the UK, Gemini personalizes your experience by referencing your chats in Gemini Apps Activity and using them to generate personalized insights (L0226). This implies that Gemini may save and use information for future personalization. However, it is unclear whether this applies when Keep Activity or Memory is turned on.",
+  "source_excerpts": [
+    {
+      "line_id": "L0226",
+      "quote": "Outside of the European Economic Area, Switzerland, and the UK, Gemini personalizes your experience by referencing your chats in Gemini Apps Activity and using them to generate personalized insights."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0226",
+      "quote": "Outside of the European Economic Area, Switzerland, and the UK, Gemini personalizes your experience by referencing your chats in Gemini Apps Activity and using them to generate personalized insights.",
+      "ok": true,
+      "match": "exact"
+    }
+  ],
+  "all_quotes_verified": true
+}

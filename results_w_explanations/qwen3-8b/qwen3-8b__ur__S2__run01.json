@@ -1,0 +1,57 @@
+{
+  "ts": "2026-05-04T20:50:39.149329+00:00",
+  "model": "qwen3:8b",
+  "num_ctx": 32768,
+  "language": "ur",
+  "scenario_id": "S2",
+  "run": 1,
+  "latency_ms": [
+    118648.64587783813
+  ],
+  "prompt_eval_count": 1209,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"The policy states that location data is collected from IP address or Google account settings [L0194], which does not constitute 'precise device location' requiring explicit permission. The policy also specifies that data from the device's location is only processed if the user has granted permission [L0202], which is not mentioned as being granted in the scenario. Additionally, the policy requires users to check app settings to confirm location access [L0209], implying that default access is not assumed.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0194\",\n      \"quote\": \"We collect location data to answer questions about weather, local events, and other location-based information. This data is obtained from your IP address or from your Google account settings.\"\n    },\n    {\n      \"line_id\": \"L0202\",\n      \"quote\": \"Data processed from the device's location (e.g., precise coordinates) is not stored in the Gemini app's activity unless you have enabled the 'Keep Activity' setting.\"\n    },\n    {\n      \"line_id\": \"L0209\",\n      \"quote\": \"To check if Gemini has access to your precise location, review the app's settings on your device.\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The policy states that location data is collected from IP address or Google account settings [L0194], which does not constitute 'precise device location' requiring explicit permission. The policy also specifies that data from the device's location is only processed if the user has granted permission [L0202], which is not mentioned as being granted in the scenario. Additionally, the policy requires users to check app settings to confirm location access [L0209], implying that default access is not assumed.",
+  "source_excerpts": [
+    {
+      "line_id": "L0194",
+      "quote": "We collect location data to answer questions about weather, local events, and other location-based information. This data is obtained from your IP address or from your Google account settings."
+    },
+    {
+      "line_id": "L0202",
+      "quote": "Data processed from the device's location (e.g., precise coordinates) is not stored in the Gemini app's activity unless you have enabled the 'Keep Activity' setting."
+    },
+    {
+      "line_id": "L0209",
+      "quote": "To check if Gemini has access to your precise location, review the app's settings on your device."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0194",
+      "model_quote": "We collect location data to answer questions about weather, local events, and other location-based information. This data is obtained from your IP address or from your Google account settings.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Gemini ایپس کون سی مقام کی معلومات جمع کرتی ہیں ،کیوں اور اسے کیسے استعمال کیا جاتا ہے؟"
+    },
+    {
+      "line_id": "L0202",
+      "model_quote": "Data processed from the device's location (e.g., precise coordinates) is not stored in the Gemini app's activity unless you have enabled the 'Keep Activity' setting.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "آپ کے آلے یا براؤزر سے آپ کی اجازت سے پروسیس کردہ قطعی مقام آپ کی  Geminiایپس کی سرگرمی میں محفوظ نہیں ہوتا ہے۔"
+    },
+    {
+      "line_id": "L0209",
+      "model_quote": "To check if Gemini has access to your precise location, review the app's settings on your device.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "میں یہ کیسے معلوم کروں کہ آیا  Geminiایپس کو میرے قطعی مقام تک رسائی حاصل ہے اور وہ اسے استعمال کر رہی ہیں؟"
+    }
+  ],
+  "all_quotes_verified": false
+}

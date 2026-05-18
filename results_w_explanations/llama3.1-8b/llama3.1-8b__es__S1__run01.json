@@ -1,0 +1,32 @@
+{
+  "ts": "2026-05-01T19:10:01.822733+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 32768,
+  "language": "es",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    57357.69581794739
+  ],
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"The policy permits processing of information that you share with Gemini (L0014), which includes files, videos, screens and photos. The uploaded image is shared with Gemini to transcribe it and organize the items by category.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0014\",\n      \"quote\": \"Lo que compartes con las aplicaciones de Gemini, como archivos, vídeos, pantallas y fotos\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "The policy permits processing of information that you share with Gemini (L0014), which includes files, videos, screens and photos. The uploaded image is shared with Gemini to transcribe it and organize the items by category.",
+  "source_excerpts": [
+    {
+      "line_id": "L0014",
+      "quote": "Lo que compartes con las aplicaciones de Gemini, como archivos, vídeos, pantallas y fotos"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0014",
+      "quote": "Lo que compartes con las aplicaciones de Gemini, como archivos, vídeos, pantallas y fotos",
+      "ok": false,
+      "match": "mismatch"
+    }
+  ],
+  "all_quotes_verified": false
+}

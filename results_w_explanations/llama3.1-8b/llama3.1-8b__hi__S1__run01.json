@@ -1,0 +1,44 @@
+{
+  "ts": "2026-05-01T21:02:56.223176+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 65536,
+  "language": "hi",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    329661.14234924316
+  ],
+  "prompt_eval_count": 33806,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"The policy allows Gemini Apps to process data for providing services and improving them (L0042). The uploaded image is not sensitive personal data, as it does not contain names, contact information, financial information, health information, or other sensitive personal data (L0106). Therefore, Gemini may process the uploaded image to answer the user's request.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0042\",\n      \"quote\": \"हम अपनी से वाओं को उपलब्ध कराने, उन्हें रखरखाव करने, और उन्हें बे हतर बनाने के लिए डे टा का इस्ते माल करते हैं .\"\n    },\n    {\n      \"line_id\": \"L0106\",\n      \"quote\": \"बीमारी की पहचान, इलाज या चिकित्सा, क़ानू नी, वित्तीय और अन्य पे शे वर सलाह के लिए, Gemini Apps से मिले जवाबों पर भरोसा न करें . इसका आउटपु ट सिर्फ़ जानकारी दे ने के लिए है .\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "The policy allows Gemini Apps to process data for providing services and improving them (L0042). The uploaded image is not sensitive personal data, as it does not contain names, contact information, financial information, health information, or other sensitive personal data (L0106). Therefore, Gemini may process the uploaded image to answer the user's request.",
+  "source_excerpts": [
+    {
+      "line_id": "L0042",
+      "quote": "हम अपनी से वाओं को उपलब्ध कराने, उन्हें रखरखाव करने, और उन्हें बे हतर बनाने के लिए डे टा का इस्ते माल करते हैं ."
+    },
+    {
+      "line_id": "L0106",
+      "quote": "बीमारी की पहचान, इलाज या चिकित्सा, क़ानू नी, वित्तीय और अन्य पे शे वर सलाह के लिए, Gemini Apps से मिले जवाबों पर भरोसा न करें . इसका आउटपु ट सिर्फ़ जानकारी दे ने के लिए है ."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0042",
+      "quote": "हम अपनी से वाओं को उपलब्ध कराने, उन्हें रखरखाव करने, और उन्हें बे हतर बनाने के लिए डे टा का इस्ते माल करते हैं .",
+      "ok": false,
+      "match": "mismatch"
+    },
+    {
+      "line_id": "L0106",
+      "quote": "बीमारी की पहचान, इलाज या चिकित्सा, क़ानू नी, वित्तीय और अन्य पे शे वर सलाह के लिए, Gemini Apps से मिले जवाबों पर भरोसा न करें . इसका आउटपु ट सिर्फ़ जानकारी दे ने के लिए है .",
+      "ok": true,
+      "match": "exact"
+    }
+  ],
+  "all_quotes_verified": false
+}

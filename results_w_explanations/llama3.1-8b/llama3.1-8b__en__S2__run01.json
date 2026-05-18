@@ -1,0 +1,52 @@
+{
+  "ts": "2026-05-01T19:01:11.447301+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 32768,
+  "language": "en",
+  "scenario_id": "S2",
+  "run": 1,
+  "latency_ms": [
+    77225.2550125122
+  ],
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"The policy states that location data is always collected if you use Gemini Apps so that they can provide you with a response that is relevant to your query (L0239). However, it also mentions that this location data is collected from the general area from your IP address or the Home or Work addresses in your Google Account by default (L0242), and only precise location data is processed with your permission from your device or browser (L0243). Since the user has not granted device or browser location permission, Gemini cannot collect their precise device location.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0239\",\n      \"quote\": \"Location data is always collected if you use Gemini Apps so that they can provide you with a response that is relevant to your query.\"\n    },\n    {\n      \"line_id\": \"L0242\",\n      \"quote\": \"By default, Gemini Apps use the general area from your IP address or the Home or Work addresses in your Google Account to give relevant responses to prompts like “What’s the weather?”\"\n    },\n    {\n      \"line_id\": \"L0243\",\n      \"quote\": \"With your permission, Gemini Apps also process precise location data from your device.\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The policy states that location data is always collected if you use Gemini Apps so that they can provide you with a response that is relevant to your query (L0239). However, it also mentions that this location data is collected from the general area from your IP address or the Home or Work addresses in your Google Account by default (L0242), and only precise location data is processed with your permission from your device or browser (L0243). Since the user has not granted device or browser location permission, Gemini cannot collect their precise device location.",
+  "source_excerpts": [
+    {
+      "line_id": "L0239",
+      "quote": "Location data is always collected if you use Gemini Apps so that they can provide you with a response that is relevant to your query."
+    },
+    {
+      "line_id": "L0242",
+      "quote": "By default, Gemini Apps use the general area from your IP address or the Home or Work addresses in your Google Account to give relevant responses to prompts like “What’s the weather?”"
+    },
+    {
+      "line_id": "L0243",
+      "quote": "With your permission, Gemini Apps also process precise location data from your device."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0239",
+      "quote": "Location data is always collected if you use Gemini Apps so that they can provide you with a response that is relevant to your query.",
+      "ok": true,
+      "match": "exact"
+    },
+    {
+      "line_id": "L0242",
+      "quote": "By default, Gemini Apps use the general area from your IP address or the Home or Work addresses in your Google Account to give relevant responses to prompts like “What’s the weather?”",
+      "ok": true,
+      "match": "exact"
+    },
+    {
+      "line_id": "L0243",
+      "quote": "With your permission, Gemini Apps also process precise location data from your device.",
+      "ok": true,
+      "match": "exact"
+    }
+  ],
+  "all_quotes_verified": true
+}

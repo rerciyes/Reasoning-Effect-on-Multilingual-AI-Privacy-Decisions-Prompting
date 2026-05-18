@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T20:05:42.348934+00:00",
+  "model": "qwen3:8b",
+  "num_ctx": 32768,
+  "language": "fr",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    57788.01679611206
+  ],
+  "prompt_eval_count": 18252,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"The policy explicitly prohibits sharing raw chat data with third parties for model training without user consent or redaction. Section L0046 warns against submitting confidential information that could be reviewed by human reviewers, and L0162 states discussions are dissociated from accounts before sharing. The scenario's request for raw, unredacted data without user consent or account linkage violates these provisions.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0046\",\n      \"quote\": \"Veuillez ne pas saisir d'informations confidentielles que vous ne souhaiteriez pas qu'un réviseur consulte ou que Google utilise pour améliorer ses services\"\n    },\n    {\n      \"line_id\": \"L0162\",\n      \"quote\": \"Les discussions sont dissociées de votre compte avant d'être envoyées aux fournisseurs de services\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The policy explicitly prohibits sharing raw chat data with third parties for model training without user consent or redaction. Section L0046 warns against submitting confidential information that could be reviewed by human reviewers, and L0162 states discussions are dissociated from accounts before sharing. The scenario's request for raw, unredacted data without user consent or account linkage violates these provisions.",
+  "source_excerpts": [
+    {
+      "line_id": "L0046",
+      "quote": "Veuillez ne pas saisir d'informations confidentielles que vous ne souhaiteriez pas qu'un réviseur consulte ou que Google utilise pour améliorer ses services"
+    },
+    {
+      "line_id": "L0162",
+      "quote": "Les discussions sont dissociées de votre compte avant d'être envoyées aux fournisseurs de services"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0046",
+      "model_quote": "Veuillez ne pas saisir d'informations confidentielles que vous ne souhaiteriez pas qu'un réviseur consulte ou que Google utilise pour améliorer ses services",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Veuillez ne pas saisir d'informations confidentielles que vous ne souhaiteriez pas qu'un réviseur consulte ou que Google utilise pour améliorer ses services, y compris ses technologies de machine learning."
+    },
+    {
+      "line_id": "L0162",
+      "model_quote": "Les discussions sont dissociées de votre compte avant d'être envoyées aux fournisseurs de services",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Les discussions sont dissociées de votre compte avant d'être envoyées aux fournisseurs de services."
+    }
+  ],
+  "all_quotes_verified": true
+}

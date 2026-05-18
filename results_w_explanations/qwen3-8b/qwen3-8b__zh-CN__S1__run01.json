@@ -1,0 +1,57 @@
+{
+  "ts": "2026-05-04T20:25:40.322942+00:00",
+  "model": "qwen3:8b",
+  "num_ctx": 32768,
+  "language": "zh-CN",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    60598.4570980072
+  ],
+  "prompt_eval_count": 13854,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"The policy explicitly states that Gemini collects and uses user-provided content (L0010-0011) and data shared with the app (L0012) to provide services, improve models, and personalize experiences (L0031-0035). Since the uploaded photo is non-sensitive and directly related to the user's request, processing it for transcription and organization falls within the permitted uses described in the policy.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0012\",\n      \"quote\": \"你与 Gemini Live 互动时的转写内容和记录（包括你与 Live 分享的音频、视频和屏幕内容）\"\n    },\n    {\n      \"line_id\": \"L0031\",\n      \"quote\": \"Google 会按照其《隐私权政策》 中的说明，将这些数据用于以下目的：\"\n    },\n    {\n      \"line_id\": \"L0035\",\n      \"quote\": \"定制我们的服务\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "The policy explicitly states that Gemini collects and uses user-provided content (L0010-0011) and data shared with the app (L0012) to provide services, improve models, and personalize experiences (L0031-0035). Since the uploaded photo is non-sensitive and directly related to the user's request, processing it for transcription and organization falls within the permitted uses described in the policy.",
+  "source_excerpts": [
+    {
+      "line_id": "L0012",
+      "quote": "你与 Gemini Live 互动时的转写内容和记录（包括你与 Live 分享的音频、视频和屏幕内容）"
+    },
+    {
+      "line_id": "L0031",
+      "quote": "Google 会按照其《隐私权政策》 中的说明，将这些数据用于以下目的："
+    },
+    {
+      "line_id": "L0035",
+      "quote": "定制我们的服务"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0012",
+      "model_quote": "你与 Gemini Live 互动时的转写内容和记录（包括你与 Live 分享的音频、视频和屏幕内容）",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "你与 Gemini Live 互动时的转写内容和记录（包括你与 Live 分享的音频、视频和屏幕内容）"
+    },
+    {
+      "line_id": "L0031",
+      "model_quote": "Google 会按照其《隐私权政策》 中的说明，将这些数据用于以下目的：",
+      "ok": true,
+      "match": "normalized",
+      "policy_quote": "Google 会按照其《隐私权政策》               中的说明，将这些数据用于以下目的："
+    },
+    {
+      "line_id": "L0035",
+      "model_quote": "定制我们的服务",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "个性化调整我们的服务"
+    }
+  ],
+  "all_quotes_verified": false
+}

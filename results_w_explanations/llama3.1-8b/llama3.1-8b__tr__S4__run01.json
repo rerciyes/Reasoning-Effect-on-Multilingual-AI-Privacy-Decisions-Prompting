@@ -1,0 +1,42 @@
+{
+  "ts": "2026-05-01T19:40:43.130689+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 32768,
+  "language": "tr",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    62204.371213912964
+  ],
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"The policy clearly prohibits the processing of sensitive user-submitted free text and uploaded files for purposes unrelated to resolving the original users' requests (L0042, L0043). The requested raw chat batch includes such data.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0042\",\n      \"quote\": \"Bu kullanımlar, hizmetlerimizi destekleyen üretken yapay zeka modellerini ve diğer makine öğrenimi teknolojilerini de kapsar.\"\n    },\n    {\n      \"line_id\": \"L0043\",\n      \"quote\": \"İnceleme uzmanları (servis sağlayıcılarımızın eğitimli inceleme uzmanları dahil), bu amaçlar doğrultusunda topladığımız verilerin bir kısmını inceler.\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The policy clearly prohibits the processing of sensitive user-submitted free text and uploaded files for purposes unrelated to resolving the original users' requests (L0042, L0043). The requested raw chat batch includes such data.",
+  "source_excerpts": [
+    {
+      "line_id": "L0042",
+      "quote": "Bu kullanımlar, hizmetlerimizi destekleyen üretken yapay zeka modellerini ve diğer makine öğrenimi teknolojilerini de kapsar."
+    },
+    {
+      "line_id": "L0043",
+      "quote": "İnceleme uzmanları (servis sağlayıcılarımızın eğitimli inceleme uzmanları dahil), bu amaçlar doğrultusunda topladığımız verilerin bir kısmını inceler."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0042",
+      "quote": "Bu kullanımlar, hizmetlerimizi destekleyen üretken yapay zeka modellerini ve diğer makine öğrenimi teknolojilerini de kapsar.",
+      "ok": true,
+      "match": "exact"
+    },
+    {
+      "line_id": "L0043",
+      "quote": "İnceleme uzmanları (servis sağlayıcılarımızın eğitimli inceleme uzmanları dahil), bu amaçlar doğrultusunda topladığımız verilerin bir kısmını inceler.",
+      "ok": true,
+      "match": "exact"
+    }
+  ],
+  "all_quotes_verified": true
+}

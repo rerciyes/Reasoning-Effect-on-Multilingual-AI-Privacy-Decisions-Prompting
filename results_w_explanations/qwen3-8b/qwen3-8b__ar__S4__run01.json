@@ -1,0 +1,57 @@
+{
+  "ts": "2026-05-04T20:47:51.837958+00:00",
+  "model": "qwen3:8b",
+  "num_ctx": 32768,
+  "language": "ar",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    69430.82618713379
+  ],
+  "prompt_eval_count": 20821,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"The policy states that data is used for training AI models and improving services (L0037, L0140), but explicitly requires anonymization and prohibits sharing raw data without user consent (L0112). The scenario involves raw, non-redacted data requested for unrelated purposes, which violates the policy's requirement for anonymization and user consent. Additionally, L0138 confirms data is reviewed but only for specific purposes, not for raw data sharing.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0037\",\n      \"quote\": \"يستخدم  Googleهذه البيانات كما هو موضح في سياسة الخصوصية\"\n    },\n    {\n      \"line_id\": \"L0112\",\n      \"quote\": \"نطلب موافقتك عند استخدامك ميزات معّي نة\"\n    },\n    {\n      \"line_id\": \"L0138\",\n      \"quote\": \"تُعَد المراجعة من ِق بل مدِّق قين ضرورية لرصد الملاحظات حول أي مشاكل محتملة\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The policy states that data is used for training AI models and improving services (L0037, L0140), but explicitly requires anonymization and prohibits sharing raw data without user consent (L0112). The scenario involves raw, non-redacted data requested for unrelated purposes, which violates the policy's requirement for anonymization and user consent. Additionally, L0138 confirms data is reviewed but only for specific purposes, not for raw data sharing.",
+  "source_excerpts": [
+    {
+      "line_id": "L0037",
+      "quote": "يستخدم  Googleهذه البيانات كما هو موضح في سياسة الخصوصية"
+    },
+    {
+      "line_id": "L0112",
+      "quote": "نطلب موافقتك عند استخدامك ميزات معّي نة"
+    },
+    {
+      "line_id": "L0138",
+      "quote": "تُعَد المراجعة من ِق بل مدِّق قين ضرورية لرصد الملاحظات حول أي مشاكل محتملة"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0037",
+      "model_quote": "يستخدم  Googleهذه البيانات كما هو موضح في سياسة الخصوصية",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "حماية  Googleومستخدمينا والجمهور تشمل هذه الاستخدامات نماذج الذكاء الاصطناعي التوليدي وتكنولوجيات تعُّلم الآلة الأخرى التي تستند إليها خدماتنا. يدّق ق فريق من المراجعين (بما في ذلك مراجعون مدّر بون من مقّد مي الخدمات الذين نتعامل معهم) في بعض البيانات التي نجمعها للأغراض المذكورةُ .ي رجى عدم إدخال معلومات سرية لا تريد أن يراها المراجع أو أن تستخدمها  Googleلتحسين خدماتها بما في ذلك تكنولوجيات تعُّلم الآلة."
+    },
+    {
+      "line_id": "L0112",
+      "model_quote": "نطلب موافقتك عند استخدامك ميزات معّي نة",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "موافقتك :نطلب موافقتك عند استخدامك ميزات معّي نة ،مثل ميزة التعّر ف على الصوت ،وعندما تسمح لـ Google بالاستعانة بتسجيلاتك الصوتية وتسجيلات تفاعلاتك مع  Liveلتحسين خدمات  Googleللجميع .ويحق لك سحب موافقتك في أّي وقت في الحالات التي تستدعي موافقتك لمعالجة المعلومات."
+    },
+    {
+      "line_id": "L0138",
+      "model_quote": "تُعَد المراجعة من ِق بل مدِّق قين ضرورية لرصد الملاحظات حول أي مشاكل محتملة",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "تخضع للمراجعة من ِق بل ِف َر ق مدَّر بةُ :ت عّد المراجعة من ِق بل مدِّق قين ضرورية لرصد الملاحظات حول أي مشاكل محتملة ومعالجتها والإبلاغ عنها .وفي بعض الحالات ،تكون هذه المراجعة مطلوبة بموجب القانون."
+    }
+  ],
+  "all_quotes_verified": false
+}

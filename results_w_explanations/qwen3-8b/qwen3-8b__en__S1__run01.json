@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T21:05:06.167386+00:00",
+  "model": "qwen3:8b",
+  "num_ctx": 32768,
+  "language": "en",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    35001.5230178833
+  ],
+  "prompt_eval_count": 12735,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"The policy explicitly permits processing of user-shared data like photos to provide services. Line L0013 states Gemini Apps collect 'photos' you share, and L0033 authorizes using this data to 'provide our services' and 'improve our services'. The uploaded grocery list photo (non-sensitive) falls under these categories. No additional consent is required for this direct service use.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0013\",\n      \"quote\": \"What you share with Gemini Apps (like files, videos, screens you ask about, photos, imported chats, and page content you share from your browser)\"\n    },\n    {\n      \"line_id\": \"L0033\",\n      \"quote\": \"Google uses this data, as described in our Privacy Policy   , to: Provide our services\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "The policy explicitly permits processing of user-shared data like photos to provide services. Line L0013 states Gemini Apps collect 'photos' you share, and L0033 authorizes using this data to 'provide our services' and 'improve our services'. The uploaded grocery list photo (non-sensitive) falls under these categories. No additional consent is required for this direct service use.",
+  "source_excerpts": [
+    {
+      "line_id": "L0013",
+      "quote": "What you share with Gemini Apps (like files, videos, screens you ask about, photos, imported chats, and page content you share from your browser)"
+    },
+    {
+      "line_id": "L0033",
+      "quote": "Google uses this data, as described in our Privacy Policy   , to: Provide our services"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0013",
+      "model_quote": "What you share with Gemini Apps (like files, videos, screens you ask about, photos, imported chats, and page content you share from your browser)",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "What you share with Gemini Apps (like files, videos, screens you ask about, photos, imported chats, and page content you share from your browser)"
+    },
+    {
+      "line_id": "L0033",
+      "model_quote": "Google uses this data, as described in our Privacy Policy   , to: Provide our services",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Google uses this data, as described in our Privacy Policy   , to:"
+    }
+  ],
+  "all_quotes_verified": false
+}

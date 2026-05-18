@@ -1,0 +1,42 @@
+{
+  "ts": "2026-05-01T19:45:56.704617+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 32768,
+  "language": "ko",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    75375.89144706726
+  ],
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"The policy clearly prohibits the processing of sensitive user-submitted free text and uploaded files for purposes unrelated to resolving the original users' requests (L0131, L0140). The team's request is not specifically covered by any permission or setting that would allow Gemini to share raw chat data.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0131\",\n      \"quote\": \"[계약 이행. Google에서는 Google 서비스 약관    에 따라 사용자가 요청한 Gemini 앱 서비스를 제공하고 유지하기 위해, 사용자의 Gemini 앱 정보와 더불어 사용자가 Gemini 앱에 처리 권한을 부여한 기타 모든 사용자 정보(Gemini 앱을 다른 서비스에 연결하는 경우 포함)를 처리합니다.]\"\n    },\n    {\n      \"line_id\": \"L0140\",\n      \"quote\": \"[사기, 악용, 보안 또는 기술적 문제를 감지, 방지 또는 해결(예: 버그 수정, 문제 해결)]\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The policy clearly prohibits the processing of sensitive user-submitted free text and uploaded files for purposes unrelated to resolving the original users' requests (L0131, L0140). The team's request is not specifically covered by any permission or setting that would allow Gemini to share raw chat data.",
+  "source_excerpts": [
+    {
+      "line_id": "L0131",
+      "quote": "[계약 이행. Google에서는 Google 서비스 약관    에 따라 사용자가 요청한 Gemini 앱 서비스를 제공하고 유지하기 위해, 사용자의 Gemini 앱 정보와 더불어 사용자가 Gemini 앱에 처리 권한을 부여한 기타 모든 사용자 정보(Gemini 앱을 다른 서비스에 연결하는 경우 포함)를 처리합니다.]"
+    },
+    {
+      "line_id": "L0140",
+      "quote": "[사기, 악용, 보안 또는 기술적 문제를 감지, 방지 또는 해결(예: 버그 수정, 문제 해결)]"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0131",
+      "quote": "[계약 이행. Google에서는 Google 서비스 약관    에 따라 사용자가 요청한 Gemini 앱 서비스를 제공하고 유지하기 위해, 사용자의 Gemini 앱 정보와 더불어 사용자가 Gemini 앱에 처리 권한을 부여한 기타 모든 사용자 정보(Gemini 앱을 다른 서비스에 연결하는 경우 포함)를 처리합니다.]",
+      "ok": false,
+      "match": "mismatch"
+    },
+    {
+      "line_id": "L0140",
+      "quote": "[사기, 악용, 보안 또는 기술적 문제를 감지, 방지 또는 해결(예: 버그 수정, 문제 해결)]",
+      "ok": false,
+      "match": "mismatch"
+    }
+  ],
+  "all_quotes_verified": false
+}

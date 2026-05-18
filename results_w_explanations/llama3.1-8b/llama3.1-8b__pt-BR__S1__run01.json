@@ -1,0 +1,42 @@
+{
+  "ts": "2026-05-01T19:18:44.493488+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 32768,
+  "language": "pt-BR",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    88553.93958091736
+  ],
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"According to L0033, 'O Google usa esses dados conforme descrito em nossa Política de Privacidade para: Fornecer nossos serviços', which includes processing user-provided data for tasks such as transcription and organization. Additionally, L0304 states that when you insert an image or a capture with the 'Pergunte algo sobre esta tela' feature, the apps do Gemini also use the Google Lens technology to understand what's in it and still read text.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0033\",\n      \"quote\": \"O Google usa esses dados conforme descrito em nossa Política de Privacidade para: Fornecer nossos serviços\"\n    },\n    {\n      \"line_id\": \"L0304\",\n      \"quote\": \"quando você insere uma imagem ou uma captura com o recurso 'Pergunte algo sobre esta tela', os apps do Gemini também usam a tecnologia do Google Lens para entender o que tem nela e ainda lê textos.\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "According to L0033, 'O Google usa esses dados conforme descrito em nossa Política de Privacidade para: Fornecer nossos serviços', which includes processing user-provided data for tasks such as transcription and organization. Additionally, L0304 states that when you insert an image or a capture with the 'Pergunte algo sobre esta tela' feature, the apps do Gemini also use the Google Lens technology to understand what's in it and still read text.",
+  "source_excerpts": [
+    {
+      "line_id": "L0033",
+      "quote": "O Google usa esses dados conforme descrito em nossa Política de Privacidade para: Fornecer nossos serviços"
+    },
+    {
+      "line_id": "L0304",
+      "quote": "quando você insere uma imagem ou uma captura com o recurso 'Pergunte algo sobre esta tela', os apps do Gemini também usam a tecnologia do Google Lens para entender o que tem nela e ainda lê textos."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0033",
+      "quote": "O Google usa esses dados conforme descrito em nossa Política de Privacidade para: Fornecer nossos serviços",
+      "ok": false,
+      "match": "mismatch"
+    },
+    {
+      "line_id": "L0304",
+      "quote": "quando você insere uma imagem ou uma captura com o recurso 'Pergunte algo sobre esta tela', os apps do Gemini também usam a tecnologia do Google Lens para entender o que tem nela e ainda lê textos.",
+      "ok": false,
+      "match": "mismatch"
+    }
+  ],
+  "all_quotes_verified": false
+}

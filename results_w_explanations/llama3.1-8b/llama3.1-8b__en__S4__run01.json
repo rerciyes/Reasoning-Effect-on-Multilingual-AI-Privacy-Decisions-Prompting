@@ -1,0 +1,32 @@
+{
+  "ts": "2026-05-01T19:14:33.052166+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 32768,
+  "language": "en",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    30019.711017608643
+  ],
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"The policy clearly prohibits sharing sensitive user-submitted free text and uploaded files without redaction or aggregation (L0144). The request is unrelated to resolving the original users' requests, which further supports the prohibition.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0144\",\n      \"quote\": \"Your Gemini Apps chats are not being used to show you ads.\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The policy clearly prohibits sharing sensitive user-submitted free text and uploaded files without redaction or aggregation (L0144). The request is unrelated to resolving the original users' requests, which further supports the prohibition.",
+  "source_excerpts": [
+    {
+      "line_id": "L0144",
+      "quote": "Your Gemini Apps chats are not being used to show you ads."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0144",
+      "quote": "Your Gemini Apps chats are not being used to show you ads.",
+      "ok": false,
+      "match": "mismatch"
+    }
+  ],
+  "all_quotes_verified": false
+}

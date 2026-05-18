@@ -1,0 +1,82 @@
+{
+  "ts": "2026-05-01T19:41:45.340961+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 32768,
+  "language": "ko",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    101135.09821891785
+  ],
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"The policy allows Gemini to collect and use data for providing services, improving Google services, and personalizing experiences (L0032-L0039). The uploaded image is used to provide a service (transcription) and improve the user's experience. There are no specific restrictions on processing images or text-based content in the provided policy.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0033\",\n      \"quote\": \"개인정보처리방침       에 설명된 바와 같이, 'Google'은 다음의 목적으로 이 데이터를 사용합니다.\"\n    },\n    {\n      \"line_id\": \"L0034\",\n      \"quote\": \"Google 서비스 제공\"\n    },\n    {\n      \"line_id\": \"L0035\",\n      \"quote\": \"Google 서비스 유지 및 개선\"\n    },\n    {\n      \"line_id\": \"L0036\",\n      \"quote\": \"신규 서비스 개발\"\n    },\n    {\n      \"line_id\": \"L0037\",\n      \"quote\": \"Google 서비스 개인화\"\n    },\n    {\n      \"line_id\": \"L0038\",\n      \"quote\": \"Google 서비스 맞춤설정\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "The policy allows Gemini to collect and use data for providing services, improving Google services, and personalizing experiences (L0032-L0039). The uploaded image is used to provide a service (transcription) and improve the user's experience. There are no specific restrictions on processing images or text-based content in the provided policy.",
+  "source_excerpts": [
+    {
+      "line_id": "L0033",
+      "quote": "개인정보처리방침       에 설명된 바와 같이, 'Google'은 다음의 목적으로 이 데이터를 사용합니다."
+    },
+    {
+      "line_id": "L0034",
+      "quote": "Google 서비스 제공"
+    },
+    {
+      "line_id": "L0035",
+      "quote": "Google 서비스 유지 및 개선"
+    },
+    {
+      "line_id": "L0036",
+      "quote": "신규 서비스 개발"
+    },
+    {
+      "line_id": "L0037",
+      "quote": "Google 서비스 개인화"
+    },
+    {
+      "line_id": "L0038",
+      "quote": "Google 서비스 맞춤설정"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0033",
+      "quote": "개인정보처리방침       에 설명된 바와 같이, 'Google'은 다음의 목적으로 이 데이터를 사용합니다.",
+      "ok": true,
+      "match": "exact"
+    },
+    {
+      "line_id": "L0034",
+      "quote": "Google 서비스 제공",
+      "ok": true,
+      "match": "exact"
+    },
+    {
+      "line_id": "L0035",
+      "quote": "Google 서비스 유지 및 개선",
+      "ok": true,
+      "match": "exact"
+    },
+    {
+      "line_id": "L0036",
+      "quote": "신규 서비스 개발",
+      "ok": true,
+      "match": "exact"
+    },
+    {
+      "line_id": "L0037",
+      "quote": "Google 서비스 개인화",
+      "ok": true,
+      "match": "exact"
+    },
+    {
+      "line_id": "L0038",
+      "quote": "Google 서비스 맞춤설정",
+      "ok": true,
+      "match": "exact"
+    }
+  ],
+  "all_quotes_verified": true
+}

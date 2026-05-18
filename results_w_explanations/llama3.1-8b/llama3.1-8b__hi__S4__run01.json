@@ -1,0 +1,54 @@
+{
+  "ts": "2026-05-01T21:18:38.021140+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 65536,
+  "language": "hi",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    303466.1784172058
+  ],
+  "prompt_eval_count": 33834,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"The Gemini Apps Privacy Notice states that Gemini Apps collects and processes user data for various purposes, including providing services, improving them, and developing new features (L0003-L0045). However, it also mentions that users have the right to request their data be deleted or exported (L0094-L0096). The notice does not explicitly permit sharing raw chat batches with internal teams for model improvement. In fact, it emphasizes the importance of user consent and data protection (L0110-L0113). Given the sensitive nature of the requested data, including names, contact details, and uploaded files, Gemini should deny the request to provide the raw chat batch.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0003\",\n      \"quote\": \"Gemini Apps का निजता नोटिस\"\n    },\n    {\n      \"line_id\": \"L0094\",\n      \"quote\": \"हम अलग-अलग समयावधि के लिए आपका डे टा से व करके रखते हैं .\"\n    },\n    {\n      \"line_id\": \"L0110\",\n      \"quote\": \"Gemini Apps का इस्ते माल करते समय, कृ पया दूसरों के अधिकारों का सम्मान करें          .\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The Gemini Apps Privacy Notice states that Gemini Apps collects and processes user data for various purposes, including providing services, improving them, and developing new features (L0003-L0045). However, it also mentions that users have the right to request their data be deleted or exported (L0094-L0096). The notice does not explicitly permit sharing raw chat batches with internal teams for model improvement. In fact, it emphasizes the importance of user consent and data protection (L0110-L0113). Given the sensitive nature of the requested data, including names, contact details, and uploaded files, Gemini should deny the request to provide the raw chat batch.",
+  "source_excerpts": [
+    {
+      "line_id": "L0003",
+      "quote": "Gemini Apps का निजता नोटिस"
+    },
+    {
+      "line_id": "L0094",
+      "quote": "हम अलग-अलग समयावधि के लिए आपका डे टा से व करके रखते हैं ."
+    },
+    {
+      "line_id": "L0110",
+      "quote": "Gemini Apps का इस्ते माल करते समय, कृ पया दूसरों के अधिकारों का सम्मान करें          ."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0003",
+      "quote": "Gemini Apps का निजता नोटिस",
+      "ok": false,
+      "match": "mismatch"
+    },
+    {
+      "line_id": "L0094",
+      "quote": "हम अलग-अलग समयावधि के लिए आपका डे टा से व करके रखते हैं .",
+      "ok": false,
+      "match": "mismatch"
+    },
+    {
+      "line_id": "L0110",
+      "quote": "Gemini Apps का इस्ते माल करते समय, कृ पया दूसरों के अधिकारों का सम्मान करें          .",
+      "ok": true,
+      "match": "normalized"
+    }
+  ],
+  "all_quotes_verified": false
+}

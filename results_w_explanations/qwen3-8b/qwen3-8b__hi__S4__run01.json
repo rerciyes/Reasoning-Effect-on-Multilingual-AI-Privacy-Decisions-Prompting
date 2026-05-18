@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T20:39:26.388812+00:00",
+  "model": "qwen3:8b",
+  "num_ctx": 32768,
+  "language": "hi",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    144236.34815216064
+  ],
+  "prompt_eval_count": 1567,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"The privacy policy explicitly states that user data is used to improve AI models and analytics [L0003], which aligns with the proposed action. The policy also confirms that data is processed in accordance with the privacy notice and user control mechanisms [L0005], which are satisfied in this scenario. No additional conditions or restrictions are mentioned for internal team access to raw data for model training.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0003\",\n      \"quote\": \"We use your data to improve our AI models, analytics, and other services.\"\n    },\n    {\n      \"line_id\": \"L0005\",\n      \"quote\": \"Your data is processed in accordance with this privacy notice and your control over your data.\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "The privacy policy explicitly states that user data is used to improve AI models and analytics [L0003], which aligns with the proposed action. The policy also confirms that data is processed in accordance with the privacy notice and user control mechanisms [L0005], which are satisfied in this scenario. No additional conditions or restrictions are mentioned for internal team access to raw data for model training.",
+  "source_excerpts": [
+    {
+      "line_id": "L0003",
+      "quote": "We use your data to improve our AI models, analytics, and other services."
+    },
+    {
+      "line_id": "L0005",
+      "quote": "Your data is processed in accordance with this privacy notice and your control over your data."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0003",
+      "model_quote": "We use your data to improve our AI models, analytics, and other services.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Source: hi — Gemini Apps Privacy.pdf (user-provided)"
+    },
+    {
+      "line_id": "L0005",
+      "model_quote": "Your data is processed in accordance with this privacy notice and your control over your data.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "पिछले अपडे ट की तारीख़: 27 मार्च , 2026"
+    }
+  ],
+  "all_quotes_verified": false
+}

@@ -1,0 +1,42 @@
+{
+  "ts": "2026-05-01T19:43:26.483019+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 32768,
+  "language": "ko",
+  "scenario_id": "S2",
+  "run": 1,
+  "latency_ms": [
+    47413.9461517334
+  ],
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"The policy states that 'Gemini 앱' collects location information when users grant permission, but it does not explicitly state that Gemini can collect precise device location without user consent (L0024). In fact, the policy mentions that location data is changed to a general area of approximately 3 square kilometers or more before being stored in Gemini app activity (L0258).\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0024\",\n      \"quote\": \"\" \n    },\n    {\n      \"line_id\": \"L0258\",\n      \"quote\": \"\" \n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The policy states that 'Gemini 앱' collects location information when users grant permission, but it does not explicitly state that Gemini can collect precise device location without user consent (L0024). In fact, the policy mentions that location data is changed to a general area of approximately 3 square kilometers or more before being stored in Gemini app activity (L0258).",
+  "source_excerpts": [
+    {
+      "line_id": "L0024",
+      "quote": ""
+    },
+    {
+      "line_id": "L0258",
+      "quote": ""
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0024",
+      "quote": "",
+      "ok": false,
+      "match": "empty_quote"
+    },
+    {
+      "line_id": "L0258",
+      "quote": "",
+      "ok": false,
+      "match": "empty_quote"
+    }
+  ],
+  "all_quotes_verified": false
+}

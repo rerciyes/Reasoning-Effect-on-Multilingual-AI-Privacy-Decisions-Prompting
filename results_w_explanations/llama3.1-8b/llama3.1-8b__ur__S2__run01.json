@@ -1,0 +1,32 @@
+{
+  "ts": "2026-05-01T20:10:32.028362+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 32768,
+  "language": "ur",
+  "scenario_id": "S2",
+  "run": 1,
+  "latency_ms": [
+    88360.08191108704
+  ],
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"According to L0195, if you use Gemini, we always collect your location to provide you with accurate answers. This includes collecting your precise device location from your phone.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0195\",\n      \"quote\": \"اگر آپ  Geminiایپس استعمال کرتے ہیں تو مقام کا ڈیٹا ہمیشہ اکٹھا کیا جاتا ہے تاکہ وہ آپ کو آپ کے سوال سے متعلق جواب فراہم کر سکیں۔\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "According to L0195, if you use Gemini, we always collect your location to provide you with accurate answers. This includes collecting your precise device location from your phone.",
+  "source_excerpts": [
+    {
+      "line_id": "L0195",
+      "quote": "اگر آپ  Geminiایپس استعمال کرتے ہیں تو مقام کا ڈیٹا ہمیشہ اکٹھا کیا جاتا ہے تاکہ وہ آپ کو آپ کے سوال سے متعلق جواب فراہم کر سکیں۔"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0195",
+      "quote": "اگر آپ  Geminiایپس استعمال کرتے ہیں تو مقام کا ڈیٹا ہمیشہ اکٹھا کیا جاتا ہے تاکہ وہ آپ کو آپ کے سوال سے متعلق جواب فراہم کر سکیں۔",
+      "ok": true,
+      "match": "exact"
+    }
+  ],
+  "all_quotes_verified": true
+}

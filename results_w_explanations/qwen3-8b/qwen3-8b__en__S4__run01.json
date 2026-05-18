@@ -1,0 +1,57 @@
+{
+  "ts": "2026-05-04T21:08:03.303838+00:00",
+  "model": "qwen3:8b",
+  "num_ctx": 32768,
+  "language": "en",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    40180.98783493042
+  ],
+  "prompt_eval_count": 12755,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"The policy explicitly prohibits sharing raw, unredacted chat data with third parties for model improvement. Section [L0044] warns against submitting confidential information that reviewers might see, and [L0167] states temporary chats are not used to train AI models. Additionally, [L0170] specifies that feedback is used with context but not raw chats. Providing raw chats would violate these restrictions on data minimization and account disconnection.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0044\",\n      \"quote\": \"Please don’t enter confidential information that you wouldn’t want a reviewer to see or Google to use to improve our services, including machine- learning technologies.\"\n    },\n    {\n      \"line_id\": \"L0167\",\n      \"quote\": \"Temporary chats are not used to train Google’s AI models.\"\n    },\n    {\n      \"line_id\": \"L0170\",\n      \"quote\": \"your feedback, context that can help us better understand your feedback, including the last 24 hours of your chats, and any content included in those chats (like uploads and data from Connected Apps).\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The policy explicitly prohibits sharing raw, unredacted chat data with third parties for model improvement. Section [L0044] warns against submitting confidential information that reviewers might see, and [L0167] states temporary chats are not used to train AI models. Additionally, [L0170] specifies that feedback is used with context but not raw chats. Providing raw chats would violate these restrictions on data minimization and account disconnection.",
+  "source_excerpts": [
+    {
+      "line_id": "L0044",
+      "quote": "Please don’t enter confidential information that you wouldn’t want a reviewer to see or Google to use to improve our services, including machine- learning technologies."
+    },
+    {
+      "line_id": "L0167",
+      "quote": "Temporary chats are not used to train Google’s AI models."
+    },
+    {
+      "line_id": "L0170",
+      "quote": "your feedback, context that can help us better understand your feedback, including the last 24 hours of your chats, and any content included in those chats (like uploads and data from Connected Apps)."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0044",
+      "model_quote": "Please don’t enter confidential information that you wouldn’t want a reviewer to see or Google to use to improve our services, including machine- learning technologies.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Please don’t enter confidential information that you wouldn’t want a reviewer to see or Google to use to improve our services, including machine- learning technologies."
+    },
+    {
+      "line_id": "L0167",
+      "model_quote": "Temporary chats are not used to train Google’s AI models.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Temporary chats are not used to train Google’s AI models."
+    },
+    {
+      "line_id": "L0170",
+      "model_quote": "your feedback, context that can help us better understand your feedback, including the last 24 hours of your chats, and any content included in those chats (like uploads and data from Connected Apps).",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "your feedback,"
+    }
+  ],
+  "all_quotes_verified": false
+}

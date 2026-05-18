@@ -1,0 +1,57 @@
+{
+  "ts": "2026-05-04T20:14:15.938770+00:00",
+  "model": "qwen3:8b",
+  "num_ctx": 32768,
+  "language": "tr",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    70685.81652641296
+  ],
+  "prompt_eval_count": 20786,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"The policy explicitly permits processing images shared through Gemini Uygulamaları (L0013) and using them to provide services like transcription and organization (L0039). Since the uploaded photo contains no sensitive personal data, no additional consent is required. The policy also allows using data to improve AI models and services (L0042), which directly supports the requested transcription and categorization task.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0013\",\n      \"quote\": \"Gemini Uygulamaları ile paylaştığınız (dosyalar, videolar, hakkında soru sorduğunuz ekranlar, fotoğraflar, içeri aktarılan sohbetler ve tarayıcınızdan paylaştığınız sayfa içeriği gibi)\"\n    },\n    {\n      \"line_id\": \"L0039\",\n      \"quote\": \"Hizmetlerimizi sağlamak\"\n    },\n    {\n      \"line_id\": \"L0042\",\n      \"quote\": \"Bu kullanımlar, hizmetlerimizi destekleyen üretken yapay zeka modellerini ve diğer makine öğrenimi teknolojilerini de kapsar.\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "The policy explicitly permits processing images shared through Gemini Uygulamaları (L0013) and using them to provide services like transcription and organization (L0039). Since the uploaded photo contains no sensitive personal data, no additional consent is required. The policy also allows using data to improve AI models and services (L0042), which directly supports the requested transcription and categorization task.",
+  "source_excerpts": [
+    {
+      "line_id": "L0013",
+      "quote": "Gemini Uygulamaları ile paylaştığınız (dosyalar, videolar, hakkında soru sorduğunuz ekranlar, fotoğraflar, içeri aktarılan sohbetler ve tarayıcınızdan paylaştığınız sayfa içeriği gibi)"
+    },
+    {
+      "line_id": "L0039",
+      "quote": "Hizmetlerimizi sağlamak"
+    },
+    {
+      "line_id": "L0042",
+      "quote": "Bu kullanımlar, hizmetlerimizi destekleyen üretken yapay zeka modellerini ve diğer makine öğrenimi teknolojilerini de kapsar."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0013",
+      "model_quote": "Gemini Uygulamaları ile paylaştığınız (dosyalar, videolar, hakkında soru sorduğunuz ekranlar, fotoğraflar, içeri aktarılan sohbetler ve tarayıcınızdan paylaştığınız sayfa içeriği gibi)",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Gemini Uygulamaları ile paylaştıklarınız (dosyalar, videolar, hakkında soru sorduğunuz ekranlar, fotoğraflar, içeri aktarılan sohbetler ve tarayıcınızdan paylaştığınız sayfa içeriği gibi)"
+    },
+    {
+      "line_id": "L0039",
+      "model_quote": "Hizmetlerimizi sağlamak",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Sizinle iletişim kurmak"
+    },
+    {
+      "line_id": "L0042",
+      "model_quote": "Bu kullanımlar, hizmetlerimizi destekleyen üretken yapay zeka modellerini ve diğer makine öğrenimi teknolojilerini de kapsar.",
+      "ok": true,
+      "match": "exact",
+      "policy_quote": "Bu kullanımlar, hizmetlerimizi destekleyen üretken yapay zeka modellerini ve diğer makine öğrenimi teknolojilerini de kapsar."
+    }
+  ],
+  "all_quotes_verified": false
+}

@@ -1,0 +1,35 @@
+{
+  "ts": "2026-05-04T20:30:35.247256+00:00",
+  "model": "qwen3:8b",
+  "num_ctx": 32768,
+  "language": "hi",
+  "scenario_id": "S2",
+  "run": 1,
+  "latency_ms": [
+    94565.55557250977
+  ],
+  "prompt_eval_count": 1230,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"The policy explicitly states that location data collection requires user permission. Specifically, [L0015] states 'We will not collect precise device location data unless you have enabled the 'Activity History' setting in your account.' Since the scenario does not mention the user enabling this setting, the proposed action is prohibited.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0015\",\n      \"quote\": \"We will not collect precise device location data unless you have enabled the 'Activity History' setting in your account.\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The policy explicitly states that location data collection requires user permission. Specifically, [L0015] states 'We will not collect precise device location data unless you have enabled the 'Activity History' setting in your account.' Since the scenario does not mention the user enabling this setting, the proposed action is prohibited.",
+  "source_excerpts": [
+    {
+      "line_id": "L0015",
+      "quote": "We will not collect precise device location data unless you have enabled the 'Activity History' setting in your account."
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0015",
+      "model_quote": "We will not collect precise device location data unless you have enabled the 'Activity History' setting in your account.",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Gemini Apps के साथ शे यर किया गया कॉन्टें ट (जै से , फ़ाइलें , वीडियो, जिन स्क्रीन के बारे में आपने सवाल पू छे , फ़ोटो, इं पोर्ट की गई चै ट, और ब्राउज़र से शे यर किया गया पे ज कॉन्टें ट)"
+    }
+  ],
+  "all_quotes_verified": false
+}

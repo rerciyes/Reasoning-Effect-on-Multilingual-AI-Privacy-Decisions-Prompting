@@ -1,0 +1,32 @@
+{
+  "ts": "2026-05-01T19:29:51.211290+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 32768,
+  "language": "de",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    65014.01376724243
+  ],
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"According to L0020, Gemini-Apps generate contents (e.g., text, code, audiodata, pictures, videos) based on user input. The uploaded image is considered a form of user input. Therefore, the processing of this image falls under the permitted purposes of content generation.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0020\",\n      \"quote\": \"Inhalte, die von Gemini-Apps generiert werden (z. B. Text, Code, Audiodaten, Bilder, Videos)\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "According to L0020, Gemini-Apps generate contents (e.g., text, code, audiodata, pictures, videos) based on user input. The uploaded image is considered a form of user input. Therefore, the processing of this image falls under the permitted purposes of content generation.",
+  "source_excerpts": [
+    {
+      "line_id": "L0020",
+      "quote": "Inhalte, die von Gemini-Apps generiert werden (z. B. Text, Code, Audiodaten, Bilder, Videos)"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0020",
+      "quote": "Inhalte, die von Gemini-Apps generiert werden (z. B. Text, Code, Audiodaten, Bilder, Videos)",
+      "ok": false,
+      "match": "mismatch"
+    }
+  ],
+  "all_quotes_verified": false
+}

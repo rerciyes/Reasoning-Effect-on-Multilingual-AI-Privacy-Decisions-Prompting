@@ -1,0 +1,46 @@
+{
+  "ts": "2026-05-04T20:04:37.999153+00:00",
+  "model": "qwen3:8b",
+  "num_ctx": 32768,
+  "language": "fr",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    64345.85452079773
+  ],
+  "prompt_eval_count": 18344,
+  "prompt_truncated": false,
+  "raw": "{\n  \"decision\": \"ALLOW AFTER VERIFICATION\",\n  \"justification\": \"The policy states that Gemini uses data for personalization when 'Keep Activity' is enabled (L0069) and that data is collected from user-provided information (L0020). However, the scenario does not specify whether 'Keep Activity' or 'Memory' settings are enabled, which directly affects whether data is stored for future use. Verification of these settings is required to determine compliance.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0020\",\n      \"quote\": \"Informations que vous fournissez aux applications Gemini\"\n    },\n    {\n      \"line_id\": \"L0069\",\n      \"quote\": \"Accédez à l'Activité dans les applications Gemini pour examiner et supprimer votre activité\"\n    }\n  ],\n  \"confidence\": \"Medium\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW AFTER VERIFICATION",
+  "confidence": "Medium",
+  "justification": "The policy states that Gemini uses data for personalization when 'Keep Activity' is enabled (L0069) and that data is collected from user-provided information (L0020). However, the scenario does not specify whether 'Keep Activity' or 'Memory' settings are enabled, which directly affects whether data is stored for future use. Verification of these settings is required to determine compliance.",
+  "source_excerpts": [
+    {
+      "line_id": "L0020",
+      "quote": "Informations que vous fournissez aux applications Gemini"
+    },
+    {
+      "line_id": "L0069",
+      "quote": "Accédez à l'Activité dans les applications Gemini pour examiner et supprimer votre activité"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0020",
+      "model_quote": "Informations que vous fournissez aux applications Gemini",
+      "ok": false,
+      "match": "mismatch",
+      "policy_quote": "Informations que nous collectons quand vous utilisez les Applications Gemini"
+    },
+    {
+      "line_id": "L0069",
+      "model_quote": "Accédez à l'Activité dans les applications Gemini pour examiner et supprimer votre activité",
+      "ok": true,
+      "match": "normalized",
+      "policy_quote": "Accédez à l'Activité dans les applications Gemini        pour examiner et supprimer votre activité (y compris les discussions importées), modifier le délai de suppression automatique de vos données et spécifier si vos données peuvent être utilisées pour améliorer l'IA de Google. Ces services incluent, par exemple, les modèles d'IA générative qui alimentent les applications Gemini. Les paramètres de l'Activité dans les applications Gemini ne vous permettent pas de contrôler comment Google traite vos discussions pour créer des données anonymisées destinées à améliorer ses services. Même si le paramètre \"Conserver l'activité\" est désactivé, Google utilise vos discussions pour vous répondre et contribuer à la sécurité de Google, de ses utilisateurs et du public, y compris avec l'aide de réviseurs humains."
+    }
+  ],
+  "all_quotes_verified": false
+}

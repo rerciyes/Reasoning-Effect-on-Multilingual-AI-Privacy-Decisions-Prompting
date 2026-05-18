@@ -1,0 +1,23 @@
+{
+  "ts": "2026-05-04T21:33:13.648904+00:00",
+  "model": "qwen3:8b",
+  "num_ctx": 32768,
+  "language": "hi",
+  "scenario_id": "S3",
+  "run": 1,
+  "latency_ms": [
+    104075.13785362244,
+    120751.67465209961,
+    128295.60923576355
+  ],
+  "prompt_eval_count": 32768,
+  "prompt_truncated": true,
+  "raw": "",
+  "json_extract_reason": "empty_text",
+  "schema_problems": [
+    "no_json"
+  ],
+  "decision": null,
+  "quote_verification": [],
+  "all_quotes_verified": false
+}

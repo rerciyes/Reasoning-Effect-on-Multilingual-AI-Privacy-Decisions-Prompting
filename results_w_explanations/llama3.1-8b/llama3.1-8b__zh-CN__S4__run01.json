@@ -1,0 +1,42 @@
+{
+  "ts": "2026-05-01T19:50:24.020760+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 32768,
+  "language": "zh-CN",
+  "scenario_id": "S4",
+  "run": 1,
+  "latency_ms": [
+    70958.17160606384
+  ],
+  "raw": "{\n  \"decision\": \"DENY\",\n  \"justification\": \"The policy clearly prohibits sharing sensitive user-submitted free text and uploaded files without consent (L0010, L0011). The request is unrelated to resolving the original users' requests, which further implies that it's not for providing or improving services as stated in the policy (L0032-L0037).\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0010\",\n      \"quote\": \"你对 Gemini 应用说的话（例如你提交或说出的提示）\"\n    },\n    {\n      \"line_id\": \"L0011\",\n      \"quote\": \"你与 Gemini 应用分享的内容（例如文件、视频、你问过的屏幕内容、照片、导入的对话，以及你从浏览器分享的网页内容）\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "DENY",
+  "confidence": "High",
+  "justification": "The policy clearly prohibits sharing sensitive user-submitted free text and uploaded files without consent (L0010, L0011). The request is unrelated to resolving the original users' requests, which further implies that it's not for providing or improving services as stated in the policy (L0032-L0037).",
+  "source_excerpts": [
+    {
+      "line_id": "L0010",
+      "quote": "你对 Gemini 应用说的话（例如你提交或说出的提示）"
+    },
+    {
+      "line_id": "L0011",
+      "quote": "你与 Gemini 应用分享的内容（例如文件、视频、你问过的屏幕内容、照片、导入的对话，以及你从浏览器分享的网页内容）"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0010",
+      "quote": "你对 Gemini 应用说的话（例如你提交或说出的提示）",
+      "ok": true,
+      "match": "exact"
+    },
+    {
+      "line_id": "L0011",
+      "quote": "你与 Gemini 应用分享的内容（例如文件、视频、你问过的屏幕内容、照片、导入的对话，以及你从浏览器分享的网页内容）",
+      "ok": false,
+      "match": "mismatch"
+    }
+  ],
+  "all_quotes_verified": false
+}

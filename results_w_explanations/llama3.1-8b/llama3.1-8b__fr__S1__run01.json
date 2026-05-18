@@ -1,0 +1,32 @@
+{
+  "ts": "2026-05-01T19:24:00.515028+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 32768,
+  "language": "fr",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    60837.45336532593
+  ],
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"The policy allows Gemini to collect and use information from images you share (L0030) for providing services, including generating text, code, audio, images, videos, music, public links, citations, discussion summaries, and personalized info. The uploaded image does not contain sensitive personal data.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0030\",\n      \"quote\": \"Des informations concernant vos interactions avec le contenu public des applications Gemini\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "The policy allows Gemini to collect and use information from images you share (L0030) for providing services, including generating text, code, audio, images, videos, music, public links, citations, discussion summaries, and personalized info. The uploaded image does not contain sensitive personal data.",
+  "source_excerpts": [
+    {
+      "line_id": "L0030",
+      "quote": "Des informations concernant vos interactions avec le contenu public des applications Gemini"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0030",
+      "quote": "Des informations concernant vos interactions avec le contenu public des applications Gemini",
+      "ok": false,
+      "match": "mismatch"
+    }
+  ],
+  "all_quotes_verified": false
+}

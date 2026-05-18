@@ -1,0 +1,32 @@
+{
+  "ts": "2026-05-01T20:08:18.883738+00:00",
+  "model": "llama3.1:8b",
+  "num_ctx": 32768,
+  "language": "ur",
+  "scenario_id": "S1",
+  "run": 1,
+  "latency_ms": [
+    133137.37750053406
+  ],
+  "raw": "{\n  \"decision\": \"ALLOW\",\n  \"justification\": \"According to Section L0011 of the Gemini Apps Privacy Notice, Gemini collects and processes information from the images you upload, including photos. This includes transcribing handwritten text in images. Therefore, Gemini may process the uploaded image to answer the user's request.\",\n  \"source_excerpts\": [\n    {\n      \"line_id\": \"L0011\",\n      \"quote\": \"وہ مواد جو  Geminiایپس تخلیق کرتی ہیں (جیسے ٹیکسٹ ،کوڈ ،آڈیو ،تصاویر ،ویڈیو ،عوامی لنکس ،حوالہ جات ،چیٹ کے خالصے اور ذاتی نوعیت کی بصیرتیں)\"\n    }\n  ],\n  \"confidence\": \"High\"\n}",
+  "json_extract_reason": "direct",
+  "schema_problems": [],
+  "decision": "ALLOW",
+  "confidence": "High",
+  "justification": "According to Section L0011 of the Gemini Apps Privacy Notice, Gemini collects and processes information from the images you upload, including photos. This includes transcribing handwritten text in images. Therefore, Gemini may process the uploaded image to answer the user's request.",
+  "source_excerpts": [
+    {
+      "line_id": "L0011",
+      "quote": "وہ مواد جو  Geminiایپس تخلیق کرتی ہیں (جیسے ٹیکسٹ ،کوڈ ،آڈیو ،تصاویر ،ویڈیو ،عوامی لنکس ،حوالہ جات ،چیٹ کے خالصے اور ذاتی نوعیت کی بصیرتیں)"
+    }
+  ],
+  "quote_verification": [
+    {
+      "line_id": "L0011",
+      "quote": "وہ مواد جو  Geminiایپس تخلیق کرتی ہیں (جیسے ٹیکسٹ ،کوڈ ،آڈیو ،تصاویر ،ویڈیو ،عوامی لنکس ،حوالہ جات ،چیٹ کے خالصے اور ذاتی نوعیت کی بصیرتیں)",
+      "ok": false,
+      "match": "mismatch"
+    }
+  ],
+  "all_quotes_verified": false
+}
